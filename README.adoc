@@ -1,11 +1,17 @@
-= ISO/IEC JSEG 15 terminology document
+= ISO/IEC JSEG 15/WS 1
 
-This work item belongs to ISO/IEC JSEG 15.
+These documents belong to ISO/IEC JSEG 15/WS 1.
 
 == Structure
 
 `sources/`::
-source of the document
+source of the documents
+
+`sources/vocabulary`::
+WS 1 vocabulary document
+
+`sources/report`::
+WS 1 final report document
 
 `_site/`::
 (automatically generated, in the `gh-pages` branch) published document.
