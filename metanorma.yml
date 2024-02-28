@@ -1,0 +1,10 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/vocabulary/document.adoc
+      - sources/report/document.adoc
+
+  collection:
+    name: ISO/IEC JSEG 15 Metaverse
+    organization: ISO/IEC JSEG 15

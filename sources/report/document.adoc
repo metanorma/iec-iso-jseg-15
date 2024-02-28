@@ -1,0 +1,36 @@
+= Metaverse WS 1 Final Report
+:publisher: IEC;ISO
+:copyright-holder: IEC;ISO
+:docnumber: 2
+:edition: 0.1
+:revdate: 2024-02-28
+:copyright-year: 2024
+:language: en
+:title-intro-en: Metaverse Workstream 1
+:title-main-en: Final report
+:title-intro-fr: Metaverse Workstream 1
+:title-main-fr: Rapport final
+:doctype: committee-document
+:secretariat: IEC/CO
+:technical-committee-type: JSEG
+:technical-committee-number: 15
+:technical-committee: Metaverse
+:workgroup-type: WS
+:workgroup-number: 1
+:workgroup: Terminology
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf,rxl,sts
+:local-cache-only:
+:draft:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normrefs.adoc[]
+
+include::sections/03-core.adoc[]
+
+include::sections/99-bibliography.adoc[]

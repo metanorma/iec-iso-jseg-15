@@ -1,0 +1,7 @@
+
+== Introduction
+
+This document is the final report of IEC/ISO JSEG 15/WS 1,
+_Metaverse -- Vocabulary_.
+
+This document provides recommendations of WS 1.

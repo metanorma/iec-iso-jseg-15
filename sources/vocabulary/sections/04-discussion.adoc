@@ -1,0 +1,61 @@
+== Definition of Metaverse
+
+=== General
+
+The definition of a "metaverse" has long been subject of controversy.
+
+=== Approach
+
+In order to define any concept, it is necessary to determine the essential
+characteristics of the concept, where additions or subtractions to these
+characteristics will no longer define the concept.
+
+=== Background
+
+The word "metaverse" originated from the science fiction _Snow Crash_ written by
+Neal Stephenson in 1992 <<snow_crash>>.
+
+In popular culture, the term "metaverse" is commonly used as a generalized
+entity beyond the Internet, as a massively multi-player virtual world
+experienced through immersive technologies with comprehensive sensory
+integration through human computer interfaces.
+
+The group has considered a few popular definitions of the "metaverse",
+including:
+
+* From <<ISO-IEC_JTC-1_metaverse>>: "universal, immersive virtual world that is
+facilitated by virtual reality (VR) and augmented reality (AR)"
+
+* From <<Rosenberg>>: persistent and immersive simulated world that is
+experienced in the first person by large groups of simultaneous users who share
+a strong sense of mutual presence
+
+* From <<Stothard>>: an infinite and persistent set of computer-generated
+virtual worlds that may be accessed via some human computer interface
+
+=== Considerations
+
+WS 1 has considered various definitions, common perspectives
+and expectations on the term "metaverse" and has come to the following
+conclusions based on consensus.
+
+Essential characteristics of the "metaverse" include:
+
+* *virtual*, as in the items in the experience is virtual
+* *immersive* where it is experienced through human computer interaction
+
+Common characteristics expected by popular culture include:
+
+* *massively multi-user* where there can be many simultaneous users
+* *interconnection* of virtual world systems
+* *interoperability* between users across virtual world systems
+* *persistent* where actions and events in the virtual world persists
+after a user leaves
+* *real-time* where user actions are performed in real-time
+
+The resulting consensus arrived at this definition for "metaverse":
+
+____
+metaverse: virtual world experienced through immersive technologies
+____
+

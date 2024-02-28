@@ -1,0 +1,19 @@
+
+[appendix,obligation=informative]
+== Abbreviated terms
+
+AGI:: artificial general intelligence
+AI:: artificial intelligence
+API:: application programming interface
+AR:: augmented reality
+DLT:: distributed ledger technology
+IoT:: Internet of Things
+ML:: machine learning
+OMF:: Open Modeling Foundation
+OWL:: Web Ontology Language
+RDF:: Resource Description Framework
+UDT:: Urban Digital Twin
+VR:: virtual reality
+W3C:: World Wide Web Consortium
+WoT:: Web of Things
+XR:: collective reference to both AR and VR

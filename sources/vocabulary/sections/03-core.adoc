@@ -1,0 +1,251 @@
+
+== Terms and definitions
+
+=== Metaverse core concepts
+
+==== metaverse
+
+{{virtual world}} experienced through {{immersive}} technologies
+
+
+==== artificial intelligence
+preferred:[AI]
+
+capacity of computers or other machines to exhibit or simulate intelligent
+behavior
+
+[.source]
+<<IEEE_7010_2020>>
+
+
+==== cloud computing
+
+paradigm for enabling network access to a scalable and elastic pool of shareable
+physical or virtual resources with self-service provisioning and administration
+on-demand
+
+[.source]
+<<ISO_IEC_17788_2014,clause=3.2.5>>
+
+
+==== decentralized identifier
+
+[%metadata]
+abbreviation-type:: initialism
+
+preferred:[DID]
+
+identifier in the format of the W3C Decentralized Identifier
+
+[.source]
+<<w3c_did>>
+
+
+==== digital twin
+
+virtual representation of a device or a group of devices that resides on a cloud
+or edge node
+
+NOTE: Digital twins can be used to represent real-world devices which may not be
+continuously online, or to run simulations of new applications and services
+before they get deployed to the real devices.
+
+[.source]
+<<w3c_wot>>
+
+
+==== distributed computing
+
+model of computing in which a set of nodes coordinates its activities by means
+of digital messages passed between the nodes
+
+[.source]
+<<ISO_IEC_23188_2020,clause=3.1.1>>
+
+
+==== distributed ledger
+
+a {{ledger}} that is shared across a set of DLT nodes and synchronized between
+the DLT nodes using a consensus mechanism
+
+[.source]
+<<ISO_22739_2024,clause=3.22>>
+
+==== digital asset
+
+asset that exists only in digital form or which is the digital representation of
+another asset
+
+[.source]
+<<ISO_24165-1_2021,clause=3.9>>
+
+==== digital identity
+
+information used by information systems to represent an external agent, a
+person, organization, application, or device
+
+
+==== edge computing
+
+{{distributed computing}} in which processing and storage takes place at or near the
+edge, where the nearness is defined by the system's requirements
+
+[.source]
+<<ISO_IEC_23188_2020,clause=3.1.3>>
+
+==== edge device
+
+device that provides an entry point into enterprise or service provider core
+networks
+
+[example]
+Gateways, routers, switches, multiplexers, and a variety of other access devices.
+
+[.source]
+<<w3c_wot>>
+
+==== immersive
+
+creating the illusion of being inside a computer-generated scene
+
+[.source]
+<<ISO-IEC_19775-1>>
+
+
+==== Internet of Things
+
+system of entities (including cyber-physical devices, information resources, and
+people) that exchange information and interact with the physical world by
+sensing, processing information, and actuating
+
+[.source]
+<<IEEE_2413_2019>>, dropped article.
+
+==== interoperability
+
+ability of two or more systems or applications to exchange information and to
+mutually use the information that has been exchanged
+
+[.source]
+<<ISO_IEC_17788_2014,clause=3.1.5>>
+
+
+==== ledger
+
+information store that keeps records of transactions that are intended to be
+final, definitive and immutable
+
+[.source]
+<<ISO_22739_2024,clause=3.43>>
+
+
+==== virtual world
+
+simulated environment that can be accessed by multiple users through an online
+interface
+
+NOTE: The simulated environments are often interactive.
+
+NOTE: The physical world in which people live, and the related characteristics,
+will be referred to as the "real world" to differentiate it from a virtual
+world.
+
+[.source]
+<<ISO-IEC_27032-2012,clause=4.51>>
+
+
+=== XR concepts
+
+==== extended reality
+preferred:[XR]
+
+environments experienced through human-machine sensory interactions
+commonly composed of real world and virtual elements
+
+NOTE: Extended reality covers {{virtual reality}}, {{augmented reality}} and
+{{mixed reality}} environments.
+
+
+==== augmented reality
+preferred:[AR]
+
+interactive experience of a real-world environment whereby the objects that
+reside in the real world are augmented by computer-generated perceptual
+information
+
+// 20230113 original def
+// Human perception is enhanced with additional computer-generated sensorial input
+// to create a new user experience, including, but not restricted to, enhancing
+// human vision by combining natural with digital offers.
+// <<IEEE_1589_2020>>
+//1589-2020 - IEEE Standard for Augmented Reality Learning Experience Model
+
+[.source]
+<<ISO_IEC_18038_2020,clause=3.1>>
+
+==== mixed reality
+preferred:[MR]
+
+display continuum in which both real and virtual images are combined in some way
+and in some proportion
+
+NOTE: Augmented reality and virtual reality are considered to be on the mixed
+reality continuum.
+
+[.source]
+<<ISO-IEC_TR_23843_2020,clause=3.4>>, added Note 1 to entry.
+
+
+==== virtual reality
+preferred:[VR]
+
+artificial environment presented in the computer
+
+[.source]
+<<ISO_IEC_TR_18121_2015,clause=3.6>>, dropped article
+
+
+==== mixed reality system
+
+system that uses a mixture of representations of physical world data and virtual
+world data as its presentation medium
+
+[.source]
+<<ISO_IEC_18039_2019,clause=3.1.13>>
+
+
+==== mixed and augmented reality
+preferred:[MAR]
+
+integration of real and virtual worlds including {{mixed reality}} and
+{{augmented reality}}
+
+NOTE: MAR is often used interchangeably with MR.
+
+[.source]
+<<ISO_IEC_18038_2020>>
+
+
+=== Governance
+
+
+==== stakeholder
+// from https://github.com/Spatial-Web-Foundation/SWF-Corpus_and_IEEEP2874-D2/issues/397
+
+role, position, individual, organization, or classes thereof, having an
+interest, right, share, or claim, in an entity of interest
+
+[example]
+End users, operators, acquirers, owners, suppliers, architects, developers, builders, maintainers, regulators, taxpayers, certifying agencies, and markets.
+
+[.source]
+<<ISO_IEC_IEEE_42010_2022,clause=3.17>>, dropped article
+
+==== stakeholder perspective
+// from https://github.com/Spatial-Web-Foundation/SWF-Corpus_and_IEEEP2874-D2/issues/397
+
+way of thinking about an entity of interest, especially as it relates to
+concerns
+
+[.source]
+<<ISO_IEC_IEEE_42010_2022,clause=3.18>>, The original example has been removed.

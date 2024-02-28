@@ -1,0 +1,9 @@
+
+== Scope
+
+This document provides a concept system and a standard set of
+terminology related to the Metaverse, from basic concepts to those of
+the Metaverse ecosystem.
+
+The scope of the vocabulary provided in this document corresponds to
+that of ISO/IEC JSEG 15.
