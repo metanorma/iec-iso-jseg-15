@@ -18,6 +18,15 @@ behavior
 <<IEEE_7010_2020>>
 
 
+==== assistive technology
+
+piece of equipment, product system, hardware, software or service that is used
+to enable, maintain or improve functional capabilities of individuals with
+disabilities
+
+[.source]
+<<ITU-T_F_791>>
+
 ==== cloud computing
 
 paradigm for enabling network access to a scalable and elastic pool of shareable
@@ -43,15 +52,13 @@ identifier in the format of the W3C Decentralized Identifier
 
 ==== digital twin
 
-virtual representation of a device or a group of devices that resides on a cloud
-or edge node
+digital representation of an object of interest
 
-NOTE: Digital twins can be used to represent real-world devices which may not be
-continuously online, or to run simulations of new applications and services
-before they get deployed to the real devices.
+NOTE: A digital twin may require different capabilities (e.g., synchronization,
+real-time support) according to the specific domain of application.
 
 [.source]
-<<w3c_wot>>
+<<ITU-T-Y_4600>>
 
 
 ==== distributed computing

@@ -18,6 +18,8 @@
 * [[[ISO_24165-1_2021,ISO 24165-1:2021]]]
 * [[[ISO-IEC_TR_23843_2020,ISO/IEC TR 23843:2020]]]
 * [[[ISO-IEC_19775-1,ISO/IEC 19775-1:2023]]]
+* [[[ITU-T-Y_4600,ITU-T Y.4600]]]
+* [[[ITU-T_F_791,ITU-T F.791]]]
 
 * [[[snow_crash,(1)ISBN 9780553562613]]], Stephenson, N., Snow Crash. 1992, New York: Bantam Books.
 
@@ -27,6 +29,13 @@ span:title[JTC 1 Standards and Standardization for the Metaverse].
 span:type[webresource]
 span:date[2023].
 Available at: span:uri[https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/]
+
+* [[[ITU-FGMV-O-235,1]]]
+span:organization[ITU-T]
+span:docid[ITU FGMV-O-235].
+span:title[Draft Technical Specification ITU FGMV -- Vocabulary for metaverse].
+span:type[standard]
+span:date[2024].
 
 * [[[Rosenberg,1]]]
 span:surname[Rosenberg], span:initials[L.]
