@@ -2,8 +2,8 @@
 :publisher: IEC;ISO
 :copyright-holder: IEC;ISO
 :docnumber: 2
-:edition: 0.1
-:revdate: 2024-02-28
+:edition: 0.2
+:revdate: 2024-08-21
 :copyright-year: 2024
 :language: en
 :title-intro-en: Metaverse Workstream 1
@@ -31,6 +31,8 @@ include::sections/01-scope.adoc[]
 
 include::sections/02-normrefs.adoc[]
 
-include::sections/03-core.adoc[]
+include::sections/03-terms.adoc[]
+
+include::sections/04-content.adoc[]
 
 include::sections/99-bibliography.adoc[]

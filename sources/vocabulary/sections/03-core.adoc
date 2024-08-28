@@ -50,6 +50,13 @@ identifier in the format of the W3C Decentralized Identifier
 <<w3c_did>>
 
 
+
+==== digital human
+
+realistic virtual human representations created using advanced simulation
+technology
+
+
 ==== digital twin
 
 digital representation of an object of interest
@@ -161,6 +168,66 @@ world.
 <<ISO-IEC_27032-2012,clause=4.51>>
 
 
+==== virtual office
+
+3-D virtual scene replicating office space of an organization, providing users
+with an {{immersive}} experience
+
+
+==== user-generated content
+alt:[UGC]
+
+content created by users within the {{metaverse}}
+
+NOTE: UGC is often facilitated by simplified editing tools.
+
+
+
+=== Metaverse use cases
+
+==== industrial metaverse
+
+{{metaverse}} that integrates virtual and physical realities to create a
+sophisticated digital industrial ecosystem, enhancing real-world processes
+through virtual simulations and strengthening the entire industrial and value
+chain with increased intelligence, collaboration, openness, service orientation,
+and interconnectivity
+
+==== financial metaverse
+
+{{metaverse}} enabling a new type of financial business where the physical world
+and the mirrored digital world are symbiotic
+
+==== education metaverse
+
+{{metaverse}} enabling a multi-sensory {{immersive}} classroom connecting virtual
+and reality, enabling knowledge acquisition, participation, and creation
+
+==== healthcare metaverse
+
+{{metaverse}} that enables the digital, intelligent and accurate medical
+information platform that breaks space-time restrictions and technical barriers
+of the original medical system
+
+==== eCommerce metaverse
+
+{{metaverse}} that enables marketing towards users, creating personalized, emotional
+and social marketing scenes through metaverse technology and content
+
+==== game metaverse
+
+{{metaverse}} that enables the evolution of gaming that embodies four
+characteristics: immersion, accessibility, accessibility and extensibility
+
+==== social metaverse
+
+{{metaverse}} that creates a holographic virtual reality that integrates the
+advantages of online and offline social networking, using {{AR}}, {{VR}}, {{XR}}
+and other technologies
+
+
+
+
 === XR concepts
 
 ==== extended reality
@@ -231,6 +298,14 @@ NOTE: MAR is often used interchangeably with MR.
 
 [.source]
 <<ISO_IEC_18038_2020>>
+
+
+=== Extended metaverse concepts
+
+==== C-Meta
+
+low-carbon social metaverse under the Web 3.0 architecture, aiming to build a
+new green and energy-saving digital economy
 
 
 === Governance
