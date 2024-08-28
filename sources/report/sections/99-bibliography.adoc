@@ -2,3 +2,28 @@
 [bibliography]
 == Bibliography
 
+* [[[snow_crash,(1)ISBN 9780553562613]]], Stephenson, N., Snow Crash. 1992, New York: Bantam Books.
+
+* [[[ISO-IEC_JTC-1_metaverse,1]]]
+span:organization[ISO/IEC JTC 1]
+span:title[JTC 1 Standards and Standardization for the Metaverse].
+span:type[webresource]
+span:date[2023].
+Available at: span:uri[https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/]
+
+* [[[Rosenberg,1]]]
+span:surname[Rosenberg], span:initials[L.]
+span:type[webresource]
+span:title[Metaverse 101: defining the key components].
+span:date[2022].
+span:publisher[VentureBeat]
+Available at: span:uri[https://venturebeat.com/business/metaverse-101-defining-the-key-components/]
+
+* [[[Stothard,1]]]
+span:surname[Stothard], span:initials[P.]
+span:surname[Ryan], span:initials[P.]
+span:surname[Kurata], span:initials[T.]
+span:type[book]
+span:title[Mining Metaverse Taxonomy (NOT YET PUBLISHED)].
+span:date[2024].
+

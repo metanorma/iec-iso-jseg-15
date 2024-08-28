@@ -1,0 +1,146 @@
+
+== Work organization
+
+=== Background
+
+IEC/IEC JSEG 15/WS 1 was established in 2023 to provide standardized terminology
+for IEC/ISO TCs in referencing concepts, terms and definitions relating to the
+Metaverse.
+
+
+
+=== Deliverables
+
+IEC/IEC JSEG 15/WS 1 is tasked to develop the following deliverables:
+
+* Set of concepts, terms and definitions, and their relationships
+* Definition of the "Metaverse"
+* Final report of WS 1 to provide recommendations to IEC/ISO
+
+
+== Deliverable: definition of the "Metaverse"
+
+=== General
+
+The definition of a "metaverse" has long been subject of controversy.
+
+=== Approach
+
+In order to define any concept, it is necessary to determine the essential
+characteristics of the concept, where additions or subtractions to these
+characteristics will no longer define the concept.
+
+=== Background
+
+The word "metaverse" originated from the science fiction _Snow Crash_ written by
+Neal Stephenson in 1992 <<snow_crash>>.
+
+In popular culture, the term "metaverse" is commonly used as a generalized
+entity beyond the Internet, as a massively multi-player virtual world
+experienced through immersive technologies with comprehensive sensory
+integration through human computer interfaces.
+
+The group has considered a few popular definitions of the "metaverse",
+including:
+
+* From <<ISO-IEC_JTC-1_metaverse>>: "universal, immersive virtual world that is
+facilitated by virtual reality (VR) and augmented reality (AR)"
+
+* From <<Rosenberg>>: persistent and immersive simulated world that is
+experienced in the first person by large groups of simultaneous users who share
+a strong sense of mutual presence
+
+* From <<Stothard>>: an infinite and persistent set of computer-generated
+virtual worlds that may be accessed via some human computer interface
+
+=== Considerations
+
+WS 1 has considered various definitions, common perspectives
+and expectations on the term "metaverse" and has come to the following
+conclusions based on consensus.
+
+Essential characteristics of the "metaverse" include:
+
+* *virtual*, as in the items in the experience is virtual
+* *immersive* where it is experienced through human computer interaction
+
+Common characteristics expected by popular culture include:
+
+* *massively multi-user* where there can be many simultaneous users
+* *interconnection* of virtual world systems
+* *interoperability* between users across virtual world systems
+* *persistent* where actions and events in the virtual world persists
+after a user leaves
+* *real-time* where user actions are performed in real-time
+
+The resulting consensus arrived at this definition for "metaverse":
+
+____
+metaverse: virtual world experienced through immersive technologies
+____
+
+
+
+== Deliverable: Metaverse terminology
+
+=== Purpose
+
+This deliverable aims to provide a concept system and a standard set of
+terminology related to the Metaverse, from basic concepts to those of
+the Metaverse ecosystem.
+
+
+Questions to be addressed:
+
+* What is a Metaverse or is there only THE metaverse (like THE Internet)?
+* Does the Metaverse require human interaction?
+* Is there an agreed or proposed definition /definitions?
+* What shall it include? What does it not include?
+* Is a digital twin a "metaverse" if not why not? Or when is it not?
+* What is the minimum set to be classed as a metaverse?
+
+
+=== Methodology
+
+IEC/IEC JSEG 15/WS 1 used the following methodology in developing the
+vocabulary:
+
+* Survey existing terminology
+* Reference / import over new creation unless necessary
+* Decide on terms and domains to import
+* Fill out data: definition, designations, languages, examples, notes
+
+=== Sources investigated
+
+The sources that are investigated include:
+
+* Metaverse Standards Forum glossary (https://glossary.metaverse-standards.org/)
+* Open Metaverse Foundation glossary (https://www.openmv.org/glossary/)
+* IEEE P2874 Spatial Web
+* ISO/IEC JTC 1/SC 24 "Metaverse Vocabulary"
+* IEC/ISO/JSEG 15/WS 2 "Market and applications report"
+
+
+=== Results
+
+The group has developed a set of terms and definitions for the Metaverse
+ecosystem. The terms are organized in the following categories:
+
+* Metaverse core concepts
+* Metaverse use cases
+* XR concepts
+* Extended metaverse concepts
+* Governance
+
+The terms and definitions are provided in a separate document.
+
+
+== Recommendations
+
+=== General
+
+The group recommends the following:
+
+* The definition of the "metaverse" should be adopted by IEC/ISO TCs and publications
+* The Metaverse terminology provided should be adopted by IEC/ISO TCs
+
