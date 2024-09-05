@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?><standard xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tbx="urn:iso:std:iso:30042:ed-1" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<front>
+<std-meta>
+<title-wrap xml:lang="en">
+<intro>Metaverse</intro>
+<main>Vocabulary</main>
+<full>Metaverse — Vocabulary</full>
+</title-wrap>
+<title-wrap xml:lang="fr">
+<intro>Metaverse</intro>
+<main>Vocabulaire</main>
+<full>Metaverse — Vocabulaire</full>
+</title-wrap>
+<proj-id>IEC/ISO 1</proj-id>
+<release-version/>
+<std-ident>
+<originator>IEC/ISO</originator>
+<doc-type>committee-document</doc-type>
+<doc-number>1</doc-number>
+<edition>0.3</edition>
+<version>2024-08-21</version>
+<std-id-group>
+<std-id std-id-type="dated" std-id-link-type="urn" originator="IEC">urn:iso:doc:iec-iso:jseg:15:ws:1:1:en</std-id>
+</std-id-group>
+</std-ident>
+<std-org>
+<std-org-abbrev>IEC/ISO</std-org-abbrev>
+</std-org>
+<content-language>en</content-language>
+<std-ref type="dated">IEC/ISO JSEG 15/WS 1 N1:2024</std-ref>
+<std-ref type="undated">IEC/ISO JSEG 15/WS 1 N1</std-ref>
+<doc-ref>IEC/ISO JSEG 15/WS 1 N1(E)</doc-ref>
+<comm-ref>IEC/ISO/JSEG 15/WS 1</comm-ref>
+<secretariat>IEC/CO</secretariat>
+<permissions>
+<copyright-statement>All rights reserved</copyright-statement>
+<copyright-year>2024</copyright-year>
+<copyright-holder>IEC/ISO</copyright-holder>
+</permissions>
+<custom-meta-group>
+<custom-meta>
+<meta-name>stage</meta-name>
+<meta-value>60</meta-value>
+</custom-meta>
+<custom-meta>
+<meta-name>substage</meta-name>
+<meta-value>60</meta-value>
+</custom-meta>
+<custom-meta>
+<meta-name>TOC Heading Level</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</std-meta>
+<sec id="sec_foreword" sec-type="foreword">
+<title>Foreword</title>
+
+<p>ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
+
+<p>The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <ext-link xlink:href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</ext-link>)</p>
+
+<p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <ext-link xlink:href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</ext-link>) or the IEC list of patent declarations received (see <uri>https://patents.iec.ch</uri>).</p>
+
+<p>Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p>For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <ext-link xlink:href="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</ext-link>. In the IEC, see <ext-link xlink:href="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</ext-link>.</p>
+
+<p>This document was prepared by ISO/IEC JSEG 15, <italic>Metaverse</italic>.</p>
+
+<p>Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <ext-link xlink:href="https://www.iso.org/members.html">www.iso.org/members.html</ext-link> and <ext-link xlink:href="https://www.iec.ch/national-committees">www.iec.ch/national-committees</ext-link>.</p>
+</sec>
+<sec id="sec_intro" sec-type="intro">
+<title>Introduction</title>
+
+<p>This document presents terms and definitions for concepts relevant to the Metaverse.</p>
+
+<p>Specifically, the terminology presented in this document:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>serve as a sound basis in the understanding of Metaverse;</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>guide new developments in the field by underpinning mutual understanding; and</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>serve as a quick and handy reference for those newly introduced to this field.</p>
+</list-item>
+</list>
+</sec>
+</front>
+<body>
+<sec id="sec_scope" sec-type="scope">
+<label>1</label>
+<title>Scope</title>
+
+<p>This document provides a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</p>
+
+<p>The scope of the vocabulary provided in this document corresponds to that of ISO/IEC JSEG 15.</p>
+</sec>
+<sec id="sec_2" sec-type="norm-refs">
+<label>2</label>
+<title>Normative references</title>
+<p>There are no normative references in this document.</p>
+
+</sec>
+<sec id="sec_3" sec-type="terms">
+<label>3</label>
+<title>Terms and definitions</title>
+<p>For the purposes of this document, the following terms and definitions apply.</p>
+<p>ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>ISO Online browsing platform: available at <uri>https://www.iso.org/obp</uri>
+</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>IEC Electropedia: available at <uri>https://www.electropedia.org</uri>
+</p>
+</list-item>
+</list>
+
+<sec id="sec_3.1" sec-type="terms">
+<label>3.1</label>
+<title>Metaverse core concepts</title>
+
+<term-sec id="sec_3.1.1">
+<label>3.1.1</label>
+<tbx:termEntry id="term_3.1.1">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.18">virtual world (3.1.18)</tbx:entailedTerm> experienced through <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> technologies</tbx:definition>
+<tbx:tig id="term-metaverse-1_preferred">
+<tbx:term>metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.2">
+<label>3.1.2</label>
+<tbx:termEntry id="term_3.1.2">
+<tbx:langSet xml:lang="en">
+<tbx:definition>capacity of computers or other machines to exhibit or simulate intelligent behavior</tbx:definition>
+<tbx:source>IEEE&amp;#xa0;7010-2020</tbx:source>
+<tbx:tig id="term-artificial-intelligence-1_preferred">
+<tbx:term>artificial intelligence</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-artificial-intelligence-2_preferred">
+<tbx:term>AI</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.3">
+<label>3.1.3</label>
+<tbx:termEntry id="term_3.1.3">
+<tbx:langSet xml:lang="en">
+<tbx:definition>piece of equipment, product system, hardware, software or service that is used to enable, maintain or improve functional capabilities of individuals with disabilities</tbx:definition>
+<tbx:source>ITU-T F.791 (08/2018)</tbx:source>
+<tbx:tig id="term-assistive-technology-1_preferred">
+<tbx:term>assistive technology</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.4">
+<label>3.1.4</label>
+<tbx:termEntry id="term_3.1.4">
+<tbx:langSet xml:lang="en">
+<tbx:definition>paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand</tbx:definition>
+<tbx:source>ISO/IEC&amp;#xa0;17788:2014, 3.2.5</tbx:source>
+<tbx:tig id="term-cloud-computing-1_preferred">
+<tbx:term>cloud computing</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.5">
+<label>3.1.5</label>
+<tbx:termEntry id="term_3.1.5">
+<tbx:langSet xml:lang="en">
+<tbx:definition>identifier in the format of the W3C Decentralized Identifier</tbx:definition>
+<tbx:source>W3C&amp;#xa0;did-core</tbx:source>
+<tbx:tig id="term-decentralized-identifier-1_preferred">
+<tbx:term>decentralized identifier</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-decentralized-identifier-2_preferred">
+<tbx:term>DID</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.6">
+<label>3.1.6</label>
+<tbx:termEntry id="term_3.1.6">
+<tbx:langSet xml:lang="en">
+<tbx:definition>realistic virtual human representations created using advanced simulation technology</tbx:definition>
+<tbx:tig id="term-digital-human-1_preferred">
+<tbx:term>digital human</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.7">
+<label>3.1.7</label>
+<tbx:termEntry id="term_3.1.7">
+<tbx:langSet xml:lang="en">
+<tbx:definition>digital representation of an object of interest</tbx:definition>
+<tbx:note>A digital twin may require different capabilities (e.g., synchronization, real-time support) according to the specific domain of application.</tbx:note>
+<tbx:source>ITU-T Y.4600 (08/2022)</tbx:source>
+<tbx:tig id="term-digital-twin-1_preferred">
+<tbx:term>digital twin</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.8">
+<label>3.1.8</label>
+<tbx:termEntry id="term_3.1.8">
+<tbx:langSet xml:lang="en">
+<tbx:definition>model of computing in which a set of nodes coordinates its activities by means of digital messages passed between the nodes</tbx:definition>
+<tbx:source>ISO/IEC TR 23188:2020, 3.1.1</tbx:source>
+<tbx:tig id="term-distributed-computing-1_preferred">
+<tbx:term>distributed computing</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.9">
+<label>3.1.9</label>
+<tbx:termEntry id="term_3.1.9">
+<tbx:langSet xml:lang="en">
+<tbx:definition>a <tbx:entailedTerm target="term_3.1.17">ledger (3.1.17)</tbx:entailedTerm> that is shared across a set of DLT nodes and synchronized between the DLT nodes using a consensus mechanism</tbx:definition>
+<tbx:source>ISO&amp;#xa0;22739:2024, 3.22</tbx:source>
+<tbx:tig id="term-distributed-ledger-1_preferred">
+<tbx:term>distributed ledger</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.10">
+<label>3.1.10</label>
+<tbx:termEntry id="term_3.1.10">
+<tbx:langSet xml:lang="en">
+<tbx:definition>asset that exists only in digital form or which is the digital representation of another asset</tbx:definition>
+<tbx:source>ISO&amp;#xa0;24165-1:2021, 3.9</tbx:source>
+<tbx:tig id="term-digital-asset-1_preferred">
+<tbx:term>digital asset</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.11">
+<label>3.1.11</label>
+<tbx:termEntry id="term_3.1.11">
+<tbx:langSet xml:lang="en">
+<tbx:definition>information used by information systems to represent an external agent, a person, organization, application, or device</tbx:definition>
+<tbx:tig id="term-digital-identity-1_preferred">
+<tbx:term>digital identity</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.12">
+<label>3.1.12</label>
+<tbx:termEntry id="term_3.1.12">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.8">distributed computing (3.1.8)</tbx:entailedTerm> in which processing and storage takes place at or near the edge, where the nearness is defined by the system’s requirements</tbx:definition>
+<tbx:source>ISO/IEC TR 23188:2020, 3.1.3</tbx:source>
+<tbx:tig id="term-edge-computing-1_preferred">
+<tbx:term>edge computing</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.13">
+<label>3.1.13</label>
+<tbx:termEntry id="term_3.1.13">
+<tbx:langSet xml:lang="en">
+<tbx:definition>device that provides an entry point into enterprise or service provider core networks</tbx:definition>
+<tbx:example>Gateways, routers, switches, multiplexers, and a variety of other access devices.</tbx:example>
+<tbx:source>W3C wot-architecture</tbx:source>
+<tbx:tig id="term-edge-device-1_preferred">
+<tbx:term>edge device</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.14">
+<label>3.1.14</label>
+<tbx:termEntry id="term_3.1.14">
+<tbx:langSet xml:lang="en">
+<tbx:definition>creating the illusion of being inside a computer-generated scene</tbx:definition>
+<tbx:source>ISO/IEC 19775-1:2023</tbx:source>
+<tbx:tig id="term-immersive-1_preferred">
+<tbx:term>immersive</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.15">
+<label>3.1.15</label>
+<tbx:termEntry id="term_3.1.15">
+<tbx:langSet xml:lang="en">
+<tbx:definition>system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</tbx:definition>
+<tbx:source>IEEE&amp;#xa0;2413-2019, modified — dropped article.</tbx:source>
+<tbx:tig id="term-Internet-of-Things-1_preferred">
+<tbx:term>Internet of Things</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.16">
+<label>3.1.16</label>
+<tbx:termEntry id="term_3.1.16">
+<tbx:langSet xml:lang="en">
+<tbx:definition>ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</tbx:definition>
+<tbx:source>ISO/IEC&amp;#xa0;17788:2014, 3.1.5</tbx:source>
+<tbx:tig id="term-interoperability-1_preferred">
+<tbx:term>interoperability</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.17">
+<label>3.1.17</label>
+<tbx:termEntry id="term_3.1.17">
+<tbx:langSet xml:lang="en">
+<tbx:definition>information store that keeps records of transactions that are intended to be final, definitive and immutable</tbx:definition>
+<tbx:source>ISO&amp;#xa0;22739:2024, 3.43</tbx:source>
+<tbx:tig id="term-ledger-1_preferred">
+<tbx:term>ledger</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.18">
+<label>3.1.18</label>
+<tbx:termEntry id="term_3.1.18">
+<tbx:langSet xml:lang="en">
+<tbx:definition>simulated environment that can be accessed by multiple users through an online interface</tbx:definition>
+<tbx:note>The simulated environments are often interactive.</tbx:note>
+<tbx:note>The physical world in which people live, and the related characteristics, will be referred to as the “real world” to differentiate it from a virtual world.</tbx:note>
+<tbx:source>ISO/IEC&amp;#xa0;27032:2012, 4.51</tbx:source>
+<tbx:tig id="term-virtual-world-1_preferred">
+<tbx:term>virtual world</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.19">
+<label>3.1.19</label>
+<tbx:termEntry id="term_3.1.19">
+<tbx:langSet xml:lang="en">
+<tbx:definition>3-D virtual scene replicating office space of an organization, providing users with an <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> experience</tbx:definition>
+<tbx:tig id="term-virtual-office-1_preferred">
+<tbx:term>virtual office</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.20">
+<label>3.1.20</label>
+<tbx:termEntry id="term_3.1.20">
+<tbx:langSet xml:lang="en">
+<tbx:definition>content created by users within the <tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm>
+</tbx:definition>
+<tbx:note>UGC is often facilitated by simplified editing tools.</tbx:note>
+<tbx:tig id="term-user-generated-content-1_preferred">
+<tbx:term>user-generated content</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+<tbx:normativeAuthorization value="preferredTerm"/>
+</tbx:tig>
+<tbx:tig id="term-user-generated-content-2_admitted">
+<tbx:term>UGC</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+<tbx:normativeAuthorization value="admittedTerm"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+</sec>
+
+<sec id="sec_3.2" sec-type="terms">
+<label>3.2</label>
+<title>Metaverse use cases</title>
+
+<term-sec id="sec_3.2.1">
+<label>3.2.1</label>
+<tbx:termEntry id="term_3.2.1">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that integrates virtual and physical realities to create a sophisticated digital industrial ecosystem, enhancing real-world processes through virtual simulations and strengthening the entire industrial and value chain with increased intelligence, collaboration, openness, service orientation, and interconnectivity</tbx:definition>
+<tbx:tig id="term-industrial-metaverse-1_preferred">
+<tbx:term>industrial metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.2.2">
+<label>3.2.2</label>
+<tbx:termEntry id="term_3.2.2">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> enabling a new type of financial business where the physical world and the mirrored digital world are symbiotic</tbx:definition>
+<tbx:tig id="term-financial-metaverse-1_preferred">
+<tbx:term>financial metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.2.3">
+<label>3.2.3</label>
+<tbx:termEntry id="term_3.2.3">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> enabling a multi-sensory <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> classroom connecting virtual and reality, enabling knowledge acquisition, participation, and creation</tbx:definition>
+<tbx:tig id="term-education-metaverse-1_preferred">
+<tbx:term>education metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.2.4">
+<label>3.2.4</label>
+<tbx:termEntry id="term_3.2.4">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that enables the digital, intelligent and accurate medical information platform that breaks space-time restrictions and technical barriers of the original medical system</tbx:definition>
+<tbx:tig id="term-healthcare-metaverse-1_preferred">
+<tbx:term>healthcare metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.2.5">
+<label>3.2.5</label>
+<tbx:termEntry id="term_3.2.5">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that enables marketing towards users, creating personalized, emotional and social marketing scenes through metaverse technology and content</tbx:definition>
+<tbx:tig id="term-eCommerce-metaverse-1_preferred">
+<tbx:term>eCommerce metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.2.6">
+<label>3.2.6</label>
+<tbx:termEntry id="term_3.2.6">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that enables the evolution of gaming that embodies four characteristics: immersion, accessibility, accessibility and extensibility</tbx:definition>
+<tbx:tig id="term-game-metaverse-1_preferred">
+<tbx:term>game metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.2.7">
+<label>3.2.7</label>
+<tbx:termEntry id="term_3.2.7">
+<tbx:langSet xml:lang="en">
+<tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using <tbx:entailedTerm target="term_3.3.2">AR (3.3.2)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.4">VR (3.3.4)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.1">XR (3.3.1)</tbx:entailedTerm> and other technologies</tbx:definition>
+<tbx:tig id="term-social-metaverse-1_preferred">
+<tbx:term>social metaverse</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+</sec>
+
+<sec id="sec_3.3" sec-type="terms">
+<label>3.3</label>
+<title>XR concepts</title>
+
+<term-sec id="sec_3.3.1">
+<label>3.3.1</label>
+<tbx:termEntry id="term_3.3.1">
+<tbx:langSet xml:lang="en">
+<tbx:definition>environments experienced through human-machine sensory interactions commonly composed of real world and virtual elements</tbx:definition>
+<tbx:note>Extended reality covers <tbx:entailedTerm target="term_3.3.4">virtual reality (3.3.4)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.2">augmented reality (3.3.2)</tbx:entailedTerm> and <tbx:entailedTerm target="term_3.3.3">mixed reality (3.3.3)</tbx:entailedTerm> environments.</tbx:note>
+<tbx:tig id="term-extended-reality-1_preferred">
+<tbx:term>extended reality</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-extended-reality-2_preferred">
+<tbx:term>XR</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.3.2">
+<label>3.3.2</label>
+<tbx:termEntry id="term_3.3.2">
+<tbx:langSet xml:lang="en">
+<tbx:definition>interactive experience of a real-world environment whereby the objects that reside in the real world are augmented by computer-generated perceptual information</tbx:definition>
+<tbx:source>ISO/IEC&amp;#xa0;18038:2020, 3.1</tbx:source>
+<tbx:tig id="term-augmented-reality-1_preferred">
+<tbx:term>augmented reality</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-augmented-reality-2_preferred">
+<tbx:term>AR</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.3.3">
+<label>3.3.3</label>
+<tbx:termEntry id="term_3.3.3">
+<tbx:langSet xml:lang="en">
+<tbx:definition>display continuum in which both real and virtual images are combined in some way and in some proportion</tbx:definition>
+<tbx:note>Augmented reality and virtual reality are considered to be on the mixed reality continuum.</tbx:note>
+<tbx:source>ISO/IEC TR 23843:2020, 3.4, modified — added Note 1 to entry.
+</tbx:source>
+<tbx:tig id="term-mixed-reality-1_preferred">
+<tbx:term>mixed reality</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-mixed-reality-2_preferred">
+<tbx:term>MR</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.3.4">
+<label>3.3.4</label>
+<tbx:termEntry id="term_3.3.4">
+<tbx:langSet xml:lang="en">
+<tbx:definition>artificial environment presented in the computer</tbx:definition>
+<tbx:source>ISO/IEC TR 18121:2015, 3.6, modified — dropped article
+</tbx:source>
+<tbx:tig id="term-virtual-reality-1_preferred">
+<tbx:term>virtual reality</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-virtual-reality-2_preferred">
+<tbx:term>VR</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.3.5">
+<label>3.3.5</label>
+<tbx:termEntry id="term_3.3.5">
+<tbx:langSet xml:lang="en">
+<tbx:definition>system that uses a mixture of representations of physical world data and virtual world data as its presentation medium</tbx:definition>
+<tbx:source>ISO/IEC&amp;#xa0;18039:2019, 3.1.13</tbx:source>
+<tbx:tig id="term-mixed-reality-system-1_preferred">
+<tbx:term>mixed reality system</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.3.6">
+<label>3.3.6</label>
+<tbx:termEntry id="term_3.3.6">
+<tbx:langSet xml:lang="en">
+<tbx:definition>integration of real and virtual worlds including <tbx:entailedTerm target="term_3.3.3">mixed reality (3.3.3)</tbx:entailedTerm> and <tbx:entailedTerm target="term_3.3.2">augmented reality (3.3.2)</tbx:entailedTerm>
+</tbx:definition>
+<tbx:note>MAR is often used interchangeably with MR.</tbx:note>
+<tbx:source>ISO/IEC&amp;#xa0;18038:2020</tbx:source>
+<tbx:tig id="term-mixed-and-augmented-reality-1_preferred">
+<tbx:term>mixed and augmented reality</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+<tbx:tig id="term-mixed-and-augmented-reality-2_preferred">
+<tbx:term>MAR</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+</sec>
+
+<sec id="sec_3.4" sec-type="terms">
+<label>3.4</label>
+<title>Extended metaverse concepts</title>
+
+<term-sec id="sec_3.4.1">
+<label>3.4.1</label>
+<tbx:termEntry id="term_3.4.1">
+<tbx:langSet xml:lang="en">
+<tbx:definition>low-carbon social metaverse under the Web 3.0 architecture, aiming to build a new green and energy-saving digital economy</tbx:definition>
+<tbx:tig id="term-C-Meta-1_preferred">
+<tbx:term>C-Meta</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+</sec>
+
+<sec id="sec_3.5" sec-type="terms">
+<label>3.5</label>
+<title>Governance</title>
+
+<term-sec id="sec_3.5.1">
+<label>3.5.1</label>
+<tbx:termEntry id="term_3.5.1">
+<tbx:langSet xml:lang="en">
+<tbx:definition>role, position, individual, organization, or classes thereof, having an interest, right, share, or claim, in an entity of interest</tbx:definition>
+<tbx:example>End users, operators, acquirers, owners, suppliers, architects, developers, builders, maintainers, regulators, taxpayers, certifying agencies, and markets.</tbx:example>
+<tbx:source>ISO/IEC/IEEE 42010:2022, 3.17, modified — dropped article
+</tbx:source>
+<tbx:tig id="term-stakeholder-1_preferred">
+<tbx:term>stakeholder</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.5.2">
+<label>3.5.2</label>
+<tbx:termEntry id="term_3.5.2">
+<tbx:langSet xml:lang="en">
+<tbx:definition>way of thinking about an entity of interest, especially as it relates to concerns</tbx:definition>
+<tbx:source>ISO/IEC/IEEE 42010:2022, 3.18, modified — The original example has been removed.
+</tbx:source>
+<tbx:tig id="term-stakeholder-perspective-1_preferred">
+<tbx:term>stakeholder perspective</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+</sec>
+</sec>
+<sec id="sec_4">
+<label>4</label>
+<title>Definition of Metaverse</title>
+
+<sec id="sec_4.1">
+<label>4.1</label>
+<title>General</title>
+
+<p>The definition of a “metaverse” has long been subject of controversy.</p>
+</sec>
+
+<sec id="sec_4.2">
+<label>4.2</label>
+<title>Approach</title>
+
+<p>In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+</sec>
+
+<sec id="sec_4.3">
+<label>4.3</label>
+<title>Background</title>
+
+<p>The word “metaverse” originated from the science fiction <italic>Snow Crash</italic> written by Neal Stephenson in 1992 <std type="undated" std-id="ISBN 9780553562613">
+<std-ref>[23]</std-ref>
+</std>.</p>
+
+<p>In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+
+<p>The group has considered a few popular definitions of the “metaverse”, including:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>From <std type="undated" std-id="ISO-IEC_JTC-1_metaverse">
+<std-ref>[20]</std-ref>
+</std>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>From <std type="undated" std-id="Rosenberg">
+<std-ref>[21]</std-ref>
+</std>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>From <std type="undated" std-id="Stothard">
+<std-ref>[22]</std-ref>
+</std>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+</list-item>
+</list>
+</sec>
+
+<sec id="sec_4.4">
+<label>4.4</label>
+<title>Considerations</title>
+
+<p>WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+
+<p>Essential characteristics of the “metaverse” include:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>
+<bold>virtual</bold>, as in the items in the experience is virtual</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>immersive</bold> where it is experienced through human computer interaction</p>
+</list-item>
+</list>
+
+<p>Common characteristics expected by popular culture include:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>
+<bold>massively multi-user</bold> where there can be many simultaneous users</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>interconnection</bold> of virtual world systems</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>interoperability</bold> between users across virtual world systems</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>persistent</bold> where actions and events in the virtual world persists after a user leaves</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>real-time</bold> where user actions are performed in real-time</p>
+</list-item>
+</list>
+
+<p>The resulting consensus arrived at this definition for “metaverse”:</p>
+
+<disp-quote id="_782f837d-abea-76d3-1ded-e73df9afefd6">
+<p>metaverse: virtual world experienced through immersive technologies</p>
+</disp-quote>
+</sec>
+</sec>
+</body>
+<back>
+<app-group>
+<app id="sec_A" content-type="normative-annex">
+<label>Annex A</label>
+<annex-type>(normative)</annex-type>
+<sec id="sec_A">
+<label>A</label>
+<title>Abbreviated terms</title>
+
+<def-list list-type="abbreviation">
+<def-item id="symbol-AGI">
+<term>AGI</term>
+<def>
+<p>artificial general intelligence</p>
+</def>
+</def-item>
+<def-item id="symbol-AI">
+<term>AI</term>
+<def>
+<p>artificial intelligence</p>
+</def>
+</def-item>
+<def-item id="symbol-API">
+<term>API</term>
+<def>
+<p>application programming interface</p>
+</def>
+</def-item>
+<def-item id="symbol-AR">
+<term>AR</term>
+<def>
+<p>augmented reality</p>
+</def>
+</def-item>
+<def-item id="symbol-DLT">
+<term>DLT</term>
+<def>
+<p>distributed ledger technology</p>
+</def>
+</def-item>
+<def-item id="symbol-IoT">
+<term>IoT</term>
+<def>
+<p>Internet of Things</p>
+</def>
+</def-item>
+<def-item id="symbol-ML">
+<term>ML</term>
+<def>
+<p>machine learning</p>
+</def>
+</def-item>
+<def-item id="symbol-OMF">
+<term>OMF</term>
+<def>
+<p>Open Modeling Foundation</p>
+</def>
+</def-item>
+<def-item id="symbol-OWL">
+<term>OWL</term>
+<def>
+<p>Web Ontology Language</p>
+</def>
+</def-item>
+<def-item id="symbol-RDF">
+<term>RDF</term>
+<def>
+<p>Resource Description Framework</p>
+</def>
+</def-item>
+<def-item id="symbol-UDT">
+<term>UDT</term>
+<def>
+<p>Urban Digital Twin</p>
+</def>
+</def-item>
+<def-item id="symbol-VR">
+<term>VR</term>
+<def>
+<p>virtual reality</p>
+</def>
+</def-item>
+<def-item id="symbol-WoT">
+<term>WoT</term>
+<def>
+<p>Web of Things</p>
+</def>
+</def-item>
+<def-item id="symbol-W3C">
+<term>W3C</term>
+<def>
+<p>World Wide Web Consortium</p>
+</def>
+</def-item>
+<def-item id="symbol-XR">
+<term>XR</term>
+<def>
+<p>collective reference to both AR and VR</p>
+</def>
+</def-item>
+</def-list>
+</sec>
+</app>
+</app-group>
+<ref-list content-type="bibl" id="sec_bibl">
+<title>Bibliography</title>
+<ref content-type="standard" id="biblref_1">
+<std std-id="iso:std:iso-iec:17788">
+<std-ref>ISO/IEC 17788:2014</std-ref>
+<xref ref-type="fn" rid="fn_1">
+<sup>1)</sup>
+</xref>
+<fn id="fn_1">
+<label>
+<sup>1)</sup>
+</label>
+<p>Cancelled and replaced by ISO/IEC 22123-1:2023.</p>
+</fn>, <title>Information technology — Cloud computing — Overview and vocabulary</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_2">
+<std std-id="iso:std:iso-iec:18038">
+<std-ref>ISO/IEC 18038:2020</std-ref>, <title>Information technology — Computer graphics, image processing and environmental representation — Sensor representation in mixed and augmented reality</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_3">
+<std std-id="iso:std:iso-iec:18039">
+<std-ref>ISO/IEC 18039:2019</std-ref>, <title>Information technology — Computer graphics, image processing and environmental data representation — Mixed and augmented reality (MAR) reference model</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_4">
+<std std-id="iso:std:iso-iec:tr:18121">
+<std-ref>ISO/IEC TR 18121:2015</std-ref>, <title>Information technology — Learning, education and training — Virtual experiment framework</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_5">
+<std std-id="iso:std:iso-iec:19775:-1">
+<std-ref>ISO/IEC 19775-1:2023</std-ref>, <title>Computer graphics, image processing and environmental data representation — Extensible 3D (X3D) — Part 1: Architecture and base components</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_6">
+<std std-id="iso:std:iso:22739">
+<std-ref>ISO 22739:2024</std-ref>, <title>Blockchain and distributed ledger technologies — Vocabulary</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_7">
+<std std-id="iso:std:iso-iec:tr:23188">
+<std-ref>ISO/IEC TR 23188:2020</std-ref>, <title>Information technology — Cloud computing — Edge computing landscape</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_8">
+<std std-id="iso:std:iso-iec:tr:23843">
+<std-ref>ISO/IEC TR 23843:2020</std-ref>, <title>Information technology for learning, education and training — Catalogue model for virtual, augmented and mixed reality content</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_9">
+<std std-id="iso:std:iso:24165:-1">
+<std-ref>ISO 24165-1:2021</std-ref>, <title>Digital token identifier (DTI) — Registration, assignment and structure — Part 1: Method for registration and assignment</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_10">
+<std std-id="iso:std:iso-iec:27032">
+<std-ref>ISO/IEC 27032:2012</std-ref>
+<xref ref-type="fn" rid="fn_2">
+<sup>2)</sup>
+</xref>
+<fn id="fn_2">
+<label>
+<sup>2)</sup>
+</label>
+<p>Cancelled and replaced by ISO/IEC 27032:2023.</p>
+</fn>, <title>Information technology — Security techniques — Guidelines for cybersecurity</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_11">
+<std std-id="iso:std:iso-iec-ieee:42010">
+<std-ref>ISO/IEC/IEEE 42010:2022</std-ref>, <title>Software, systems and enterprise — Architecture description</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_12">
+<label>[12]</label>
+<std>
+<std-ref>ITU FGMV-O-235</std-ref>, <title>Draft Technical Specification ITU FGMV — Vocabulary for metaverse</title>
+<title>ITU-T ITU FGMV-O-235. Draft Technical Specification ITU FGMV — Vocabulary for metaverse. 2024.</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_13">
+<std>
+<std-ref>IEEE 2413-2019<?doi 10.1109/IEEESTD.2020.9032420?></std-ref>, <title>IEEE Standard for an Architectural Framework for the Internet of Things (IoT)</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_14">
+<std>
+<std-ref>IEEE 7010-2020<?doi 10.1109/IEEESTD.2020.9084219?></std-ref>, <title>IEEE Recommended Practice for Assessing the Impact of Autonomous and Intelligent Systems on Human Well-Being</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_15">
+<std>
+<std-ref>ITU-T F.791 (08/2018)</std-ref>, <title>Accessibility terms and definitions</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_16">
+<std>
+<std-ref>ITU-T Y.4600 (08/2022)</std-ref>, <title>Requirements and capabilities of a digital twin system for smart cities</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_17">
+<std>
+<std-ref>W3C did-core</std-ref>, <title>Decentralized Identifiers (DIDs) v1.0</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_18">
+<std>
+<std-ref>W3C did-spec-registries</std-ref>, <title>Decentralized Identifier Extensions</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_19">
+<std>
+<std-ref>W3C wot-architecture</std-ref>, <title>Web of Things (WoT) Architecture</title>
+</std>
+</ref>
+<ref content-type="webresource" id="biblref_20">
+<label>[20]</label>
+<mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<collab>ISO/IEC JTC 1</collab>
+</person-group>
+<year>2023</year>, <italic>JTC 1 Standards and Standardization for the Metaverse</italic>
+</mixed-citation>
+</ref>
+<ref content-type="webresource" id="biblref_21">
+<label>[21]</label>
+<mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Rosenberg</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<year>2022</year>, <italic>Metaverse 101: defining the key components</italic>. <publisher-name>VentureBeat</publisher-name>
+</mixed-citation>
+</ref>
+<ref content-type="book" id="biblref_22">
+<label>[22]</label>
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Stothard</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Ryan</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Kurata</surname>
+<given-names>T.</given-names>
+</name>
+</person-group>
+<year>2024</year>, <italic>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</italic>
+</mixed-citation>
+</ref>
+<ref id="biblref_23">
+<label>[23]</label>
+<mixed-citation>, <italic>Snow crash</italic>
+<uri content-type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri>
+<year>1993</year>
+<person-group person-group-type="author">
+<string-name>Neal Stephenson</string-name>
+</person-group>
+<publisher-name>Bantam Books</publisher-name>
+<publisher-loc>
+    <city>New York</city>
+  </publisher-loc>
+</mixed-citation>
+</ref>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ref-list>
+<index id="sec_index">
+<index-title-group>
+<title>INDEX</title>
+</index-title-group>
+<index-div>
+<index-title-group>
+<title>A</title>
+</index-title-group>
+<index-entry>
+<term>AGI</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>AI</term>
+<see-entry>3.1.2</see-entry>
+</index-entry>
+<index-entry>
+<term>AI</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>API</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>AR</term>
+<see-entry>3.3.2</see-entry>
+</index-entry>
+<index-entry>
+<term>AR</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>artificial intelligence</term>
+<see-entry>3.1.2</see-entry>
+</index-entry>
+<index-entry>
+<term>assistive technology</term>
+<see-entry>3.1.3</see-entry>
+</index-entry>
+<index-entry>
+<term>augmented reality</term>
+<see-entry>3.3.2</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>C</title>
+</index-title-group>
+<index-entry>
+<term>cloud computing</term>
+<see-entry>3.1.4</see-entry>
+</index-entry>
+<index-entry>
+<term>C-Meta</term>
+<see-entry>3.4.1</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>D</title>
+</index-title-group>
+<index-entry>
+<term>decentralized identifier</term>
+<see-entry>3.1.5</see-entry>
+</index-entry>
+<index-entry>
+<term>DID</term>
+<see-entry>3.1.5</see-entry>
+</index-entry>
+<index-entry>
+<term>digital asset</term>
+<see-entry>3.1.10</see-entry>
+</index-entry>
+<index-entry>
+<term>digital human</term>
+<see-entry>3.1.6</see-entry>
+</index-entry>
+<index-entry>
+<term>digital identity</term>
+<see-entry>3.1.11</see-entry>
+</index-entry>
+<index-entry>
+<term>digital twin</term>
+<see-entry>3.1.7</see-entry>
+</index-entry>
+<index-entry>
+<term>distributed computing</term>
+<see-entry>3.1.8</see-entry>
+</index-entry>
+<index-entry>
+<term>distributed ledger</term>
+<see-entry>3.1.9</see-entry>
+</index-entry>
+<index-entry>
+<term>DLT</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>E</title>
+</index-title-group>
+<index-entry>
+<term>eCommerce metaverse</term>
+<see-entry>3.2.5</see-entry>
+</index-entry>
+<index-entry>
+<term>edge computing</term>
+<see-entry>3.1.12</see-entry>
+</index-entry>
+<index-entry>
+<term>edge device</term>
+<see-entry>3.1.13</see-entry>
+</index-entry>
+<index-entry>
+<term>education metaverse</term>
+<see-entry>3.2.3</see-entry>
+</index-entry>
+<index-entry>
+<term>extended reality</term>
+<see-entry>3.3.1</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>F</title>
+</index-title-group>
+<index-entry>
+<term>financial metaverse</term>
+<see-entry>3.2.2</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>G</title>
+</index-title-group>
+<index-entry>
+<term>game metaverse</term>
+<see-entry>3.2.6</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>H</title>
+</index-title-group>
+<index-entry>
+<term>healthcare metaverse</term>
+<see-entry>3.2.4</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>I</title>
+</index-title-group>
+<index-entry>
+<term>immersive</term>
+<see-entry>3.1.14</see-entry>
+</index-entry>
+<index-entry>
+<term>industrial metaverse</term>
+<see-entry>3.2.1</see-entry>
+</index-entry>
+<index-entry>
+<term>Internet of Things</term>
+<see-entry>3.1.15</see-entry>
+</index-entry>
+<index-entry>
+<term>interoperability</term>
+<see-entry>3.1.16</see-entry>
+</index-entry>
+<index-entry>
+<term>IoT</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>L</title>
+</index-title-group>
+<index-entry>
+<term>ledger</term>
+<see-entry>3.1.17</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>M</title>
+</index-title-group>
+<index-entry>
+<term>MAR</term>
+<see-entry>3.3.6</see-entry>
+</index-entry>
+<index-entry>
+<term>metaverse</term>
+<see-entry>3.1.1</see-entry>
+</index-entry>
+<index-entry>
+<term>mixed and augmented reality</term>
+<see-entry>3.3.6</see-entry>
+</index-entry>
+<index-entry>
+<term>mixed reality</term>
+<see-entry>3.3.3</see-entry>
+</index-entry>
+<index-entry>
+<term>mixed reality system</term>
+<see-entry>3.3.5</see-entry>
+</index-entry>
+<index-entry>
+<term>ML</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>MR</term>
+<see-entry>3.3.3</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>O</title>
+</index-title-group>
+<index-entry>
+<term>OMF</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>OWL</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>R</title>
+</index-title-group>
+<index-entry>
+<term>RDF</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>S</title>
+</index-title-group>
+<index-entry>
+<term>social metaverse</term>
+<see-entry>3.2.7</see-entry>
+</index-entry>
+<index-entry>
+<term>stakeholder</term>
+<see-entry>3.5.1</see-entry>
+</index-entry>
+<index-entry>
+<term>stakeholder perspective</term>
+<see-entry>3.5.2</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>U</title>
+</index-title-group>
+<index-entry>
+<term>UDT</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>user-generated content</term>
+<see-entry>3.1.20</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>V</title>
+</index-title-group>
+<index-entry>
+<term>virtual office</term>
+<see-entry>3.1.19</see-entry>
+</index-entry>
+<index-entry>
+<term>virtual reality</term>
+<see-entry>3.3.4</see-entry>
+</index-entry>
+<index-entry>
+<term>virtual world</term>
+<see-entry>3.1.18</see-entry>
+</index-entry>
+<index-entry>
+<term>VR</term>
+<see-entry>3.3.4</see-entry>
+</index-entry>
+<index-entry>
+<term>VR</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>W</title>
+</index-title-group>
+<index-entry>
+<term>W3C</term>
+<see-entry>A</see-entry>
+</index-entry>
+<index-entry>
+<term>WoT</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+<index-div>
+<index-title-group>
+<title>X</title>
+</index-title-group>
+<index-entry>
+<term>XR</term>
+<see-entry>3.3.1</see-entry>
+</index-entry>
+<index-entry>
+<term>XR</term>
+<see-entry>A</see-entry>
+</index-entry>
+</index-div>
+</index>
+</back>
+</standard>

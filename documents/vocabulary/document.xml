@@ -1,0 +1,2313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="semantic" version="2.8.5" schema-version="v1.3.3">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">Metaverse — Vocabulary</title>
+
+<title language="en" format="text/plain" type="title-intro">Metaverse</title>
+
+<title language="en" format="text/plain" type="title-main">Vocabulary</title>
+
+
+
+<title language="fr" format="text/plain" type="main">Metaverse — Vocabulaire</title>
+
+<title language="fr" format="text/plain" type="title-intro">Metaverse</title>
+
+<title language="fr" format="text/plain" type="title-main">Vocabulaire</title>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N1</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N1(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:1:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N1</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N1(en)</docidentifier><docnumber>1</docnumber><contributor><role type="author"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Technical committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><edition>0.3</edition><version><revision-date>2024-08-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 1</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2024</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_copyright_protected_document" inline-header="false" obligation="normative">
+<title>COPYRIGHT PROTECTED DOCUMENT</title>
+<p id="boilerplate-year">© <span class="std_publisher">ISO/IEC </span><span class="date">2024</span></p>
+
+<p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email: <link target="mailto:copyright@iso.org"/><br/> Website: <link target="https://www.iso.org/">www.iso.org</link></p>
+
+<p id="boilerplate-place">Published in Switzerland</p>
+</clause>
+</copyright-statement>
+</boilerplate><preface><foreword id="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a" obligation="informative">
+<title>Foreword</title>
+<p id="_e7f344d7-9747-e362-969e-a65c9f2606cc">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
+
+<p id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <link target="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</link>)</p>
+
+<p id="_9af6a1d5-fa5f-be09-7862-fcc9612b617d">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see <link target="https://patents.iec.ch"/>).</p>
+
+<p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p id="_110024fa-4756-95d8-79f3-602a751fb9e4">For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <link target="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</link>. In the IEC, see <link target="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</link>.</p>
+
+<p id="_c0dc7433-3730-0018-9870-57c4bcad9c52">This document was prepared by ISO/IEC JSEG 15, <em>Metaverse</em>.</p>
+
+<p id="_faf047d3-50c8-6e95-b6af-61fe98df4388">Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <link target="https://www.iso.org/members.html">www.iso.org/members.html</link> and <link target="https://www.iec.ch/national-committees">www.iec.ch/national-committees</link>.</p>
+</foreword><introduction id="_introduction" obligation="informative">
+<title>Introduction</title>
+<p id="_711dfc80-77ee-a7d9-0421-5cee43cc4dad">This document presents terms and definitions for concepts relevant to the Metaverse.</p>
+
+<p id="_1f3ad4fa-880c-7c8a-abfb-88781321470c">Specifically, the terminology presented in this document:</p>
+
+<ul id="_517a570b-a652-f916-7c86-165a7967fae4"><li><p id="_51b7b035-7b7a-5d1d-2f8c-7b37d170230c">serve as a sound basis in the understanding of Metaverse;</p>
+</li>
+<li><p id="_517820a9-3516-7258-77ef-e96191f4f9d8">guide new developments in the field by underpinning mutual understanding; and</p>
+</li>
+<li><p id="_732f6a83-0740-a83d-442b-e43b7a781649">serve as a quick and handy reference for those newly introduced to this field.</p>
+</li>
+</ul>
+</introduction></preface><sections>
+
+<clause id="_scope" type="scope" inline-header="false" obligation="normative">
+<title>Scope</title>
+<p id="_338ebda7-b1e3-12b2-b532-32817ce0bc6f">This document provides a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</p>
+
+<p id="_ae1eff6a-833b-ac6b-8d91-26435e957a14">The scope of the vocabulary provided in this document corresponds to that of ISO/IEC JSEG 15.</p>
+</clause>
+
+
+
+<clause id="_terms_and_definitions" obligation="normative" type="terms">
+<title>Terms and definitions</title><p id="_af034f22-1c47-b011-a2a2-02454ecaf32c">For the purposes of this document, the following terms and definitions apply.</p>
+<p id="_5853dac1-79b7-9af9-5148-c7157a2a7aa9">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<ul id="_d0563019-7bac-798e-4845-6385e677a921"><li><p id="_df267e8d-f751-c609-8fdc-f8b33b577b68">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+</li>
+<li><p id="_f37c2451-ca2e-7ead-185b-9bb0039aa669">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+</li>
+</ul>
+
+<terms id="_metaverse_core_concepts" obligation="normative">
+<title>Metaverse core concepts</title>
+<term id="term-metaverse"><preferred><expression>
+<name>metaverse<index><primary>metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_e0b9f5b8-79e1-3fc4-0839-c41a75041bb8"><concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> experienced through <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> technologies</p></verbal-definition></definition>
+ </term>
+
+<term id="term-artificial-intelligence"><preferred><expression>
+<name>artificial intelligence<index><primary>artificial intelligence</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>AI<index><primary>AI</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_2777c906-572c-a73f-46ea-6497efd40d5a">capacity of computers or other machines to exhibit or simulate intelligent behavior</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="IEEE_7010_2020" type="inline" citeas="IEEE&amp;#xa0;7010-2020"/></termsource></term>
+
+<term id="term-assistive-technology"><preferred><expression>
+<name>assistive technology<index><primary>assistive technology</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_c13ef01c-6c16-eaeb-1c2e-1670b5c196bd">piece of equipment, product system, hardware, software or service that is used to enable, maintain or improve functional capabilities of individuals with disabilities</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ITU-T_F_791" type="inline" citeas="ITU-T F.791 (08/2018)"/></termsource></term>
+
+<term id="term-cloud-computing"><preferred><expression>
+<name>cloud computing<index><primary>cloud computing</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_361a67d2-4f0f-898b-b07c-49a07bbb45b7">paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_17788_2014" type="inline" citeas="ISO/IEC&amp;#xa0;17788:2014"><localityStack><locality type="clause"><referenceFrom>3.2.5</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-decentralized-identifier"><preferred><expression>
+<name>decentralized identifier<index><primary>decentralized identifier</primary></index></name><abbreviation-type>initialism</abbreviation-type>
+</expression>
+</preferred><preferred><expression>
+<name>DID<index><primary>DID</primary></index></name>
+</expression>
+</preferred>
+
+
+
+
+
+<definition><verbal-definition><p id="_6152b8a6-2fc3-38c0-83f4-74173b22928d">identifier in the format of the W3C Decentralized Identifier</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="w3c_did" type="inline" citeas="W3C&amp;#xa0;did-core"/></termsource></term>
+
+<term id="term-digital-human"><preferred><expression>
+<name>digital human<index><primary>digital human</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_03e6e93b-aca2-fc2d-40ef-5bf2a5dc8584">realistic virtual human representations created using advanced simulation technology</p></verbal-definition></definition>
+ </term>
+
+<term id="term-digital-twin"><preferred><expression>
+<name>digital twin<index><primary>digital twin</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_a9cadf91-519c-c901-d91a-c3af5394afbc">digital representation of an object of interest</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_78fb561d-d99f-dab4-53be-39b3ad354985"><p id="_f1bfd87e-d3b9-db07-85b2-fc49977a92a3">A digital twin may require different capabilities (e.g., synchronization, real-time support) according to the specific domain of application.</p>
+</termnote><termsource status="identical" type="authoritative"><origin bibitemid="ITU-T-Y_4600" type="inline" citeas="ITU-T Y.4600 (08/2022)"/></termsource></term>
+
+<term id="term-distributed-computing"><preferred><expression>
+<name>distributed computing<index><primary>distributed computing</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_cb9b88ac-36f0-2ef8-0edf-47ad75300473">model of computing in which a set of nodes coordinates its activities by means of digital messages passed between the nodes</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_23188_2020" type="inline" citeas="ISO/IEC TR 23188:2020"><localityStack><locality type="clause"><referenceFrom>3.1.1</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-distributed-ledger"><preferred><expression>
+<name>distributed ledger<index><primary>distributed ledger</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_67cfdcdb-c29a-e519-811b-eb019a547543">a <concept><refterm>ledger</refterm><renderterm>ledger</renderterm><xref target="term-ledger"/></concept> that is shared across a set of DLT nodes and synchronized between the DLT nodes using a consensus mechanism</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_22739_2024" type="inline" citeas="ISO&amp;#xa0;22739:2024"><localityStack><locality type="clause"><referenceFrom>3.22</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-digital-asset"><preferred><expression>
+<name>digital asset<index><primary>digital asset</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_82935c58-f821-509a-53e6-dd1551390e87">asset that exists only in digital form or which is the digital representation of another asset</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_24165-1_2021" type="inline" citeas="ISO&amp;#xa0;24165-1:2021"><localityStack><locality type="clause"><referenceFrom>3.9</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-digital-identity"><preferred><expression>
+<name>digital identity<index><primary>digital identity</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_7d4ffd11-680e-c17c-d7d8-1a029587ad28">information used by information systems to represent an external agent, a person, organization, application, or device</p></verbal-definition></definition>
+ </term>
+
+<term id="term-edge-computing"><preferred><expression>
+<name>edge computing<index><primary>edge computing</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_a9760672-8d51-2f84-d8cb-0a71d18d4f1c"><concept><refterm>distributed computing</refterm><renderterm>distributed computing</renderterm><xref target="term-distributed-computing"/></concept> in which processing and storage takes place at or near the edge, where the nearness is defined by the system’s requirements</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_23188_2020" type="inline" citeas="ISO/IEC TR 23188:2020"><localityStack><locality type="clause"><referenceFrom>3.1.3</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-edge-device"><preferred><expression>
+<name>edge device<index><primary>edge device</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_1e2a59b4-dee3-b991-5bbe-86c229d33a56">device that provides an entry point into enterprise or service provider core networks</p></verbal-definition></definition>
+
+
+
+
+ <termexample id="_c1e4223f-c41e-aaf4-6469-333834b73b85"><p id="_a95dc8e4-a0e7-5bf6-cb51-f34943be2f26">Gateways, routers, switches, multiplexers, and a variety of other access devices.</p>
+</termexample><termsource status="identical" type="authoritative"><origin bibitemid="w3c_wot" type="inline" citeas="W3C wot-architecture"/></termsource></term>
+
+<term id="term-immersive"><preferred><expression>
+<name>immersive<index><primary>immersive</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_13b0c225-9138-6fcd-46c0-c6135bd1cade">creating the illusion of being inside a computer-generated scene</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_19775-1" type="inline" citeas="ISO/IEC 19775-1:2023"/></termsource></term>
+
+<term id="term-Internet-of-Things"><preferred><expression>
+<name>Internet of Things<index><primary>Internet of Things</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_de31d7a8-f31b-d4d8-18a3-792e994e489b">system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</p></verbal-definition></definition>
+
+
+ <termsource status="modified" type="authoritative"><origin bibitemid="IEEE_2413_2019" type="inline" citeas="IEEE&amp;#xa0;2413-2019"/><modification><p id="_aa1e7fdb-283b-726d-6bea-3a9ab6ed3fd2">dropped article.</p>
+</modification>
+</termsource></term>
+
+<term id="term-interoperability"><preferred><expression>
+<name>interoperability<index><primary>interoperability</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_a3906a50-b9dc-76ba-05a6-8f9ea20c3f19">ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_17788_2014" type="inline" citeas="ISO/IEC&amp;#xa0;17788:2014"><localityStack><locality type="clause"><referenceFrom>3.1.5</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-ledger"><preferred><expression>
+<name>ledger<index><primary>ledger</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_1883f21e-8d7e-50cb-3e28-cfe23d418275">information store that keeps records of transactions that are intended to be final, definitive and immutable</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_22739_2024" type="inline" citeas="ISO&amp;#xa0;22739:2024"><localityStack><locality type="clause"><referenceFrom>3.43</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-virtual-world"><preferred><expression>
+<name>virtual world<index><primary>virtual world</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_cbb936eb-c4b0-5248-87f4-511b27a3d2ef">simulated environment that can be accessed by multiple users through an online interface</p></verbal-definition></definition>
+
+
+
+
+
+
+ <termnote id="_f5f132f7-025a-8bbe-ff78-5731f66ea395"><p id="_18de9b1b-bfa0-282e-059d-163a0da30ec4">The simulated environments are often interactive.</p>
+</termnote><termnote id="_74d23314-563f-78b3-305b-3de01a7ee2dc"><p id="_962857c2-299c-1cf4-9563-37509f784fa8">The physical world in which people live, and the related characteristics, will be referred to as the “real world” to differentiate it from a virtual world.</p>
+</termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_27032-2012" type="inline" citeas="ISO/IEC&amp;#xa0;27032:2012"><localityStack><locality type="clause"><referenceFrom>4.51</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-virtual-office"><preferred><expression>
+<name>virtual office<index><primary>virtual office</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_c75a9e67-8f53-9e8d-9bf6-ddaa248b2086">3-D virtual scene replicating office space of an organization, providing users with an <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> experience</p></verbal-definition></definition>
+ </term>
+
+<term id="term-user-generated-content"><preferred><expression>
+<name>user-generated content<index><primary>user-generated content</primary></index></name>
+</expression>
+</preferred><admitted><expression>
+<name>UGC</name>
+</expression>
+</admitted>
+
+
+
+<definition><verbal-definition><p id="_9ff17dfa-195d-f0b7-ec9e-c31dd96a3b01">content created by users within the <concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept></p></verbal-definition></definition>
+
+
+ <termnote id="_15a47b9c-8fcd-58e3-dfb2-989e18151060"><p id="_243a99f7-9d5f-500e-1e23-d32edd8f07c3">UGC is often facilitated by simplified editing tools.</p>
+</termnote></term>
+</terms>
+
+<terms id="_metaverse_use_cases" obligation="normative">
+<title>Metaverse use cases</title>
+<term id="term-industrial-metaverse"><preferred><expression>
+<name>industrial metaverse<index><primary>industrial metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_ef56db8d-eec6-0eae-46a0-26f2bc6c6b0a"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that integrates virtual and physical realities to create a sophisticated digital industrial ecosystem, enhancing real-world processes through virtual simulations and strengthening the entire industrial and value chain with increased intelligence, collaboration, openness, service orientation, and interconnectivity</p></verbal-definition></definition>
+ </term>
+
+<term id="term-financial-metaverse"><preferred><expression>
+<name>financial metaverse<index><primary>financial metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_73b01440-663c-cf45-9204-4489ac4c9094"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> enabling a new type of financial business where the physical world and the mirrored digital world are symbiotic</p></verbal-definition></definition>
+ </term>
+
+<term id="term-education-metaverse"><preferred><expression>
+<name>education metaverse<index><primary>education metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_68257256-dfc0-5f6b-44a4-fd41db2cfc38"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> enabling a multi-sensory <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> classroom connecting virtual and reality, enabling knowledge acquisition, participation, and creation</p></verbal-definition></definition>
+ </term>
+
+<term id="term-healthcare-metaverse"><preferred><expression>
+<name>healthcare metaverse<index><primary>healthcare metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_869a8bb2-0e61-1bf9-6c90-bb59cf1d7f26"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables the digital, intelligent and accurate medical information platform that breaks space-time restrictions and technical barriers of the original medical system</p></verbal-definition></definition>
+ </term>
+
+<term id="term-eCommerce-metaverse"><preferred><expression>
+<name>eCommerce metaverse<index><primary>eCommerce metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_17a36bb1-a08b-5788-778f-01e8ba3b6de4"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables marketing towards users, creating personalized, emotional and social marketing scenes through metaverse technology and content</p></verbal-definition></definition>
+ </term>
+
+<term id="term-game-metaverse"><preferred><expression>
+<name>game metaverse<index><primary>game metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_972800e0-5a4c-52a5-605d-4480d881750e"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables the evolution of gaming that embodies four characteristics: immersion, accessibility, accessibility and extensibility</p></verbal-definition></definition>
+ </term>
+
+<term id="term-social-metaverse"><preferred><expression>
+<name>social metaverse<index><primary>social metaverse</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_b5ca822a-60e2-52ed-d6d6-e10a6a34decb"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using <concept><refterm>augmented reality</refterm><renderterm>AR</renderterm><xref target="term-augmented-reality"/></concept>, <concept><refterm>virtual reality</refterm><renderterm>VR</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>extended reality</refterm><renderterm>XR</renderterm><xref target="term-extended-reality"/></concept> and other technologies</p></verbal-definition></definition>
+ </term>
+</terms>
+
+<terms id="_xr_concepts" obligation="normative">
+<title>XR concepts</title>
+<term id="term-extended-reality"><preferred><expression>
+<name>extended reality<index><primary>extended reality</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>XR<index><primary>XR</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_4c3547ff-093f-078c-4943-2e5ccfd05aa8">environments experienced through human-machine sensory interactions commonly composed of real world and virtual elements</p></verbal-definition></definition>
+
+
+ <termnote id="_20724962-e87c-8827-fdff-a1633b46121e"><p id="_cbaf7159-f772-7fe7-e70b-a66d01dfcefa">Extended reality covers <concept><refterm>virtual reality</refterm><renderterm>virtual reality</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>augmented reality</refterm><renderterm>augmented reality</renderterm><xref target="term-augmented-reality"/></concept> and <concept><refterm>mixed reality</refterm><renderterm>mixed reality</renderterm><xref target="term-mixed-reality"/></concept> environments.</p>
+</termnote></term>
+
+<term id="term-augmented-reality"><preferred><expression>
+<name>augmented reality<index><primary>augmented reality</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>AR<index><primary>AR</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_a3e659fa-878a-62e9-1241-823f69e9f9e9">interactive experience of a real-world environment whereby the objects that reside in the real world are augmented by computer-generated perceptual information</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18038_2020" type="inline" citeas="ISO/IEC&amp;#xa0;18038:2020"><localityStack><locality type="clause"><referenceFrom>3.1</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-mixed-reality"><preferred><expression>
+<name>mixed reality<index><primary>mixed reality</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>MR<index><primary>MR</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_178a0101-9e1c-47fe-5c31-74cba8ea2ec2">display continuum in which both real and virtual images are combined in some way and in some proportion</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_83a6b2b7-f459-acca-53d0-84a734f75953"><p id="_48f7a88d-ac13-39a6-7155-cef6b9653227">Augmented reality and virtual reality are considered to be on the mixed reality continuum.</p>
+</termnote><termsource status="modified" type="authoritative"><origin bibitemid="ISO-IEC_TR_23843_2020" type="inline" citeas="ISO/IEC TR 23843:2020"><localityStack><locality type="clause"><referenceFrom>3.4</referenceFrom></locality></localityStack></origin>
+<modification><p id="_6523ea18-9c8c-6384-fe11-9ebca0ef342a">added Note 1 to entry.</p>
+</modification>
+</termsource></term>
+
+<term id="term-virtual-reality"><preferred><expression>
+<name>virtual reality<index><primary>virtual reality</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>VR<index><primary>VR</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_a1529374-366a-d1b3-0109-8fb012e04a00">artificial environment presented in the computer</p></verbal-definition></definition>
+
+
+ <termsource status="modified" type="authoritative"><origin bibitemid="ISO_IEC_TR_18121_2015" type="inline" citeas="ISO/IEC TR 18121:2015"><localityStack><locality type="clause"><referenceFrom>3.6</referenceFrom></locality></localityStack></origin>
+<modification><p id="_0b329e7b-0d37-e0f2-3fab-6f301abce519">dropped article</p>
+</modification>
+</termsource></term>
+
+<term id="term-mixed-reality-system"><preferred><expression>
+<name>mixed reality system<index><primary>mixed reality system</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_f6b492d8-11c7-504e-b91b-fc76e44ee346">system that uses a mixture of representations of physical world data and virtual world data as its presentation medium</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18039_2019" type="inline" citeas="ISO/IEC&amp;#xa0;18039:2019"><localityStack><locality type="clause"><referenceFrom>3.1.13</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-mixed-and-augmented-reality"><preferred><expression>
+<name>mixed and augmented reality<index><primary>mixed and augmented reality</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>MAR<index><primary>MAR</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_0c71611a-f643-d52a-69f0-aad0c4c5225c">integration of real and virtual worlds including <concept><refterm>mixed reality</refterm><renderterm>mixed reality</renderterm><xref target="term-mixed-reality"/></concept> and <concept><refterm>augmented reality</refterm><renderterm>augmented reality</renderterm><xref target="term-augmented-reality"/></concept></p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_08ab6746-c0fd-4b67-954c-9ca99dc5f7b2"><p id="_b00e07b3-24d9-5d2d-bda7-1dc7ee43aabb">MAR is often used interchangeably with MR.</p>
+</termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18038_2020" type="inline" citeas="ISO/IEC&amp;#xa0;18038:2020"/></termsource></term>
+</terms>
+
+<terms id="_extended_metaverse_concepts" obligation="normative">
+<title>Extended metaverse concepts</title>
+<term id="term-C-Meta"><preferred><expression>
+<name>C-Meta<index><primary>C-Meta</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_3fdd0c71-0f7b-d574-fc01-272e22f53833">low-carbon social metaverse under the Web 3.0 architecture, aiming to build a new green and energy-saving digital economy</p></verbal-definition></definition>
+ </term>
+</terms>
+
+<terms id="_governance" obligation="normative">
+<title>Governance</title>
+<term id="term-stakeholder"><preferred><expression>
+<name>stakeholder<index><primary>stakeholder</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_dc65c0ef-06f0-1898-3ed4-60f4e74f4525">role, position, individual, organization, or classes thereof, having an interest, right, share, or claim, in an entity of interest</p></verbal-definition></definition>
+
+
+
+
+ <termexample id="_c18dcdd7-651e-d76c-9d29-88b54256d578"><p id="_da17b9bc-23c1-6c87-9021-a1f67bff9d56">End users, operators, acquirers, owners, suppliers, architects, developers, builders, maintainers, regulators, taxpayers, certifying agencies, and markets.</p>
+</termexample><termsource status="modified" type="authoritative"><origin bibitemid="ISO_IEC_IEEE_42010_2022" type="inline" citeas="ISO/IEC/IEEE 42010:2022"><localityStack><locality type="clause"><referenceFrom>3.17</referenceFrom></locality></localityStack></origin>
+<modification><p id="_ad42c8e0-8488-712c-e883-ecd27f270a39">dropped article</p>
+</modification>
+</termsource></term>
+
+<term id="term-stakeholder-perspective"><preferred><expression>
+<name>stakeholder perspective<index><primary>stakeholder perspective</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_7ae62e6e-c120-1d6e-5a60-e2ddf6486c86">way of thinking about an entity of interest, especially as it relates to concerns</p></verbal-definition></definition>
+
+
+ <termsource status="modified" type="authoritative"><origin bibitemid="ISO_IEC_IEEE_42010_2022" type="inline" citeas="ISO/IEC/IEEE 42010:2022"><localityStack><locality type="clause"><referenceFrom>3.18</referenceFrom></locality></localityStack></origin>
+<modification><p id="_7cf49afa-9bb1-b798-7ff4-ac1b020860cc">The original example has been removed.</p>
+</modification>
+</termsource></term>
+</terms>
+</clause>
+
+<clause id="_definition_of_metaverse" inline-header="false" obligation="normative">
+<title>Definition of Metaverse</title>
+<clause id="_general" inline-header="false" obligation="normative">
+<title>General</title>
+<p id="_36a34f24-ddf7-a55c-37b0-66de968e8d9a">The definition of a “metaverse” has long been subject of controversy.</p>
+</clause>
+
+<clause id="_approach" inline-header="false" obligation="normative">
+<title>Approach</title>
+<p id="_c9dbff31-51b2-7407-8263-b577eca5bdda">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+</clause>
+
+<clause id="_background" inline-header="false" obligation="normative">
+<title>Background</title>
+<p id="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992 <eref type="inline" bibitemid="snow_crash" citeas="[23]"/>.</p>
+
+<p id="_fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+
+<p id="_60402f6d-98f2-aedd-ebaa-4ee0542a56d8">The group has considered a few popular definitions of the “metaverse”, including:</p>
+
+<ul id="_4d546aae-7351-d66f-fa1f-07f33926f28a"><li><p id="_48a310c0-10bc-b778-cce4-9b686bfb253b">From <eref type="inline" bibitemid="ISO-IEC_JTC-1_metaverse" citeas="[20]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+</li>
+<li><p id="_f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <eref type="inline" bibitemid="Rosenberg" citeas="[21]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+</li>
+<li><p id="_6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <eref type="inline" bibitemid="Stothard" citeas="[22]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_considerations" inline-header="false" obligation="normative">
+<title>Considerations</title>
+<p id="_d98184f7-bee4-a478-2628-eb97be70bd90">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+
+<p id="_789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</p>
+
+<ul id="_ac082d0d-e350-1a79-f9a6-49c029d11679"><li><p id="_a7cd1301-4eb0-f8f9-b319-af3db49c28f7"><strong>virtual</strong>, as in the items in the experience is virtual</p>
+</li>
+<li><p id="_2a405de2-ce7d-cc86-9bc9-63d551b6319f"><strong>immersive</strong> where it is experienced through human computer interaction</p>
+</li>
+</ul>
+
+<p id="_f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</p>
+
+<ul id="_98b3fc84-e724-bfda-ba40-b3774fc8046e"><li><p id="_f4fdf12c-0cf5-b430-9491-97a4acb0239b"><strong>massively multi-user</strong> where there can be many simultaneous users</p>
+</li>
+<li><p id="_d3cdf52c-4e05-9020-b74a-e91a79c92ae4"><strong>interconnection</strong> of virtual world systems</p>
+</li>
+<li><p id="_b419aaa8-ccd7-1a14-1091-d98034f57ea1"><strong>interoperability</strong> between users across virtual world systems</p>
+</li>
+<li><p id="_e48910aa-1694-c074-af90-70be81fcb753"><strong>persistent</strong> where actions and events in the virtual world persists after a user leaves</p>
+</li>
+<li><p id="_d5f37f9b-ddf3-8e22-1f5a-d887975c6747"><strong>real-time</strong> where user actions are performed in real-time</p>
+</li>
+</ul>
+
+<p id="_6fc68c37-d075-4fed-4249-dc393eb15975">The resulting consensus arrived at this definition for “metaverse”:</p>
+
+<quote id="_782f837d-abea-76d3-1ded-e73df9afefd6"><p id="_7ad366af-22cb-5d54-4588-87e4f56f4b57">metaverse: virtual world experienced through immersive technologies</p>
+</quote>
+</clause>
+</clause>
+
+
+
+</sections><annex id="_319f344a-19d9-8b32-d043-7758b8dddc6b" obligation="" language="" script=""><definitions id="_abbreviated_terms" type="abbreviated_terms" obligation="normative">
+<title>Abbreviated terms</title>
+<dl id="_afda6cd4-a228-bad5-c41f-299c9e4866b7"><dt id="symbol-AGI">AGI<index><primary>AGI</primary></index></dt><dd><p id="_ce9b2021-5f0e-3fc1-3a50-3b11f23865ca">artificial general intelligence</p>
+</dd>
+<dt id="symbol-AI">AI<index><primary>AI</primary></index></dt><dd><p id="_fce535c4-ed9c-e0a5-9d85-5036250ddc4f">artificial intelligence</p>
+</dd>
+<dt id="symbol-API">API<index><primary>API</primary></index></dt><dd><p id="_558f103d-835d-cc53-fd83-c2ed5f7f5dfc">application programming interface</p>
+</dd>
+<dt id="symbol-AR">AR<index><primary>AR</primary></index></dt><dd><p id="_4007fe32-f468-990c-b541-1ae33c9a8f89">augmented reality</p>
+</dd>
+<dt id="symbol-DLT">DLT<index><primary>DLT</primary></index></dt><dd><p id="_2c3b75e8-1e58-f223-59f5-bc201e25eb0e">distributed ledger technology</p>
+</dd>
+<dt id="symbol-IoT">IoT<index><primary>IoT</primary></index></dt><dd><p id="_bcbcf199-8539-5626-77d3-b74d670a7fb3">Internet of Things</p>
+</dd>
+<dt id="symbol-ML">ML<index><primary>ML</primary></index></dt><dd><p id="_200fb589-12b6-e7b9-51f3-188b1fc49da2">machine learning</p>
+</dd>
+<dt id="symbol-OMF">OMF<index><primary>OMF</primary></index></dt><dd><p id="_efddcd10-128d-562f-688a-a6c3a6e55d7b">Open Modeling Foundation</p>
+</dd>
+<dt id="symbol-OWL">OWL<index><primary>OWL</primary></index></dt><dd><p id="_abf3b863-ffa3-4831-40de-1d578561cd86">Web Ontology Language</p>
+</dd>
+<dt id="symbol-RDF">RDF<index><primary>RDF</primary></index></dt><dd><p id="_2f03b6dc-9521-4c5b-bfee-8c11f4b67fdb">Resource Description Framework</p>
+</dd>
+<dt id="symbol-UDT">UDT<index><primary>UDT</primary></index></dt><dd><p id="_055b6b09-dca2-f2e9-1e41-9320b261cfb8">Urban Digital Twin</p>
+</dd>
+<dt id="symbol-VR">VR<index><primary>VR</primary></index></dt><dd><p id="_0ea1e505-e58d-f26a-7211-d5a8031423dd">virtual reality</p>
+</dd>
+<dt id="symbol-WoT">WoT<index><primary>WoT</primary></index></dt><dd><p id="_83e95635-ffd6-5b2a-e68b-f1682cee1387">Web of Things</p>
+</dd>
+<dt id="symbol-W3C">W3C<index><primary>W3C</primary></index></dt><dd><p id="_073a547c-abe7-f2b4-7303-2f5a003629d7">World Wide Web Consortium</p>
+</dd>
+<dt id="symbol-XR">XR<index><primary>XR</primary></index></dt><dd><p id="_fec166fd-8bfe-5e47-6511-ee455d047abc">collective reference to both AR and VR</p>
+</dd></dl>
+</definitions></annex><bibliography><references id="_normative_references" normative="true" obligation="informative">
+<title>Normative references</title><p id="_21971d30-bb88-56a2-0d5b-aca5e0104f76">There are no normative references in this document.</p>
+
+</references><references id="_bibliography" normative="false" obligation="informative">
+<title>Bibliography</title><bibitem id="ISO_IEC_17788_2014" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Cloud computing</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Overview and vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Cloud computing — Overview and vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/60544.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/05/60544.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 17788:2014</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 17788:2014(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:17788:stage-95.99</docidentifier>
+  <docnumber>17788</docnumber>
+  <date type="published">
+    <on>2014-10</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <note type="Unpublished-Status"><p id="_38af03d5-f990-fe07-c460-81b6ce9273cc">Cancelled and replaced by ISO/IEC 22123-1:2023.</p></note><language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 17788:2014 provides an overview of cloud computing along with a set of terms and definitions. It is a terminology foundation for cloud computing standards.
+ISO/IEC 17788:2014 is applicable to all types of organizations (e.g., commercial enterprises, government agencies, not-for-profit organizations).</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2014</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 22123-1:2023</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 22123-1:2023</docidentifier>
+      <date type="circulated">
+        <on>2023-09-22</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 22123-2:2023</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 22123-2:2023</docidentifier>
+      <date type="circulated">
+        <on>2023-09-22</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_IEC_18038_2020" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Computer graphics, image processing and environmental representation</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Sensor representation in mixed and augmented reality</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Computer graphics, image processing and environmental representation — Sensor representation in mixed and augmented reality</title>
+
+  <uri type="src">https://www.iso.org/standard/70720.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:70720:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/07/70720.detail.rss</uri>
+  <uri type="pub">https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 18038:2020</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 18038:2020(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:18038:stage-60.60</docidentifier>
+  <docnumber>18038</docnumber>
+  <date type="published">
+    <on>2020-04</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document defines the framework and information reference model for representing sensor-based 3D mixed-reality worlds. It defines concepts, an information model, architecture, system functions, and how to integrate 3D virtual worlds and physical sensors in order to provide mixed-reality applications with physical sensor interfaces. It defines an exchange format necessary for transferring and storing data between physical sensor-based mixed-reality applications.
+This document specifies the following functionalities:
+a)   representation of physical sensors in a 3D scene;
+b)   definition of physical sensors in a 3D scene;
+c)   representation of functionalities of each physical sensor in a 3D scene;
+d)   representation of physical properties of each physical sensor in a 3D scene;
+e)   management of physical sensors in a 3D scene;
+f)    interface with physical sensor information in a 3D scene.
+This document defines a reference model for physical sensor-based mixed-reality applications to represent and to exchange functions of physical sensors in 3D scenes. It does not define specific physical interfaces necessary for manipulating physical devices, but rather defines common functional interfaces that can be used interchangeably between applications.
+This document does not define how specific applications are implemented with specific physical sensor devices. It does not include computer generated sensor information using computer input/output devices such as a mouse or a keyboard. The sensors in this document represent physical sensor devices in the real world.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2020</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_IEC_18039_2019" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Computer graphics, image processing and environmental data representation</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Mixed and augmented reality (MAR) reference model</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Computer graphics, image processing and environmental data representation — Mixed and augmented reality (MAR) reference model</title>
+
+  <uri type="src">https://www.iso.org/standard/30824.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:30824:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/08/30824.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 18039:2019</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 18039:2019(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:18039:stage-90.93</docidentifier>
+  <docnumber>18039</docnumber>
+  <date type="published">
+    <on>2019-02</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document defines the scope and key concepts of mixed and augmented reality, the relevant terms and their definitions and a generalized system architecture that together serve as a reference model for mixed and augmented reality (MAR) applications, components, systems, services and specifications. This architectural reference model establishes the set of required sub-modules and their minimum functions, the associated information content and the information models to be provided and/or supported by a compliant MAR system.
+The reference model is intended for use by current and future developers of MAR applications, components, systems, services or specifications to describe, compare, contrast and communicate their architectural design and implementation. The MAR reference model is designed to apply to MAR systems independent of specific algorithms, implementation methods, computational platforms, display systems and sensors or devices used.
+This document does not specify how a particular MAR application, component, system, service or specification is designed, developed or implemented. It does not specify the bindings of those designs and concepts to programming languages or the encoding of MAR information through any coding technique or interchange format. This document contains a list of representative system classes and use cases with respect to the reference model.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_IEC_TR_18121_2015" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Learning, education and training</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Virtual experiment framework</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Learning, education and training — Virtual experiment framework</title>
+
+  <uri type="src">https://www.iso.org/standard/61511.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:61511:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/15/61511.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC TR 18121:2015</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC TR 18121:2015(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:tr:18121:stage-90.93</docidentifier>
+  <docnumber>18121</docnumber>
+  <date type="published">
+    <on>2015-12</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC TR 18121:2015 defines the framework for IT standards and specifications on virtual experiments supporting IT-enhanced learning, education and training. It is based on implementations of standards and specifications that are used to support virtual experiment, development, evaluation and management that rely on ITLET.
+This ISO/IEC TR 18121:2015
+-      provides a framework that can be used for virtual experiment systems that rely on ITLET,
+-      determines the categories of different virtual experiment standards and specifications and their relationships to facilitate their integration,
+-      promotes the appropriate design and application of virtual experiment components so that IT systems that are being used are reusable, low cost, and more broadly applicable,
+-      indicates considerations to be taken into account when developing ITLET systems that are being developed or used to support virtual experiment systems,
+-      provides sample architecture of a virtual experiment system framework that can be used to support further development of virtual experiments,
+-      illustrates various roles that different actors can have at various points within the virtual experiment system,
+-      demonstrates how standards and specifications that support virtual experiments can be combined to form the basis for future work and implementations.
+The following aspects are not addressed in this ISO/IEC TR 18121:2015:
+-      specifications of the implementation details of virtual experiment systems;
+-      accessibility;
+-      privacy;
+-      security.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2015</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_19775-1" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Computer graphics, image processing and environmental data representation</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Extensible 3D (X3D)</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Architecture and base components</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Computer graphics, image processing and environmental data representation — Extensible 3D (X3D) — Part 1: Architecture and base components</title>
+
+  <uri type="src">https://www.iso.org/standard/82562.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:82562:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/25/82562.detail.rss</uri>
+  <uri type="pub">https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 19775-1:2023</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 19775-1:2023(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:19775:-1:stage-60.60</docidentifier>
+  <docnumber>19775</docnumber>
+  <date type="published">
+    <on>2023-12</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>4</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 19775 Extensible 3D (X3D) defines a software system that integrates network-enabled 3D graphics and multimedia. Conceptually, each X3D application is a 3D time-based space that contains graphic and aural objects that can be dynamically modified through a variety of mechanisms. This document defines the architecture and base components of X3D.
+The semantics of X3D describe an abstract functional behaviour of time-based, interactive 3D, multimedia information. This document does not define physical devices or any other implementation-dependent concepts ( e.g., screen resolution and input devices). This document is intended for a wide variety of devices and applications, and provides wide latitude in interpretation and implementation of the functionality. For example, this document does not assume the existence of a mouse or 2D display device.
+Each X3D application:</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2023</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 19775-1:2013</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 19775-1:2013</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_22739_2024" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Blockchain and distributed ledger technologies</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Blockchain and distributed ledger technologies — Vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/82208.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:82208:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/22/82208.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 22739:2024</docidentifier>
+  <docidentifier type="iso-reference">ISO 22739:2024(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:22739:stage-60.60</docidentifier>
+  <docnumber>22739</docnumber>
+  <date type="published">
+    <on>2024-01</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document defines fundamental terminology for blockchain and distributed ledger technologies.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2024</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 22739:2020</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 22739:2020</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_IEC_23188_2020" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Cloud computing</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Edge computing landscape</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Cloud computing — Edge computing landscape</title>
+
+  <uri type="src">https://www.iso.org/standard/74846.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:74846:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/48/74846.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC TR 23188:2020</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC TR 23188:2020(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:tr:23188:stage-60.60</docidentifier>
+  <docnumber>23188</docnumber>
+  <date type="published">
+    <on>2020-02</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document examines the concept of edge computing, its relationship to cloud computing and IoT, and the technologies that are key to the implementation of edge computing. This document explores the following topics with respect to edge computing:
+—     concept of edge computing systems;
+—     architectural foundation of edge computing;
+—     edge computing terminology;
+—     software classifications in edge computing, e.g. firmware, services, applications;
+—     supporting technologies, e.g. containers, serverless computing, microservices;
+—     networking for edge systems, including virtual networks;
+—     data, e.g. data flow, data storage, data processing;
+—     management, of software, of data and of networks, resources, quality of service;
+—     virtual placement of software and data, and metadata;
+—     security and privacy;
+—     real time;
+—     mobile edge computing, mobile devices.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2020</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_TR_23843_2020" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology for learning, education and training</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Catalogue model for virtual, augmented and mixed reality content</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology for learning, education and training — Catalogue model for virtual, augmented and mixed reality content</title>
+
+  <uri type="src">https://www.iso.org/standard/77143.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:77143:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/71/77143.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC TR 23843:2020</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC TR 23843:2020(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:tr:23843:stage-60.60</docidentifier>
+  <docnumber>23843</docnumber>
+  <date type="published">
+    <on>2020-10</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document describes how to search for virtual reality (VR), augmented reality (AR) and mixed reality (MR) content through a curriculum catalogue based on curriculum and achievement standards information. The curriculum catalogue metadata is defined in order to search for educational VR and MR content information.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2020</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_24165-1_2021" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Digital token identifier (DTI)</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Registration, assignment and structure</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Method for registration and assignment</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Digital token identifier (DTI) — Registration, assignment and structure — Part 1: Method for registration and assignment</title>
+
+  <uri type="src">https://www.iso.org/standard/80601.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:80601:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/06/80601.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 24165-1:2021</docidentifier>
+  <docidentifier type="iso-reference">ISO 24165-1:2021(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:24165:-1:stage-90.92</docidentifier>
+  <docnumber>24165</docnumber>
+  <date type="published">
+    <on>2021-09</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document defines the assignment and generation of a random, unique, fixed-length identifier for digital tokens in response to a request for registration that conforms to specified application guidelines (see also ISO 24165-2).</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/DIS 24165-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/DIS 24165-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_27032-2012" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Security techniques</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Guidelines for cybersecurity</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Security techniques — Guidelines for cybersecurity</title>
+
+  <uri type="src">https://www.iso.org/standard/44375.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/43/44375.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 27032:2012</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 27032:2012(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:27032:stage-95.99</docidentifier>
+  <docnumber>27032</docnumber>
+  <date type="published">
+    <on>2012-07</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <note type="Unpublished-Status"><p id="_4799f7df-9682-25f3-f89c-41dd9a9d2b20">Cancelled and replaced by ISO/IEC 27032:2023.</p></note><language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 27032:2012 provides guidance for improving the state of Cybersecurity, drawing out the unique aspects of that activity and its dependencies on other security domains, in particular:
+- information security,
+- network security,
+- internet security, and
+- critical information infrastructure protection (CIIP).
+It covers the baseline security practices for stakeholders in the Cyberspace. This International Standard provides:
+- an overview of Cybersecurity,
+- an explanation of the relationship between Cybersecurity and other types of security,
+- a definition of stakeholders and a description of their roles in Cybersecurity,
+- guidance for addressing common Cybersecurity issues, and
+- a framework to enable stakeholders to collaborate on resolving Cybersecurity issues.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2012</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 27032:2023</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 27032:2023</docidentifier>
+      <date type="circulated">
+        <on>2023-06-28</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_IEC_IEEE_42010_2022" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Software, systems and enterprise</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Architecture description</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Software, systems and enterprise — Architecture description</title>
+
+  <uri type="src">https://www.iso.org/standard/74393.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:74393:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/43/74393.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC/IEEE 42010:2022</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC/IEEE 42010:2022(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec-ieee:42010:stage-60.60</docidentifier>
+  <docnumber>42010</docnumber>
+  <date type="published">
+    <on>2022-11</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Institute of Electrical and Electronics Engineers</name>
+
+      <abbreviation>IEEE</abbreviation>
+      <uri>www.ieee.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document specifies requirements for the structure and expression of an architecture description (AD) for various entities, including software, systems, enterprises, systems of systems, families of systems, products (goods or services), product lines, service lines, technologies and business domains.
+This document distinguishes the architecture of an entity of interest from an AD expressing that architecture. Architectures are not the subject of this document.
+This document specifies requirements for use of the architectural concepts and their relationships as captured in an AD. It does not specify requirements for any entity of interest or its environment.
+This document specifies requirements for an architecture description framework (ADF), an architecture description language (ADL), architecture viewpoints and model kinds in order to usefully support the development and use of an AD.
+This document specifies conformance to the requirements for an AD, ADF, ADL, architecture viewpoint and model kind.
+This document does not specify the processes, architecting methods, models, notations, techniques or tools by which an AD is created, utilized or managed.
+This document does not specify any format or media for recording an AD.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2022</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC/IEEE</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC/IEEE 42010:2011</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC/IEEE 42010:2011</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ITU-FGMV-O-235" type="standard">
+  <formattedref format="application/x-isodoc+xml">ITU-T 
+ITU FGMV-O-235.
+Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
+ 
+2024.</formattedref>
+  <title>Draft Technical Specification ITU FGMV — Vocabulary for metaverse</title>
+  <docidentifier>ITU FGMV-O-235</docidentifier>
+  <docidentifier type="metanorma">[12]</docidentifier>
+  <date type="published">
+  <on>2024</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <organization>
+    <name>ITU-T</name>
+  </organization>
+</contributor>
+</bibitem><bibitem id="IEEE_2413_2019" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="main" format="text/plain">IEEE Standard for an Architectural Framework for the Internet of Things (IoT)</title>
+
+  <uri type="src">https://ieeexplore.ieee.org/document/9032420</uri>
+  <docidentifier type="IEEE" primary="true">IEEE 2413-2019</docidentifier>
+  <docidentifier type="IEEE" scope="trademark" primary="true">IEEE 2413™-2019</docidentifier>
+  <docidentifier type="ISBN">978-1-5044-5886-3</docidentifier>
+  <docidentifier type="DOI">10.1109/IEEESTD.2020.9032420</docidentifier>
+  <docnumber>IEEE 2413-2019</docnumber>
+  <date type="updated">
+    <on>2020-05-01</on>
+  </date>
+  <date type="created">
+    <on>2020</on>
+  </date>
+  <date type="published">
+    <on>2020-03-11</on>
+  </date>
+  <date type="issued">
+    <on>2019-05-21</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Institute of Electrical and Electronics Engineers</name>
+
+      <abbreviation>IEEE</abbreviation>
+      <uri>http://www.ieee.org</uri>
+      <address>
+        <city>New York</city>
+        <country>USA</country>
+      </address>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">An architecture framework description for the Internet of Things (IoT) which conforms to the international standard ISO/IEC/IEEE 42010:2011 is defined. The architecture framework description is motivated by concerns commonly shared by IoT system stakeholders across multiple domains (transportation, healthcare, Smart Grid, etc.). A conceptual basis for the notion of things in the IoT is provided and the shared concerns as a collection of architecture viewpoints is elaborated to form the body of the framework description.</abstract>
+  <status>
+    <stage>approved</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        
+<name>Institute of Electrical and Electronics Engineers</name>
+
+        <abbreviation>IEEE</abbreviation>
+        <uri>http://www.ieee.org</uri>
+      </organization>
+    </owner>
+  </copyright>
+  <keyword>IEEE Standards</keyword>
+  <keyword>Computer architecture</keyword>
+  <keyword>Internet of Things</keyword>
+  <keyword>architectural framework</keyword>
+  <keyword>IEEE 2413</keyword>
+  <keyword>Internet of Things (IoT)</keyword>
+</bibitem><bibitem id="IEEE_7010_2020" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="main" format="text/plain">IEEE Recommended Practice for Assessing the Impact of Autonomous and Intelligent Systems on Human Well-Being</title>
+
+  <uri type="src">https://ieeexplore.ieee.org/document/9084219</uri>
+  <docidentifier type="IEEE" primary="true">IEEE 7010-2020</docidentifier>
+  <docidentifier type="IEEE" scope="trademark" primary="true">IEEE 7010™-2020</docidentifier>
+  <docidentifier type="ISBN">978-1-5044-6498-7</docidentifier>
+  <docidentifier type="DOI">10.1109/IEEESTD.2020.9084219</docidentifier>
+  <docnumber>IEEE 7010-2020</docnumber>
+  <date type="created">
+    <on>2020-05-01</on>
+  </date>
+  <date type="published">
+    <on>2020-05-01</on>
+  </date>
+  <date type="issued">
+    <on>2020-03-05</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Institute of Electrical and Electronics Engineers</name>
+
+      <abbreviation>IEEE</abbreviation>
+      <uri>http://www.ieee.org</uri>
+      <address>
+        <city>New York</city>
+        <country>USA</country>
+      </address>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">The impact of artificial intelligence or autonomous and intelligent systems (A/IS) on humans is measured by this standard. The positive outcome of A/IS on human well-being is the overall intent of this standard. Scientifically valid well-being indices currently in use and based on a stakeholder engagement process ground this standard. Product development guidance, identification of areas for improvement, risk management, performance assessment, and the identification of intended and unintended users, uses and impacts on human well-being of A/IS are the intents of this standard.</abstract>
+  <status>
+    <stage>approved</stage>
+  </status>
+  <copyright>
+    <from>2020</from>
+    <owner>
+      <organization>
+        
+<name>Institute of Electrical and Electronics Engineers</name>
+
+        <abbreviation>IEEE</abbreviation>
+        <uri>http://www.ieee.org</uri>
+      </organization>
+    </owner>
+  </copyright>
+  <keyword>IEEE Standards</keyword>
+  <keyword>Human factors</keyword>
+  <keyword>Autonomous systems</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <keyword>Intelligent systems</keyword>
+  <keyword>Biomedical measurements</keyword>
+  <keyword>Psychology</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>autonomous and intelligent system</keyword>
+  <keyword>IEEE 7010</keyword>
+  <keyword>well-being indicators</keyword>
+  <keyword>well-being metrics</keyword>
+</bibitem><bibitem id="ITU-T_F_791" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Accessibility terms and definitions</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Accessibility terms and definitions</title>
+
+  <uri type="src">https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=13661&amp;lang=en</uri>
+  <uri type="obp">https://www.itu.int/rec/dologin_pub.asp?lang=e&amp;id=T-REC-F.791-201808-I!!PDF-E&amp;type=items</uri>
+  <docidentifier type="ITU" primary="true">ITU-T F.791 (08/2018)</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Telecommunication Union</name>
+
+      <abbreviation>ITU</abbreviation>
+      <uri>www.itu.int</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>Published</stage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>International Telecommunication Union</name>
+
+        <abbreviation>ITU</abbreviation>
+        <uri>www.itu.int</uri>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">F Suppl. 1 (11/1988)</formattedref>
+      <docidentifier type="ITU">F Suppl. 1 (11/1988)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">F Suppl. 2 (11/1988)</formattedref>
+      <docidentifier type="ITU">F Suppl. 2 (11/1988)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">F Suppl. 3 (09/2016)</formattedref>
+      <docidentifier type="ITU">F Suppl. 3 (09/2016)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">F Suppl. 4 (04/2021)</formattedref>
+      <docidentifier type="ITU">F Suppl. 4 (04/2021)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem type="standard">
+      <fetched>2024-09-05</fetched>
+      
+<title type="title-main" format="text/plain" language="en" script="Latn">Accessibility terms and definitions</title>
+
+      
+<title type="main" format="text/plain" language="en" script="Latn">Accessibility terms and definitions</title>
+
+      <uri type="src">https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=13661&amp;lang=en</uri>
+      <uri type="obp">https://www.itu.int/rec/dologin_pub.asp?lang=e&amp;id=T-REC-F.791-201808-I!!PDF-E&amp;type=items</uri>
+      <docidentifier type="ITU" primary="true">ITU-T F.791 (08/2018)</docidentifier>
+      <date type="published">
+        <on>2018-08-29</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          
+<name>International Telecommunication Union</name>
+
+          <abbreviation>ITU</abbreviation>
+          <uri>www.itu.int</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">Recommendation ITU-T F.791 defines terms describing accessibility, disability and technical vocabulary to be used for improving the drafting of standards, and to facilitate accurately the needs and the mainstreaming of accessibility in standards that will include persons with disabilities (PWDs), older persons with age-related disabilities and persons with specific needs. WTDCRes.58, WTDCAD and Recommendation ITU-T F.790 provide additional background informationWith the passage of the United Nations Convention on the Rights of Persons with Disabilities [b‑UNCRPD] in 2006, and its ratification by numerous countries, many new terms and definitions were created, some of which at the behest of PWDs themselves, to eradicate terms that were demeaning, insulting and inaccurate.Standards writers are able to mainstream accessibility features into standards, as well as to write specific standards for accessibility. To design products and services successfully, there needs to be a common language. Recommendation ITU-T F.791 gives definitions to make it easier for industries to implement these accessibility features and accessibility standards by establishing a common language and vocabulary. It is also important that governments, government agencies, non-government organizations (NGOs), the UN and its respective agencies be “normalized” in mainstream everyday language.Article 9 of [b-UNCRPD] makes clear the need to include PWDs, older persons with age-related disabilities and persons with specific needs by mainstreaming them into all aspects of modern life. This can only be done by including PWDs in the design of modern technology and information and communication technologies (ICTs) using universal design as defined in [b-UNCRPD] and using a common language and vocabulary.This edition updates some of the definitions based on feedback received from the user community.</abstract>
+      <status>
+        <stage>Published</stage>
+      </status>
+      <copyright>
+        <from>2018</from>
+        <owner>
+          <organization>
+            
+<name>International Telecommunication Union</name>
+
+            <abbreviation>ITU</abbreviation>
+            <uri>www.itu.int</uri>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">F Suppl. 1 (11/1988)</formattedref>
+          <docidentifier type="ITU">F Suppl. 1 (11/1988)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">F Suppl. 2 (11/1988)</formattedref>
+          <docidentifier type="ITU">F Suppl. 2 (11/1988)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">F Suppl. 3 (09/2016)</formattedref>
+          <docidentifier type="ITU">F Suppl. 3 (09/2016)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">F Suppl. 4 (04/2021)</formattedref>
+          <docidentifier type="ITU">F Suppl. 4 (04/2021)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <place>Geneva</place>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ITU-T-Y_4600" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Requirements and capabilities of a digital twin system for smart cities</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Requirements and capabilities of a digital twin system for smart cities</title>
+
+  <uri type="src">https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=15073&amp;lang=en</uri>
+  <uri type="obp">https://www.itu.int/rec/dologin_pub.asp?lang=e&amp;id=T-REC-Y.4600-202208-I!!PDF-E&amp;type=items</uri>
+  <docidentifier type="ITU" primary="true">ITU-T Y.4600 (08/2022)</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Telecommunication Union</name>
+
+      <abbreviation>ITU</abbreviation>
+      <uri>www.itu.int</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>Published</stage>
+  </status>
+  <copyright>
+    <from>2022</from>
+    <owner>
+      <organization>
+        
+<name>International Telecommunication Union</name>
+
+        <abbreviation>ITU</abbreviation>
+        <uri>www.itu.int</uri>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 32 (07/2020)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 32 (07/2020)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 33 (07/2020)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 33 (07/2020)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 34 (07/2020)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 34 (07/2020)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 36 (10/2015)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 36 (10/2015)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 45 (09/2017)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 45 (09/2017)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 52 (12/2018)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 52 (12/2018)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 53 (12/2018)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 53 (12/2018)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 54 (04/2019)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 54 (04/2019)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 56 (12/2019)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 56 (12/2019)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 58 (05/2021)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 58 (05/2021)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 62 (07/2020)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 62 (07/2020)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 63 (07/2020)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 63 (07/2020)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 68 (05/2021)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 68 (05/2021)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 69 (05/2021)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 69 (05/2021)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 73 (02/2023)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 73 (02/2023)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 76 (09/2023)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 76 (09/2023)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 82 (07/2024)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 82 (07/2024)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="complementOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 83 (07/2024)</formattedref>
+      <docidentifier type="ITU">Y Suppl. 83 (07/2024)</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem type="standard">
+      <fetched>2024-09-05</fetched>
+      
+<title type="title-main" format="text/plain" language="en" script="Latn">Requirements and capabilities of a digital twin system for smart cities</title>
+
+      
+<title type="main" format="text/plain" language="en" script="Latn">Requirements and capabilities of a digital twin system for smart cities</title>
+
+      <uri type="src">https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=15073&amp;lang=en</uri>
+      <uri type="obp">https://www.itu.int/rec/dologin_pub.asp?lang=e&amp;id=T-REC-Y.4600-202208-I!!PDF-E&amp;type=items</uri>
+      <docidentifier type="ITU" primary="true">ITU-T Y.4600 (08/2022)</docidentifier>
+      <date type="published">
+        <on>2022-08-29</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          
+<name>International Telecommunication Union</name>
+
+          <abbreviation>ITU</abbreviation>
+          <uri>www.itu.int</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">Recommendation ITU-T Y.4600 identifies requirements and capabilities of a smart city digital twin system which may be used to analyse use cases and case studies, develop strategies and identify optimal parameters to achieve a specific goal of a city by conducting simulations on a digital replica of the city (virtual cities).A digital twin is a digital representation of an object of interest and may require different capabilities according to the specific domain of application, such as synchronization between a physical thing and its digital representation, and real-time support.A smart city digital twin can be defined as a digital twin for a smart city that can be used to develop strategies to achieve specific goals for a smart city by conducting simulations and to increase visibility of human-infrastructure-strategy interactions.A smart city digital twin allows the simulation of plans before implementing them, exposing problems before they become a reality. In other words, it is possible to conduct simulations on a digital replica of the city (virtual cities) before actually implementing the strategy on the real city.In this way, it is also possible to find the best strategies to achieve a specific goal or strategies that have similar effects while minimizing budget and resource usage. Therefore, a smart city digital twin is a tool for improving urban operations, efficiencies and resilience of a city.</abstract>
+      <status>
+        <stage>Published</stage>
+      </status>
+      <copyright>
+        <from>2022</from>
+        <owner>
+          <organization>
+            
+<name>International Telecommunication Union</name>
+
+            <abbreviation>ITU</abbreviation>
+            <uri>www.itu.int</uri>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 32 (07/2020)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 32 (07/2020)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 33 (07/2020)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 33 (07/2020)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 34 (07/2020)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 34 (07/2020)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 36 (10/2015)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 36 (10/2015)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 45 (09/2017)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 45 (09/2017)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 52 (12/2018)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 52 (12/2018)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 53 (12/2018)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 53 (12/2018)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 54 (04/2019)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 54 (04/2019)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 56 (12/2019)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 56 (12/2019)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 58 (05/2021)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 58 (05/2021)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 62 (07/2020)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 62 (07/2020)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 63 (07/2020)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 63 (07/2020)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 68 (05/2021)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 68 (05/2021)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 69 (05/2021)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 69 (05/2021)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 73 (02/2023)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 73 (02/2023)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 76 (09/2023)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 76 (09/2023)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 82 (07/2024)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 82 (07/2024)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <relation type="complementOf">
+        <bibitem type="standard">
+          <formattedref format="text/plain" language="en" script="Latn">Y Suppl. 83 (07/2024)</formattedref>
+          <docidentifier type="ITU">Y Suppl. 83 (07/2024)</docidentifier>
+        </bibitem>
+
+      </relation>
+      <place>Geneva</place>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="w3c_did" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title format="text/plain">Decentralized Identifiers (DIDs) v1.0</title>
+
+  <uri type="src">https://www.w3.org/TR/did-core/</uri>
+  <docidentifier type="W3C" primary="true">W3C did-core</docidentifier>
+  <docnumber>did-core</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>World Wide Web Consortium</name>
+
+      <abbreviation>W3C</abbreviation>
+      <uri>https://www.w3.org/</uri>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>Recommendation</stage>
+  </status>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C REC-did-core-20220719</formattedref>
+      <docidentifier type="W3C" primary="true">W3C REC-did-core-20220719</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C PR-did-core-20210803</formattedref>
+      <docidentifier type="W3C" primary="true">W3C PR-did-core-20210803</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201227</formattedref>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201227</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20191209</formattedref>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20191209</docidentifier>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain">W3C REC</title>
+
+    <number>did-core</number>
+  </series>
+</bibitem><bibitem id="w3c_did_spec_registries" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title format="text/plain">Decentralized Identifier Extensions</title>
+
+  <uri type="src">https://www.w3.org/TR/did-spec-registries/</uri>
+  <docidentifier type="W3C" primary="true">W3C did-spec-registries</docidentifier>
+  <docnumber>did-spec-registries</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>World Wide Web Consortium</name>
+
+      <abbreviation>W3C</abbreviation>
+      <uri>https://www.w3.org/</uri>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20240831</formattedref>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20240831</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20211102</formattedref>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20211102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201221</formattedref>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201221</docidentifier>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain">W3C NOTE</title>
+
+    <number>did-spec-registries</number>
+  </series>
+</bibitem><bibitem id="w3c_wot" type="standard" schema-version="v1.2.9">
+  <fetched>2024-09-05</fetched>
+  
+<title format="text/plain">Web of Things (WoT) Architecture</title>
+
+  <uri type="src">https://www.w3.org/TR/wot-architecture/</uri>
+  <docidentifier type="W3C" primary="true">W3C wot-architecture</docidentifier>
+  <docnumber>wot-architecture</docnumber>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>World Wide Web Consortium</name>
+
+      <abbreviation>W3C</abbreviation>
+      <uri>https://www.w3.org/</uri>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>Candidate Recommendation</stage>
+  </status>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C CR-wot-architecture-20191106</formattedref>
+      <docidentifier type="W3C" primary="true">W3C CR-wot-architecture-20191106</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-wot-architecture-20170914</formattedref>
+      <docidentifier type="W3C" primary="true">W3C WD-wot-architecture-20170914</docidentifier>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain">W3C CR</title>
+
+    <number>wot-architecture</number>
+  </series>
+</bibitem><bibitem id="ISO-IEC_JTC-1_metaverse" type="webresource">
+  <formattedref format="application/x-isodoc+xml">ISO/IEC JTC 1 
+JTC 1 Standards and Standardization for the Metaverse.
+ 
+2023.
+Available at: <link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/"/></formattedref>
+  <title>JTC 1 Standards and Standardization for the Metaverse</title>
+  <uri>https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</uri>
+  <docidentifier type="metanorma">[20]</docidentifier>
+  <date type="published">
+  <on>2023</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <organization>
+    <name>ISO/IEC JTC 1</name>
+  </organization>
+</contributor>
+</bibitem><bibitem id="Rosenberg" type="webresource">
+  <formattedref format="application/x-isodoc+xml">Rosenberg, L. 
+ 
+Metaverse 101: defining the key components.
+2022.
+VentureBeat 
+Available at: <link target="https://venturebeat.com/business/metaverse-101-defining-the-key-components/"/></formattedref>
+  <title>Metaverse 101: defining the key components</title>
+  <uri>https://venturebeat.com/business/metaverse-101-defining-the-key-components/</uri>
+  <docidentifier type="metanorma">[21]</docidentifier>
+  <date type="published">
+  <on>2022</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>  <formatted-initials>L.</formatted-initials>  <surname>Rosenberg</surname> </name>
+  </person>
+</contributor>
+  <contributor>
+  <role type="publisher"/>
+  <organization>
+    <name>VentureBeat</name>
+  </organization>
+</contributor>
+</bibitem><bibitem id="Stothard" type="book">
+  <formattedref format="application/x-isodoc+xml">Stothard, P. 
+Ryan, P. 
+Kurata, T. 
+ 
+Mining Metaverse Taxonomy (NOT YET PUBLISHED).
+2024.</formattedref>
+  <title>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</title>
+  <docidentifier type="metanorma">[22]</docidentifier>
+  <date type="published">
+  <on>2024</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>  <formatted-initials>P.</formatted-initials>  <surname>Stothard</surname> </name>
+  </person>
+</contributor>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>  <formatted-initials>P.</formatted-initials>  <surname>Ryan</surname> </name>
+  </person>
+</contributor>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>  <formatted-initials>T.</formatted-initials>  <surname>Kurata</surname> </name>
+  </person>
+</contributor>
+</bibitem><bibitem id="snow_crash" schema-version="v1.2.9">
+  
+<title type="main" format="text/plain">Snow crash</title>
+
+  <uri type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri>
+  <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[23]</docidentifier>
+  <date type="published">
+    <on>1993</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>  <completename>Neal Stephenson</completename> </name>
+
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Bantam Books</name>
+
+    </organization>
+  </contributor>
+  <place>
+    <city>New York</city>
+  </place>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</iso-standard>

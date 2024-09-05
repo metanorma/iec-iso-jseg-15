@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><standard xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tbx="urn:iso:std:iso:30042:ed-1" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<front>
+<std-meta>
+<title-wrap xml:lang="en">
+<intro>Metaverse Workstream 1</intro>
+<main>Final report</main>
+<full>Metaverse Workstream 1 — Final report</full>
+</title-wrap>
+<title-wrap xml:lang="fr">
+<intro>Metaverse Workstream 1</intro>
+<main>Rapport final</main>
+<full>Metaverse Workstream 1 — Rapport final</full>
+</title-wrap>
+<proj-id>IEC/ISO 2</proj-id>
+<release-version/>
+<std-ident>
+<originator>IEC/ISO</originator>
+<doc-type>committee-document</doc-type>
+<doc-number>2</doc-number>
+<edition>0.2</edition>
+<version>2024-08-21</version>
+<std-id-group>
+<std-id std-id-type="dated" std-id-link-type="urn" originator="IEC">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</std-id>
+</std-id-group>
+</std-ident>
+<std-org>
+<std-org-abbrev>IEC/ISO</std-org-abbrev>
+</std-org>
+<content-language>en</content-language>
+<std-ref type="dated">IEC/ISO JSEG 15/WS 1 N2:2024</std-ref>
+<std-ref type="undated">IEC/ISO JSEG 15/WS 1 N2</std-ref>
+<doc-ref>IEC/ISO JSEG 15/WS 1 N2(E)</doc-ref>
+<comm-ref>IEC/ISO/JSEG 15/WS 1</comm-ref>
+<secretariat>IEC/CO</secretariat>
+<permissions>
+<copyright-statement>All rights reserved</copyright-statement>
+<copyright-year>2024</copyright-year>
+<copyright-holder>IEC/ISO</copyright-holder>
+</permissions>
+<custom-meta-group>
+<custom-meta>
+<meta-name>stage</meta-name>
+<meta-value>60</meta-value>
+</custom-meta>
+<custom-meta>
+<meta-name>substage</meta-name>
+<meta-value>60</meta-value>
+</custom-meta>
+<custom-meta>
+<meta-name>TOC Heading Level</meta-name>
+<meta-value>2</meta-value>
+</custom-meta>
+</custom-meta-group>
+</std-meta>
+<sec id="sec_foreword" sec-type="foreword">
+<title>Foreword</title>
+
+<p>ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
+
+<p>The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <ext-link xlink:href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</ext-link>)</p>
+
+<p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <ext-link xlink:href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</ext-link>) or the IEC list of patent declarations received (see <uri>https://patents.iec.ch</uri>).</p>
+
+<p>Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p>For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <ext-link xlink:href="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</ext-link>. In the IEC, see <ext-link xlink:href="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</ext-link>.</p>
+
+<p>This document was prepared by ISO/IEC JSEG 15, <italic>Metaverse</italic>.</p>
+
+<p>Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <ext-link xlink:href="https://www.iso.org/members.html">www.iso.org/members.html</ext-link> and <ext-link xlink:href="https://www.iec.ch/national-committees">www.iec.ch/national-committees</ext-link>.</p>
+</sec>
+<sec id="sec_intro" sec-type="intro">
+<title>Introduction</title>
+
+<p>This document is the final report of IEC/ISO JSEG 15/WS 1, <italic>Metaverse — Vocabulary</italic>.</p>
+
+<p>This document provides recommendations of WS 1.</p>
+</sec>
+</front>
+<body>
+<sec id="sec_scope" sec-type="scope">
+<label>1</label>
+<title>Scope</title>
+
+<p>This document provides recommendations by IEC/ISO JSEG 15/WS 1, <italic>Metaverse — Vocabulary</italic>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
+</sec>
+<sec id="sec_2" sec-type="norm-refs">
+<label>2</label>
+<title>Normative references</title>
+<p>There are no normative references in this document.</p>
+
+</sec>
+<sec id="sec_3" sec-type="terms">
+<label>3</label>
+<title>Terms and definitions</title>
+<p>No terms and definitions are listed in this document.</p>
+<p>ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>ISO Online browsing platform: available at <uri>https://www.iso.org/obp</uri>
+</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>IEC Electropedia: available at <uri>https://www.electropedia.org</uri>
+</p>
+</list-item>
+</list>
+
+</sec>
+<sec id="sec_4">
+<label>4</label>
+<title>Work organization</title>
+
+<sec id="sec_4.1">
+<label>4.1</label>
+<title>Background</title>
+
+<p>IEC/IEC JSEG 15/WS 1 was established in 2023 to provide standardized terminology for IEC/ISO TCs in referencing concepts, terms and definitions relating to the Metaverse.</p>
+</sec>
+
+<sec id="sec_4.2">
+<label>4.2</label>
+<title>Deliverables</title>
+
+<p>IEC/IEC JSEG 15/WS 1 is tasked to develop the following deliverables:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>Set of concepts, terms and definitions, and their relationships</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Definition of the “Metaverse”</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Final report of WS 1 to provide recommendations to IEC/ISO</p>
+</list-item>
+</list>
+</sec>
+</sec>
+<sec id="sec_5">
+<label>5</label>
+<title>Deliverable: definition of the “Metaverse”</title>
+
+<sec id="sec_5.1">
+<label>5.1</label>
+<title>General</title>
+
+<p>The definition of a “metaverse” has long been subject of controversy.</p>
+</sec>
+
+<sec id="sec_5.2">
+<label>5.2</label>
+<title>Approach</title>
+
+<p>In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+</sec>
+
+<sec id="sec_5.3">
+<label>5.3</label>
+<title>Background</title>
+
+<p>The word “metaverse” originated from the science fiction <italic>Snow Crash</italic> written by Neal Stephenson in 1992 <std type="undated" std-id="ISBN 9780553562613">
+<std-ref>[4]</std-ref>
+</std>.</p>
+
+<p>In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+
+<p>The group has considered a few popular definitions of the “metaverse”, including:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>From <std type="undated" std-id="ISO-IEC_JTC-1_metaverse">
+<std-ref>[1]</std-ref>
+</std>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>From <std type="undated" std-id="Rosenberg">
+<std-ref>[2]</std-ref>
+</std>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>From <std type="undated" std-id="Stothard">
+<std-ref>[3]</std-ref>
+</std>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+</list-item>
+</list>
+</sec>
+
+<sec id="sec_5.4">
+<label>5.4</label>
+<title>Considerations</title>
+
+<p>WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+
+<p>Essential characteristics of the “metaverse” include:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>
+<bold>virtual</bold>, as in the items in the experience is virtual</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>immersive</bold> where it is experienced through human computer interaction</p>
+</list-item>
+</list>
+
+<p>Common characteristics expected by popular culture include:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>
+<bold>massively multi-user</bold> where there can be many simultaneous users</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>interconnection</bold> of virtual world systems</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>interoperability</bold> between users across virtual world systems</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>persistent</bold> where actions and events in the virtual world persists after a user leaves</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>
+<bold>real-time</bold> where user actions are performed in real-time</p>
+</list-item>
+</list>
+
+<p>The resulting consensus arrived at this definition for “metaverse”:</p>
+
+<disp-quote id="_782f837d-abea-76d3-1ded-e73df9afefd6">
+<p>metaverse: virtual world experienced through immersive technologies</p>
+</disp-quote>
+</sec>
+</sec>
+<sec id="sec_6">
+<label>6</label>
+<title>Deliverable: Metaverse terminology</title>
+
+<sec id="sec_6.1">
+<label>6.1</label>
+<title>Purpose</title>
+
+<p>This deliverable aims to provide a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</p>
+
+<p>Questions to be addressed:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>What is a Metaverse or is there only THE metaverse (like THE Internet)?</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Does the Metaverse require human interaction?</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Is there an agreed or proposed definition /definitions?</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>What shall it include? What does it not include?</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Is a digital twin a “metaverse” if not why not? Or when is it not?</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>What is the minimum set to be classed as a metaverse?</p>
+</list-item>
+</list>
+</sec>
+
+<sec id="sec_6.2">
+<label>6.2</label>
+<title>Methodology</title>
+
+<p>IEC/IEC JSEG 15/WS 1 used the following methodology in developing the vocabulary:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>Survey existing terminology</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Reference / import over new creation unless necessary</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Decide on terms and domains to import</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Fill out data: definition, designations, languages, examples, notes</p>
+</list-item>
+</list>
+</sec>
+
+<sec id="sec_6.3">
+<label>6.3</label>
+<title>Sources investigated</title>
+
+<p>The sources that are investigated include:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>Metaverse Standards Forum glossary (<uri>https://glossary.metaverse-standards.org/</uri>)</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Open Metaverse Foundation glossary (<uri>https://www.openmv.org/glossary/</uri>)</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>IEEE P2874 Spatial Web</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>ISO/IEC JTC 1/SC 24 “Metaverse Vocabulary”</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>IEC/ISO/JSEG 15/WS 2 “Market and applications report”</p>
+</list-item>
+</list>
+</sec>
+
+<sec id="sec_6.4">
+<label>6.4</label>
+<title>Results</title>
+
+<p>The group has developed a set of terms and definitions for the Metaverse ecosystem. The terms are organized in the following categories:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>Metaverse core concepts</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Metaverse use cases</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>XR concepts</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Extended metaverse concepts</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>Governance</p>
+</list-item>
+</list>
+
+<p>The terms and definitions are provided in a separate document.</p>
+</sec>
+</sec>
+<sec id="sec_7">
+<label>7</label>
+<title>Recommendations</title>
+
+<sec id="sec_7.1">
+<label>7.1</label>
+<title>General</title>
+
+<p>The group recommends the following:</p>
+
+<list list-type="dash">
+<list-item>
+<label>—</label>
+<p>The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications</p>
+</list-item>
+<list-item>
+<label>—</label>
+<p>The Metaverse terminology provided should be adopted by IEC/ISO TCs</p>
+</list-item>
+</list>
+</sec>
+</sec>
+</body>
+<back>
+<ref-list content-type="bibl" id="sec_bibl">
+<title>Bibliography</title>
+<ref content-type="webresource" id="biblref_1">
+<label>[1]</label>
+<mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<collab>ISO/IEC JTC 1</collab>
+</person-group>
+<year>2023</year>, <italic>JTC 1 Standards and Standardization for the Metaverse</italic>
+</mixed-citation>
+</ref>
+<ref content-type="webresource" id="biblref_2">
+<label>[2]</label>
+<mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Rosenberg</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<year>2022</year>, <italic>Metaverse 101: defining the key components</italic>. <publisher-name>VentureBeat</publisher-name>
+</mixed-citation>
+</ref>
+<ref content-type="book" id="biblref_3">
+<label>[3]</label>
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Stothard</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Ryan</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Kurata</surname>
+<given-names>T.</given-names>
+</name>
+</person-group>
+<year>2024</year>, <italic>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</italic>
+</mixed-citation>
+</ref>
+<ref id="biblref_4">
+<label>[4]</label>
+<mixed-citation>, <italic>Snow crash</italic>
+<uri content-type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri>
+<year>1993</year>
+<person-group person-group-type="author">
+<string-name>Neal Stephenson</string-name>
+</person-group>
+<publisher-name>Bantam Books</publisher-name>
+<publisher-loc>
+    <city>New York</city>
+  </publisher-loc>
+</mixed-citation>
+</ref>
+
+
+
+
+</ref-list>
+</back>
+</standard>

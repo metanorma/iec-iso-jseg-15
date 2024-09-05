@@ -1,0 +1,1829 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Cambria",serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none; }
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cambria",serif; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Cambria",serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Cambria",serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef + a.TableFootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before; }
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after; }
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em; }
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all; }
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%; }
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none; }
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none; }
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400; }
+
+a.anchor::before {
+  content: "\00A7";
+  font-size: .85em;
+  display: block;
+  padding-top: .1em; }
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none; }
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible; }
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 12px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active, .collapsible:hover {
+  background-color: #555; }
+
+.collapsible:after {
+  content: '\25bc';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px; }
+
+.active:after {
+  content: "\25b2"; }
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0; }
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff; }
+  body main {
+    margin: 0 3em 0 6em; }
+  body main {
+    margin: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.3; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none; }
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em; }
+
+main {
+  padding-left: 4em;
+  padding-right: 2em; }
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em; }
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em; }
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left; }
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em; }
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em; }
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic; }
+
+.doctitle-part {
+  margin-top: 1em; }
+
+span.title, span.subtitle, span.part {
+  font-weight: 800; }
+
+span.partlabel {
+  display: block; }
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em; }
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em; }
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2; }
+
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em; }
+
+p.zzSTDTitle2 {
+  font-size: 1.5em; }
+
+span.obligation {
+  font-weight: 400; }
+
+a {
+  color: black;
+  text-decoration-color: black; }
+
+h2 p, .h2 p {
+  display: inline; }
+
+ul > li {
+  list-style: none; }
+
+ul > li > p:first-child::before {
+  content: "\2014";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em; }
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2; }
+
+p.AltTerms {
+  margin-bottom: 0; }
+
+p.Terms {
+  margin-top: 0em; }
+
+/* Navigation*/
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Cambria",serif;
+  font-weight: 400; }
+  #toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+      padding: 5px 10px; }
+    #toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+        box-shadow: none;
+        color: black; }
+  #toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+    padding-left: 30px; }
+  #toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+    padding-left: 50px; }
+  #toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+    padding-left: 70px; }
+  #toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+    padding-left: 90px; }
+  #toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+    padding-left: 110px; }
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: #f7f7f7;
+    box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important; }
+    #toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; }
+  @media print {
+    #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active,
+  #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+  #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    box-shadow: 0px 1px 0px 0px black !important;
+    background: none; }
+  #toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+    content: " ";
+    display: none; }
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%; }
+
+nav {
+  line-height: 1.2em; }
+  @media screen and (min-width: 768px) {
+    nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 278px;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0 0 0 20px;
+      background-color: #f7f7f7; } }
+  @media print {
+    nav {
+      position: relative;
+      width: auto;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0;
+      margin-right: 0;
+      background-color: white; } }
+#toggle {
+  border-right: solid black 1px;
+  margin-left: -4em;
+  margin-top: -2em; }
+  @media screen and (min-width: 768px) {
+    #toggle {
+      position: fixed;
+      height: 100%;
+      width: 30px;
+      background-color: #f7f7f7;
+      color: black !important;
+      cursor: pointer;
+      z-index: 100; }
+      #toggle span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%); } }
+  @media screen and (max-width: 768px) {
+    #toggle {
+      display: none; } }
+  @media print {
+    #toggle {
+      display: none; } }
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em; }
+  main {
+    padding: 0; }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%; } }
+
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img, div.figure > svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+table div.figure {
+  padding: 0;
+  margin: 0; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl; }
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#governance {
+  border-bottom: solid 3px #750697; }
+
+#governance-band {
+  background-color: #750697; }
+
+#guide {
+  border-bottom: solid 3px #48a0e7; }
+
+#guide-band {
+  background-color: #48a0e7; }
+
+.coverpage-maturity {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+#working-draft {
+  border-bottom: solid 3px #fda706; }
+
+#working-draft-band {
+  background-color: #fda706; }
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd; }
+
+#committee-draft-band {
+  background-color: #fd06fd; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13; }
+
+#obsolete-band {
+  background-color: #7e0d13; }
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black; }
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list ol li {
+  list-style-type: none; }
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[class="arabic"] {
+  counter-reset: arabic; }
+
+ol[class="roman"] {
+  counter-reset: roman; }
+
+ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper; }
+
+ol[class="roman_upper"] {
+  counter-reset: roman_upper; }
+
+ol[class="alphabet"] ol[class="alphabet"] {
+  counter-reset: alphabet2; }
+
+ol[class="arabic"] ol[class="arabic"] {
+  counter-reset: arabic2; }
+
+ol[class="roman"] ol[class="roman"] {
+  counter-reset: roman2; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper2; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] {
+  counter-reset: roman_upper2; }
+
+ol {
+  counter-reset: alphabet; }
+
+ol > li {
+  list-style: none;
+  position: relative; }
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em; }
+
+ol[class="roman"] > li::before {
+  left: -2.0em; }
+
+ol[class="roman_upper"] > li::before {
+  left: -2.3em; }
+
+ol[class="alphabet"] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="arabic"] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") "; }
+
+ol[class="roman"] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") "; }
+
+ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") "; }
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") "; }
+
+ol[class="arabic"] ol[class="arabic"] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") "; }
+
+ol[class="roman"] ol[class="roman"] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") "; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") "; }
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left; }
+
+.figure-title, .FigureTitle, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Note p, .note p {
+  margin: 0; }
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .zzHelp p {
+  margin: 0; }
+
+div.zzHelp {
+  color: green;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2em;
+  color: black;
+  padding-left: 0.5em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weight: 400; }
+
+td,
+th {
+  padding: 1em !important; }
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important; }
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em; }
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em; }
+
+.TableFootnote {
+  text-align: left !important; }
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+sup a {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888; }
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em; }
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em; }
+
+ol.footnotes-list:first-child {
+  margin-top: 2em; }
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline; }
+
+ol > li > p::before {
+  content: "";
+  display: none; }
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+dl.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .admonition p {
+  margin: 0; }
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>'); }
+
+.collapse {
+  display: none; }
+
+.expand {
+  transform: rotateZ(-180deg); }
+
+-->
+</style><style><!--pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+--></style><title>Metaverse Workstream 1 — Final report</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</link></link></head><body lang="en" xml:lang="en"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber">IEC/ISO JSEG 15/WS 1 N2 </p>
+    
+
+
+
+
+
+
+<p class="coverpage_docnumber">Date: 2024-08-21</p>
+
+
+
+
+<p class="coverpage_techcommittee">IEC/ISO/JSEG 15/WS 1</p>
+
+
+<p class="coverpage_techcommittee"><a name="CVP_Secretariat_Loca" id="CVP_Secretariat_Loca">Secretariat</a>: IEC/CO</p>
+
+
+<div class="doctitle-en"><div><span class="title">Metaverse Workstream 1 — </span><span class="subtitle">Final report</span>
+  
+</div>
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title">Metaverse Workstream 1 — </span><span class="subtitle">Rapport final</span>
+  
+</div>
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+
+<div class="coverpage_warning">
+  <div id="boilerplate-license-destination"></div>
+</div>
+
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div class="boilerplate-copyright">
+
+<div id="_copyright_protected_document"><h1 class="IntroTitle"><a class="anchor" href="#_copyright_protected_document"></a><a class="header" href="#_copyright_protected_document">COPYRIGHT PROTECTED DOCUMENT</a></h1>
+
+<p id="boilerplate-year">© <span class="std_publisher">ISO/IEC </span><span class="date">2024</span></p>
+
+<p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="boilerplate-address" style="text-align:left;">ISO copyright office<br /> CP 401 • Ch. de Blandonnet 8 <br /> CH-1214 Vernier, Geneva <br /> Phone: +41 22 749 01 11 <br /> Email: <a href="mailto:copyright@iso.org">copyright@iso.org</a><br /> Website: <a href="https://www.iso.org/">www.iso.org</a></p>
+
+<p id="boilerplate-place">Published in Switzerland</p>
+</div>
+</div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_8dfd2127-314d-4ea7-a160-540f9a320c0d"></a><a class="header" href="#_8dfd2127-314d-4ea7-a160-540f9a320c0d">Contents</a></h1><ul><li class="h1"><a href="#_3419fa80-673c-43ce-83f9-f392c61762a9">      
+  
+  Foreword
+</a></li>
+<li class="h1"><a href="#_0f2ee0b7-5d6a-4d8a-8388-0411eb3b0270">      
+  
+  Introduction
+</a></li>
+<li class="h1"><a href="#_425187a8-f973-4bad-8e05-6f9877c2c5ff">      
+  
+  1  Scope
+</a></li>
+<li class="h1"><a href="#_c5ddbee5-6b9a-4013-8552-dbd97f86a68c">      2  Normative references</a></li>
+<li class="h1"><a href="#_eeae632d-ed69-4aed-86db-dd00efb8f45e">      
+  
+  3  Terms and definitions
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_35bc5ce9-bd21-4d14-8676-d7addf24d8b2">
+  
+  4  Work organization
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_9859c816-77f8-448d-afb6-ca4fd573ccc1">      
+  
+  4.1  Background
+</a>
+</li><li class="h2"><a href="#_1e78d049-40a7-41e7-a828-07073b5c7f34">      
+  
+  4.2  Deliverables
+</a></li></ul></li>
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_69a480f6-61fd-4bcc-a72f-98f1ceb91f64">
+  
+  5  Deliverable: definition of the “Metaverse”
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_e61ae241-f81d-40d8-a4ee-1c8694f4dfc9">      
+  
+  5.1  General
+</a>
+</li><li class="h2"><a href="#_a64e444a-1ac8-460c-8ba9-e0bfc6132825">      
+  
+  5.2  Approach
+</a></li><li class="h2"><a href="#_20ee9bf9-1e99-4144-a0c8-4b22e2e745a9">      
+  
+  5.3  Background
+</a></li><li class="h2"><a href="#_9167003a-abe8-4a90-b074-2aa039a260cf">      
+  
+  5.4  Considerations
+</a></li></ul></li>
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_b3ede255-69a4-4638-b948-0c76410f283e">
+  
+  6  Deliverable: Metaverse terminology
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_2c2560a0-0194-4e8a-a77e-10bebf9d452f">      
+  
+  6.1  Purpose
+</a>
+</li><li class="h2"><a href="#_ea7ae020-d964-4562-aeee-f6c464c54fa5">      
+  
+  6.2  Methodology
+</a></li><li class="h2"><a href="#_68419b01-5bc6-4dac-bddd-fa20229b908f">      
+  
+  6.3  Sources investigated
+</a></li><li class="h2"><a href="#_cf923c04-63c7-4e76-bd12-160350d07e45">      
+  
+  6.4  Results
+</a></li></ul></li>
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_f91071be-8e77-47de-9556-f96f3722e511">
+  
+  7  Recommendations
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_3fdb91d5-e34a-4939-96a8-f80cf1739168">      
+  
+  7.1  General
+</a>
+</li></ul></li>
+
+
+<li class="h1"><a href="#_b4439af8-dc06-4d80-ac57-694d0a3f55a5">      Bibliography</a></li></ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+</div><br /><br /><div id="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a"><h1 class="ForewordTitle" id="_3419fa80-673c-43ce-83f9-f392c61762a9"><a class="anchor" href="#_d9bc5bc3-3168-a5eb-b47b-f04f960c409a"></a><a class="header" href="#_d9bc5bc3-3168-a5eb-b47b-f04f960c409a">Foreword</a></h1><p id="_e7f344d7-9747-e362-969e-a65c9f2606cc">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p><p id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <a href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</a>)</p><p id="_9af6a1d5-fa5f-be09-7862-fcc9612b617d">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <a href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</a>) or the IEC list of patent declarations received (see <a href="https://patents.iec.ch">https://patents.iec.ch</a>).</p><p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p><p id="_110024fa-4756-95d8-79f3-602a751fb9e4">For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <a href="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</a>. In the IEC, see <a href="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</a>.</p><p id="_c0dc7433-3730-0018-9870-57c4bcad9c52">This document was prepared by ISO/IEC JSEG 15, <i>Metaverse</i>.</p><p id="_faf047d3-50c8-6e95-b6af-61fe98df4388">Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <a href="https://www.iso.org/members.html">www.iso.org/members.html</a> and <a href="https://www.iec.ch/national-committees">www.iec.ch/national-committees</a>.</p></div><br /><div class="Section3" id="_introduction"><h1 class="IntroTitle" id="_0f2ee0b7-5d6a-4d8a-8388-0411eb3b0270"><a class="anchor" href="#_introduction"></a><a class="header" href="#_introduction">Introduction</a></h1><p id="_bc793940-93b3-c7aa-f872-be97876a0a48">This document is the final report of IEC/ISO JSEG 15/WS 1, <i>Metaverse — Vocabulary</i>.</p><p id="_e399f69c-8ac6-3c37-4f9c-0511a9ca054e">This document provides recommendations of WS 1.</p></div><p class="zzSTDTitle1"><span class="boldtitle">Metaverse Workstream 1 — Final report</span></p><div id="_scope"><h1 id="_425187a8-f973-4bad-8e05-6f9877c2c5ff"><a class="anchor" href="#_scope"></a><a class="header" href="#_scope">1  Scope</a></h1><p id="_2be5e95d-9cc1-6432-539c-d5a5b0cf3750">This document provides recommendations by IEC/ISO JSEG 15/WS 1, <i>Metaverse — Vocabulary</i>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p></div><div><h1 id="_c5ddbee5-6b9a-4013-8552-dbd97f86a68c">2  Normative references</h1>
+<p id="_21971d30-bb88-56a2-0d5b-aca5e0104f76">There are no normative references in this document.</p>
+
+</div><div id="_terms_and_definitions"><h1 id="_eeae632d-ed69-4aed-86db-dd00efb8f45e"><a class="anchor" href="#_terms_and_definitions"></a><a class="header" href="#_terms_and_definitions">3  Terms and definitions</a></h1><p id="_f8c51230-c779-8ebc-f0c1-c1f3f87b3fda">No terms and definitions are listed in this document.</p><p id="_13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p><div class="ul_wrap"><ul id="_3fb63b94-5696-f10f-fa14-8fb905c53d98"><li><p id="_9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <a href="https://www.iso.org/obp">https://www.iso.org/obp</a></p>
+</li>
+<li><p id="_16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <a href="https://www.electropedia.org">https://www.electropedia.org</a></p>
+</li>
+</ul></div></div><div id="_work_organization"><h1 id="_35bc5ce9-bd21-4d14-8676-d7addf24d8b2"><a class="anchor" href="#_work_organization"></a><a class="header" href="#_work_organization">4  Work organization</a></h1><div id="_background"><h2 id="_9859c816-77f8-448d-afb6-ca4fd573ccc1"><a class="anchor" href="#_background"></a><a class="header" href="#_background">4.1  Background</a></h2>
+
+<p id="_2970ceb1-6bdb-8068-ed87-c979662908ab">IEC/IEC JSEG 15/WS 1 was established in 2023 to provide standardized terminology for IEC/ISO TCs in referencing concepts, terms and definitions relating to the Metaverse.</p>
+</div><div id="_deliverables"><h2 id="_1e78d049-40a7-41e7-a828-07073b5c7f34"><a class="anchor" href="#_deliverables"></a><a class="header" href="#_deliverables">4.2  Deliverables</a></h2>
+
+<p id="_15e38f8d-c6e0-9577-6a1c-5827a721ccd2">IEC/IEC JSEG 15/WS 1 is tasked to develop the following deliverables:</p>
+
+<div class="ul_wrap"><ul id="_bb7e3c8b-4058-fbfd-e9ec-55ed06306586"><li><p id="_a825800b-6e89-e941-13f4-8d2f9dae7664">Set of concepts, terms and definitions, and their relationships</p>
+</li>
+<li><p id="_b23276d2-a836-24a4-5c57-0b4b7a2b74e2">Definition of the “Metaverse”</p>
+</li>
+<li><p id="_affa0105-3610-795f-7d36-adb3b676e92f">Final report of WS 1 to provide recommendations to IEC/ISO</p>
+</li>
+</ul></div>
+</div></div><div id="_deliverable_definition_of_the_metaverse"><h1 id="_69a480f6-61fd-4bcc-a72f-98f1ceb91f64"><a class="anchor" href="#_deliverable_definition_of_the_metaverse"></a><a class="header" href="#_deliverable_definition_of_the_metaverse">5  Deliverable: definition of the “Metaverse”</a></h1><div id="_general"><h2 id="_e61ae241-f81d-40d8-a4ee-1c8694f4dfc9"><a class="anchor" href="#_general"></a><a class="header" href="#_general">5.1  General</a></h2>
+
+<p id="_36a34f24-ddf7-a55c-37b0-66de968e8d9a">The definition of a “metaverse” has long been subject of controversy.</p>
+</div><div id="_approach"><h2 id="_a64e444a-1ac8-460c-8ba9-e0bfc6132825"><a class="anchor" href="#_approach"></a><a class="header" href="#_approach">5.2  Approach</a></h2>
+
+<p id="_c9dbff31-51b2-7407-8263-b577eca5bdda">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+</div><div id="_background_2"><h2 id="_20ee9bf9-1e99-4144-a0c8-4b22e2e745a9"><a class="anchor" href="#_background_2"></a><a class="header" href="#_background_2">5.3  Background</a></h2>
+
+<p id="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b">The word “metaverse” originated from the science fiction <i>Snow Crash</i> written by Neal Stephenson in 1992 <a href="#snow_crash">[4]</a>.</p>
+
+<p id="_fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+
+<p id="_60402f6d-98f2-aedd-ebaa-4ee0542a56d8">The group has considered a few popular definitions of the “metaverse”, including:</p>
+
+<div class="ul_wrap"><ul id="_4d546aae-7351-d66f-fa1f-07f33926f28a"><li><p id="_48a310c0-10bc-b778-cce4-9b686bfb253b">From <a href="#ISO-IEC_JTC-1_metaverse">[1]</a>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+</li>
+<li><p id="_f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <a href="#Rosenberg">[2]</a>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+</li>
+<li><p id="_6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <a href="#Stothard">[3]</a>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+</li>
+</ul></div>
+</div><div id="_considerations"><h2 id="_9167003a-abe8-4a90-b074-2aa039a260cf"><a class="anchor" href="#_considerations"></a><a class="header" href="#_considerations">5.4  Considerations</a></h2>
+
+<p id="_d98184f7-bee4-a478-2628-eb97be70bd90">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+
+<p id="_789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</p>
+
+<div class="ul_wrap"><ul id="_ac082d0d-e350-1a79-f9a6-49c029d11679"><li><p id="_a7cd1301-4eb0-f8f9-b319-af3db49c28f7"><b>virtual</b>, as in the items in the experience is virtual</p>
+</li>
+<li><p id="_2a405de2-ce7d-cc86-9bc9-63d551b6319f"><b>immersive</b> where it is experienced through human computer interaction</p>
+</li>
+</ul></div>
+
+<p id="_f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</p>
+
+<div class="ul_wrap"><ul id="_98b3fc84-e724-bfda-ba40-b3774fc8046e"><li><p id="_f4fdf12c-0cf5-b430-9491-97a4acb0239b"><b>massively multi-user</b> where there can be many simultaneous users</p>
+</li>
+<li><p id="_d3cdf52c-4e05-9020-b74a-e91a79c92ae4"><b>interconnection</b> of virtual world systems</p>
+</li>
+<li><p id="_b419aaa8-ccd7-1a14-1091-d98034f57ea1"><b>interoperability</b> between users across virtual world systems</p>
+</li>
+<li><p id="_e48910aa-1694-c074-af90-70be81fcb753"><b>persistent</b> where actions and events in the virtual world persists after a user leaves</p>
+</li>
+<li><p id="_d5f37f9b-ddf3-8e22-1f5a-d887975c6747"><b>real-time</b> where user actions are performed in real-time</p>
+</li>
+</ul></div>
+
+<p id="_6fc68c37-d075-4fed-4249-dc393eb15975">The resulting consensus arrived at this definition for “metaverse”:</p>
+
+<div class="Quote" id="_782f837d-abea-76d3-1ded-e73df9afefd6"><p id="_7ad366af-22cb-5d54-4588-87e4f56f4b57">metaverse: virtual world experienced through immersive technologies</p>
+</div>
+</div></div><div id="_deliverable_metaverse_terminology"><h1 id="_b3ede255-69a4-4638-b948-0c76410f283e"><a class="anchor" href="#_deliverable_metaverse_terminology"></a><a class="header" href="#_deliverable_metaverse_terminology">6  Deliverable: Metaverse terminology</a></h1><div id="_purpose"><h2 id="_2c2560a0-0194-4e8a-a77e-10bebf9d452f"><a class="anchor" href="#_purpose"></a><a class="header" href="#_purpose">6.1  Purpose</a></h2>
+
+<p id="_72c14ebc-d41f-2325-aaa1-dd3d25f4d55f">This deliverable aims to provide a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</p>
+
+<p id="_b8ba4e28-26ab-61d0-7574-eb823dbd70c2">Questions to be addressed:</p>
+
+<div class="ul_wrap"><ul id="_5b8a73c7-c4e0-51e6-646c-2fcf9ac32b76"><li><p id="_05822dab-6c79-9e09-d2dc-bcccef3eaed5">What is a Metaverse or is there only THE metaverse (like THE Internet)?</p>
+</li>
+<li><p id="_e86de62c-e26a-f826-c9c0-395012cc817e">Does the Metaverse require human interaction?</p>
+</li>
+<li><p id="_4142b2d5-8521-efd3-9cfd-eeac3d5563c1">Is there an agreed or proposed definition /definitions?</p>
+</li>
+<li><p id="_8df5fdf6-206f-4b4b-79fd-f04fe370c9ab">What shall it include? What does it not include?</p>
+</li>
+<li><p id="_3401be23-57fc-c50e-59da-fba652c5b646">Is a digital twin a “metaverse” if not why not? Or when is it not?</p>
+</li>
+<li><p id="_f42ddfd1-1d31-0519-b720-85abcc2bad1a">What is the minimum set to be classed as a metaverse?</p>
+</li>
+</ul></div>
+</div><div id="_methodology"><h2 id="_ea7ae020-d964-4562-aeee-f6c464c54fa5"><a class="anchor" href="#_methodology"></a><a class="header" href="#_methodology">6.2  Methodology</a></h2>
+
+<p id="_2f2c23ad-ecb0-4e0f-00d9-5c09acb81e37">IEC/IEC JSEG 15/WS 1 used the following methodology in developing the vocabulary:</p>
+
+<div class="ul_wrap"><ul id="_03c7bc52-01d4-ba86-5c8a-959dd031ca37"><li><p id="_b9b99ea4-f1dd-9879-fff2-074e2bec4070">Survey existing terminology</p>
+</li>
+<li><p id="_4d5c50e6-8227-5656-3b9c-dc62bac71f43">Reference / import over new creation unless necessary</p>
+</li>
+<li><p id="_237c3d4a-8511-b6c4-cfe6-1b9d229ee693">Decide on terms and domains to import</p>
+</li>
+<li><p id="_f7eb6705-1b5b-8daf-3c9d-ee63d2d9471a">Fill out data: definition, designations, languages, examples, notes</p>
+</li>
+</ul></div>
+</div><div id="_sources_investigated"><h2 id="_68419b01-5bc6-4dac-bddd-fa20229b908f"><a class="anchor" href="#_sources_investigated"></a><a class="header" href="#_sources_investigated">6.3  Sources investigated</a></h2>
+
+<p id="_39151a55-614a-8b0f-925f-35a8ea248a3d">The sources that are investigated include:</p>
+
+<div class="ul_wrap"><ul id="_a3e8f42f-47d7-a85a-4462-f54ca93eac6a"><li><p id="_bf61faf3-432f-5aa5-0bbb-92143013c56c">Metaverse Standards Forum glossary (<a href="https://glossary.metaverse-standards.org/">https://glossary.metaverse-standards.org/</a>)</p>
+</li>
+<li><p id="_3bd3d7bd-7e4c-a5b9-ed61-136a63a65221">Open Metaverse Foundation glossary (<a href="https://www.openmv.org/glossary/">https://www.openmv.org/glossary/</a>)</p>
+</li>
+<li><p id="_e8cd54a0-caec-71e7-d28b-ca349dcc91ad">IEEE P2874 Spatial Web</p>
+</li>
+<li><p id="_d4707929-b202-c5f6-8a88-bb4042358d33">ISO/IEC JTC 1/SC 24 “Metaverse Vocabulary”</p>
+</li>
+<li><p id="_3dfee9ec-c141-ad6c-311e-7969e0b9710e">IEC/ISO/JSEG 15/WS 2 “Market and applications report”</p>
+</li>
+</ul></div>
+</div><div id="_results"><h2 id="_cf923c04-63c7-4e76-bd12-160350d07e45"><a class="anchor" href="#_results"></a><a class="header" href="#_results">6.4  Results</a></h2>
+
+<p id="_9aff5d46-bc5e-6eee-d108-6c3526b2f14f">The group has developed a set of terms and definitions for the Metaverse ecosystem. The terms are organized in the following categories:</p>
+
+<div class="ul_wrap"><ul id="_8cf28d35-18f4-81ce-0c39-16430010a81f"><li><p id="_a8802a1a-1431-0165-0214-5f59159bbce0">Metaverse core concepts</p>
+</li>
+<li><p id="_e0e2286e-bdea-f997-313f-2a7b174772b8">Metaverse use cases</p>
+</li>
+<li><p id="_9fbae4c8-2891-f537-96fa-f06eeac00b18">XR concepts</p>
+</li>
+<li><p id="_dc51b333-569f-652d-c530-f065cb0759e8">Extended metaverse concepts</p>
+</li>
+<li><p id="_d39147af-34c0-ef76-6ef4-2696eb09f64a">Governance</p>
+</li>
+</ul></div>
+
+<p id="_9c4c7a4e-9fcf-c42b-d50e-e8ddcf893d98">The terms and definitions are provided in a separate document.</p>
+</div></div><div id="_recommendations"><h1 id="_f91071be-8e77-47de-9556-f96f3722e511"><a class="anchor" href="#_recommendations"></a><a class="header" href="#_recommendations">7  Recommendations</a></h1><div id="_general_2"><h2 id="_3fdb91d5-e34a-4939-96a8-f80cf1739168"><a class="anchor" href="#_general_2"></a><a class="header" href="#_general_2">7.1  General</a></h2>
+
+<p id="_f2bf71a5-ee8e-09f4-8b15-0498f9d0be0a">The group recommends the following:</p>
+
+<div class="ul_wrap"><ul id="_aea89ab3-bbb0-5344-d1e2-cd67a0cfa56b"><li><p id="_f27526da-f262-0711-6489-1b2e75126296">The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications</p>
+</li>
+<li><p id="_7ea942c4-1b68-6c7b-81f0-1b4e40bd65f3">The Metaverse terminology provided should be adopted by IEC/ISO TCs</p>
+</li>
+</ul></div>
+</div></div><br /><div><h1 class="Section3" id="_b4439af8-dc06-4d80-ac57-694d0a3f55a5">Bibliography</h1>
+<p id="ISO-IEC_JTC-1_metaverse" class="Biblio">[1]  <span style="font-variant:small-caps;">ISO/IEC JTC 1</span>. <i><span class="stddocTitle">JTC 1 Standards and Standardization for the Metaverse</span></i> [website]. 2023. Available from: <span class="biburl"><a href="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/">https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</a></span>. [viewed: September 5, 2024].</p><p id="Rosenberg" class="Biblio">[2]  <span style="font-variant:small-caps;">Rosenberg L.</span>. <i><span class="stddocTitle">Metaverse 101: defining the key components</span></i> [website]. VentureBeat. 2022. Available from: <span class="biburl"><a href="https://venturebeat.com/business/metaverse-101-defining-the-key-components/">https://venturebeat.com/business/metaverse-101-defining-the-key-components/</a></span>. [viewed: September 5, 2024].</p><p id="Stothard" class="Biblio">[3]  <span style="font-variant:small-caps;">Stothard P., Ryan P., &#x26; Kurata T.</span>. <i>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</i>. n.p.: 2024.</p><p id="snow_crash" class="Biblio">[4]  <span style="font-variant:small-caps;">Neal Stephenson</span>. <i><span class="stddocTitle">Snow crash</span></i>. Bantam Books. Available from: <span class="biburl"><a href="http://openlibrary.org/books/OL14813122M/Snow_crash">http://openlibrary.org/books/OL14813122M/Snow_crash</a></span>.</p>
+
+
+
+
+</div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('body').animate({ 'padding-left': '30px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('body').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>

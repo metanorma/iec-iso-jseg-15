@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="presentation" version="2.8.5" schema-version="v1.3.3">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">Metaverse Workstream 1 — Final report</title>
+
+<title language="en" format="text/plain" type="title-intro">Metaverse Workstream 1</title>
+
+<title language="en" format="text/plain" type="title-main">Final report</title>
+
+
+
+<title language="fr" format="text/plain" type="main">Metaverse Workstream 1 — Rapport final</title>
+
+<title language="fr" format="text/plain" type="title-intro">Metaverse Workstream 1</title>
+
+<title language="fr" format="text/plain" type="title-main">Rapport final</title>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><contributor><role type="author"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Metaverse</subdivision><tt>JSEG 15</tt></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Terminology</subdivision><tt>WS 1</tt></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Technical committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Metaverse</subdivision><tt>JSEG 15</tt></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision>Terminology</subdivision><tt>WS 1</tt></organization></contributor><edition>0.2</edition><version><revision-date>2024-08-21</revision-date></version><language current="true">en</language><script current="true">Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype language="">committee-document</doctype><doctype language="en">Committee Document</doctype><editorialgroup identifier="IEC/ISO/JSEG 15/WS 1"><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup identifier="ISO/JSEG 15/WS 1"><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 2</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><localized-strings><localized-string key="term_def_boilerplate" language="en">ISO and IEC maintain terminology databases for use in
+standardization at the following addresses:
+
+* ISO Online browsing platform: available at https://www.iso.org/obp[]
+* IEC Electropedia: available at https://www.electropedia.org[]
+</localized-string><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="section" language="en">Section</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="continued" language="en">continued</localized-string><localized-string key="no_terms_boilerplate" language="en">No terms and definitions are listed in this document.
+</localized-string><localized-string key="internal_terms_boilerplate" language="en">For the purposes of this document, the following terms and definitions apply.
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % apply.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % and the following apply.
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1 and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1 or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="no_identifier" language="en">(NO ID)</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="locality.appendix" language="en">Appendix</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="Provision.sg" language="en">Provision</localized-string><localized-string key="Provision.pl" language="en">Provisions</localized-string><localized-string key="Statement.sg" language="en">Statement</localized-string><localized-string key="Statement.pl" language="en">Statements</localized-string><localized-string key="Descriptor.sg" language="en">Descriptor</localized-string><localized-string key="Descriptor.pl" language="en">Descriptors</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="reference_number" language="en">Reference number</localized-string><localized-string key="reference_number_abbrev" language="en">Ref. No.</localized-string><localized-string key="price_based_on" language="en">Price based on % pages</localized-string><localized-string key="price" language="en">Price</localized-string><localized-string key="date_first_printing" language="en">Date of the first printing</localized-string><localized-string key="date_printing" language="en">Date of the {{ var1 | ordinal_word: '', '' }} printing</localized-string><localized-string key="descriptor" language="en">Descriptor</localized-string><localized-string key="under_preparation" language="en">Under preparation. (Stage at the time of publication %).</localized-string><localized-string key="withdrawn" language="en">Withdrawn.</localized-string><localized-string key="cancelled_and_replaced" language="en">Cancelled and replaced by %.</localized-string><localized-string key="date" language="en">Date</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="secretariat" language="en">Secretariat</localized-string><localized-string key="edition_ordinal_old" language="en">{{ var1 | ordinal_num: 'edition', '' }} EDITION</localized-string><localized-string key="edition_replacement" language="en">This {{ var1 | ordinal_word: 'edition', '' }} edition supersedes the {{ var2 | ordinal_word: 'edition', '' }} edition</localized-string><localized-string key="termsrelated" language="en">Terms related to</localized-string><localized-string key="availablefrom" language="en">Available from</localized-string><localized-string key="voting_begins_on" language="en">Voting begins on</localized-string><localized-string key="voting_terminates_on" language="en">Voting terminates on</localized-string><localized-string key="corrected_version" language="en">Corrected version</localized-string><localized-string key="fast-track-procedure" language="en">Fast track procedure</localized-string><localized-string key="classification-UDC" language="en">UDC</localized-string><localized-string key="website" language="en">website</localized-string><localized-string key="doctype_dict.international-standard" language="en">International Standard</localized-string><localized-string key="doctype_dict.technical-specification" language="en">Technical Specification</localized-string><localized-string key="doctype_dict.technical-report" language="en">Technical Report</localized-string><localized-string key="doctype_dict.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="doctype_dict.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="doctype_dict.guide" language="en">Guide</localized-string><localized-string key="doctype_dict.amendment" language="en">Amendment</localized-string><localized-string key="doctype_dict.technical-corrigendum" language="en">Technical Corrigendum</localized-string><localized-string key="doctype_dict.directive" language="en">Directive</localized-string><localized-string key="doctype_dict.committee-document" language="en">Committee Document</localized-string><localized-string key="doctype_dict.recommendation" language="en">ISO Recommendation</localized-string><localized-string key="doctype_dict.addendum" language="en">Addendum</localized-string><localized-string key="stage_dict.00" language="en">Preliminary work item</localized-string><localized-string key="stage_dict.10" language="en">New work item proposal</localized-string><localized-string key="stage_dict.20" language="en">Working draft</localized-string><localized-string key="stage_dict.30" language="en">Committee draft</localized-string><localized-string key="40.international-standard" language="en">Draft International Standard</localized-string><localized-string key="40.technical-specification" language="en">Draft Technical Specification</localized-string><localized-string key="40.technical-report" language="en">Draft Technical Report</localized-string><localized-string key="40.publicly-available-specification" language="en">Draft Publicly Available Specification</localized-string><localized-string key="40.international-workshop-agreement" language="en">Draft International Workshop Agreement</localized-string><localized-string key="40.guide" language="en">Draft Guide</localized-string><localized-string key="40.amendment" language="en">Draft Amendment</localized-string><localized-string key="40.technical-corrigendum" language="en">Draft Technical Corrigendum</localized-string><localized-string key="40.directive" language="en">Draft Directive</localized-string><localized-string key="50.international-standard" language="en">Final Draft International Standard</localized-string><localized-string key="50.technical-specification" language="en">Final Draft Technical Specification</localized-string><localized-string key="50.technical-report" language="en">Final Draft Technical Report</localized-string><localized-string key="50.publicly-available-specification" language="en">Final Draft Publicly Available Specification</localized-string><localized-string key="50.international-workshop-agreement" language="en">Final Draft International Workshop Agreement</localized-string><localized-string key="50.guide" language="en">Final Draft Guide</localized-string><localized-string key="50.amendment" language="en">Final Draft Amendment</localized-string><localized-string key="50.technical-corrigendum" language="en">Final Draft Technical Corrigendum</localized-string><localized-string key="50.directive" language="en">Final Draft Directive</localized-string><localized-string key="60.international-standard" language="en">International Standard</localized-string><localized-string key="60.technical-specification" language="en">Technical Specification</localized-string><localized-string key="60.technical-report" language="en">Technical Report</localized-string><localized-string key="60.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="60.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="60.guide" language="en">Guide</localized-string><localized-string key="60.amendment" language="en">Amendment</localized-string><localized-string key="60.technical-corrigendum" language="en">Technical Corrigendum</localized-string><localized-string key="60.directive" language="en">Directive</localized-string><localized-string key="stage_dict.90" language="en">Review</localized-string><localized-string key="stage_dict.95" language="en">Withdrawal</localized-string><localized-string key="modspec.provision" language="en">Provision</localized-string><localized-string key="modspec.conformancetest" language="en">Conformance test</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2024</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata><metanorma><source><semantic__iso-standard type="semantic" version="2.8.5" schema-version="v1.3.3">
+<semantic__bibdata type="standard">
+<semantic__title language="en" format="text/plain" type="main">Metaverse Workstream 1 — Final report</semantic__title>
+
+<semantic__title language="en" format="text/plain" type="title-intro">Metaverse Workstream 1</semantic__title>
+
+<semantic__title language="en" format="text/plain" type="title-main">Final report</semantic__title>
+
+
+
+<semantic__title language="fr" format="text/plain" type="main">Metaverse Workstream 1 — Rapport final</semantic__title>
+
+<semantic__title language="fr" format="text/plain" type="title-intro">Metaverse Workstream 1</semantic__title>
+
+<semantic__title language="fr" format="text/plain" type="title-main">Rapport final</semantic__title>
+<semantic__docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</semantic__docidentifier><semantic__docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</semantic__docidentifier><semantic__docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</semantic__docidentifier><semantic__docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</semantic__docidentifier><semantic__docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</semantic__docidentifier><semantic__docnumber>2</semantic__docnumber><semantic__contributor><semantic__role type="author"/><semantic__organization>
+<semantic__name>International Electrotechnical Commission</semantic__name>
+<semantic__abbreviation>IEC</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="author"/><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="author"><semantic__description>Technical committee</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision>Metaverse</semantic__subdivision><semantic__identifier>JSEG 15</semantic__identifier></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="author"><semantic__description>Workgroup</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision>Terminology</semantic__subdivision><semantic__identifier>WS 1</semantic__identifier></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="authorizer"><semantic__description>Agency</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="publisher"/><semantic__organization>
+<semantic__name>International Electrotechnical Commission</semantic__name>
+<semantic__abbreviation>IEC</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="publisher"/><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="authorizer"><semantic__description>Technical committee</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision>Metaverse</semantic__subdivision><semantic__identifier>JSEG 15</semantic__identifier></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="authorizer"><semantic__description>Workgroup</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision>Terminology</semantic__subdivision><semantic__identifier>WS 1</semantic__identifier></semantic__organization></semantic__contributor><semantic__edition>0.2</semantic__edition><semantic__version><semantic__revision-date>2024-08-21</semantic__revision-date></semantic__version><semantic__language>en</semantic__language><semantic__script>Latn</semantic__script><semantic__status><semantic__stage>60</semantic__stage><semantic__substage>60</semantic__substage></semantic__status><semantic__copyright><semantic__from>2024</semantic__from><semantic__owner><semantic__organization>
+<semantic__name>International Electrotechnical Commission</semantic__name>
+<semantic__abbreviation>IEC</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__copyright><semantic__from>2024</semantic__from><semantic__owner><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__ext><semantic__doctype>committee-document</semantic__doctype><semantic__editorialgroup><semantic__agency>IEC</semantic__agency><semantic__agency>ISO</semantic__agency><semantic__technical-committee number="15" type="JSEG">Metaverse</semantic__technical-committee><semantic__workgroup number="1" type="WS">Terminology</semantic__workgroup><semantic__secretariat>IEC/CO</semantic__secretariat></semantic__editorialgroup><semantic__approvalgroup><semantic__agency>ISO</semantic__agency><semantic__technical-committee number="15" type="JSEG">Metaverse</semantic__technical-committee><semantic__workgroup number="1" type="WS">Terminology</semantic__workgroup></semantic__approvalgroup><semantic__structuredidentifier><semantic__project-number>IEC/ISO 2</semantic__project-number></semantic__structuredidentifier><semantic__stagename abbreviation="TC">Technical Committee</semantic__stagename></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__presentation-metadata><semantic__name>document-scheme</semantic__name><semantic__value>2024</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>3</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>3</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
+<semantic__boilerplate><semantic__copyright-statement>
+
+<semantic__clause id="semantic___copyright_protected_document" inline-header="false" obligation="normative">
+<semantic__title>COPYRIGHT PROTECTED DOCUMENT</semantic__title>
+<semantic__p id="semantic__boilerplate-year">© <semantic__span class="std_publisher">ISO/IEC </semantic__span><semantic__span class="date">2024</semantic__span></semantic__p>
+
+<semantic__p id="semantic__boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</semantic__p>
+
+<semantic__p id="semantic__boilerplate-address" align="left">ISO copyright office<semantic__br/> CP 401 • Ch. de Blandonnet 8 <semantic__br/> CH-1214 Vernier, Geneva <semantic__br/> Phone: +41 22 749 01 11 <semantic__br/> Email: <semantic__link target="mailto:copyright@iso.org"/><semantic__br/> Website: <semantic__link target="https://www.iso.org/">www.iso.org</semantic__link></semantic__p>
+
+<semantic__p id="semantic__boilerplate-place">Published in Switzerland</semantic__p>
+</semantic__clause>
+</semantic__copyright-statement>
+</semantic__boilerplate><semantic__preface><semantic__foreword id="semantic___d9bc5bc3-3168-a5eb-b47b-f04f960c409a" obligation="informative">
+<semantic__title>Foreword</semantic__title>
+<semantic__p id="semantic___e7f344d7-9747-e362-969e-a65c9f2606cc">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</semantic__p>
+
+<semantic__p id="semantic___5b1bbca6-9e4f-7c41-743f-fda225bc7f3f">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <semantic__link target="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</semantic__link>)</semantic__p>
+
+<semantic__p id="semantic___9af6a1d5-fa5f-be09-7862-fcc9612b617d">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <semantic__link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</semantic__link>) or the IEC list of patent declarations received (see <semantic__link target="https://patents.iec.ch"/>).</semantic__p>
+
+<semantic__p id="semantic___3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</semantic__p>
+
+<semantic__p id="semantic___110024fa-4756-95d8-79f3-602a751fb9e4">For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <semantic__link target="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</semantic__link>. In the IEC, see <semantic__link target="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</semantic__link>.</semantic__p>
+
+<semantic__p id="semantic___c0dc7433-3730-0018-9870-57c4bcad9c52">This document was prepared by ISO/IEC JSEG 15, <semantic__em>Metaverse</semantic__em>.</semantic__p>
+
+<semantic__p id="semantic___faf047d3-50c8-6e95-b6af-61fe98df4388">Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <semantic__link target="https://www.iso.org/members.html">www.iso.org/members.html</semantic__link> and <semantic__link target="https://www.iec.ch/national-committees">www.iec.ch/national-committees</semantic__link>.</semantic__p>
+</semantic__foreword><semantic__introduction id="semantic___introduction" obligation="informative">
+<semantic__title>Introduction</semantic__title>
+<semantic__p id="semantic___bc793940-93b3-c7aa-f872-be97876a0a48">This document is the final report of IEC/ISO JSEG 15/WS 1, <semantic__em>Metaverse — Vocabulary</semantic__em>.</semantic__p>
+
+<semantic__p id="semantic___e399f69c-8ac6-3c37-4f9c-0511a9ca054e">This document provides recommendations of WS 1.</semantic__p>
+</semantic__introduction></semantic__preface><semantic__sections>
+
+<semantic__clause id="semantic___scope" type="scope" inline-header="false" obligation="normative">
+<semantic__title>Scope</semantic__title>
+<semantic__p id="semantic___2be5e95d-9cc1-6432-539c-d5a5b0cf3750">This document provides recommendations by IEC/ISO JSEG 15/WS 1, <semantic__em>Metaverse — Vocabulary</semantic__em>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</semantic__p>
+</semantic__clause>
+
+
+
+<semantic__terms id="semantic___terms_and_definitions" obligation="normative">
+<semantic__title>Terms and definitions</semantic__title><semantic__p id="semantic___f8c51230-c779-8ebc-f0c1-c1f3f87b3fda">No terms and definitions are listed in this document.</semantic__p>
+<semantic__p id="semantic___13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</semantic__p>
+
+<semantic__ul id="semantic___3fb63b94-5696-f10f-fa14-8fb905c53d98"><semantic__li><semantic__p id="semantic___9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <semantic__link target="https://www.iso.org/obp"/></semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <semantic__link target="https://www.electropedia.org"/></semantic__p>
+</semantic__li>
+</semantic__ul>
+
+</semantic__terms>
+
+<semantic__clause id="semantic___work_organization" inline-header="false" obligation="normative">
+<semantic__title>Work organization</semantic__title>
+<semantic__clause id="semantic___background" inline-header="false" obligation="normative">
+<semantic__title>Background</semantic__title>
+<semantic__p id="semantic___2970ceb1-6bdb-8068-ed87-c979662908ab">IEC/IEC JSEG 15/WS 1 was established in 2023 to provide standardized terminology for IEC/ISO TCs in referencing concepts, terms and definitions relating to the Metaverse.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___deliverables" inline-header="false" obligation="normative">
+<semantic__title>Deliverables</semantic__title>
+<semantic__p id="semantic___15e38f8d-c6e0-9577-6a1c-5827a721ccd2">IEC/IEC JSEG 15/WS 1 is tasked to develop the following deliverables:</semantic__p>
+
+<semantic__ul id="semantic___bb7e3c8b-4058-fbfd-e9ec-55ed06306586"><semantic__li><semantic__p id="semantic___a825800b-6e89-e941-13f4-8d2f9dae7664">Set of concepts, terms and definitions, and their relationships</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___b23276d2-a836-24a4-5c57-0b4b7a2b74e2">Definition of the “Metaverse”</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___affa0105-3610-795f-7d36-adb3b676e92f">Final report of WS 1 to provide recommendations to IEC/ISO</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___deliverable_definition_of_the_metaverse" inline-header="false" obligation="normative">
+<semantic__title>Deliverable: definition of the “Metaverse”</semantic__title>
+<semantic__clause id="semantic___general" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___36a34f24-ddf7-a55c-37b0-66de968e8d9a">The definition of a “metaverse” has long been subject of controversy.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___approach" inline-header="false" obligation="normative">
+<semantic__title>Approach</semantic__title>
+<semantic__p id="semantic___c9dbff31-51b2-7407-8263-b577eca5bdda">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___background_2" inline-header="false" obligation="normative">
+<semantic__title>Background</semantic__title>
+<semantic__p id="semantic___6dd00e41-863b-3b71-406d-9e35ddd4ee0b">The word “metaverse” originated from the science fiction <semantic__em>Snow Crash</semantic__em> written by Neal Stephenson in 1992 <semantic__eref type="inline" bibitemid="semantic__snow_crash" citeas="[4]"/>.</semantic__p>
+
+<semantic__p id="semantic___fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</semantic__p>
+
+<semantic__p id="semantic___60402f6d-98f2-aedd-ebaa-4ee0542a56d8">The group has considered a few popular definitions of the “metaverse”, including:</semantic__p>
+
+<semantic__ul id="semantic___4d546aae-7351-d66f-fa1f-07f33926f28a"><semantic__li><semantic__p id="semantic___48a310c0-10bc-b778-cce4-9b686bfb253b">From <semantic__eref type="inline" bibitemid="semantic__ISO-IEC_JTC-1_metaverse" citeas="[1]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <semantic__eref type="inline" bibitemid="semantic__Rosenberg" citeas="[2]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <semantic__eref type="inline" bibitemid="semantic__Stothard" citeas="[3]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+
+<semantic__clause id="semantic___considerations" inline-header="false" obligation="normative">
+<semantic__title>Considerations</semantic__title>
+<semantic__p id="semantic___d98184f7-bee4-a478-2628-eb97be70bd90">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</semantic__p>
+
+<semantic__p id="semantic___789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</semantic__p>
+
+<semantic__ul id="semantic___ac082d0d-e350-1a79-f9a6-49c029d11679"><semantic__li><semantic__p id="semantic___a7cd1301-4eb0-f8f9-b319-af3db49c28f7"><semantic__strong>virtual</semantic__strong>, as in the items in the experience is virtual</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___2a405de2-ce7d-cc86-9bc9-63d551b6319f"><semantic__strong>immersive</semantic__strong> where it is experienced through human computer interaction</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</semantic__p>
+
+<semantic__ul id="semantic___98b3fc84-e724-bfda-ba40-b3774fc8046e"><semantic__li><semantic__p id="semantic___f4fdf12c-0cf5-b430-9491-97a4acb0239b"><semantic__strong>massively multi-user</semantic__strong> where there can be many simultaneous users</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___d3cdf52c-4e05-9020-b74a-e91a79c92ae4"><semantic__strong>interconnection</semantic__strong> of virtual world systems</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___b419aaa8-ccd7-1a14-1091-d98034f57ea1"><semantic__strong>interoperability</semantic__strong> between users across virtual world systems</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e48910aa-1694-c074-af90-70be81fcb753"><semantic__strong>persistent</semantic__strong> where actions and events in the virtual world persists after a user leaves</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___d5f37f9b-ddf3-8e22-1f5a-d887975c6747"><semantic__strong>real-time</semantic__strong> where user actions are performed in real-time</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___6fc68c37-d075-4fed-4249-dc393eb15975">The resulting consensus arrived at this definition for “metaverse”:</semantic__p>
+
+<semantic__quote id="semantic___782f837d-abea-76d3-1ded-e73df9afefd6"><semantic__p id="semantic___7ad366af-22cb-5d54-4588-87e4f56f4b57">metaverse: virtual world experienced through immersive technologies</semantic__p>
+</semantic__quote>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___deliverable_metaverse_terminology" inline-header="false" obligation="normative">
+<semantic__title>Deliverable: Metaverse terminology</semantic__title>
+<semantic__clause id="semantic___purpose" inline-header="false" obligation="normative">
+<semantic__title>Purpose</semantic__title>
+<semantic__p id="semantic___72c14ebc-d41f-2325-aaa1-dd3d25f4d55f">This deliverable aims to provide a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</semantic__p>
+
+<semantic__p id="semantic___b8ba4e28-26ab-61d0-7574-eb823dbd70c2">Questions to be addressed:</semantic__p>
+
+<semantic__ul id="semantic___5b8a73c7-c4e0-51e6-646c-2fcf9ac32b76"><semantic__li><semantic__p id="semantic___05822dab-6c79-9e09-d2dc-bcccef3eaed5">What is a Metaverse or is there only THE metaverse (like THE Internet)?</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e86de62c-e26a-f826-c9c0-395012cc817e">Does the Metaverse require human interaction?</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___4142b2d5-8521-efd3-9cfd-eeac3d5563c1">Is there an agreed or proposed definition /definitions?</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___8df5fdf6-206f-4b4b-79fd-f04fe370c9ab">What shall it include? What does it not include?</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___3401be23-57fc-c50e-59da-fba652c5b646">Is a digital twin a “metaverse” if not why not? Or when is it not?</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___f42ddfd1-1d31-0519-b720-85abcc2bad1a">What is the minimum set to be classed as a metaverse?</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+
+<semantic__clause id="semantic___methodology" inline-header="false" obligation="normative">
+<semantic__title>Methodology</semantic__title>
+<semantic__p id="semantic___2f2c23ad-ecb0-4e0f-00d9-5c09acb81e37">IEC/IEC JSEG 15/WS 1 used the following methodology in developing the vocabulary:</semantic__p>
+
+<semantic__ul id="semantic___03c7bc52-01d4-ba86-5c8a-959dd031ca37"><semantic__li><semantic__p id="semantic___b9b99ea4-f1dd-9879-fff2-074e2bec4070">Survey existing terminology</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___4d5c50e6-8227-5656-3b9c-dc62bac71f43">Reference / import over new creation unless necessary</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___237c3d4a-8511-b6c4-cfe6-1b9d229ee693">Decide on terms and domains to import</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___f7eb6705-1b5b-8daf-3c9d-ee63d2d9471a">Fill out data: definition, designations, languages, examples, notes</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+
+<semantic__clause id="semantic___sources_investigated" inline-header="false" obligation="normative">
+<semantic__title>Sources investigated</semantic__title>
+<semantic__p id="semantic___39151a55-614a-8b0f-925f-35a8ea248a3d">The sources that are investigated include:</semantic__p>
+
+<semantic__ul id="semantic___a3e8f42f-47d7-a85a-4462-f54ca93eac6a"><semantic__li><semantic__p id="semantic___bf61faf3-432f-5aa5-0bbb-92143013c56c">Metaverse Standards Forum glossary (<semantic__link target="https://glossary.metaverse-standards.org/"/>)</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___3bd3d7bd-7e4c-a5b9-ed61-136a63a65221">Open Metaverse Foundation glossary (<semantic__link target="https://www.openmv.org/glossary/"/>)</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e8cd54a0-caec-71e7-d28b-ca349dcc91ad">IEEE P2874 Spatial Web</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___d4707929-b202-c5f6-8a88-bb4042358d33">ISO/IEC JTC 1/SC 24 “Metaverse Vocabulary”</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___3dfee9ec-c141-ad6c-311e-7969e0b9710e">IEC/ISO/JSEG 15/WS 2 “Market and applications report”</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+
+<semantic__clause id="semantic___results" inline-header="false" obligation="normative">
+<semantic__title>Results</semantic__title>
+<semantic__p id="semantic___9aff5d46-bc5e-6eee-d108-6c3526b2f14f">The group has developed a set of terms and definitions for the Metaverse ecosystem. The terms are organized in the following categories:</semantic__p>
+
+<semantic__ul id="semantic___8cf28d35-18f4-81ce-0c39-16430010a81f"><semantic__li><semantic__p id="semantic___a8802a1a-1431-0165-0214-5f59159bbce0">Metaverse core concepts</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e0e2286e-bdea-f997-313f-2a7b174772b8">Metaverse use cases</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___9fbae4c8-2891-f537-96fa-f06eeac00b18">XR concepts</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___dc51b333-569f-652d-c530-f065cb0759e8">Extended metaverse concepts</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___d39147af-34c0-ef76-6ef4-2696eb09f64a">Governance</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___9c4c7a4e-9fcf-c42b-d50e-e8ddcf893d98">The terms and definitions are provided in a separate document.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___recommendations" inline-header="false" obligation="normative">
+<semantic__title>Recommendations</semantic__title>
+<semantic__clause id="semantic___general_2" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___f2bf71a5-ee8e-09f4-8b15-0498f9d0be0a">The group recommends the following:</semantic__p>
+
+<semantic__ul id="semantic___aea89ab3-bbb0-5344-d1e2-cd67a0cfa56b"><semantic__li><semantic__p id="semantic___f27526da-f262-0711-6489-1b2e75126296">The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___7ea942c4-1b68-6c7b-81f0-1b4e40bd65f3">The Metaverse terminology provided should be adopted by IEC/ISO TCs</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+</semantic__clause>
+
+
+</semantic__sections><semantic__bibliography><semantic__references id="semantic___normative_references" normative="true" obligation="informative">
+<semantic__title>Normative references</semantic__title><semantic__p id="semantic___21971d30-bb88-56a2-0d5b-aca5e0104f76">There are no normative references in this document.</semantic__p>
+
+</semantic__references><semantic__references id="semantic___bibliography" normative="false" obligation="informative">
+<semantic__title>Bibliography</semantic__title><semantic__bibitem id="semantic__ISO-IEC_JTC-1_metaverse" type="webresource">
+  <semantic__formattedref format="application/x-isodoc+xml">ISO/IEC JTC 1 
+JTC 1 Standards and Standardization for the Metaverse.
+ 
+2023.
+Available at: <semantic__link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/"/></semantic__formattedref>
+  <semantic__title>JTC 1 Standards and Standardization for the Metaverse</semantic__title>
+  <semantic__uri>https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</semantic__uri>
+  <semantic__docidentifier type="metanorma">[1]</semantic__docidentifier>
+  <semantic__date type="published">
+  <semantic__on>2023</semantic__on>
+</semantic__date>
+  <semantic__contributor>
+  <semantic__role type="author"/>
+  <semantic__organization>
+    <semantic__name>ISO/IEC JTC 1</semantic__name>
+  </semantic__organization>
+</semantic__contributor>
+</semantic__bibitem><semantic__bibitem id="semantic__Rosenberg" type="webresource">
+  <semantic__formattedref format="application/x-isodoc+xml">Rosenberg, L. 
+ 
+Metaverse 101: defining the key components.
+2022.
+VentureBeat 
+Available at: <semantic__link target="https://venturebeat.com/business/metaverse-101-defining-the-key-components/"/></semantic__formattedref>
+  <semantic__title>Metaverse 101: defining the key components</semantic__title>
+  <semantic__uri>https://venturebeat.com/business/metaverse-101-defining-the-key-components/</semantic__uri>
+  <semantic__docidentifier type="metanorma">[2]</semantic__docidentifier>
+  <semantic__date type="published">
+  <semantic__on>2022</semantic__on>
+</semantic__date>
+  <semantic__contributor>
+  <semantic__role type="author"/>
+  <semantic__person>
+    <semantic__name>  <semantic__formatted-initials>L.</semantic__formatted-initials>  <semantic__surname>Rosenberg</semantic__surname> </semantic__name>
+  </semantic__person>
+</semantic__contributor>
+  <semantic__contributor>
+  <semantic__role type="publisher"/>
+  <semantic__organization>
+    <semantic__name>VentureBeat</semantic__name>
+  </semantic__organization>
+</semantic__contributor>
+</semantic__bibitem><semantic__bibitem id="semantic__Stothard" type="book">
+  <semantic__formattedref format="application/x-isodoc+xml">Stothard, P. 
+Ryan, P. 
+Kurata, T. 
+ 
+Mining Metaverse Taxonomy (NOT YET PUBLISHED).
+2024.</semantic__formattedref>
+  <semantic__title>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</semantic__title>
+  <semantic__docidentifier type="metanorma">[3]</semantic__docidentifier>
+  <semantic__date type="published">
+  <semantic__on>2024</semantic__on>
+</semantic__date>
+  <semantic__contributor>
+  <semantic__role type="author"/>
+  <semantic__person>
+    <semantic__name>  <semantic__formatted-initials>P.</semantic__formatted-initials>  <semantic__surname>Stothard</semantic__surname> </semantic__name>
+  </semantic__person>
+</semantic__contributor>
+  <semantic__contributor>
+  <semantic__role type="author"/>
+  <semantic__person>
+    <semantic__name>  <semantic__formatted-initials>P.</semantic__formatted-initials>  <semantic__surname>Ryan</semantic__surname> </semantic__name>
+  </semantic__person>
+</semantic__contributor>
+  <semantic__contributor>
+  <semantic__role type="author"/>
+  <semantic__person>
+    <semantic__name>  <semantic__formatted-initials>T.</semantic__formatted-initials>  <semantic__surname>Kurata</semantic__surname> </semantic__name>
+  </semantic__person>
+</semantic__contributor>
+</semantic__bibitem><semantic__bibitem id="semantic__snow_crash" schema-version="v1.2.9">
+  
+<semantic__title type="main" format="text/plain">Snow crash</semantic__title>
+
+  <semantic__uri type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</semantic__uri>
+  <semantic__docidentifier type="ISBN" primary="true">ISBN 9780553562613</semantic__docidentifier><semantic__docidentifier type="metanorma">[4]</semantic__docidentifier>
+  <semantic__date type="published">
+    <semantic__on>1993</semantic__on>
+  </semantic__date>
+  <semantic__contributor>
+    <semantic__role type="author"/>
+    <semantic__person>
+      
+<semantic__name>  <semantic__completename>Neal Stephenson</semantic__completename> </semantic__name>
+
+    </semantic__person>
+  </semantic__contributor>
+  <semantic__contributor>
+    <semantic__role type="publisher"/>
+    <semantic__organization>
+      
+<semantic__name>Bantam Books</semantic__name>
+
+    </semantic__organization>
+  </semantic__contributor>
+  <semantic__place>
+    <semantic__city>New York</semantic__city>
+  </semantic__place>
+</semantic__bibitem>
+
+
+
+
+</semantic__references></semantic__bibliography>
+</semantic__iso-standard></source></metanorma><render><preprocess-xslt format="xml">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',xml,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="xml">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="rxl">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',rxl,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="rxl">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="html">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',html,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="html">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="doc">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',doc,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="doc">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="pdf">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',pdf,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="pdf">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="sts">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',sts,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="sts">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+</render><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_copyright_protected_document" inline-header="false" obligation="normative">
+<title depth="1">COPYRIGHT PROTECTED DOCUMENT</title>
+<p id="boilerplate-year">© <span class="std_publisher">ISO/IEC </span><span class="date">2024</span></p>
+
+<p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email: <link target="mailto:copyright@iso.org"/><br/> Website: <link target="https://www.iso.org/">www.iso.org</link></p>
+
+<p id="boilerplate-place">Published in Switzerland</p>
+</clause>
+</copyright-statement>
+</boilerplate><preface><clause type="toc" id="_8dfd2127-314d-4ea7-a160-540f9a320c0d" displayorder="1"><title depth="1">Contents</title></clause>
+<foreword id="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a" obligation="informative" displayorder="2">
+<title>Foreword</title>
+<p id="_e7f344d7-9747-e362-969e-a65c9f2606cc">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
+
+<p id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <link target="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</link>)</p>
+
+<p id="_9af6a1d5-fa5f-be09-7862-fcc9612b617d">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see <link target="https://patents.iec.ch"/>).</p>
+
+<p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p id="_110024fa-4756-95d8-79f3-602a751fb9e4">For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <link target="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</link>. In the IEC, see <link target="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</link>.</p>
+
+<p id="_c0dc7433-3730-0018-9870-57c4bcad9c52">This document was prepared by ISO/IEC JSEG 15, <em>Metaverse</em>.</p>
+
+<p id="_faf047d3-50c8-6e95-b6af-61fe98df4388">Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <link target="https://www.iso.org/members.html">www.iso.org/members.html</link> and <link target="https://www.iec.ch/national-committees">www.iec.ch/national-committees</link>.</p>
+</foreword><introduction id="_introduction" obligation="informative" displayorder="3">
+<title>Introduction</title>
+<p id="_bc793940-93b3-c7aa-f872-be97876a0a48">This document is the final report of IEC/ISO JSEG 15/WS 1, <em>Metaverse — Vocabulary</em>.</p>
+
+<p id="_e399f69c-8ac6-3c37-4f9c-0511a9ca054e">This document provides recommendations of WS 1.</p>
+</introduction></preface><sections><p class="zzSTDTitle1" displayorder="4"><span class="boldtitle">Metaverse Workstream 1 — Final report</span></p>
+
+<clause id="_scope" type="scope" inline-header="false" obligation="normative" displayorder="5">
+<title depth="1">1<tab/>Scope</title>
+<p id="_2be5e95d-9cc1-6432-539c-d5a5b0cf3750">This document provides recommendations by IEC/ISO JSEG 15/WS 1, <em>Metaverse — Vocabulary</em>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
+</clause>
+
+
+
+<terms id="_terms_and_definitions" obligation="normative" displayorder="7">
+<title depth="1">3<tab/>Terms and definitions</title><p id="_f8c51230-c779-8ebc-f0c1-c1f3f87b3fda">No terms and definitions are listed in this document.</p>
+<p id="_13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<ul id="_3fb63b94-5696-f10f-fa14-8fb905c53d98"><li><p id="_9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+</li>
+<li><p id="_16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+</li>
+</ul>
+
+</terms>
+
+<clause id="_work_organization" inline-header="false" obligation="normative" displayorder="8">
+<title depth="1">4<tab/>Work organization</title>
+<clause id="_background" inline-header="false" obligation="normative">
+<title depth="2">4.1<tab/>Background</title>
+<p id="_2970ceb1-6bdb-8068-ed87-c979662908ab">IEC/IEC JSEG 15/WS 1 was established in 2023 to provide standardized terminology for IEC/ISO TCs in referencing concepts, terms and definitions relating to the Metaverse.</p>
+</clause>
+
+<clause id="_deliverables" inline-header="false" obligation="normative">
+<title depth="2">4.2<tab/>Deliverables</title>
+<p id="_15e38f8d-c6e0-9577-6a1c-5827a721ccd2">IEC/IEC JSEG 15/WS 1 is tasked to develop the following deliverables:</p>
+
+<ul id="_bb7e3c8b-4058-fbfd-e9ec-55ed06306586"><li><p id="_a825800b-6e89-e941-13f4-8d2f9dae7664">Set of concepts, terms and definitions, and their relationships</p>
+</li>
+<li><p id="_b23276d2-a836-24a4-5c57-0b4b7a2b74e2">Definition of the “Metaverse”</p>
+</li>
+<li><p id="_affa0105-3610-795f-7d36-adb3b676e92f">Final report of WS 1 to provide recommendations to IEC/ISO</p>
+</li>
+</ul>
+</clause>
+</clause>
+
+<clause id="_deliverable_definition_of_the_metaverse" inline-header="false" obligation="normative" displayorder="9">
+<title depth="1">5<tab/>Deliverable: definition of the “Metaverse”</title>
+<clause id="_general" inline-header="false" obligation="normative">
+<title depth="2">5.1<tab/>General</title>
+<p id="_36a34f24-ddf7-a55c-37b0-66de968e8d9a">The definition of a “metaverse” has long been subject of controversy.</p>
+</clause>
+
+<clause id="_approach" inline-header="false" obligation="normative">
+<title depth="2">5.2<tab/>Approach</title>
+<p id="_c9dbff31-51b2-7407-8263-b577eca5bdda">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+</clause>
+
+<clause id="_background_2" inline-header="false" obligation="normative">
+<title depth="2">5.3<tab/>Background</title>
+<p id="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992 <xref type="inline" target="snow_crash">[4]</xref>.</p>
+
+<p id="_fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+
+<p id="_60402f6d-98f2-aedd-ebaa-4ee0542a56d8">The group has considered a few popular definitions of the “metaverse”, including:</p>
+
+<ul id="_4d546aae-7351-d66f-fa1f-07f33926f28a"><li><p id="_48a310c0-10bc-b778-cce4-9b686bfb253b">From <xref type="inline" target="ISO-IEC_JTC-1_metaverse">[1]</xref>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+</li>
+<li><p id="_f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <xref type="inline" target="Rosenberg">[2]</xref>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+</li>
+<li><p id="_6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <xref type="inline" target="Stothard">[3]</xref>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_considerations" inline-header="false" obligation="normative">
+<title depth="2">5.4<tab/>Considerations</title>
+<p id="_d98184f7-bee4-a478-2628-eb97be70bd90">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+
+<p id="_789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</p>
+
+<ul id="_ac082d0d-e350-1a79-f9a6-49c029d11679"><li><p id="_a7cd1301-4eb0-f8f9-b319-af3db49c28f7"><strong>virtual</strong>, as in the items in the experience is virtual</p>
+</li>
+<li><p id="_2a405de2-ce7d-cc86-9bc9-63d551b6319f"><strong>immersive</strong> where it is experienced through human computer interaction</p>
+</li>
+</ul>
+
+<p id="_f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</p>
+
+<ul id="_98b3fc84-e724-bfda-ba40-b3774fc8046e"><li><p id="_f4fdf12c-0cf5-b430-9491-97a4acb0239b"><strong>massively multi-user</strong> where there can be many simultaneous users</p>
+</li>
+<li><p id="_d3cdf52c-4e05-9020-b74a-e91a79c92ae4"><strong>interconnection</strong> of virtual world systems</p>
+</li>
+<li><p id="_b419aaa8-ccd7-1a14-1091-d98034f57ea1"><strong>interoperability</strong> between users across virtual world systems</p>
+</li>
+<li><p id="_e48910aa-1694-c074-af90-70be81fcb753"><strong>persistent</strong> where actions and events in the virtual world persists after a user leaves</p>
+</li>
+<li><p id="_d5f37f9b-ddf3-8e22-1f5a-d887975c6747"><strong>real-time</strong> where user actions are performed in real-time</p>
+</li>
+</ul>
+
+<p id="_6fc68c37-d075-4fed-4249-dc393eb15975">The resulting consensus arrived at this definition for “metaverse”:</p>
+
+<quote id="_782f837d-abea-76d3-1ded-e73df9afefd6"><p id="_7ad366af-22cb-5d54-4588-87e4f56f4b57">metaverse: virtual world experienced through immersive technologies</p>
+</quote>
+</clause>
+</clause>
+
+<clause id="_deliverable_metaverse_terminology" inline-header="false" obligation="normative" displayorder="10">
+<title depth="1">6<tab/>Deliverable: Metaverse terminology</title>
+<clause id="_purpose" inline-header="false" obligation="normative">
+<title depth="2">6.1<tab/>Purpose</title>
+<p id="_72c14ebc-d41f-2325-aaa1-dd3d25f4d55f">This deliverable aims to provide a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</p>
+
+<p id="_b8ba4e28-26ab-61d0-7574-eb823dbd70c2">Questions to be addressed:</p>
+
+<ul id="_5b8a73c7-c4e0-51e6-646c-2fcf9ac32b76"><li><p id="_05822dab-6c79-9e09-d2dc-bcccef3eaed5">What is a Metaverse or is there only THE metaverse (like THE Internet)?</p>
+</li>
+<li><p id="_e86de62c-e26a-f826-c9c0-395012cc817e">Does the Metaverse require human interaction?</p>
+</li>
+<li><p id="_4142b2d5-8521-efd3-9cfd-eeac3d5563c1">Is there an agreed or proposed definition /definitions?</p>
+</li>
+<li><p id="_8df5fdf6-206f-4b4b-79fd-f04fe370c9ab">What shall it include? What does it not include?</p>
+</li>
+<li><p id="_3401be23-57fc-c50e-59da-fba652c5b646">Is a digital twin a “metaverse” if not why not? Or when is it not?</p>
+</li>
+<li><p id="_f42ddfd1-1d31-0519-b720-85abcc2bad1a">What is the minimum set to be classed as a metaverse?</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_methodology" inline-header="false" obligation="normative">
+<title depth="2">6.2<tab/>Methodology</title>
+<p id="_2f2c23ad-ecb0-4e0f-00d9-5c09acb81e37">IEC/IEC JSEG 15/WS 1 used the following methodology in developing the vocabulary:</p>
+
+<ul id="_03c7bc52-01d4-ba86-5c8a-959dd031ca37"><li><p id="_b9b99ea4-f1dd-9879-fff2-074e2bec4070">Survey existing terminology</p>
+</li>
+<li><p id="_4d5c50e6-8227-5656-3b9c-dc62bac71f43">Reference / import over new creation unless necessary</p>
+</li>
+<li><p id="_237c3d4a-8511-b6c4-cfe6-1b9d229ee693">Decide on terms and domains to import</p>
+</li>
+<li><p id="_f7eb6705-1b5b-8daf-3c9d-ee63d2d9471a">Fill out data: definition, designations, languages, examples, notes</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_sources_investigated" inline-header="false" obligation="normative">
+<title depth="2">6.3<tab/>Sources investigated</title>
+<p id="_39151a55-614a-8b0f-925f-35a8ea248a3d">The sources that are investigated include:</p>
+
+<ul id="_a3e8f42f-47d7-a85a-4462-f54ca93eac6a"><li><p id="_bf61faf3-432f-5aa5-0bbb-92143013c56c">Metaverse Standards Forum glossary (<link target="https://glossary.metaverse-standards.org/"/>)</p>
+</li>
+<li><p id="_3bd3d7bd-7e4c-a5b9-ed61-136a63a65221">Open Metaverse Foundation glossary (<link target="https://www.openmv.org/glossary/"/>)</p>
+</li>
+<li><p id="_e8cd54a0-caec-71e7-d28b-ca349dcc91ad">IEEE P2874 Spatial Web</p>
+</li>
+<li><p id="_d4707929-b202-c5f6-8a88-bb4042358d33">ISO/IEC JTC 1/SC 24 “Metaverse Vocabulary”</p>
+</li>
+<li><p id="_3dfee9ec-c141-ad6c-311e-7969e0b9710e">IEC/ISO/JSEG 15/WS 2 “Market and applications report”</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_results" inline-header="false" obligation="normative">
+<title depth="2">6.4<tab/>Results</title>
+<p id="_9aff5d46-bc5e-6eee-d108-6c3526b2f14f">The group has developed a set of terms and definitions for the Metaverse ecosystem. The terms are organized in the following categories:</p>
+
+<ul id="_8cf28d35-18f4-81ce-0c39-16430010a81f"><li><p id="_a8802a1a-1431-0165-0214-5f59159bbce0">Metaverse core concepts</p>
+</li>
+<li><p id="_e0e2286e-bdea-f997-313f-2a7b174772b8">Metaverse use cases</p>
+</li>
+<li><p id="_9fbae4c8-2891-f537-96fa-f06eeac00b18">XR concepts</p>
+</li>
+<li><p id="_dc51b333-569f-652d-c530-f065cb0759e8">Extended metaverse concepts</p>
+</li>
+<li><p id="_d39147af-34c0-ef76-6ef4-2696eb09f64a">Governance</p>
+</li>
+</ul>
+
+<p id="_9c4c7a4e-9fcf-c42b-d50e-e8ddcf893d98">The terms and definitions are provided in a separate document.</p>
+</clause>
+</clause>
+
+<clause id="_recommendations" inline-header="false" obligation="normative" displayorder="11">
+<title depth="1">7<tab/>Recommendations</title>
+<clause id="_general_2" inline-header="false" obligation="normative">
+<title depth="2">7.1<tab/>General</title>
+<p id="_f2bf71a5-ee8e-09f4-8b15-0498f9d0be0a">The group recommends the following:</p>
+
+<ul id="_aea89ab3-bbb0-5344-d1e2-cd67a0cfa56b"><li><p id="_f27526da-f262-0711-6489-1b2e75126296">The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications</p>
+</li>
+<li><p id="_7ea942c4-1b68-6c7b-81f0-1b4e40bd65f3">The Metaverse terminology provided should be adopted by IEC/ISO TCs</p>
+</li>
+</ul>
+</clause>
+</clause>
+
+
+<references id="_normative_references" normative="true" obligation="informative" displayorder="6">
+<title depth="1">2<tab/>Normative references</title><p id="_21971d30-bb88-56a2-0d5b-aca5e0104f76">There are no normative references in this document.</p>
+
+</references></sections><bibliography><references id="_bibliography" normative="false" obligation="informative" displayorder="12">
+<title depth="1">Bibliography</title><bibitem id="ISO-IEC_JTC-1_metaverse" type="webresource"><formattedref><smallcap>ISO/IEC JTC 1</smallcap>. <em><span class="stddocTitle">JTC 1 Standards and Standardization for the Metaverse</span></em> [website]. 2023. Available from: <span class="biburl"><link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/">https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</link></span>. [viewed: September 5, 2024].</formattedref><uri>https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</uri><docidentifier type="metanorma-ordinal">[1]</docidentifier><biblio-tag>[1]<tab/></biblio-tag></bibitem><bibitem id="Rosenberg" type="webresource"><formattedref><smallcap>Rosenberg L.</smallcap>. <em><span class="stddocTitle">Metaverse 101: defining the key components</span></em> [website]. VentureBeat. 2022. Available from: <span class="biburl"><link target="https://venturebeat.com/business/metaverse-101-defining-the-key-components/">https://venturebeat.com/business/metaverse-101-defining-the-key-components/</link></span>. [viewed: September 5, 2024].</formattedref><uri>https://venturebeat.com/business/metaverse-101-defining-the-key-components/</uri><docidentifier type="metanorma-ordinal">[2]</docidentifier><biblio-tag>[2]<tab/></biblio-tag></bibitem><bibitem id="Stothard" type="book"><formattedref><smallcap>Stothard P., Ryan P., &amp; Kurata T.</smallcap>. <em>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</em>. n.p.: 2024.</formattedref><docidentifier type="metanorma-ordinal">[3]</docidentifier><biblio-tag>[3]<tab/></biblio-tag></bibitem><bibitem id="snow_crash" schema-version="v1.2.9"><formattedref><smallcap>Neal Stephenson</smallcap>. <em><span class="stddocTitle">Snow crash</span></em>. Bantam Books. Available from: <span class="biburl"><link target="http://openlibrary.org/books/OL14813122M/Snow_crash">http://openlibrary.org/books/OL14813122M/Snow_crash</link></span>.</formattedref><uri type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri><docidentifier type="metanorma-ordinal">[4]</docidentifier><docidentifier type="ISBN" primary="true">ISBN 9780553562613</docidentifier><biblio-tag>[4]<tab/></biblio-tag></bibitem>
+
+
+
+
+</references></bibliography>
+</iso-standard>
