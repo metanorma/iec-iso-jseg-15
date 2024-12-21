@@ -134,6 +134,7 @@ pertaining to a system or mode of operation in which each user entry causes a re
 [.source]
 <<ISO-IEC-IEEE_24765_2017,clause=3.2050>>, removed second definition.
 
+
 ==== Internet of Things
 
 system of entities (including cyber-physical devices, information resources, and
@@ -143,6 +144,7 @@ sensing, processing information, and actuating
 [.source]
 <<IEEE_2413_2019>>, dropped article.
 
+
 ==== interoperability
 
 ability of two or more systems or applications to exchange information and to
@@ -151,6 +153,7 @@ mutually use the information that has been exchanged
 [.source]
 <<ISO_IEC_17788_2014,clause=3.1.5>>
 
+
 ==== ledger
 
 information store that keeps records of transactions that are intended to be
@@ -158,6 +161,18 @@ final, definitive and immutable
 
 [.source]
 <<ISO_22739_2024,clause=3.43>>
+
+
+==== information security
+
+preservation of confidentiality, integrity and availability of information
+
+NOTE: In addition, other properties, such as authenticity, accountability,
+non-repudiation, and reliability can also be involved.
+
+[.source]
+<<ISO-IEC_27000_2018,clause=3.28>>
+
 
 ==== spatial referencing
 
@@ -169,6 +184,7 @@ NOTE: Definition modified from <<ISO_19111_2019,clause=3.1.56>> "spatial referen
 
 
 ==== virtual world
+alt:[cyber world]
 
 simulated environment that can be accessed by multiple users through an online
 interface
@@ -198,7 +214,7 @@ NOTE: UGC is often facilitated by simplified editing tools.
 
 
 
-=== Metaverse use cases
+=== Metaverse technology domains
 
 ==== industrial metaverse
 
@@ -313,6 +329,121 @@ NOTE: MAR is often used interchangeably with MR.
 
 [.source]
 <<ISO_IEC_18038_2020>>
+
+
+=== Metaverse interfaces
+
+==== cyber physical system
+preferred:[CPS]
+
+system with digital, analogue, cyber, physical and human components interacting
+with each other, engineered to function through integrated physics and logic
+
+[.source]
+<<IWA_39_2022,clause=3.1>>
+
+
+=== human-computer interface
+preferred:[HCI]
+
+boundary across which physical interaction between a human being and a computing
+device takes place
+
+NOTE: Definition originates from <<ISO-IEC_TR_10000-3_1998,clause=3.2.5>>.
+
+
+=== brain-computer interface
+preferred:[BCI]
+
+device that quantifies central nervous system activity and translates them into
+digital outputs
+
+NOTE: A brain-computer interface may facilitate bi-directional communication
+between the brain and a computing device.
+
+NOTE: A brain-computer interface is a type of human-computer interface that
+enables direct communication between the brain and an external device.
+
+
+==== haptics
+
+input or output device that senses or actuates the body's movements by means of physical contact with the user
+
+[.source]
+<<ISO-IEC_23093-1_2022,clause=3.1.5>>
+
+
+==== game console
+
+dedicated electronic device designed to play video games
+
+==== internet of things
+alt:[IoT]
+
+infrastructure of interconnected entities, people, systems and information resources, together with services which process and react to information from the physical world and the virtual world
+
+[.source]
+<<ISO-IEC_20924_2021,clause=3.2.4>>
+
+==== wearable device
+
+{{IoT}} device designed for operation near to, on, or inside of a body
+
+NOTE: Wearable devices often have a variety of sensing abilities, but limited power capacity constraining communication and data processing abilities. As critical devices of the IoT, it is considered that the communication between wearable devices and a network might not require any human intervention. Wearable devices include electronic devices usable by humans, animals, and other organisms.
+
+[.source]
+<<ISO-IEC_20924_2024,clause=3.1.35>>
+
+
+=== Metaverse spatial
+
+==== simultaneous localization and mapping
+preferred:[SLAM]
+
+technique used in robotics and computer vision to create a map of an unknown
+environment while simultaneously keeping track of an agent's location within it
+
+==== neural radiance fields
+preferred:[NeRF]
+
+method for synthesizing novel views of complex scenes by optimizing a continuous
+3D scene representation
+
+==== photogrammetry
+
+technique of measurement using photographs, for example aerial photographs, to determine, primarily, geometric properties such as size, location and form of objects
+
+NOTE: Photogrammetric measurement is often used for mapping, but also has some engineering applications.
+
+[.source]
+<<ISO_7078_2020,clause=3.1.5>>
+
+==== computer vision
+alt:[artificial vision]
+
+capability of a functional unit to acquire, process, and interpret visual data
+
+NOTE: Computer vision involves the use of visual sensors to create an electronic or digital image of a visual scene.
+
+[.source]
+<<ISO-IEC_2382_2015,clause=2123787>>, Note to entries 2-4 omitted.
+
+
+==== computer graphics
+
+methods for converting data to or from graphic displays by a computer
+
+[.source]
+<<ISO_6707-2_2017,clause=3.2.17>>
+
+
+==== point cloud
+
+discrete set of data points in space
+
+NOTE: A point cloud typically representing a 3D shape or object.
+
+
 
 
 === Extended metaverse concepts
