@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="semantic" version="2.8.5" schema-version="v1.3.3">
+<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="semantic" version="2.9.0" schema-version="v1.4.0">
 <bibdata type="standard">
 <title language="en" format="text/plain" type="main">Metaverse Workstream 1 — Final report</title>
 
@@ -20,9 +20,13 @@
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
+<subdivision>
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier></subdivision></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<subdivision>
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
 <name>International Electrotechnical Commission</name>
@@ -30,33 +34,37 @@
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
+<subdivision>
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><edition>0.2</edition><version><revision-date>2024-08-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<subdivision>
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><edition>0.3</edition><version><revision-date>2024-12-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
 <name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 2</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2024</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><flavor>iso</flavor><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 2</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2024</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
-<clause id="_copyright_protected_document" inline-header="false" obligation="normative">
+<clause id="boilerplate-copyright-default" inline-header="false" obligation="normative">
 <title>COPYRIGHT PROTECTED DOCUMENT</title>
 <p id="boilerplate-year">© <span class="std_publisher">ISO/IEC </span><span class="date">2024</span></p>
 
 <p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
 
-<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email: <link target="mailto:copyright@iso.org"/><br/> Website: <link target="https://www.iso.org/">www.iso.org</link></p>
+<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website:  <link target="https://www.iso.org/">www.iso.org</link></p>
 
 <p id="boilerplate-place">Published in Switzerland</p>
 </clause>
 </copyright-statement>
-</boilerplate><preface><foreword id="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a" obligation="informative">
+</boilerplate><preface><foreword id="_32113fd3-7752-d676-e197-ad40a405214c" obligation="informative">
 <title>Foreword</title>
 <p id="_e7f344d7-9747-e362-969e-a65c9f2606cc">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
 
 <p id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <link target="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</link>)</p>
 
-<p id="_9af6a1d5-fa5f-be09-7862-fcc9612b617d">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see <link target="https://patents.iec.ch"/>).</p>
+<p id="_5ea38ea2-2b71-477e-e4be-0749268e7181">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see  <link target="https://patents.iec.ch"/>).</p>
 
 <p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
 
@@ -74,7 +82,7 @@
 
 <clause id="_scope" type="scope" inline-header="false" obligation="normative">
 <title>Scope</title>
-<p id="_2be5e95d-9cc1-6432-539c-d5a5b0cf3750">This document provides recommendations by IEC/ISO JSEG 15/WS 1, <em>Metaverse — Vocabulary</em>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
+<p id="_22b3a21c-a68f-c0ff-cd2f-6097b47d6363">This document provides recommendations by IEC/ISO JSEG 15/WS 1,  <em>Metaverse — Vocabulary</em>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
 </clause>
 
 
@@ -126,7 +134,7 @@
 
 <clause id="_background_2" inline-header="false" obligation="normative">
 <title>Background</title>
-<p id="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992 <eref type="inline" bibitemid="snow_crash" citeas="[4]"/>.</p>
+<p id="_0757b09e-7522-7614-84f3-f26f71fb74ee">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992  <eref type="inline" bibitemid="snow_crash" citeas="[4]"/>.</p>
 
 <p id="_fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
 
@@ -302,7 +310,7 @@ Available at: <link target="https://venturebeat.com/business/metaverse-101-defin
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>L.</formatted-initials>  <surname>Rosenberg</surname> </name>
+    <name>        <formatted-initials>L.</formatted-initials>        <surname>Rosenberg</surname>     </name>
   </person>
 </contributor>
   <contributor>
@@ -326,19 +334,19 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>P.</formatted-initials>  <surname>Stothard</surname> </name>
+    <name>        <formatted-initials>P.</formatted-initials>        <surname>Stothard</surname>     </name>
   </person>
 </contributor>
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>P.</formatted-initials>  <surname>Ryan</surname> </name>
+    <name>        <formatted-initials>P.</formatted-initials>        <surname>Ryan</surname>     </name>
   </person>
 </contributor>
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>T.</formatted-initials>  <surname>Kurata</surname> </name>
+    <name>        <formatted-initials>T.</formatted-initials>        <surname>Kurata</surname>     </name>
   </person>
 </contributor>
 </bibitem><bibitem id="snow_crash" schema-version="v1.2.9">
@@ -354,7 +362,7 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
     <role type="author"/>
     <person>
       
-<name>  <completename>Neal Stephenson</completename> </name>
+<name>          <completename>Neal Stephenson</completename>       </name>
 
     </person>
   </contributor>

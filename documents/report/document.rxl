@@ -18,9 +18,13 @@
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
+<subdivision>
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier></subdivision></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<subdivision>
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
 <name>International Electrotechnical Commission</name>
@@ -28,10 +32,14 @@
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
+<subdivision>
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><edition>0.2</edition><version><revision-date>2024-08-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<subdivision>
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><edition>0.3</edition><version><revision-date>2024-12-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
 <name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 2</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><flavor>iso</flavor><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 2</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata>

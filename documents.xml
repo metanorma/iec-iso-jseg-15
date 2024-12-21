@@ -36,8 +36,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Metaverse</subdivision>
-      <identifier type="">JSEG 15</identifier>
+      <subdivision>
+Metaverse
+JSEG 15</subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -46,8 +47,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Terminology</subdivision>
-      <identifier type="">WS 1</identifier>
+      <subdivision>
+Terminology
+WS 1</subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -79,8 +81,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Metaverse</subdivision>
-      <identifier type="">JSEG 15</identifier>
+      <subdivision>
+Metaverse
+JSEG 15</subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -89,13 +92,14 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Terminology</subdivision>
-      <identifier type="">WS 1</identifier>
+      <subdivision>
+Terminology
+WS 1</subdivision>
     </organization>
   </contributor>
-  <edition>0.2</edition>
+  <edition>0.3</edition>
   <version>
-    <revision-date>2024-08-21</revision-date>
+    <revision-date>2024-12-21</revision-date>
   </version>
   <language>en</language>
   <script>Latn</script>
@@ -172,8 +176,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Metaverse</subdivision>
-      <identifier type="">JSEG 15</identifier>
+      <subdivision>
+Metaverse
+JSEG 15</subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -182,8 +187,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Terminology</subdivision>
-      <identifier type="">WS 1</identifier>
+      <subdivision>
+Terminology
+WS 1</subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -215,8 +221,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Metaverse</subdivision>
-      <identifier type="">JSEG 15</identifier>
+      <subdivision>
+Metaverse
+JSEG 15</subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -225,13 +232,14 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>Terminology</subdivision>
-      <identifier type="">WS 1</identifier>
+      <subdivision>
+Terminology
+WS 1</subdivision>
     </organization>
   </contributor>
-  <edition>0.3</edition>
+  <edition>0.4</edition>
   <version>
-    <revision-date>2024-08-21</revision-date>
+    <revision-date>2024-12-21</revision-date>
   </version>
   <language>en</language>
   <script>Latn</script>

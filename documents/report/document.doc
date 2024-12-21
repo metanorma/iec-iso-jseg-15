@@ -1,7 +1,7 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_a4ae7202.4fe1.4ac3"
+Content-Type: multipart/related; boundary="----=_NextPart_7353301d.23f3.49c2"
 
-------=_NextPart_a4ae7202.4fe1.4ac3
+------=_NextPart_7353301d.23f3.49c2
 Content-ID: <document.htm>
 Content-Disposition: inline; filename="document.htm"
 Content-Type: text/html; charset="utf-8"
@@ -7131,6 +7131,8 @@ td.example_label, td.note_label {
 
 
 
+
+
 <p class="MsoBodyText" align="right" style="text-align:right">
   <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">IEC/ISO/JSEG 15/WS 1</span>
 </p>
@@ -7147,7 +7149,7 @@ td.example_label, td.note_label {
 
 
 <p class="MsoBodyText" align="right" style="text-align:right">
-  <span lang="EN-GB" xml:lang="EN-GB">Date: <span style="mso-no-proof:yes">2024-08-21</span></span>
+  <span lang="EN-GB" xml:lang="EN-GB">Date: <span style="mso-no-proof:yes">2024-12-21</span></span>
 </p>
 
 
@@ -7159,11 +7161,13 @@ td.example_label, td.note_label {
 
 
 
+
 <br/>
 <p class="MsoBodyText" align="left" style="text-align:left;line-height:18.0pt;margin-bottom:0.0pt;font-size:16.0pt">
 <span class="title">Metaverse Workstream 1 &#x2014; </span><span class="subtitle">Rapport final</span>
   
 </p>
+
 
 
 
@@ -7204,9 +7208,8 @@ td.example_label, td.note_label {
     </p>
     <div class="WordSection2">
 
-<div><a name="boilerplate-copyright-destination" id="boilerplate-copyright-destination"></a><div class="boilerplate-copyright">
-
-<div><a name="_copyright_protected_document" id="_copyright_protected_document"></a>
+<div><a name="boilerplate-copyright-destination" id="boilerplate-copyright-destination"></a>
+<div><a name="boilerplate-copyright-default-destination" id="boilerplate-copyright-default-destination"></a><div><a name="boilerplate-copyright-default" id="boilerplate-copyright-default"></a>
 
 <p class="zzCopyright"><a name="boilerplate-year" id="boilerplate-year"></a>&#xA9; <span class="std_publisher">ISO/IEC&#xA0;</span><span class="date">2024</span></p>
 
@@ -7216,189 +7219,192 @@ td.example_label, td.note_label {
 <p class="zzCopyright" style="text-indent:20.15pt;"> CP 401 &#x2022; Ch. de Blandonnet 8 </p>
 <p class="zzCopyright" style="text-indent:20.15pt;"> CH-1214 Vernier, Geneva </p>
 <p class="zzCopyright" style="text-indent:20.15pt;"> Phone: +41 22 749 01 11 </p>
-<p class="zzCopyright" style="text-indent:20.15pt;"> Email: <a href="mailto:copyright@iso.org">copyright@iso.org</a></p>
-<p class="zzCopyright" style="text-indent:20.15pt;"> Website: <a href="https://www.iso.org/">www.iso.org</a></p>
+<p class="zzCopyright" style="text-indent:20.15pt;"> Email:  <a href="mailto:copyright@iso.org">copyright@iso.org</a></p>
+<p class="zzCopyright" style="text-indent:20.15pt;"> Website:  <a href="https://www.iso.org/">www.iso.org</a></p>
 
 <p class="zzCopyright"><a name="boilerplate-place" id="boilerplate-place"></a>Published in Switzerland</p>
-</div>
 </div></div>
+<div><a name="boilerplate-copyright-append-destination" id="boilerplate-copyright-append-destination"></a><div class="boilerplate-copyright">
 
+
+</div></div>
+</div>
 
 
 <div class="authority">
-</div><p class="MsoBodyText"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div class="TOC"><a name="_8dfd2127-314d-4ea7-a160-540f9a320c0d" id="_8dfd2127-314d-4ea7-a160-540f9a320c0d"></a><p class="zzContents">Contents</p><p class="MsoToc1"><span lang="EN-GB" xml:lang="EN-GB"><span style="mso-element:field-begin"></span><span style="mso-spacerun:yes">&#xA0;</span>TOC \o "2-3" \h \z \t
+</div><p class="MsoBodyText"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div class="TOC"><a name="_9816dad1-e89c-4acf-8dbf-7518cf8490d6" id="_9816dad1-e89c-4acf-8dbf-7518cf8490d6"></a><p class="zzContents">Contents</p><p class="MsoToc1"><span lang="EN-GB" xml:lang="EN-GB"><span style="mso-element:field-begin"></span><span style="mso-spacerun:yes">&#xA0;</span>TOC \o "2-3" \h \z \t
 "Heading 1,1,ANNEX,1,Biblio Title,1,Foreword Title,1,Intro Title,1,ANNEXN,1,ANNEXZ,1,na2,1,na3,1,na4,1,na5,1,na6,1,Title,1,Base_Heading,1,Box-title,1,Front Head,1,Index Head,1,AMEND Terms Heading,1,AMEND Heading 1 Unnumbered,1"
  <span style="mso-element:field-separator"></span></span>
 <span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc538081936">Foreword<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc875442125">Foreword<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc538081936 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc875442125 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc850106908">Introduction<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc112270459">Introduction<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc850106908 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc112270459 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc209822196">1 Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc092310563">1 Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc209822196 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc092310563 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc421962452">2 Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc072233570">2 Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc421962452 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc072233570 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc374687810">3 Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc704437533">3 Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc374687810 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc704437533 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc804075546">4 Work organization<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc539828699">4 Work organization<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc804075546 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc539828699 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc036603712">4.1 Background<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc709639299">4.1 Background<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc036603712 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc709639299 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc510890081">4.2 Deliverables<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc444042591">4.2 Deliverables<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc510890081 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc444042591 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc615830610">5 Deliverable: definition of the &#x201C;Metaverse&#x201D;<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc393937674">5 Deliverable: definition of the &#x201C;Metaverse&#x201D;<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc615830610 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc393937674 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc322061086">5.1 General<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc522717060">5.1 General<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc322061086 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc522717060 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc140096271">5.2 Approach<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc631898053">5.2 Approach<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc140096271 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc631898053 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc027926300">5.3 Background<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc805855168">5.3 Background<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc027926300 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc805855168 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc900921897">5.4 Considerations<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc101563101">5.4 Considerations<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc900921897 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc101563101 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc119660858">6 Deliverable: Metaverse terminology<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc170763963">6 Deliverable: Metaverse terminology<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc119660858 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc170763963 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc340850846">6.1 Purpose<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc234795175">6.1 Purpose<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc340850846 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc234795175 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc812786379">6.2 Methodology<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc986921937">6.2 Methodology<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc812786379 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc986921937 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc075062122">6.3 Sources investigated<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc462887477">6.3 Sources investigated<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc075062122 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc462887477 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc640031201">6.4 Results<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc449188875">6.4 Results<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc640031201 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc449188875 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc582453524">7 Recommendations<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc459888366">7 Recommendations<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc582453524 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc459888366 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc2"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc011970889">7.1 General<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc238290748">7.1 General<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc011970889 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc238290748 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc644089313">Bibliography<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc222775259">Bibliography<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc644089313 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc222775259 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1"><span lang="EN-GB" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span><span lang="EN-GB" xml:lang="EN-GB"><o:p class="MsoNormal">&#xA0;</o:p></span></p>
-</div><p class="MsoBodyText"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div><a name="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a" id="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a"></a><p class="ForewordTitle">Foreword</p><p class="ForewordText"><a name="_e7f344d7-9747-e362-969e-a65c9f2606cc" id="_e7f344d7-9747-e362-969e-a65c9f2606cc"></a>ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p><p class="ForewordText"><a name="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f" id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f"></a>The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <a href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</a>)</p><p class="ForewordText"><a name="_9af6a1d5-fa5f-be09-7862-fcc9612b617d" id="_9af6a1d5-fa5f-be09-7862-fcc9612b617d"></a>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <a href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</a>) or the IEC list of patent declarations received (see <a href="https://patents.iec.ch">https://patents.iec.ch</a>).</p><p class="ForewordText"><a name="_3ab973f1-2a74-b4ca-84d1-ea4900a47843" id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843"></a>Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p><p class="ForewordText"><a name="_110024fa-4756-95d8-79f3-602a751fb9e4" id="_110024fa-4756-95d8-79f3-602a751fb9e4"></a>For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO&#x2019;s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <a href="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</a>. In the IEC, see <a href="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</a>.</p><p class="ForewordText"><a name="_c0dc7433-3730-0018-9870-57c4bcad9c52" id="_c0dc7433-3730-0018-9870-57c4bcad9c52"></a>This document was prepared by ISO/IEC JSEG 15, <i>Metaverse</i>.</p><p class="ForewordText"><a name="_faf047d3-50c8-6e95-b6af-61fe98df4388" id="_faf047d3-50c8-6e95-b6af-61fe98df4388"></a>Any feedback or questions on this document should be directed to the user&#x2019;s national standards body. A complete listing of these bodies can be found at <a href="https://www.iso.org/members.html">www.iso.org/members.html</a> and <a href="https://www.iec.ch/national-committees">www.iec.ch/national-committees</a>.</p></div><p class="MsoBodyText"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div class="Section3"><a name="_introduction" id="_introduction"></a><p class="IntroTitle">Introduction</p><p class="MsoBodyText"><a name="_bc793940-93b3-c7aa-f872-be97876a0a48" id="_bc793940-93b3-c7aa-f872-be97876a0a48"></a>This document is the final report of IEC/ISO JSEG 15/WS 1, <i>Metaverse&#x2009;&#x2014;&#x2009;Vocabulary</i>.</p><p class="MsoBodyText"><a name="_e399f69c-8ac6-3c37-4f9c-0511a9ca054e" id="_e399f69c-8ac6-3c37-4f9c-0511a9ca054e"></a>This document provides recommendations of WS 1.</p></div><p class="MsoBodyText">&#xA0;</p></div>
+</div><p class="MsoBodyText"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div><a name="_32113fd3-7752-d676-e197-ad40a405214c" id="_32113fd3-7752-d676-e197-ad40a405214c"></a><p class="ForewordTitle">Foreword</p><p class="ForewordText"><a name="_e7f344d7-9747-e362-969e-a65c9f2606cc" id="_e7f344d7-9747-e362-969e-a65c9f2606cc"></a>ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p><p class="ForewordText"><a name="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f" id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f"></a>The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <a href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</a>)</p><p class="ForewordText"><a name="_5ea38ea2-2b71-477e-e4be-0749268e7181" id="_5ea38ea2-2b71-477e-e4be-0749268e7181"></a>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <a href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</a>) or the IEC list of patent declarations received (see  <a href="https://patents.iec.ch">https://patents.iec.ch</a>).</p><p class="ForewordText"><a name="_3ab973f1-2a74-b4ca-84d1-ea4900a47843" id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843"></a>Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p><p class="ForewordText"><a name="_110024fa-4756-95d8-79f3-602a751fb9e4" id="_110024fa-4756-95d8-79f3-602a751fb9e4"></a>For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO&#x2019;s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <a href="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</a>. In the IEC, see <a href="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</a>.</p><p class="ForewordText"><a name="_c0dc7433-3730-0018-9870-57c4bcad9c52" id="_c0dc7433-3730-0018-9870-57c4bcad9c52"></a>This document was prepared by ISO/IEC JSEG 15, <i>Metaverse</i>.</p><p class="ForewordText"><a name="_faf047d3-50c8-6e95-b6af-61fe98df4388" id="_faf047d3-50c8-6e95-b6af-61fe98df4388"></a>Any feedback or questions on this document should be directed to the user&#x2019;s national standards body. A complete listing of these bodies can be found at <a href="https://www.iso.org/members.html">www.iso.org/members.html</a> and <a href="https://www.iec.ch/national-committees">www.iec.ch/national-committees</a>.</p></div><p class="MsoBodyText"><br clear="all" style="mso-special-character:line-break;page-break-before:always"/></p><div class="Section3"><a name="_introduction" id="_introduction"></a><p class="IntroTitle">Introduction</p><p class="MsoBodyText"><a name="_bc793940-93b3-c7aa-f872-be97876a0a48" id="_bc793940-93b3-c7aa-f872-be97876a0a48"></a>This document is the final report of IEC/ISO JSEG 15/WS 1, <i>Metaverse&#x2009;&#x2014;&#x2009;Vocabulary</i>.</p><p class="MsoBodyText"><a name="_e399f69c-8ac6-3c37-4f9c-0511a9ca054e" id="_e399f69c-8ac6-3c37-4f9c-0511a9ca054e"></a>This document provides recommendations of WS 1.</p></div><p class="MsoBodyText">&#xA0;</p></div>
     <p class="MsoBodyText">
       <br clear="all" class="section"/>
     </p>
@@ -7409,7 +7415,7 @@ td.example_label, td.note_label {
       <div>
         <a name="_scope" id="_scope"></a>
         <h1>1<span style="mso-tab-count:1">&#xA0; </span>Scope</h1>
-        <p class="MsoBodyText"><a name="_2be5e95d-9cc1-6432-539c-d5a5b0cf3750" id="_2be5e95d-9cc1-6432-539c-d5a5b0cf3750"></a>This document provides recommendations by IEC/ISO JSEG 15/WS 1, <i>Metaverse&#x2009;&#x2014;&#x2009;Vocabulary</i>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
+        <p class="MsoBodyText"><a name="_22b3a21c-a68f-c0ff-cd2f-6097b47d6363" id="_22b3a21c-a68f-c0ff-cd2f-6097b47d6363"></a>This document provides recommendations by IEC/ISO JSEG 15/WS 1,  <i>Metaverse&#x2009;&#x2014;&#x2009;Vocabulary</i>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
       </div>
       <div><h1>2<span style="mso-tab-count:1">&#xA0; </span>Normative references</h1>
 <p class="MsoBodyText"><a name="_21971d30-bb88-56a2-0d5b-aca5e0104f76" id="_21971d30-bb88-56a2-0d5b-aca5e0104f76"></a>There are no normative references in this document.</p>
@@ -7459,7 +7465,7 @@ td.example_label, td.note_label {
 </div>
         <div><a name="_background_2" id="_background_2"></a><h2>5.3<span style="mso-tab-count:1">&#xA0; </span>Background</h2>
 
-<p class="MsoBodyText"><a name="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b" id="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b"></a>The word &#x201C;metaverse&#x201D; originated from the science fiction <i>Snow Crash</i> written by Neal Stephenson in 1992 <a href="#snow_crash">[4]</a>.</p>
+<p class="MsoBodyText"><a name="_0757b09e-7522-7614-84f3-f26f71fb74ee" id="_0757b09e-7522-7614-84f3-f26f71fb74ee"></a>The word &#x201C;metaverse&#x201D; originated from the science fiction <i>Snow Crash</i> written by Neal Stephenson in 1992  <a href="#snow_crash">[4]</a>.</p>
 
 <p class="MsoBodyText"><a name="_fb18ff62-e852-b630-94a8-f2b85822aaaa" id="_fb18ff62-e852-b630-94a8-f2b85822aaaa"></a>In popular culture, the term &#x201C;metaverse&#x201D; is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
 
@@ -7595,7 +7601,7 @@ td.example_label, td.note_label {
         <br clear="all" style="mso-special-character:line-break;page-break-before:always"/>
       </p>
       <div><p class="BiblioTitle">Bibliography</p>
-<p class="BiblioEntry"><a name="ISO-IEC_JTC-1_metaverse" id="ISO-IEC_JTC-1_metaverse"></a>[1]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">ISO/IEC JTC 1</span>. <i><span class="stddocTitle" style="mso-pattern:none;">JTC 1 Standards and Standardization for the Metaverse</span></i> [website]. 2023. Available from: <span class="biburl" style="mso-pattern:none;"><a href="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/">https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</a></span>. [viewed: September 5, 2024].</p><p class="BiblioEntry"><a name="Rosenberg" id="Rosenberg"></a>[2]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">Rosenberg L.</span>. <i><span class="stddocTitle" style="mso-pattern:none;">Metaverse 101: defining the key components</span></i> [website]. VentureBeat. 2022. Available from: <span class="biburl" style="mso-pattern:none;"><a href="https://venturebeat.com/business/metaverse-101-defining-the-key-components/">https://venturebeat.com/business/metaverse-101-defining-the-key-components/</a></span>. [viewed: September 5, 2024].</p><p class="BiblioEntry"><a name="Stothard" id="Stothard"></a>[3]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">Stothard P., Ryan P., &amp; Kurata T.</span>. <i>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</i>. n.p.: 2024.</p><p class="BiblioEntry"><a name="snow_crash" id="snow_crash"></a>[4]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">Neal Stephenson</span>. <i><span class="stddocTitle" style="mso-pattern:none;">Snow crash</span></i>. Bantam Books. Available from: <span class="biburl" style="mso-pattern:none;"><a href="http://openlibrary.org/books/OL14813122M/Snow_crash">http://openlibrary.org/books/OL14813122M/Snow_crash</a></span>.</p>
+<p class="BiblioEntry"><a name="ISO-IEC_JTC-1_metaverse" id="ISO-IEC_JTC-1_metaverse"></a>[1]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">ISO/IEC JTC 1</span>. <i><span class="stddocTitle" style="mso-pattern:none;">JTC 1 Standards and Standardization for the Metaverse</span></i> [website]. 2023. Available from: <span class="biburl" style="mso-pattern:none;"><a href="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/">https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</a></span>. [viewed: December 21, 2024].</p><p class="BiblioEntry"><a name="Rosenberg" id="Rosenberg"></a>[2]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">Rosenberg L.</span>. <i><span class="stddocTitle" style="mso-pattern:none;">Metaverse 101: defining the key components</span></i> [website]. VentureBeat. 2022. Available from: <span class="biburl" style="mso-pattern:none;"><a href="https://venturebeat.com/business/metaverse-101-defining-the-key-components/">https://venturebeat.com/business/metaverse-101-defining-the-key-components/</a></span>. [viewed: December 21, 2024].</p><p class="BiblioEntry"><a name="Stothard" id="Stothard"></a>[3]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">Stothard P., Ryan P., &amp; Kurata T.</span>. <i>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</i>. n.p.: 2024.</p><p class="BiblioEntry"><a name="snow_crash" id="snow_crash"></a>[4]<span style="mso-tab-count:1">&#xA0; </span><span style="font-variant:small-caps;">Neal Stephenson</span>. <i><span class="stddocTitle" style="mso-pattern:none;">Snow crash</span></i>. Bantam Books. Available from: <span class="biburl" style="mso-pattern:none;"><a href="http://openlibrary.org/books/OL14813122M/Snow_crash">http://openlibrary.org/books/OL14813122M/Snow_crash</a></span>.</p>
 
 
 
@@ -7609,7 +7615,7 @@ td.example_label, td.note_label {
 </html>
 
 
-------=_NextPart_a4ae7202.4fe1.4ac3
+------=_NextPart_7353301d.23f3.49c2
 Content-ID: <filelist.xml>
 Content-Disposition: inline; filename="filelist.xml"
 Content-Transfer-Encoding: base64
@@ -7621,7 +7627,7 @@ anNlZy0xNS9fc2l0ZS9kb2N1bWVudHMvcmVwb3J0L2RvY3VtZW50Lmh0bSIvPiAgPG86RmlsZSBI
 UmVmPSJmaWxlbGlzdC54bWwiLz4KICA8bzpGaWxlIEhSZWY9ImhlYWRlci5odG1sIi8+CjwveG1s
 Pgo=
 
-------=_NextPart_a4ae7202.4fe1.4ac3
+------=_NextPart_7353301d.23f3.49c2
 Content-ID: <header.html>
 Content-Disposition: inline; filename="header.html"
 Content-Transfer-Encoding: base64
@@ -8142,4 +8148,4 @@ Rm9vdGVyPjxzcGFuIGxhbmc9RU4tQVUgc3R5bGU9J2ZvbnQtc2l6ZToxMC4wcHQ7Jz7CqQ0KSVNP
 L0lFQyZuYnNwOzIwMjQmbmJzcDvigJMgQWxsIHJpZ2h0cyByZXNlcnZlZDxvOnA+PC9vOnA+PC9z
 cGFuPjwvcD4NCg0KPC9kaXY+DQoNCg0KDQo8L2JvZHk+DQoNCjwvaHRtbD4NCg==
 
-------=_NextPart_a4ae7202.4fe1.4ac3--
+------=_NextPart_7353301d.23f3.49c2--

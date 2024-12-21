@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="semantic" version="2.8.5" schema-version="v1.3.3">
+<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="semantic" version="2.9.0" schema-version="v1.4.0">
 <bibdata type="standard">
 <title language="en" format="text/plain" type="main">Metaverse — Vocabulary</title>
 
@@ -20,9 +20,13 @@
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
+<subdivision>
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier></subdivision></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<subdivision>
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
 <name>International Electrotechnical Commission</name>
@@ -30,33 +34,37 @@
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Metaverse</subdivision><identifier>JSEG 15</identifier></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
+<subdivision>
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
 <name>International Organization for Standardization</name>
-<subdivision>Terminology</subdivision><identifier>WS 1</identifier></organization></contributor><edition>0.3</edition><version><revision-date>2024-08-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<subdivision>
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><edition>0.4</edition><version><revision-date>2024-12-21</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
 <name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 1</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2024</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><flavor>iso</flavor><editorialgroup><agency>IEC</agency><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup><secretariat>IEC/CO</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="15" type="JSEG">Metaverse</technical-committee><workgroup number="1" type="WS">Terminology</workgroup></approvalgroup><structuredidentifier><project-number>IEC/ISO 1</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2024</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
-<clause id="_copyright_protected_document" inline-header="false" obligation="normative">
+<clause id="boilerplate-copyright-default" inline-header="false" obligation="normative">
 <title>COPYRIGHT PROTECTED DOCUMENT</title>
 <p id="boilerplate-year">© <span class="std_publisher">ISO/IEC </span><span class="date">2024</span></p>
 
 <p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
 
-<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email: <link target="mailto:copyright@iso.org"/><br/> Website: <link target="https://www.iso.org/">www.iso.org</link></p>
+<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website:  <link target="https://www.iso.org/">www.iso.org</link></p>
 
 <p id="boilerplate-place">Published in Switzerland</p>
 </clause>
 </copyright-statement>
-</boilerplate><preface><foreword id="_d9bc5bc3-3168-a5eb-b47b-f04f960c409a" obligation="informative">
+</boilerplate><preface><foreword id="_32113fd3-7752-d676-e197-ad40a405214c" obligation="informative">
 <title>Foreword</title>
 <p id="_e7f344d7-9747-e362-969e-a65c9f2606cc">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
 
 <p id="_5b1bbca6-9e4f-7c41-743f-fda225bc7f3f">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <link target="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</link>)</p>
 
-<p id="_9af6a1d5-fa5f-be09-7862-fcc9612b617d">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see <link target="https://patents.iec.ch"/>).</p>
+<p id="_5ea38ea2-2b71-477e-e4be-0749268e7181">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see  <link target="https://patents.iec.ch"/>).</p>
 
 <p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
 
@@ -105,7 +113,7 @@
 <name>metaverse<index><primary>metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_e0b9f5b8-79e1-3fc4-0839-c41a75041bb8"><concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> experienced through <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> technologies</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_4eba876f-0358-8a4a-1ed5-de76947575cc"><concept><refterm>interactive</refterm><renderterm>interactive</renderterm><xref target="term-interactive"/></concept> <concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> that incorporates <concept><refterm>spatial referencing</refterm><renderterm>spatial referencing</renderterm><xref target="term-spatial-referencing"/></concept> experienced through  <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> technologies</p></verbal-definition></definition>
  </term>
 
 <term id="term-artificial-intelligence"><preferred><expression>
@@ -246,14 +254,26 @@
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_19775-1" type="inline" citeas="ISO/IEC 19775-1:2023"/></termsource></term>
 
+<term id="term-interactive"><preferred><expression>
+<name>interactive<index><primary>interactive</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_a32c5fe9-bbdf-145c-15af-5893575a649f">pertaining to a system or mode of operation in which each user entry causes a response from or action by the system</p></verbal-definition></definition>
+
+
+ <termsource status="modified" type="authoritative"><origin bibitemid="ISO-IEC-IEEE_24765_2017" type="inline" citeas="ISO/IEC/IEEE 24765:2017"><localityStack><locality type="clause"><referenceFrom>3.2050</referenceFrom></locality></localityStack></origin>
+<modification><p id="_bf163f2f-6d31-3560-2119-748e6e3fe65c">removed second definition.</p>
+</modification>
+</termsource></term>
+
 <term id="term-Internet-of-Things"><preferred><expression>
 <name>Internet of Things<index><primary>Internet of Things</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_de31d7a8-f31b-d4d8-18a3-792e994e489b">system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_b60af6b2-e552-3c96-95c0-e30128346884">system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</p></verbal-definition></definition>
 
 
- <termsource status="modified" type="authoritative"><origin bibitemid="IEEE_2413_2019" type="inline" citeas="IEEE&amp;#xa0;2413-2019"/><modification><p id="_aa1e7fdb-283b-726d-6bea-3a9ab6ed3fd2">dropped article.</p>
+ <termsource status="modified" type="authoritative"><origin bibitemid="IEEE_2413_2019" type="inline" citeas="IEEE&amp;#xa0;2413-2019"/><modification><p id="_f08aeb9d-cf86-ae06-05c3-fcd1fd313f33">dropped article.</p>
 </modification>
 </termsource></term>
 
@@ -261,7 +281,7 @@
 <name>interoperability<index><primary>interoperability</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_a3906a50-b9dc-76ba-05a6-8f9ea20c3f19">ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_705a1519-c878-30e7-ecc1-87b0e6d65881">ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_17788_2014" type="inline" citeas="ISO/IEC&amp;#xa0;17788:2014"><localityStack><locality type="clause"><referenceFrom>3.1.5</referenceFrom></locality></localityStack></origin>
@@ -271,25 +291,38 @@
 <name>ledger<index><primary>ledger</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_1883f21e-8d7e-50cb-3e28-cfe23d418275">information store that keeps records of transactions that are intended to be final, definitive and immutable</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_6fca5003-4c2a-4518-025b-8eb250596209">information store that keeps records of transactions that are intended to be final, definitive and immutable</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_22739_2024" type="inline" citeas="ISO&amp;#xa0;22739:2024"><localityStack><locality type="clause"><referenceFrom>3.43</referenceFrom></locality></localityStack></origin>
 </termsource></term>
 
+<term id="term-spatial-referencing"><preferred><expression>
+<name>spatial referencing<index><primary>spatial referencing</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_aa8bfa43-503a-6447-30f3-041f5169e34c">method to describe a position within a context</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_a6d2f60c-05df-ad07-5943-34b3b1d82d3c"><p id="_b1d659b9-f978-a316-da8a-78c35d50e55d">A position may the form of a label, code or coordinate tuple.</p>
+</termnote><termnote id="_fe5d66ad-7a3d-4ef9-d835-b1004f0a34fc"><p id="_47f156ed-8ff3-7cc6-f119-b92405660be2">Definition modified from <eref type="inline" bibitemid="ISO_19111_2019" citeas="ISO 19111:2019"><localityStack><locality type="clause"><referenceFrom>3.1.56</referenceFrom></locality></localityStack></eref> “spatial reference”.</p>
+</termnote></term>
+
 <term id="term-virtual-world"><preferred><expression>
 <name>virtual world<index><primary>virtual world</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_cbb936eb-c4b0-5248-87f4-511b27a3d2ef">simulated environment that can be accessed by multiple users through an online interface</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_9f908fd4-cd35-4a5d-e749-f8639c049af3">simulated environment that can be accessed by multiple users through an online interface</p></verbal-definition></definition>
 
 
 
 
 
 
- <termnote id="_f5f132f7-025a-8bbe-ff78-5731f66ea395"><p id="_18de9b1b-bfa0-282e-059d-163a0da30ec4">The simulated environments are often interactive.</p>
-</termnote><termnote id="_74d23314-563f-78b3-305b-3de01a7ee2dc"><p id="_962857c2-299c-1cf4-9563-37509f784fa8">The physical world in which people live, and the related characteristics, will be referred to as the “real world” to differentiate it from a virtual world.</p>
+ <termnote id="_bd12fe1b-7ee1-7e27-a0a9-b2e40e9e9f59"><p id="_9ae729fb-b012-ca62-5719-5a52520f77e0">The simulated environments are often interactive.</p>
+</termnote><termnote id="_a6fb115f-4f88-664b-d7c1-f8293c0b04fe"><p id="_d8f85dd5-763c-f89e-90f3-d8c153d0d199">The physical world in which people live, and the related characteristics, will be referred to as the “real world” to differentiate it from a virtual world.</p>
 </termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_27032-2012" type="inline" citeas="ISO/IEC&amp;#xa0;27032:2012"><localityStack><locality type="clause"><referenceFrom>4.51</referenceFrom></locality></localityStack></origin>
 </termsource></term>
 
@@ -297,7 +330,7 @@
 <name>virtual office<index><primary>virtual office</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_c75a9e67-8f53-9e8d-9bf6-ddaa248b2086">3-D virtual scene replicating office space of an organization, providing users with an <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> experience</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_b9b85e25-f971-7bf1-be7a-6ff285144f3f">3-D virtual scene replicating office space of an organization, providing users with an  <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> experience</p></verbal-definition></definition>
  </term>
 
 <term id="term-user-generated-content"><preferred><expression>
@@ -310,10 +343,10 @@
 
 
 
-<definition><verbal-definition><p id="_9ff17dfa-195d-f0b7-ec9e-c31dd96a3b01">content created by users within the <concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept></p></verbal-definition></definition>
+<definition><verbal-definition><p id="_144d82aa-407c-d344-e85e-d497a7fe4d72">content created by users within the <concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept></p></verbal-definition></definition>
 
 
- <termnote id="_15a47b9c-8fcd-58e3-dfb2-989e18151060"><p id="_243a99f7-9d5f-500e-1e23-d32edd8f07c3">UGC is often facilitated by simplified editing tools.</p>
+ <termnote id="_ac95d792-5054-fdfa-2d85-baadaf9d6d88"><p id="_1ce5e3cf-50dd-777e-e747-ea1c365c6910">UGC is often facilitated by simplified editing tools.</p>
 </termnote></term>
 </terms>
 
@@ -365,7 +398,7 @@
 <name>social metaverse<index><primary>social metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_b5ca822a-60e2-52ed-d6d6-e10a6a34decb"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using <concept><refterm>augmented reality</refterm><renderterm>AR</renderterm><xref target="term-augmented-reality"/></concept>, <concept><refterm>virtual reality</refterm><renderterm>VR</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>extended reality</refterm><renderterm>XR</renderterm><xref target="term-extended-reality"/></concept> and other technologies</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_cc24f0b5-c4ba-6ffe-cfc6-f6a58b99aeb3"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using  <concept><refterm>augmented reality</refterm><renderterm>AR</renderterm><xref target="term-augmented-reality"/></concept>, <concept><refterm>virtual reality</refterm><renderterm>VR</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>extended reality</refterm><renderterm>XR</renderterm><xref target="term-extended-reality"/></concept> and other technologies</p></verbal-definition></definition>
  </term>
 </terms>
 
@@ -446,7 +479,7 @@
 <name>mixed reality system<index><primary>mixed reality system</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_f6b492d8-11c7-504e-b91b-fc76e44ee346">system that uses a mixture of representations of physical world data and virtual world data as its presentation medium</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_b82f3e5c-41b7-9f06-285a-94f08cb2a1d5">system that uses a mixture of representations of physical world data and <concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> data as its presentation medium</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18039_2019" type="inline" citeas="ISO/IEC&amp;#xa0;18039:2019"><localityStack><locality type="clause"><referenceFrom>3.1.13</referenceFrom></locality></localityStack></origin>
@@ -526,17 +559,17 @@
 
 <clause id="_background" inline-header="false" obligation="normative">
 <title>Background</title>
-<p id="_6dd00e41-863b-3b71-406d-9e35ddd4ee0b">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992 <eref type="inline" bibitemid="snow_crash" citeas="[23]"/>.</p>
+<p id="_0757b09e-7522-7614-84f3-f26f71fb74ee">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992  <eref type="inline" bibitemid="snow_crash" citeas="[25]"/>.</p>
 
 <p id="_fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
 
 <p id="_60402f6d-98f2-aedd-ebaa-4ee0542a56d8">The group has considered a few popular definitions of the “metaverse”, including:</p>
 
-<ul id="_4d546aae-7351-d66f-fa1f-07f33926f28a"><li><p id="_48a310c0-10bc-b778-cce4-9b686bfb253b">From <eref type="inline" bibitemid="ISO-IEC_JTC-1_metaverse" citeas="[20]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+<ul id="_4d546aae-7351-d66f-fa1f-07f33926f28a"><li><p id="_48a310c0-10bc-b778-cce4-9b686bfb253b">From <eref type="inline" bibitemid="ISO-IEC_JTC-1_metaverse" citeas="[22]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
 </li>
-<li><p id="_f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <eref type="inline" bibitemid="Rosenberg" citeas="[21]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+<li><p id="_f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <eref type="inline" bibitemid="Rosenberg" citeas="[23]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
 </li>
-<li><p id="_6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <eref type="inline" bibitemid="Stothard" citeas="[22]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+<li><p id="_6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <eref type="inline" bibitemid="Stothard" citeas="[24]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
 </li>
 </ul>
 </clause>
@@ -547,29 +580,45 @@
 
 <p id="_789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</p>
 
-<ul id="_ac082d0d-e350-1a79-f9a6-49c029d11679"><li><p id="_a7cd1301-4eb0-f8f9-b319-af3db49c28f7"><strong>virtual</strong>, as in the items in the experience is virtual</p>
-</li>
-<li><p id="_2a405de2-ce7d-cc86-9bc9-63d551b6319f"><strong>immersive</strong> where it is experienced through human computer interaction</p>
-</li>
-</ul>
+<dl id="_d4bb2bbe-ed9e-25ee-deb9-87bacb3155d6"><dt>virtual</dt>
+<dd><p id="_2fbe9249-06ef-cc7e-c54f-306dbf33a62e">as in the items in the experience is virtual</p>
+</dd>
+<dt>immersive</dt>
+<dd><p id="_f2483d97-a437-e55d-2368-521beb289686">where it is experienced through human-computer interaction</p>
+</dd>
+<dt>spatial</dt>
+<dd><p id="_47519c9a-0701-35f3-bf68-85bb0fb187e0">where the experience is spatially organized according to some notion of location</p>
+</dd>
+<dt>interactive</dt>
+<dd><p id="_c59516df-27ae-505e-8d62-0e6f31e6d45c">where users can directly interact with it and receive feedback</p>
+</dd>
+</dl>
 
 <p id="_f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</p>
 
-<ul id="_98b3fc84-e724-bfda-ba40-b3774fc8046e"><li><p id="_f4fdf12c-0cf5-b430-9491-97a4acb0239b"><strong>massively multi-user</strong> where there can be many simultaneous users</p>
-</li>
-<li><p id="_d3cdf52c-4e05-9020-b74a-e91a79c92ae4"><strong>interconnection</strong> of virtual world systems</p>
-</li>
-<li><p id="_b419aaa8-ccd7-1a14-1091-d98034f57ea1"><strong>interoperability</strong> between users across virtual world systems</p>
-</li>
-<li><p id="_e48910aa-1694-c074-af90-70be81fcb753"><strong>persistent</strong> where actions and events in the virtual world persists after a user leaves</p>
-</li>
-<li><p id="_d5f37f9b-ddf3-8e22-1f5a-d887975c6747"><strong>real-time</strong> where user actions are performed in real-time</p>
-</li>
-</ul>
+<dl id="_a1a86e36-3a8e-7e3e-0694-a4d879638995"><dt>massively multi-user</dt>
+<dd><p id="_1862709a-6354-498f-8310-04e867f0f9de">where there can be many simultaneous users</p>
+</dd>
+<dt>interconnection</dt>
+<dd><p id="_966e1bde-8b8e-ca98-dc86-9d6020eb519e">of virtual world systems</p>
+</dd>
+<dt>interoperability</dt>
+<dd><p id="_2941ccd6-0123-c162-cadd-61a286806141">between users across virtual world systems</p>
+</dd>
+<dt>persistent</dt>
+<dd><p id="_3dcbb7c1-45c4-2979-04f2-d7925c48f965">where actions and events in the virtual world persists after a user leaves</p>
+</dd>
+<dt>real-time</dt>
+<dd><p id="_7008a8e7-71cb-3145-5ae9-ee3b85ef89e7">where user actions are performed in real-time</p>
+</dd>
+</dl>
+</clause>
 
-<p id="_6fc68c37-d075-4fed-4249-dc393eb15975">The resulting consensus arrived at this definition for “metaverse”:</p>
+<clause id="_consensus" inline-header="false" obligation="normative">
+<title>Consensus</title>
+<p id="_bddc7762-d200-927d-565b-a36c9c48a4bd">The resulting consensus arrived at this definition for “metaverse”:</p>
 
-<quote id="_782f837d-abea-76d3-1ded-e73df9afefd6"><p id="_7ad366af-22cb-5d54-4588-87e4f56f4b57">metaverse: virtual world experienced through immersive technologies</p>
+<quote id="_5eb61e9a-220c-00be-b533-b30cadaf21d5"><p id="_d6b2facd-04ac-3eb3-4337-439e11d68191">metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
 </quote>
 </clause>
 </clause>
@@ -613,7 +662,7 @@
 
 </references><references id="_bibliography" normative="false" obligation="informative">
 <title>Bibliography</title><bibitem id="ISO_IEC_17788_2014" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
 
@@ -697,7 +746,7 @@ ISO/IEC 17788:2014 is applicable to all types of organizations (e.g., commercial
   </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_IEC_18038_2020" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
 
@@ -771,7 +820,7 @@ This document does not define how specific applications are implemented with spe
   </copyright>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_IEC_18039_2019" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
 
@@ -837,7 +886,7 @@ This document does not specify how a particular MAR application, component, syst
   </copyright>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_IEC_TR_18121_2015" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
 
@@ -913,8 +962,113 @@ The following aspects are not addressed in this ISO/IEC TR 18121:2015:
     </owner>
   </copyright>
   <place>Geneva</place>
+</bibitem><bibitem id="ISO_19111_2019" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Referencing by coordinates</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Geographic information — Referencing by coordinates</title>
+
+  <uri type="src">https://www.iso.org/standard/74039.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:74039:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/40/74039.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 19111:2019</docidentifier>
+  <docidentifier type="iso-reference">ISO 19111:2019(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:19111:stage-90.92</docidentifier>
+  <docnumber>19111</docnumber>
+  <date type="published">
+    <on>2019-01</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document defines the conceptual schema for the description of referencing by coordinates. It describes the minimum data required to define coordinate reference systems. This document supports the definition of:
+—          spatial coordinate reference systems where coordinate values do not change with time. The system may:
+- —   be geodetic and apply on a national or regional basis, or
+- —   apply locally such as for a building or construction site, or
+- —   apply locally to an image or image sensor;
+- —   be referenced to a moving platform such as a car, a ship, an aircraft or a spacecraft. Such a coordinate reference system can be related to a second coordinate reference system which is referenced to the Earth through a transformation that includes a time element;
+—          spatial coordinate reference systems in which coordinate values of points on or near the surface of the earth change with time due to tectonic plate motion or other crustal deformation. Such dynamic systems include time evolution, however they remain spatial in nature;
+—          parametric coordinate reference systems which use a non-spatial parameter that varies monotonically with height or depth;
+—          temporal coordinate reference systems which use dateTime, temporal count or temporal measure quantities that vary monotonically with time;
+—          mixed spatial, parametric or temporal coordinate reference systems.
+The definition of a coordinate reference system does not change with time, although in some cases some of the defining parameters can include a rate of change of the parameter. The coordinate values within a dynamic and in a temporal coordinate reference system can change with time.
+This document also describes the conceptual schema for defining the information required to describe operations that change coordinate values.
+In addition to the minimum data required for the definition of the coordinate reference system or coordinate operation, the conceptual schema allows additional descriptive information — coordinate reference system metadata — to be provided.
+This document is applicable to producers and users of geographic information. Although it is applicable to digital geographic data, the principles described in this document can be extended to many other forms of spatial data such as maps, charts and text documents.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19111-2:2009</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 19111-2:2009</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19111:2007</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 19111:2007</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/AWI 19111</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/AWI 19111</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19111:2019/Amd 1:2021</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 19111:2019/Amd 1:2021</docidentifier>
+      <date type="circulated">
+        <on>2024-09-16</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19111:2019/Amd 2:2023</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 19111:2019/Amd 2:2023</docidentifier>
+      <date type="circulated">
+        <on>2024-09-16</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
 </bibitem><bibitem id="ISO-IEC_19775-1" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Computer graphics, image processing and environmental data representation</title>
 
@@ -988,7 +1142,7 @@ Each X3D application:</abstract>
   </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_22739_2024" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Blockchain and distributed ledger technologies</title>
 
@@ -1046,7 +1200,7 @@ Each X3D application:</abstract>
   </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_IEC_23188_2020" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
 
@@ -1064,7 +1218,7 @@ Each X3D application:</abstract>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/48/74846.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC TR 23188:2020</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC TR 23188:2020(E)</docidentifier>
-  <docidentifier type="URN">urn:iso:std:iso-iec:tr:23188:stage-60.60</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:tr:23188:stage-90.92</docidentifier>
   <docnumber>23188</docnumber>
   <date type="published">
     <on>2020-02</on>
@@ -1107,8 +1261,8 @@ Each X3D application:</abstract>
 —     real time;
 —     mobile edge computing, mobile devices.</abstract>
   <status>
-    <stage>60</stage>
-    <substage>60</substage>
+    <stage>90</stage>
+    <substage>92</substage>
   </status>
   <copyright>
     <from>2020</from>
@@ -1120,9 +1274,16 @@ Each X3D application:</abstract>
       </organization>
     </owner>
   </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC CD TR 23188</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC CD TR 23188</docidentifier>
+    </bibitem>
+
+  </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO-IEC_TR_23843_2020" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology for learning, education and training</title>
 
@@ -1183,7 +1344,7 @@ Each X3D application:</abstract>
   </copyright>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_24165-1_2021" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Digital token identifier (DTI)</title>
 
@@ -1243,8 +1404,86 @@ Each X3D application:</abstract>
 
   </relation>
   <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC-IEEE_24765_2017" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Systems and software engineering</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Systems and software engineering — Vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/71952.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:71952:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/19/71952.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC/IEEE 24765:2017</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC/IEEE 24765:2017(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec-ieee:24765:stage-90.93</docidentifier>
+  <docnumber>24765</docnumber>
+  <date type="published">
+    <on>2017-09</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Institute of Electrical and Electronics Engineers</name>
+
+      <abbreviation>IEEE</abbreviation>
+      <uri>www.ieee.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC/IEEE 24765:2017 provides a common vocabulary applicable to all systems and software engineering work. It was prepared to collect and standardize terminology. ISO/IEC/IEEE 24765:2017 is intended to serve as a useful reference for those in the information technology field, and to encourage the use of systems and software engineering standards prepared by ISO and liaison organizations IEEE Computer Society and Project Management Institute. ISO/IEC/IEEE 24765:2017 includes references to the active source standards for definitions so that systems and software engineering concepts and requirements can be further explored.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC/IEEE</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC/IEEE 24765:2010</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC/IEEE 24765:2010</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
 </bibitem><bibitem id="ISO-IEC_27032-2012" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
 
@@ -1287,7 +1526,7 @@ Each X3D application:</abstract>
     </organization>
   </contributor>
   <edition>1</edition>
-  <note type="Unpublished-Status"><p id="_4799f7df-9682-25f3-f89c-41dd9a9d2b20">Cancelled and replaced by ISO/IEC 27032:2023.</p></note><language>en</language>
+  <note type="Unpublished-Status"><p id="_dc4c22a4-3cd2-1e44-00cc-73cd521e8b9b">Cancelled and replaced by ISO/IEC 27032:2023.</p></note><language>en</language>
   <language>fr</language>
   <script>Latn</script>
   <abstract format="text/plain" language="en" script="Latn">ISO/IEC 27032:2012 provides guidance for improving the state of Cybersecurity, drawing out the unique aspects of that activity and its dependencies on other security domains, in particular:
@@ -1327,7 +1566,7 @@ It covers the baseline security practices for stakeholders in the Cyberspace. Th
   </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="ISO_IEC_IEEE_42010_2022" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Software, systems and enterprise</title>
 
@@ -1418,7 +1657,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
 2024.</formattedref>
   <title>Draft Technical Specification ITU FGMV — Vocabulary for metaverse</title>
   <docidentifier>ITU FGMV-O-235</docidentifier>
-  <docidentifier type="metanorma">[12]</docidentifier>
+  <docidentifier type="metanorma">[14]</docidentifier>
   <date type="published">
   <on>2024</on>
 </date>
@@ -1429,7 +1668,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   </organization>
 </contributor>
 </bibitem><bibitem id="IEEE_2413_2019" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="main" format="text/plain">IEEE Standard for an Architectural Framework for the Internet of Things (IoT)</title>
 
@@ -1490,7 +1729,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   <keyword>IEEE 2413</keyword>
   <keyword>Internet of Things (IoT)</keyword>
 </bibitem><bibitem id="IEEE_7010_2020" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="main" format="text/plain">IEEE Recommended Practice for Assessing the Impact of Autonomous and Intelligent Systems on Human Well-Being</title>
 
@@ -1500,6 +1739,9 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   <docidentifier type="ISBN">978-1-5044-6498-7</docidentifier>
   <docidentifier type="DOI">10.1109/IEEESTD.2020.9084219</docidentifier>
   <docnumber>IEEE 7010-2020</docnumber>
+  <date type="updated">
+    <on>2020-05-22</on>
+  </date>
   <date type="created">
     <on>2020-05-01</on>
   </date>
@@ -1554,7 +1796,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   <keyword>well-being indicators</keyword>
   <keyword>well-being metrics</keyword>
 </bibitem><bibitem id="ITU-T_F_791" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-main" format="text/plain" language="en" script="Latn">Accessibility terms and definitions</title>
 
@@ -1622,7 +1864,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   </relation>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2024-09-05</fetched>
+      <fetched>2024-12-21</fetched>
       
 <title type="title-main" format="text/plain" language="en" script="Latn">Accessibility terms and definitions</title>
 
@@ -1698,7 +1940,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="ITU-T-Y_4600" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title type="title-main" format="text/plain" language="en" script="Latn">Requirements and capabilities of a digital twin system for smart cities</title>
 
@@ -1864,7 +2106,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   </relation>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2024-09-05</fetched>
+      <fetched>2024-12-21</fetched>
       
 <title type="title-main" format="text/plain" language="en" script="Latn">Requirements and capabilities of a digital twin system for smart cities</title>
 
@@ -2038,7 +2280,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   </relation>
   <place>Geneva</place>
 </bibitem><bibitem id="w3c_did" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title format="text/plain">Decentralized Identifiers (DIDs) v1.0</title>
 
@@ -2058,46 +2300,610 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   <language>en</language>
   <script>Latn</script>
   <status>
-    <stage>Recommendation</stage>
+    <stage>Working Draft</stage>
   </status>
-  <relation type="instanceOf">
+  <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C REC-did-core-20220719</formattedref>
-      <docidentifier type="W3C" primary="true">W3C REC-did-core-20220719</docidentifier>
+      <formattedref format="text/plain">W3C WD-did-core-20191107</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/WD-did-core-20191107/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20191107</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C PR-did-core-20210803</formattedref>
-      <docidentifier type="W3C" primary="true">W3C PR-did-core-20210803</docidentifier>
+      <formattedref format="text/plain">W3C WD-did-core-20191113</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/WD-did-core-20191113/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20191113</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C WD-did-core-20201227</formattedref>
-      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201227</docidentifier>
+      <formattedref format="text/plain">W3C WD-did-core-20191125</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/WD-did-core-20191125/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20191125</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20191127</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/WD-did-core-20191127/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20191127</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="hasEdition">
     <bibitem>
       <formattedref format="text/plain">W3C WD-did-core-20191209</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/WD-did-core-20191209/</uri>
       <docidentifier type="W3C" primary="true">W3C WD-did-core-20191209</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200223</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200223/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200223</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200225</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200225/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200225</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200305</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200305/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200305</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200319</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200319/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200319</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200323</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200323/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200323</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200330</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200330/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200330</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200402</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200402/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200402</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200403</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200403/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200403</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200407</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200407/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200407</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200408</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200408/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200408</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200421</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200421/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200421</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200608</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200608/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200608</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200622</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200622/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200622</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200625</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200625/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200625</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200703</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200703/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200703</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200705</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200705/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200705</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200714</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200714/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200714</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200723</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200723/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200723</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200728</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200728/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200728</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200731</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200731/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200731</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20200907</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20200907/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20200907</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201002</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201002/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201002</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201008</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201008/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201008</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201012</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201012/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201012</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201027</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201027/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201027</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201101</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201101/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201101</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201104</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201104/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201104</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201108</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201108/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201108</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201214</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201214/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201214</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201220</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201220/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201220</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20201227</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/WD-did-core-20201227/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20201227</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210103</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210103/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210103</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210110</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210110/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210110</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210118</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210118/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210118</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210120</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210120/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210120</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210124</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210124/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210124</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210126</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210126/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210126</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210128</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210128/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210128</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210131</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210131/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210131</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210205</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210205/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210205</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210208</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210208/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210208</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210209</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210209/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210209</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210211</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210211/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210211</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210212</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210212/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210212</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210222</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210222/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210222</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210223</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210223/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210223</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210225</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210225/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210225</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210226</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210226/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210226</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210301</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210301/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210301</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210302</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210302/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210302</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210309</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210309/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210309</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C WD-did-core-20210305</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/WD-did-core-20210305/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-did-core-20210305</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CR-did-core-20210318</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CR-did-core-20210318/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-did-core-20210318</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210430</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210430/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210430</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210515</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210515/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210515</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210529</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210529/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210529</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210605</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210605/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210605</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210609</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210609/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210609</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CR-did-core-20210615</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CR-did-core-20210615/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-did-core-20210615</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210616</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210616/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210616</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210627</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210627/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210627</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210710</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210710/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210710</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210711</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210711/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210711</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210717</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210717/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210717</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210720</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210720/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210720</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210724</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210724/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210724</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CRD-did-core-20210730</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/CRD-did-core-20210730/</uri>
+      <docidentifier type="W3C" primary="true">W3C CRD-did-core-20210730</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C PR-did-core-20210803</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/PR-did-core-20210803/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-did-core-20210803</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C REC-did-core-20220719</formattedref>
+      <uri type="src">https://www.w3.org/TR/2022/REC-did-core-20220719/</uri>
+      <docidentifier type="W3C" primary="true">W3C REC-did-core-20220719</docidentifier>
     </bibitem>
 
   </relation>
   <series>
     
-<title format="text/plain">W3C REC</title>
+<title format="text/plain">W3C WD</title>
 
     <number>did-core</number>
   </series>
 </bibitem><bibitem id="w3c_did_spec_registries" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
-<title format="text/plain">Decentralized Identifier Extensions</title>
+<title format="text/plain">DID Specification Registries</title>
 
   <uri type="src">https://www.w3.org/TR/did-spec-registries/</uri>
   <docidentifier type="W3C" primary="true">W3C did-spec-registries</docidentifier>
@@ -2114,24 +2920,515 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   </contributor>
   <language>en</language>
   <script>Latn</script>
-  <relation type="instanceOf">
+  <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20240831</formattedref>
-      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20240831</docidentifier>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20200618</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20200618/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20200618</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20211102</formattedref>
-      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20211102</docidentifier>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20200930</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20200930/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20200930</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201001</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201001/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201001</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201102</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201102/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201109</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201109/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201109</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201119</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201119/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201119</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201130</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201130/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201130</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201214</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201214/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201214</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="hasEdition">
     <bibitem>
       <formattedref format="text/plain">W3C NOTE-did-spec-registries-20201221</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/NOTE-did-spec-registries-20201221/</uri>
       <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20201221</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210114</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210114/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210114</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210121</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210121/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210121</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210122</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210122/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210122</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210125</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210125/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210125</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210128</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210128/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210128</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210129</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210129/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210129</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210131</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210131/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210131</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210205</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210205/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210205</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210207</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210207/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210207</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210208</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210208/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210208</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210215</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210215/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210215</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210216</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210216/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210216</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210217</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210217/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210217</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210225</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210225/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210225</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210311</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210311/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210311</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210308</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210308/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210308</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210322</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210322/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210322</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210409</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210409/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210409</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210416</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210416/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210416</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210427</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210427/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210427</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210428</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210428/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210428</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210504</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210504/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210504</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210508</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210508/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210508</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210515</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210515/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210515</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210601</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210601/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210601</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210613</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210613/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210613</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210614</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210614/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210614</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210616</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210616/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210616</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210624</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210624/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210624</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210730</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210730/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210730</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210802</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210802/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210802</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210806</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210806/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210806</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210812</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210812/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210812</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210817</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210817/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210817</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210819</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210819/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210819</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210824</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210824/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210824</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210831</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210831/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210831</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210909</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210909/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210909</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210914</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210914/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210914</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20210924</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210924/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20210924</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20211026</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20211026/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20211026</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20211102</formattedref>
+      <uri type="src">https://www.w3.org/TR/2021/NOTE-did-spec-registries-20211102/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20211102</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20220621</formattedref>
+      <uri type="src">https://www.w3.org/TR/2022/NOTE-did-spec-registries-20220621/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20220621</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20220628</formattedref>
+      <uri type="src">https://www.w3.org/TR/2022/NOTE-did-spec-registries-20220628/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20220628</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20220809</formattedref>
+      <uri type="src">https://www.w3.org/TR/2022/NOTE-did-spec-registries-20220809/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20220809</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230107</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230107/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230107</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230124</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230124/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230124</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230208</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230208/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230208</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230309</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230309/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230309</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230310</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230310/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230310</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230411</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230411/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230411</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230427</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230427/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230427</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230514</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230514/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230514</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20230911</formattedref>
+      <uri type="src">https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230911/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20230911</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C NOTE-did-spec-registries-20240516</formattedref>
+      <uri type="src">https://www.w3.org/TR/2024/NOTE-did-spec-registries-20240516/</uri>
+      <docidentifier type="W3C" primary="true">W3C NOTE-did-spec-registries-20240516</docidentifier>
     </bibitem>
 
   </relation>
@@ -2142,7 +3439,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
     <number>did-spec-registries</number>
   </series>
 </bibitem><bibitem id="w3c_wot" type="standard" schema-version="v1.2.9">
-  <fetched>2024-09-05</fetched>
+  <fetched>2024-12-21</fetched>
   
 <title format="text/plain">Web of Things (WoT) Architecture</title>
 
@@ -2162,25 +3459,43 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   <language>en</language>
   <script>Latn</script>
   <status>
-    <stage>Candidate Recommendation</stage>
+    <stage>Working Draft</stage>
   </status>
-  <relation type="instanceOf">
+  <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C CR-wot-architecture-20191106</formattedref>
-      <docidentifier type="W3C" primary="true">W3C CR-wot-architecture-20191106</docidentifier>
+      <formattedref format="text/plain">W3C WD-wot-architecture-20170914</formattedref>
+      <uri type="src">https://www.w3.org/TR/2017/WD-wot-architecture-20170914/</uri>
+      <docidentifier type="W3C" primary="true">W3C WD-wot-architecture-20170914</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="hasEdition">
     <bibitem>
-      <formattedref format="text/plain">W3C WD-wot-architecture-20170914</formattedref>
-      <docidentifier type="W3C" primary="true">W3C WD-wot-architecture-20170914</docidentifier>
+      <formattedref format="text/plain">W3C CR-wot-architecture-20190516</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/CR-wot-architecture-20190516/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-wot-architecture-20190516</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="hasEdition">
+    <bibitem>
+      <formattedref format="text/plain">W3C CR-wot-architecture-20191106</formattedref>
+      <uri type="src">https://www.w3.org/TR/2019/CR-wot-architecture-20191106/</uri>
+      <docidentifier type="W3C" primary="true">W3C CR-wot-architecture-20191106</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="instanceOf">
+    <bibitem>
+      <formattedref format="text/plain">W3C PR-wot-architecture-20200130</formattedref>
+      <uri type="src">https://www.w3.org/TR/2020/PR-wot-architecture-20200130/</uri>
+      <docidentifier type="W3C" primary="true">W3C PR-wot-architecture-20200130</docidentifier>
     </bibitem>
 
   </relation>
   <series>
     
-<title format="text/plain">W3C CR</title>
+<title format="text/plain">W3C WD</title>
 
     <number>wot-architecture</number>
   </series>
@@ -2192,7 +3507,7 @@ JTC 1 Standards and Standardization for the Metaverse.
 Available at: <link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/"/></formattedref>
   <title>JTC 1 Standards and Standardization for the Metaverse</title>
   <uri>https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</uri>
-  <docidentifier type="metanorma">[20]</docidentifier>
+  <docidentifier type="metanorma">[22]</docidentifier>
   <date type="published">
   <on>2023</on>
 </date>
@@ -2211,14 +3526,14 @@ VentureBeat
 Available at: <link target="https://venturebeat.com/business/metaverse-101-defining-the-key-components/"/></formattedref>
   <title>Metaverse 101: defining the key components</title>
   <uri>https://venturebeat.com/business/metaverse-101-defining-the-key-components/</uri>
-  <docidentifier type="metanorma">[21]</docidentifier>
+  <docidentifier type="metanorma">[23]</docidentifier>
   <date type="published">
   <on>2022</on>
 </date>
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>L.</formatted-initials>  <surname>Rosenberg</surname> </name>
+    <name>        <formatted-initials>L.</formatted-initials>        <surname>Rosenberg</surname>     </name>
   </person>
 </contributor>
   <contributor>
@@ -2235,26 +3550,26 @@ Kurata, T.
 Mining Metaverse Taxonomy (NOT YET PUBLISHED).
 2024.</formattedref>
   <title>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</title>
-  <docidentifier type="metanorma">[22]</docidentifier>
+  <docidentifier type="metanorma">[24]</docidentifier>
   <date type="published">
   <on>2024</on>
 </date>
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>P.</formatted-initials>  <surname>Stothard</surname> </name>
+    <name>        <formatted-initials>P.</formatted-initials>        <surname>Stothard</surname>     </name>
   </person>
 </contributor>
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>P.</formatted-initials>  <surname>Ryan</surname> </name>
+    <name>        <formatted-initials>P.</formatted-initials>        <surname>Ryan</surname>     </name>
   </person>
 </contributor>
   <contributor>
   <role type="author"/>
   <person>
-    <name>  <formatted-initials>T.</formatted-initials>  <surname>Kurata</surname> </name>
+    <name>        <formatted-initials>T.</formatted-initials>        <surname>Kurata</surname>     </name>
   </person>
 </contributor>
 </bibitem><bibitem id="snow_crash" schema-version="v1.2.9">
@@ -2262,7 +3577,7 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
 <title type="main" format="text/plain">Snow crash</title>
 
   <uri type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri>
-  <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[23]</docidentifier>
+  <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[25]</docidentifier>
   <date type="published">
     <on>1993</on>
   </date>
@@ -2270,7 +3585,7 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
     <role type="author"/>
     <person>
       
-<name>  <completename>Neal Stephenson</completename> </name>
+<name>          <completename>Neal Stephenson</completename>       </name>
 
     </person>
   </contributor>
@@ -2286,6 +3601,8 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
     <city>New York</city>
   </place>
 </bibitem>
+
+
 
 
 

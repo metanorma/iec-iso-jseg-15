@@ -17,8 +17,8 @@
 <originator>IEC/ISO</originator>
 <doc-type>committee-document</doc-type>
 <doc-number>2</doc-number>
-<edition>0.2</edition>
-<version>2024-08-21</version>
+<edition>0.3</edition>
+<version>2024-12-21</version>
 <std-id-group>
 <std-id std-id-type="dated" std-id-link-type="urn" originator="IEC">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</std-id>
 </std-id-group>
@@ -38,6 +38,10 @@
 <copyright-holder>IEC/ISO</copyright-holder>
 </permissions>
 <custom-meta-group>
+<custom-meta>
+<meta-name>flavor</meta-name>
+<meta-value>iso</meta-value>
+</custom-meta>
 <custom-meta>
 <meta-name>stage</meta-name>
 <meta-value>60</meta-value>
@@ -59,7 +63,7 @@
 
 <p>The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <ext-link xlink:href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</ext-link>)</p>
 
-<p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <ext-link xlink:href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</ext-link>) or the IEC list of patent declarations received (see <uri>https://patents.iec.ch</uri>).</p>
+<p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <ext-link xlink:href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</ext-link>) or the IEC list of patent declarations received (see  <uri>https://patents.iec.ch</uri>).</p>
 
 <p>Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
 
@@ -82,7 +86,7 @@
 <label>1</label>
 <title>Scope</title>
 
-<p>This document provides recommendations by IEC/ISO JSEG 15/WS 1, <italic>Metaverse — Vocabulary</italic>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
+<p>This document provides recommendations by IEC/ISO JSEG 15/WS 1,  <italic>Metaverse — Vocabulary</italic>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
 </sec>
 <sec id="sec_2" sec-type="norm-refs">
 <label>2</label>
@@ -165,7 +169,7 @@
 <label>5.3</label>
 <title>Background</title>
 
-<p>The word “metaverse” originated from the science fiction <italic>Snow Crash</italic> written by Neal Stephenson in 1992 <std type="undated" std-id="ISBN 9780553562613">
+<p>The word “metaverse” originated from the science fiction <italic>Snow Crash</italic> written by Neal Stephenson in 1992  <std type="undated" std-id="ISBN 9780553562613">
 <std-ref>[4]</std-ref>
 </std>.</p>
 

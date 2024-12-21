@@ -17,8 +17,8 @@
 <originator>IEC/ISO</originator>
 <doc-type>committee-document</doc-type>
 <doc-number>1</doc-number>
-<edition>0.3</edition>
-<version>2024-08-21</version>
+<edition>0.4</edition>
+<version>2024-12-21</version>
 <std-id-group>
 <std-id std-id-type="dated" std-id-link-type="urn" originator="IEC">urn:iso:doc:iec-iso:jseg:15:ws:1:1:en</std-id>
 </std-id-group>
@@ -38,6 +38,10 @@
 <copyright-holder>IEC/ISO</copyright-holder>
 </permissions>
 <custom-meta-group>
+<custom-meta>
+<meta-name>flavor</meta-name>
+<meta-value>iso</meta-value>
+</custom-meta>
 <custom-meta>
 <meta-name>stage</meta-name>
 <meta-value>60</meta-value>
@@ -59,7 +63,7 @@
 
 <p>The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <ext-link xlink:href="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</ext-link>)</p>
 
-<p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <ext-link xlink:href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</ext-link>) or the IEC list of patent declarations received (see <uri>https://patents.iec.ch</uri>).</p>
+<p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <ext-link xlink:href="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</ext-link>) or the IEC list of patent declarations received (see  <uri>https://patents.iec.ch</uri>).</p>
 
 <p>Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
 
@@ -135,7 +139,7 @@
 <tbx:termEntry id="term_3.1.1">
 <tbx:langSet xml:lang="en">
 <tbx:definition>
-<tbx:entailedTerm target="term_3.1.18">virtual world (3.1.18)</tbx:entailedTerm> experienced through <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> technologies</tbx:definition>
+<tbx:entailedTerm target="term_3.1.15">interactive (3.1.15)</tbx:entailedTerm> <tbx:entailedTerm target="term_3.1.20">virtual world (3.1.20)</tbx:entailedTerm> that incorporates <tbx:entailedTerm target="term_3.1.19">spatial referencing (3.1.19)</tbx:entailedTerm> experienced through  <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> technologies</tbx:definition>
 <tbx:tig id="term-metaverse-1_preferred">
 <tbx:term>metaverse</tbx:term>
 <tbx:partOfSpeech value="noun"/>
@@ -254,7 +258,7 @@
 <label>3.1.9</label>
 <tbx:termEntry id="term_3.1.9">
 <tbx:langSet xml:lang="en">
-<tbx:definition>a <tbx:entailedTerm target="term_3.1.17">ledger (3.1.17)</tbx:entailedTerm> that is shared across a set of DLT nodes and synchronized between the DLT nodes using a consensus mechanism</tbx:definition>
+<tbx:definition>a <tbx:entailedTerm target="term_3.1.18">ledger (3.1.18)</tbx:entailedTerm> that is shared across a set of DLT nodes and synchronized between the DLT nodes using a consensus mechanism</tbx:definition>
 <tbx:source>ISO&amp;#xa0;22739:2024, 3.22</tbx:source>
 <tbx:tig id="term-distributed-ledger-1_preferred">
 <tbx:term>distributed ledger</tbx:term>
@@ -339,6 +343,21 @@
 <label>3.1.15</label>
 <tbx:termEntry id="term_3.1.15">
 <tbx:langSet xml:lang="en">
+<tbx:definition>pertaining to a system or mode of operation in which each user entry causes a response from or action by the system</tbx:definition>
+<tbx:source>ISO/IEC/IEEE 24765:2017, 3.2050, modified — removed second definition.
+</tbx:source>
+<tbx:tig id="term-interactive-1_preferred">
+<tbx:term>interactive</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.16">
+<label>3.1.16</label>
+<tbx:termEntry id="term_3.1.16">
+<tbx:langSet xml:lang="en">
 <tbx:definition>system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</tbx:definition>
 <tbx:source>IEEE&amp;#xa0;2413-2019, modified — dropped article.</tbx:source>
 <tbx:tig id="term-Internet-of-Things-1_preferred">
@@ -349,9 +368,9 @@
 </tbx:termEntry>
 </term-sec>
 
-<term-sec id="sec_3.1.16">
-<label>3.1.16</label>
-<tbx:termEntry id="term_3.1.16">
+<term-sec id="sec_3.1.17">
+<label>3.1.17</label>
+<tbx:termEntry id="term_3.1.17">
 <tbx:langSet xml:lang="en">
 <tbx:definition>ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</tbx:definition>
 <tbx:source>ISO/IEC&amp;#xa0;17788:2014, 3.1.5</tbx:source>
@@ -363,9 +382,9 @@
 </tbx:termEntry>
 </term-sec>
 
-<term-sec id="sec_3.1.17">
-<label>3.1.17</label>
-<tbx:termEntry id="term_3.1.17">
+<term-sec id="sec_3.1.18">
+<label>3.1.18</label>
+<tbx:termEntry id="term_3.1.18">
 <tbx:langSet xml:lang="en">
 <tbx:definition>information store that keeps records of transactions that are intended to be final, definitive and immutable</tbx:definition>
 <tbx:source>ISO&amp;#xa0;22739:2024, 3.43</tbx:source>
@@ -377,9 +396,26 @@
 </tbx:termEntry>
 </term-sec>
 
-<term-sec id="sec_3.1.18">
-<label>3.1.18</label>
-<tbx:termEntry id="term_3.1.18">
+<term-sec id="sec_3.1.19">
+<label>3.1.19</label>
+<tbx:termEntry id="term_3.1.19">
+<tbx:langSet xml:lang="en">
+<tbx:definition>method to describe a position within a context</tbx:definition>
+<tbx:note>A position may the form of a label, code or coordinate tuple.</tbx:note>
+<tbx:note>Definition modified from <std type="undated" std-id="iso:std:iso:19111:clause:3.1.56">
+<std-ref>ISO 19111:2019</std-ref>, <bold>3.1.56</bold>
+</std> “spatial reference”.</tbx:note>
+<tbx:tig id="term-spatial-referencing-1_preferred">
+<tbx:term>spatial referencing</tbx:term>
+<tbx:partOfSpeech value="noun"/>
+</tbx:tig>
+</tbx:langSet>
+</tbx:termEntry>
+</term-sec>
+
+<term-sec id="sec_3.1.20">
+<label>3.1.20</label>
+<tbx:termEntry id="term_3.1.20">
 <tbx:langSet xml:lang="en">
 <tbx:definition>simulated environment that can be accessed by multiple users through an online interface</tbx:definition>
 <tbx:note>The simulated environments are often interactive.</tbx:note>
@@ -393,11 +429,11 @@
 </tbx:termEntry>
 </term-sec>
 
-<term-sec id="sec_3.1.19">
-<label>3.1.19</label>
-<tbx:termEntry id="term_3.1.19">
+<term-sec id="sec_3.1.21">
+<label>3.1.21</label>
+<tbx:termEntry id="term_3.1.21">
 <tbx:langSet xml:lang="en">
-<tbx:definition>3-D virtual scene replicating office space of an organization, providing users with an <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> experience</tbx:definition>
+<tbx:definition>3-D virtual scene replicating office space of an organization, providing users with an  <tbx:entailedTerm target="term_3.1.14">immersive (3.1.14)</tbx:entailedTerm> experience</tbx:definition>
 <tbx:tig id="term-virtual-office-1_preferred">
 <tbx:term>virtual office</tbx:term>
 <tbx:partOfSpeech value="noun"/>
@@ -406,9 +442,9 @@
 </tbx:termEntry>
 </term-sec>
 
-<term-sec id="sec_3.1.20">
-<label>3.1.20</label>
-<tbx:termEntry id="term_3.1.20">
+<term-sec id="sec_3.1.22">
+<label>3.1.22</label>
+<tbx:termEntry id="term_3.1.22">
 <tbx:langSet xml:lang="en">
 <tbx:definition>content created by users within the <tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm>
 </tbx:definition>
@@ -521,7 +557,7 @@
 <tbx:termEntry id="term_3.2.7">
 <tbx:langSet xml:lang="en">
 <tbx:definition>
-<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using <tbx:entailedTerm target="term_3.3.2">AR (3.3.2)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.4">VR (3.3.4)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.1">XR (3.3.1)</tbx:entailedTerm> and other technologies</tbx:definition>
+<tbx:entailedTerm target="term_3.1.1">metaverse (3.1.1)</tbx:entailedTerm> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using  <tbx:entailedTerm target="term_3.3.2">AR (3.3.2)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.4">VR (3.3.4)</tbx:entailedTerm>, <tbx:entailedTerm target="term_3.3.1">XR (3.3.1)</tbx:entailedTerm> and other technologies</tbx:definition>
 <tbx:tig id="term-social-metaverse-1_preferred">
 <tbx:term>social metaverse</tbx:term>
 <tbx:partOfSpeech value="noun"/>
@@ -614,7 +650,7 @@
 <label>3.3.5</label>
 <tbx:termEntry id="term_3.3.5">
 <tbx:langSet xml:lang="en">
-<tbx:definition>system that uses a mixture of representations of physical world data and virtual world data as its presentation medium</tbx:definition>
+<tbx:definition>system that uses a mixture of representations of physical world data and <tbx:entailedTerm target="term_3.1.20">virtual world (3.1.20)</tbx:entailedTerm> data as its presentation medium</tbx:definition>
 <tbx:source>ISO/IEC&amp;#xa0;18039:2019, 3.1.13</tbx:source>
 <tbx:tig id="term-mixed-reality-system-1_preferred">
 <tbx:term>mixed reality system</tbx:term>
@@ -721,8 +757,8 @@
 <label>4.3</label>
 <title>Background</title>
 
-<p>The word “metaverse” originated from the science fiction <italic>Snow Crash</italic> written by Neal Stephenson in 1992 <std type="undated" std-id="ISBN 9780553562613">
-<std-ref>[23]</std-ref>
+<p>The word “metaverse” originated from the science fiction <italic>Snow Crash</italic> written by Neal Stephenson in 1992  <std type="undated" std-id="ISBN 9780553562613">
+<std-ref>[25]</std-ref>
 </std>.</p>
 
 <p>In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
@@ -733,19 +769,19 @@
 <list-item>
 <label>—</label>
 <p>From <std type="undated" std-id="ISO-IEC_JTC-1_metaverse">
-<std-ref>[20]</std-ref>
+<std-ref>[22]</std-ref>
 </std>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
 </list-item>
 <list-item>
 <label>—</label>
 <p>From <std type="undated" std-id="Rosenberg">
-<std-ref>[21]</std-ref>
+<std-ref>[23]</std-ref>
 </std>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
 </list-item>
 <list-item>
 <label>—</label>
 <p>From <std type="undated" std-id="Stothard">
-<std-ref>[22]</std-ref>
+<std-ref>[24]</std-ref>
 </std>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
 </list-item>
 </list>
@@ -759,53 +795,86 @@
 
 <p>Essential characteristics of the “metaverse” include:</p>
 
-<list list-type="dash">
-<list-item>
-<label>—</label>
-<p>
-<bold>virtual</bold>, as in the items in the experience is virtual</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>immersive</bold> where it is experienced through human computer interaction</p>
-</list-item>
-</list>
+<def-list>
+<def-item>
+<term>virtual</term>
+<def>
+<p>as in the items in the experience is virtual</p>
+</def>
+</def-item>
+
+<def-item>
+<term>immersive</term>
+<def>
+<p>where it is experienced through human-computer interaction</p>
+</def>
+</def-item>
+
+<def-item>
+<term>spatial</term>
+<def>
+<p>where the experience is spatially organized according to some notion of location</p>
+</def>
+</def-item>
+
+<def-item>
+<term>interactive</term>
+<def>
+<p>where users can directly interact with it and receive feedback</p>
+</def>
+</def-item>
+
+</def-list>
 
 <p>Common characteristics expected by popular culture include:</p>
 
-<list list-type="dash">
-<list-item>
-<label>—</label>
-<p>
-<bold>massively multi-user</bold> where there can be many simultaneous users</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>interconnection</bold> of virtual world systems</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>interoperability</bold> between users across virtual world systems</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>persistent</bold> where actions and events in the virtual world persists after a user leaves</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>real-time</bold> where user actions are performed in real-time</p>
-</list-item>
-</list>
+<def-list>
+<def-item>
+<term>massively multi-user</term>
+<def>
+<p>where there can be many simultaneous users</p>
+</def>
+</def-item>
+
+<def-item>
+<term>interconnection</term>
+<def>
+<p>of virtual world systems</p>
+</def>
+</def-item>
+
+<def-item>
+<term>interoperability</term>
+<def>
+<p>between users across virtual world systems</p>
+</def>
+</def-item>
+
+<def-item>
+<term>persistent</term>
+<def>
+<p>where actions and events in the virtual world persists after a user leaves</p>
+</def>
+</def-item>
+
+<def-item>
+<term>real-time</term>
+<def>
+<p>where user actions are performed in real-time</p>
+</def>
+</def-item>
+
+</def-list>
+</sec>
+
+<sec id="sec_4.5">
+<label>4.5</label>
+<title>Consensus</title>
 
 <p>The resulting consensus arrived at this definition for “metaverse”:</p>
 
-<disp-quote id="_782f837d-abea-76d3-1ded-e73df9afefd6">
-<p>metaverse: virtual world experienced through immersive technologies</p>
+<disp-quote id="_5eb61e9a-220c-00be-b533-b30cadaf21d5">
+<p>metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
 </disp-quote>
 </sec>
 </sec>
@@ -946,31 +1015,41 @@
 </std>
 </ref>
 <ref content-type="standard" id="biblref_5">
+<std std-id="iso:std:iso:19111">
+<std-ref>ISO 19111:2019</std-ref>, <title>Geographic information — Referencing by coordinates</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_6">
 <std std-id="iso:std:iso-iec:19775:-1">
 <std-ref>ISO/IEC 19775-1:2023</std-ref>, <title>Computer graphics, image processing and environmental data representation — Extensible 3D (X3D) — Part 1: Architecture and base components</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_6">
+<ref content-type="standard" id="biblref_7">
 <std std-id="iso:std:iso:22739">
 <std-ref>ISO 22739:2024</std-ref>, <title>Blockchain and distributed ledger technologies — Vocabulary</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_7">
+<ref content-type="standard" id="biblref_8">
 <std std-id="iso:std:iso-iec:tr:23188">
 <std-ref>ISO/IEC TR 23188:2020</std-ref>, <title>Information technology — Cloud computing — Edge computing landscape</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_8">
+<ref content-type="standard" id="biblref_9">
 <std std-id="iso:std:iso-iec:tr:23843">
 <std-ref>ISO/IEC TR 23843:2020</std-ref>, <title>Information technology for learning, education and training — Catalogue model for virtual, augmented and mixed reality content</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_9">
+<ref content-type="standard" id="biblref_10">
 <std std-id="iso:std:iso:24165:-1">
 <std-ref>ISO 24165-1:2021</std-ref>, <title>Digital token identifier (DTI) — Registration, assignment and structure — Part 1: Method for registration and assignment</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_10">
+<ref content-type="standard" id="biblref_11">
+<std std-id="iso:std:iso-iec-ieee:24765">
+<std-ref>ISO/IEC/IEEE 24765:2017</std-ref>, <title>Systems and software engineering — Vocabulary</title>
+</std>
+</ref>
+<ref content-type="standard" id="biblref_12">
 <std std-id="iso:std:iso-iec:27032">
 <std-ref>ISO/IEC 27032:2012</std-ref>
 <xref ref-type="fn" rid="fn_2">
@@ -984,55 +1063,55 @@
 </fn>, <title>Information technology — Security techniques — Guidelines for cybersecurity</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_11">
+<ref content-type="standard" id="biblref_13">
 <std std-id="iso:std:iso-iec-ieee:42010">
 <std-ref>ISO/IEC/IEEE 42010:2022</std-ref>, <title>Software, systems and enterprise — Architecture description</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_12">
-<label>[12]</label>
+<ref content-type="standard" id="biblref_14">
+<label>[14]</label>
 <std>
 <std-ref>ITU FGMV-O-235</std-ref>, <title>Draft Technical Specification ITU FGMV — Vocabulary for metaverse</title>
 <title>ITU-T ITU FGMV-O-235. Draft Technical Specification ITU FGMV — Vocabulary for metaverse. 2024.</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_13">
+<ref content-type="standard" id="biblref_15">
 <std>
 <std-ref>IEEE 2413-2019<?doi 10.1109/IEEESTD.2020.9032420?></std-ref>, <title>IEEE Standard for an Architectural Framework for the Internet of Things (IoT)</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_14">
+<ref content-type="standard" id="biblref_16">
 <std>
 <std-ref>IEEE 7010-2020<?doi 10.1109/IEEESTD.2020.9084219?></std-ref>, <title>IEEE Recommended Practice for Assessing the Impact of Autonomous and Intelligent Systems on Human Well-Being</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_15">
+<ref content-type="standard" id="biblref_17">
 <std>
 <std-ref>ITU-T F.791 (08/2018)</std-ref>, <title>Accessibility terms and definitions</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_16">
+<ref content-type="standard" id="biblref_18">
 <std>
 <std-ref>ITU-T Y.4600 (08/2022)</std-ref>, <title>Requirements and capabilities of a digital twin system for smart cities</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_17">
+<ref content-type="standard" id="biblref_19">
 <std>
 <std-ref>W3C did-core</std-ref>, <title>Decentralized Identifiers (DIDs) v1.0</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_18">
+<ref content-type="standard" id="biblref_20">
 <std>
-<std-ref>W3C did-spec-registries</std-ref>, <title>Decentralized Identifier Extensions</title>
+<std-ref>W3C did-spec-registries</std-ref>, <title>DID Specification Registries</title>
 </std>
 </ref>
-<ref content-type="standard" id="biblref_19">
+<ref content-type="standard" id="biblref_21">
 <std>
 <std-ref>W3C wot-architecture</std-ref>, <title>Web of Things (WoT) Architecture</title>
 </std>
 </ref>
-<ref content-type="webresource" id="biblref_20">
-<label>[20]</label>
+<ref content-type="webresource" id="biblref_22">
+<label>[22]</label>
 <mixed-citation publication-type="other">
 <person-group person-group-type="author">
 <collab>ISO/IEC JTC 1</collab>
@@ -1040,8 +1119,8 @@
 <year>2023</year>, <italic>JTC 1 Standards and Standardization for the Metaverse</italic>
 </mixed-citation>
 </ref>
-<ref content-type="webresource" id="biblref_21">
-<label>[21]</label>
+<ref content-type="webresource" id="biblref_23">
+<label>[23]</label>
 <mixed-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -1052,8 +1131,8 @@
 <year>2022</year>, <italic>Metaverse 101: defining the key components</italic>. <publisher-name>VentureBeat</publisher-name>
 </mixed-citation>
 </ref>
-<ref content-type="book" id="biblref_22">
-<label>[22]</label>
+<ref content-type="book" id="biblref_24">
+<label>[24]</label>
 <mixed-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -1072,8 +1151,8 @@
 <year>2024</year>, <italic>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</italic>
 </mixed-citation>
 </ref>
-<ref id="biblref_23">
-<label>[23]</label>
+<ref id="biblref_25">
+<label>[25]</label>
 <mixed-citation>, <italic>Snow crash</italic>
 <uri content-type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri>
 <year>1993</year>
@@ -1086,6 +1165,8 @@
   </publisher-loc>
 </mixed-citation>
 </ref>
+
+
 
 
 
@@ -1274,12 +1355,16 @@
 <see-entry>3.2.1</see-entry>
 </index-entry>
 <index-entry>
-<term>Internet of Things</term>
+<term>interactive</term>
 <see-entry>3.1.15</see-entry>
 </index-entry>
 <index-entry>
-<term>interoperability</term>
+<term>Internet of Things</term>
 <see-entry>3.1.16</see-entry>
+</index-entry>
+<index-entry>
+<term>interoperability</term>
+<see-entry>3.1.17</see-entry>
 </index-entry>
 <index-entry>
 <term>IoT</term>
@@ -1292,7 +1377,7 @@
 </index-title-group>
 <index-entry>
 <term>ledger</term>
-<see-entry>3.1.17</see-entry>
+<see-entry>3.1.18</see-entry>
 </index-entry>
 </index-div>
 <index-div>
@@ -1359,6 +1444,10 @@
 <see-entry>3.2.7</see-entry>
 </index-entry>
 <index-entry>
+<term>spatial referencing</term>
+<see-entry>3.1.19</see-entry>
+</index-entry>
+<index-entry>
 <term>stakeholder</term>
 <see-entry>3.5.1</see-entry>
 </index-entry>
@@ -1377,7 +1466,7 @@
 </index-entry>
 <index-entry>
 <term>user-generated content</term>
-<see-entry>3.1.20</see-entry>
+<see-entry>3.1.22</see-entry>
 </index-entry>
 </index-div>
 <index-div>
@@ -1386,7 +1475,7 @@
 </index-title-group>
 <index-entry>
 <term>virtual office</term>
-<see-entry>3.1.19</see-entry>
+<see-entry>3.1.21</see-entry>
 </index-entry>
 <index-entry>
 <term>virtual reality</term>
@@ -1394,7 +1483,7 @@
 </index-entry>
 <index-entry>
 <term>virtual world</term>
-<see-entry>3.1.18</see-entry>
+<see-entry>3.1.20</see-entry>
 </index-entry>
 <index-entry>
 <term>VR</term>
