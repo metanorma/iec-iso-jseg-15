@@ -97,13 +97,13 @@
 
 
 
-<clause id="_terms_and_definitions" obligation="normative" type="terms">
-<title>Terms and definitions</title><p id="_af034f22-1c47-b011-a2a2-02454ecaf32c">For the purposes of this document, the following terms and definitions apply.</p>
-<p id="_5853dac1-79b7-9af9-5148-c7157a2a7aa9">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+<terms id="_terms_and_definitions" obligation="normative">
+<title>Terms and definitions</title><p id="_0da6ca68-ecc9-b4a3-26a2-cdb6aef1b772">For the purposes of this document, the following terms and definitions apply.</p>
+<p id="_13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
 
-<ul id="_d0563019-7bac-798e-4845-6385e677a921"><li><p id="_df267e8d-f751-c609-8fdc-f8b33b577b68">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+<ul id="_3fb63b94-5696-f10f-fa14-8fb905c53d98"><li><p id="_9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
 </li>
-<li><p id="_f37c2451-ca2e-7ead-185b-9bb0039aa669">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+<li><p id="_16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
 </li>
 </ul>
 
@@ -113,7 +113,7 @@
 <name>metaverse<index><primary>metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_4eba876f-0358-8a4a-1ed5-de76947575cc"><concept><refterm>interactive</refterm><renderterm>interactive</renderterm><xref target="term-interactive"/></concept> <concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> that incorporates <concept><refterm>spatial referencing</refterm><renderterm>spatial referencing</renderterm><xref target="term-spatial-referencing"/></concept> experienced through  <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> technologies</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_50b26182-4dab-6add-9415-d7f154a12c76"><concept><refterm>interactive</refterm><renderterm>interactive</renderterm><xref target="term-interactive"/></concept> <concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> that incorporates <concept><refterm>spatial referencing</refterm><renderterm>spatial referencing</renderterm><xref target="term-spatial-referencing"/></concept> experienced through  <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> technologies</p></verbal-definition></definition>
  </term>
 
 <term id="term-artificial-intelligence"><preferred><expression>
@@ -126,7 +126,7 @@
 
 
 
-<definition><verbal-definition><p id="_2777c906-572c-a73f-46ea-6497efd40d5a">capacity of computers or other machines to exhibit or simulate intelligent behavior</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_c8f81d19-774f-17d8-d0a3-cc2735fb802f">capacity of computers or other machines to exhibit or simulate intelligent behavior</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="IEEE_7010_2020" type="inline" citeas="IEEE&amp;#xa0;7010-2020"/></termsource></term>
@@ -135,7 +135,7 @@
 <name>assistive technology<index><primary>assistive technology</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_c13ef01c-6c16-eaeb-1c2e-1670b5c196bd">piece of equipment, product system, hardware, software or service that is used to enable, maintain or improve functional capabilities of individuals with disabilities</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_98b74bb4-1240-1f1b-7049-a4a7eb9d9a9d">piece of equipment, product system, hardware, software or service that is used to enable, maintain or improve functional capabilities of individuals with disabilities</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ITU-T_F_791" type="inline" citeas="ITU-T F.791 (08/2018)"/></termsource></term>
@@ -144,7 +144,7 @@
 <name>cloud computing<index><primary>cloud computing</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_361a67d2-4f0f-898b-b07c-49a07bbb45b7">paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_7ea101a8-4329-e727-f3be-efee7d51c301">paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_17788_2014" type="inline" citeas="ISO/IEC&amp;#xa0;17788:2014"><localityStack><locality type="clause"><referenceFrom>3.2.5</referenceFrom></locality></localityStack></origin>
@@ -162,7 +162,7 @@
 
 
 
-<definition><verbal-definition><p id="_6152b8a6-2fc3-38c0-83f4-74173b22928d">identifier in the format of the W3C Decentralized Identifier</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_e30f71fe-af2e-a569-31b8-b36589b954b3">identifier in the format of the W3C Decentralized Identifier</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="w3c_did" type="inline" citeas="W3C&amp;#xa0;did-core"/></termsource></term>
@@ -171,26 +171,26 @@
 <name>digital human<index><primary>digital human</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_03e6e93b-aca2-fc2d-40ef-5bf2a5dc8584">realistic virtual human representations created using advanced simulation technology</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_ad2b5b4e-0bd6-ebfd-c241-92ed04ab68e4">realistic virtual human representations created using advanced simulation technology</p></verbal-definition></definition>
  </term>
 
 <term id="term-digital-twin"><preferred><expression>
 <name>digital twin<index><primary>digital twin</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_a9cadf91-519c-c901-d91a-c3af5394afbc">digital representation of an object of interest</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_ff3b79c3-ec1b-16f2-4fa7-7d4e2e101f30">digital representation of an object of interest</p></verbal-definition></definition>
 
 
 
 
- <termnote id="_78fb561d-d99f-dab4-53be-39b3ad354985"><p id="_f1bfd87e-d3b9-db07-85b2-fc49977a92a3">A digital twin may require different capabilities (e.g., synchronization, real-time support) according to the specific domain of application.</p>
+ <termnote id="_2b584ba9-4ae6-fde8-5e70-8f9e91a4261b"><p id="_1a30fc28-eb01-3ed4-ecf8-c69b095b54fb">A digital twin may require different capabilities (e.g., synchronization, real-time support) according to the specific domain of application.</p>
 </termnote><termsource status="identical" type="authoritative"><origin bibitemid="ITU-T-Y_4600" type="inline" citeas="ITU-T Y.4600 (08/2022)"/></termsource></term>
 
 <term id="term-distributed-computing"><preferred><expression>
 <name>distributed computing<index><primary>distributed computing</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_cb9b88ac-36f0-2ef8-0edf-47ad75300473">model of computing in which a set of nodes coordinates its activities by means of digital messages passed between the nodes</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_4579b297-8cec-934f-56fb-4cd6f913b225">model of computing in which a set of nodes coordinates its activities by means of digital messages passed between the nodes</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_23188_2020" type="inline" citeas="ISO/IEC TR 23188:2020"><localityStack><locality type="clause"><referenceFrom>3.1.1</referenceFrom></locality></localityStack></origin>
@@ -200,7 +200,7 @@
 <name>distributed ledger<index><primary>distributed ledger</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_67cfdcdb-c29a-e519-811b-eb019a547543">a <concept><refterm>ledger</refterm><renderterm>ledger</renderterm><xref target="term-ledger"/></concept> that is shared across a set of DLT nodes and synchronized between the DLT nodes using a consensus mechanism</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_aff29a49-45eb-2697-6093-95fdec28a73b">a <concept><refterm>ledger</refterm><renderterm>ledger</renderterm><xref target="term-ledger"/></concept> that is shared across a set of DLT nodes and synchronized between the DLT nodes using a consensus mechanism</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_22739_2024" type="inline" citeas="ISO&amp;#xa0;22739:2024"><localityStack><locality type="clause"><referenceFrom>3.22</referenceFrom></locality></localityStack></origin>
@@ -210,7 +210,7 @@
 <name>digital asset<index><primary>digital asset</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_82935c58-f821-509a-53e6-dd1551390e87">asset that exists only in digital form or which is the digital representation of another asset</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_03d4d366-bd22-8eb2-bcb0-2896ff32cfb0">asset that exists only in digital form or which is the digital representation of another asset</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_24165-1_2021" type="inline" citeas="ISO&amp;#xa0;24165-1:2021"><localityStack><locality type="clause"><referenceFrom>3.9</referenceFrom></locality></localityStack></origin>
@@ -220,14 +220,14 @@
 <name>digital identity<index><primary>digital identity</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_7d4ffd11-680e-c17c-d7d8-1a029587ad28">information used by information systems to represent an external agent, a person, organization, application, or device</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_a6a2fc18-999c-f559-aae7-caa95b5ea264">information used by information systems to represent an external agent, a person, organization, application, or device</p></verbal-definition></definition>
  </term>
 
 <term id="term-edge-computing"><preferred><expression>
 <name>edge computing<index><primary>edge computing</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_a9760672-8d51-2f84-d8cb-0a71d18d4f1c"><concept><refterm>distributed computing</refterm><renderterm>distributed computing</renderterm><xref target="term-distributed-computing"/></concept> in which processing and storage takes place at or near the edge, where the nearness is defined by the system’s requirements</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_a128ae4f-153a-6f47-4e7a-84c217a3e9c7"><concept><refterm>distributed computing</refterm><renderterm>distributed computing</renderterm><xref target="term-distributed-computing"/></concept> in which processing and storage takes place at or near the edge, where the nearness is defined by the system’s requirements</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_23188_2020" type="inline" citeas="ISO/IEC TR 23188:2020"><localityStack><locality type="clause"><referenceFrom>3.1.3</referenceFrom></locality></localityStack></origin>
@@ -237,19 +237,19 @@
 <name>edge device<index><primary>edge device</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_1e2a59b4-dee3-b991-5bbe-86c229d33a56">device that provides an entry point into enterprise or service provider core networks</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_b4150f09-5b24-e559-8e7f-96c14fa36283">device that provides an entry point into enterprise or service provider core networks</p></verbal-definition></definition>
 
 
 
 
- <termexample id="_c1e4223f-c41e-aaf4-6469-333834b73b85"><p id="_a95dc8e4-a0e7-5bf6-cb51-f34943be2f26">Gateways, routers, switches, multiplexers, and a variety of other access devices.</p>
+ <termexample id="_d7d6188a-fa4a-ad45-858c-dd8c4215c557"><p id="_333d04d6-c6c8-1b23-f375-f772d58c54fe">Gateways, routers, switches, multiplexers, and a variety of other access devices.</p>
 </termexample><termsource status="identical" type="authoritative"><origin bibitemid="w3c_wot" type="inline" citeas="W3C wot-architecture"/></termsource></term>
 
 <term id="term-immersive"><preferred><expression>
 <name>immersive<index><primary>immersive</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_13b0c225-9138-6fcd-46c0-c6135bd1cade">creating the illusion of being inside a computer-generated scene</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_91fb6798-d846-28e8-9cb5-6d1c2203821b">creating the illusion of being inside a computer-generated scene</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_19775-1" type="inline" citeas="ISO/IEC 19775-1:2023"/></termsource></term>
@@ -258,11 +258,11 @@
 <name>interactive<index><primary>interactive</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_a32c5fe9-bbdf-145c-15af-5893575a649f">pertaining to a system or mode of operation in which each user entry causes a response from or action by the system</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_a18d0dcc-e89e-8b29-5010-3479e24547cf">pertaining to a system or mode of operation in which each user entry causes a response from or action by the system</p></verbal-definition></definition>
 
 
  <termsource status="modified" type="authoritative"><origin bibitemid="ISO-IEC-IEEE_24765_2017" type="inline" citeas="ISO/IEC/IEEE 24765:2017"><localityStack><locality type="clause"><referenceFrom>3.2050</referenceFrom></locality></localityStack></origin>
-<modification><p id="_bf163f2f-6d31-3560-2119-748e6e3fe65c">removed second definition.</p>
+<modification><p id="_aeae6010-eeda-6d3a-f4a4-11c6a2674950">removed second definition.</p>
 </modification>
 </termsource></term>
 
@@ -270,10 +270,10 @@
 <name>Internet of Things<index><primary>Internet of Things</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_b60af6b2-e552-3c96-95c0-e30128346884">system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_4e63a01a-1ad7-5104-b4c6-6a662d35b4b0">system of entities (including cyber-physical devices, information resources, and people) that exchange information and interact with the physical world by sensing, processing information, and actuating</p></verbal-definition></definition>
 
 
- <termsource status="modified" type="authoritative"><origin bibitemid="IEEE_2413_2019" type="inline" citeas="IEEE&amp;#xa0;2413-2019"/><modification><p id="_f08aeb9d-cf86-ae06-05c3-fcd1fd313f33">dropped article.</p>
+ <termsource status="modified" type="authoritative"><origin bibitemid="IEEE_2413_2019" type="inline" citeas="IEEE&amp;#xa0;2413-2019"/><modification><p id="_8b4920cf-25a1-0db6-f1cd-f5e12603838b">dropped article.</p>
 </modification>
 </termsource></term>
 
@@ -281,7 +281,7 @@
 <name>interoperability<index><primary>interoperability</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_705a1519-c878-30e7-ecc1-87b0e6d65881">ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_2b80e764-f33d-56bc-e453-ce55b173d8e1">ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_17788_2014" type="inline" citeas="ISO/IEC&amp;#xa0;17788:2014"><localityStack><locality type="clause"><referenceFrom>3.1.5</referenceFrom></locality></localityStack></origin>
@@ -291,38 +291,57 @@
 <name>ledger<index><primary>ledger</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_6fca5003-4c2a-4518-025b-8eb250596209">information store that keeps records of transactions that are intended to be final, definitive and immutable</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_c4e411aa-ed6a-4482-f131-61fdf86a59a3">information store that keeps records of transactions that are intended to be final, definitive and immutable</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_22739_2024" type="inline" citeas="ISO&amp;#xa0;22739:2024"><localityStack><locality type="clause"><referenceFrom>3.43</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-information-security"><preferred><expression>
+<name>information security<index><primary>information security</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_a1c4c656-d5cc-b8b6-3314-5796d798ea7b">preservation of confidentiality, integrity and availability of information</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_1b3205a5-e897-b94e-cc84-5399c298fcea"><p id="_9a4efb1c-9db1-a772-6ea0-b0769bc1cba4">In addition, other properties, such as authenticity, accountability, non-repudiation, and reliability can also be involved.</p>
+</termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_27000_2018" type="inline" citeas="ISO/IEC&amp;#xa0;27000:2018"><localityStack><locality type="clause"><referenceFrom>3.28</referenceFrom></locality></localityStack></origin>
 </termsource></term>
 
 <term id="term-spatial-referencing"><preferred><expression>
 <name>spatial referencing<index><primary>spatial referencing</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_aa8bfa43-503a-6447-30f3-041f5169e34c">method to describe a position within a context</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_51c3d43a-50e5-a8f6-7a0f-a51206af74eb">method to describe a position within a context</p></verbal-definition></definition>
 
 
 
 
- <termnote id="_a6d2f60c-05df-ad07-5943-34b3b1d82d3c"><p id="_b1d659b9-f978-a316-da8a-78c35d50e55d">A position may the form of a label, code or coordinate tuple.</p>
-</termnote><termnote id="_fe5d66ad-7a3d-4ef9-d835-b1004f0a34fc"><p id="_47f156ed-8ff3-7cc6-f119-b92405660be2">Definition modified from <eref type="inline" bibitemid="ISO_19111_2019" citeas="ISO 19111:2019"><localityStack><locality type="clause"><referenceFrom>3.1.56</referenceFrom></locality></localityStack></eref> “spatial reference”.</p>
+ <termnote id="_ef064602-e338-3c24-4f00-ce21920dd265"><p id="_f51ec510-0b02-eb57-6fcd-62e0c963ee83">A position may the form of a label, code or coordinate tuple.</p>
+</termnote><termnote id="_dda204fe-d2cf-52fc-81ca-cc6b5b9fb196"><p id="_e0735318-9136-5832-4719-9b5c430e7965">Definition modified from <eref type="inline" bibitemid="ISO_19111_2019" citeas="ISO 19111:2019"><localityStack><locality type="clause"><referenceFrom>3.1.56</referenceFrom></locality></localityStack></eref> “spatial reference”.</p>
 </termnote></term>
 
 <term id="term-virtual-world"><preferred><expression>
 <name>virtual world<index><primary>virtual world</primary></index></name>
 </expression>
-</preferred>
-<definition><verbal-definition><p id="_9f908fd4-cd35-4a5d-e749-f8639c049af3">simulated environment that can be accessed by multiple users through an online interface</p></verbal-definition></definition>
+</preferred><admitted><expression>
+<name>cyber world</name>
+</expression>
+</admitted>
+
+
+
+<definition><verbal-definition><p id="_f79d4bbc-7103-b8b6-e3d5-9af54085b425">simulated environment that can be accessed by multiple users through an online interface</p></verbal-definition></definition>
 
 
 
 
 
 
- <termnote id="_bd12fe1b-7ee1-7e27-a0a9-b2e40e9e9f59"><p id="_9ae729fb-b012-ca62-5719-5a52520f77e0">The simulated environments are often interactive.</p>
-</termnote><termnote id="_a6fb115f-4f88-664b-d7c1-f8293c0b04fe"><p id="_d8f85dd5-763c-f89e-90f3-d8c153d0d199">The physical world in which people live, and the related characteristics, will be referred to as the “real world” to differentiate it from a virtual world.</p>
+ <termnote id="_eb92fcb9-5261-82f2-ba95-122a887752f5"><p id="_c8931ddf-f3d9-67ee-298e-67223794be85">The simulated environments are often interactive.</p>
+</termnote><termnote id="_abbf2b87-8a3d-7f0a-3009-8c5ce15cda32"><p id="_469c3336-2001-039f-efd8-81b0ad04207a">The physical world in which people live, and the related characteristics, will be referred to as the “real world” to differentiate it from a virtual world.</p>
 </termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_27032-2012" type="inline" citeas="ISO/IEC&amp;#xa0;27032:2012"><localityStack><locality type="clause"><referenceFrom>4.51</referenceFrom></locality></localityStack></origin>
 </termsource></term>
 
@@ -330,7 +349,7 @@
 <name>virtual office<index><primary>virtual office</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_b9b85e25-f971-7bf1-be7a-6ff285144f3f">3-D virtual scene replicating office space of an organization, providing users with an  <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> experience</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_59af9f0b-3325-3157-6e60-442842ac6f65">3-D virtual scene replicating office space of an organization, providing users with an  <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> experience</p></verbal-definition></definition>
  </term>
 
 <term id="term-user-generated-content"><preferred><expression>
@@ -343,62 +362,62 @@
 
 
 
-<definition><verbal-definition><p id="_144d82aa-407c-d344-e85e-d497a7fe4d72">content created by users within the <concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept></p></verbal-definition></definition>
+<definition><verbal-definition><p id="_1aee983b-a9f0-c3d4-aca4-0029e5cfa884">content created by users within the <concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept></p></verbal-definition></definition>
 
 
- <termnote id="_ac95d792-5054-fdfa-2d85-baadaf9d6d88"><p id="_1ce5e3cf-50dd-777e-e747-ea1c365c6910">UGC is often facilitated by simplified editing tools.</p>
+ <termnote id="_532630d5-357d-cf0c-1865-34efbfe3b670"><p id="_ebec66c7-30e0-2e7d-95a3-4669a3a001dd">UGC is often facilitated by simplified editing tools.</p>
 </termnote></term>
 </terms>
 
-<terms id="_metaverse_use_cases" obligation="normative">
-<title>Metaverse use cases</title>
+<terms id="_metaverse_technology_domains" obligation="normative">
+<title>Metaverse technology domains</title>
 <term id="term-industrial-metaverse"><preferred><expression>
 <name>industrial metaverse<index><primary>industrial metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_ef56db8d-eec6-0eae-46a0-26f2bc6c6b0a"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that integrates virtual and physical realities to create a sophisticated digital industrial ecosystem, enhancing real-world processes through virtual simulations and strengthening the entire industrial and value chain with increased intelligence, collaboration, openness, service orientation, and interconnectivity</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_351f17e2-8c01-a29c-7480-15cdbf80188e"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that integrates virtual and physical realities to create a sophisticated digital industrial ecosystem, enhancing real-world processes through virtual simulations and strengthening the entire industrial and value chain with increased intelligence, collaboration, openness, service orientation, and interconnectivity</p></verbal-definition></definition>
  </term>
 
 <term id="term-financial-metaverse"><preferred><expression>
 <name>financial metaverse<index><primary>financial metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_73b01440-663c-cf45-9204-4489ac4c9094"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> enabling a new type of financial business where the physical world and the mirrored digital world are symbiotic</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_8f293959-b370-bba1-6bf6-2c8f310660ae"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> enabling a new type of financial business where the physical world and the mirrored digital world are symbiotic</p></verbal-definition></definition>
  </term>
 
 <term id="term-education-metaverse"><preferred><expression>
 <name>education metaverse<index><primary>education metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_68257256-dfc0-5f6b-44a4-fd41db2cfc38"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> enabling a multi-sensory <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> classroom connecting virtual and reality, enabling knowledge acquisition, participation, and creation</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_dcc4e6a7-e3fb-2993-f17b-6e2511c65b1d"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> enabling a multi-sensory <concept><refterm>immersive</refterm><renderterm>immersive</renderterm><xref target="term-immersive"/></concept> classroom connecting virtual and reality, enabling knowledge acquisition, participation, and creation</p></verbal-definition></definition>
  </term>
 
 <term id="term-healthcare-metaverse"><preferred><expression>
 <name>healthcare metaverse<index><primary>healthcare metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_869a8bb2-0e61-1bf9-6c90-bb59cf1d7f26"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables the digital, intelligent and accurate medical information platform that breaks space-time restrictions and technical barriers of the original medical system</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_1f2fb1be-2eb3-20ac-c58a-5677dfcab569"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables the digital, intelligent and accurate medical information platform that breaks space-time restrictions and technical barriers of the original medical system</p></verbal-definition></definition>
  </term>
 
 <term id="term-eCommerce-metaverse"><preferred><expression>
 <name>eCommerce metaverse<index><primary>eCommerce metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_17a36bb1-a08b-5788-778f-01e8ba3b6de4"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables marketing towards users, creating personalized, emotional and social marketing scenes through metaverse technology and content</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_7fc9fdf6-aef4-bcf0-db51-14ef79867fe6"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables marketing towards users, creating personalized, emotional and social marketing scenes through metaverse technology and content</p></verbal-definition></definition>
  </term>
 
 <term id="term-game-metaverse"><preferred><expression>
 <name>game metaverse<index><primary>game metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_972800e0-5a4c-52a5-605d-4480d881750e"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables the evolution of gaming that embodies four characteristics: immersion, accessibility, accessibility and extensibility</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_0ecabe8d-aabd-74a9-b875-892572a7ddab"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that enables the evolution of gaming that embodies four characteristics: immersion, accessibility, accessibility and extensibility</p></verbal-definition></definition>
  </term>
 
 <term id="term-social-metaverse"><preferred><expression>
 <name>social metaverse<index><primary>social metaverse</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_cc24f0b5-c4ba-6ffe-cfc6-f6a58b99aeb3"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using  <concept><refterm>augmented reality</refterm><renderterm>AR</renderterm><xref target="term-augmented-reality"/></concept>, <concept><refterm>virtual reality</refterm><renderterm>VR</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>extended reality</refterm><renderterm>XR</renderterm><xref target="term-extended-reality"/></concept> and other technologies</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_7c68f837-9bca-9c32-9592-c2b0a1d29d6d"><concept><refterm>metaverse</refterm><renderterm>metaverse</renderterm><xref target="term-metaverse"/></concept> that creates a holographic virtual reality that integrates the advantages of online and offline social networking, using  <concept><refterm>augmented reality</refterm><renderterm>AR</renderterm><xref target="term-augmented-reality"/></concept>, <concept><refterm>virtual reality</refterm><renderterm>VR</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>extended reality</refterm><renderterm>XR</renderterm><xref target="term-extended-reality"/></concept> and other technologies</p></verbal-definition></definition>
  </term>
 </terms>
 
@@ -414,10 +433,10 @@
 
 
 
-<definition><verbal-definition><p id="_4c3547ff-093f-078c-4943-2e5ccfd05aa8">environments experienced through human-machine sensory interactions commonly composed of real world and virtual elements</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_34aedeee-61cb-7def-b221-bfa623e5f044">environments experienced through human-machine sensory interactions commonly composed of real world and virtual elements</p></verbal-definition></definition>
 
 
- <termnote id="_20724962-e87c-8827-fdff-a1633b46121e"><p id="_cbaf7159-f772-7fe7-e70b-a66d01dfcefa">Extended reality covers <concept><refterm>virtual reality</refterm><renderterm>virtual reality</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>augmented reality</refterm><renderterm>augmented reality</renderterm><xref target="term-augmented-reality"/></concept> and <concept><refterm>mixed reality</refterm><renderterm>mixed reality</renderterm><xref target="term-mixed-reality"/></concept> environments.</p>
+ <termnote id="_179ca10b-0c27-4346-c364-f6fc22fe40bb"><p id="_529b4f08-13b3-e3ea-d68a-330e15511f5e">Extended reality covers <concept><refterm>virtual reality</refterm><renderterm>virtual reality</renderterm><xref target="term-virtual-reality"/></concept>, <concept><refterm>augmented reality</refterm><renderterm>augmented reality</renderterm><xref target="term-augmented-reality"/></concept> and <concept><refterm>mixed reality</refterm><renderterm>mixed reality</renderterm><xref target="term-mixed-reality"/></concept> environments.</p>
 </termnote></term>
 
 <term id="term-augmented-reality"><preferred><expression>
@@ -430,7 +449,7 @@
 
 
 
-<definition><verbal-definition><p id="_a3e659fa-878a-62e9-1241-823f69e9f9e9">interactive experience of a real-world environment whereby the objects that reside in the real world are augmented by computer-generated perceptual information</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_3b279214-c036-f5c3-3fd4-565c2942df63">interactive experience of a real-world environment whereby the objects that reside in the real world are augmented by computer-generated perceptual information</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18038_2020" type="inline" citeas="ISO/IEC&amp;#xa0;18038:2020"><localityStack><locality type="clause"><referenceFrom>3.1</referenceFrom></locality></localityStack></origin>
@@ -446,14 +465,14 @@
 
 
 
-<definition><verbal-definition><p id="_178a0101-9e1c-47fe-5c31-74cba8ea2ec2">display continuum in which both real and virtual images are combined in some way and in some proportion</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_c026b66f-d65c-363f-8c88-19a5c0b812bf">display continuum in which both real and virtual images are combined in some way and in some proportion</p></verbal-definition></definition>
 
 
 
 
- <termnote id="_83a6b2b7-f459-acca-53d0-84a734f75953"><p id="_48f7a88d-ac13-39a6-7155-cef6b9653227">Augmented reality and virtual reality are considered to be on the mixed reality continuum.</p>
+ <termnote id="_e3a136c9-0c19-36cc-50ea-84b4211bace4"><p id="_1d4133ca-7a3e-5425-5d3b-75f3c4314274">Augmented reality and virtual reality are considered to be on the mixed reality continuum.</p>
 </termnote><termsource status="modified" type="authoritative"><origin bibitemid="ISO-IEC_TR_23843_2020" type="inline" citeas="ISO/IEC TR 23843:2020"><localityStack><locality type="clause"><referenceFrom>3.4</referenceFrom></locality></localityStack></origin>
-<modification><p id="_6523ea18-9c8c-6384-fe11-9ebca0ef342a">added Note 1 to entry.</p>
+<modification><p id="_24e7db6a-8744-11fb-7fe2-fc1ae4146118">added Note 1 to entry.</p>
 </modification>
 </termsource></term>
 
@@ -467,11 +486,11 @@
 
 
 
-<definition><verbal-definition><p id="_a1529374-366a-d1b3-0109-8fb012e04a00">artificial environment presented in the computer</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_dafaf8e6-dc78-60d8-4f01-33af0484000c">artificial environment presented in the computer</p></verbal-definition></definition>
 
 
  <termsource status="modified" type="authoritative"><origin bibitemid="ISO_IEC_TR_18121_2015" type="inline" citeas="ISO/IEC TR 18121:2015"><localityStack><locality type="clause"><referenceFrom>3.6</referenceFrom></locality></localityStack></origin>
-<modification><p id="_0b329e7b-0d37-e0f2-3fab-6f301abce519">dropped article</p>
+<modification><p id="_35bbf21b-c40e-084c-288b-77fb136db9d9">dropped article</p>
 </modification>
 </termsource></term>
 
@@ -479,7 +498,7 @@
 <name>mixed reality system<index><primary>mixed reality system</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_b82f3e5c-41b7-9f06-285a-94f08cb2a1d5">system that uses a mixture of representations of physical world data and <concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> data as its presentation medium</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_42caa5f1-5e83-f3f8-d1f6-cdcecf672498">system that uses a mixture of representations of physical world data and <concept><refterm>virtual world</refterm><renderterm>virtual world</renderterm><xref target="term-virtual-world"/></concept> data as its presentation medium</p></verbal-definition></definition>
 
 
  <termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18039_2019" type="inline" citeas="ISO/IEC&amp;#xa0;18039:2019"><localityStack><locality type="clause"><referenceFrom>3.1.13</referenceFrom></locality></localityStack></origin>
@@ -495,13 +514,196 @@
 
 
 
-<definition><verbal-definition><p id="_0c71611a-f643-d52a-69f0-aad0c4c5225c">integration of real and virtual worlds including <concept><refterm>mixed reality</refterm><renderterm>mixed reality</renderterm><xref target="term-mixed-reality"/></concept> and <concept><refterm>augmented reality</refterm><renderterm>augmented reality</renderterm><xref target="term-augmented-reality"/></concept></p></verbal-definition></definition>
+<definition><verbal-definition><p id="_002f272e-f2ea-b1cd-0601-e8b5bcc3c194">integration of real and virtual worlds including <concept><refterm>mixed reality</refterm><renderterm>mixed reality</renderterm><xref target="term-mixed-reality"/></concept> and <concept><refterm>augmented reality</refterm><renderterm>augmented reality</renderterm><xref target="term-augmented-reality"/></concept></p></verbal-definition></definition>
 
 
 
 
- <termnote id="_08ab6746-c0fd-4b67-954c-9ca99dc5f7b2"><p id="_b00e07b3-24d9-5d2d-bda7-1dc7ee43aabb">MAR is often used interchangeably with MR.</p>
+ <termnote id="_74bd8d8e-c62d-b3b1-b615-137465cd7268"><p id="_4ca9bff2-5ecf-aed9-39c1-873a3015e2af">MAR is often used interchangeably with MR.</p>
 </termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO_IEC_18038_2020" type="inline" citeas="ISO/IEC&amp;#xa0;18038:2020"/></termsource></term>
+</terms>
+
+<terms id="_metaverse_interfaces" obligation="normative">
+<title>Metaverse interfaces</title>
+<term id="term-cyber-physical-system"><preferred><expression>
+<name>cyber physical system<index><primary>cyber physical system</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>CPS<index><primary>CPS</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_137331d0-d585-b42b-7ffe-8d23e4bc7f31">system with digital, analogue, cyber, physical and human components interacting with each other, engineered to function through integrated physics and logic</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="IWA_39_2022" type="inline" citeas="IWA&amp;#xa0;39:2022"><localityStack><locality type="clause"><referenceFrom>3.1</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+</terms>
+
+<term id="term-human-computer-interface"><preferred><expression>
+<name>human-computer interface<index><primary>human-computer interface</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>HCI<index><primary>HCI</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_62ee53d7-b04c-02b1-604b-ed90c3bb36a2">boundary across which physical interaction between a human being and a computing device takes place</p></verbal-definition></definition>
+
+
+ <termnote id="_2edf4544-96f5-479a-ea07-09d18e9180ea"><p id="_cae99438-50fa-a144-39fc-93a02eeb9827">Definition originates from <eref type="inline" bibitemid="ISO-IEC_TR_10000-3_1998" citeas="ISO/IEC TR 10000-3:1998"><localityStack><locality type="clause"><referenceFrom>3.2.5</referenceFrom></locality></localityStack></eref>.</p>
+</termnote></term>
+
+<term id="term-brain-computer-interface"><preferred><expression>
+<name>brain-computer interface<index><primary>brain-computer interface</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>BCI<index><primary>BCI</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_25458e33-5727-10ca-a187-37c0319c248d">device that quantifies central nervous system activity and translates them into digital outputs</p></verbal-definition></definition>
+
+
+
+
+
+
+
+
+
+
+
+
+ <termnote id="_fc2551fa-8154-a364-a6d3-67cf16f6d6d5"><p id="_27e44b75-07e7-492c-7b99-e4f120d2f4a2">A brain-computer interface may facilitate bi-directional communication between the brain and a computing device.</p>
+</termnote><termnote id="_2edaf995-601b-cdde-091f-3059645512d8"><p id="_fa7b2f35-41b9-d0bb-f989-a609f459893f">A brain-computer interface is a type of human-computer interface that enables direct communication between the brain and an external device.</p>
+</termnote><term id="term-haptics"><preferred><expression>
+<name>haptics<index><primary>haptics</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_e46979fb-6b72-e582-9d76-74d745b6e143">input or output device that senses or actuates the body’s movements by means of physical contact with the user</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_23093-1_2022" type="inline" citeas="ISO/IEC 23093-1:2022"><localityStack><locality type="clause"><referenceFrom>3.1.5</referenceFrom></locality></localityStack></origin>
+</termsource></term><term id="term-game-console"><preferred><expression>
+<name>game console<index><primary>game console</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_915fc14a-edb6-5f07-415d-49e658525e8c">dedicated electronic device designed to play video games</p></verbal-definition></definition>
+ </term><term id="term-internet-of-things"><preferred><expression>
+<name>internet of things<index><primary>internet of things</primary></index></name>
+</expression>
+</preferred><admitted><expression>
+<name>IoT</name>
+</expression>
+</admitted>
+
+
+
+<definition><verbal-definition><p id="_6a1d109f-6f6a-d024-a763-33ccb1195dfa">infrastructure of interconnected entities, people, systems and information resources, together with services which process and react to information from the physical world and the virtual world</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_20924_2021" type="inline" citeas="ISO/IEC&amp;#xa0;20924:2021"><localityStack><locality type="clause"><referenceFrom>3.2.4</referenceFrom></locality></localityStack></origin>
+</termsource></term><term id="term-wearable-device"><preferred><expression>
+<name>wearable device<index><primary>wearable device</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_16b9a8d9-6125-f994-f3de-bc0eacf4b9cd"><concept><refterm>internet of things</refterm><renderterm>IoT</renderterm><xref target="term-internet-of-things"/></concept> device designed for operation near to, on, or inside of a body</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_d2800891-3e2a-5575-6a35-e6bdc6eda29d"><p id="_cadab79d-980e-91c5-015a-ef7347a8046b">Wearable devices often have a variety of sensing abilities, but limited power capacity constraining communication and data processing abilities. As critical devices of the IoT, it is considered that the communication between wearable devices and a network might not require any human intervention. Wearable devices include electronic devices usable by humans, animals, and other organisms.</p>
+</termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO-IEC_20924_2024" type="inline" citeas="ISO/IEC&amp;#xa0;20924:2024"><localityStack><locality type="clause"><referenceFrom>3.1.35</referenceFrom></locality></localityStack></origin>
+</termsource></term></term>
+
+<terms id="_metaverse_spatial" obligation="normative">
+<title>Metaverse spatial</title>
+<term id="term-simultaneous-localization-and-mapping"><preferred><expression>
+<name>simultaneous localization and mapping<index><primary>simultaneous localization and mapping</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>SLAM<index><primary>SLAM</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_d65a221f-5e0a-d09a-f77f-ae7e4879b44c">technique used in robotics and computer vision to create a map of an unknown environment while simultaneously keeping track of an agent’s location within it</p></verbal-definition></definition>
+ </term>
+
+<term id="term-neural-radiance-fields"><preferred><expression>
+<name>neural radiance fields<index><primary>neural radiance fields</primary></index></name>
+</expression>
+</preferred><preferred><expression>
+<name>NeRF<index><primary>NeRF</primary></index></name>
+</expression>
+</preferred>
+
+
+
+<definition><verbal-definition><p id="_7eb59b5b-579b-9e7e-77c3-f3463718a86e">method for synthesizing novel views of complex scenes by optimizing a continuous 3D scene representation</p></verbal-definition></definition>
+ </term>
+
+<term id="term-photogrammetry"><preferred><expression>
+<name>photogrammetry<index><primary>photogrammetry</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_6c5714f8-d4fb-4628-2a94-1538cc72bf09">technique of measurement using photographs, for example aerial photographs, to determine, primarily, geometric properties such as size, location and form of objects</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_e10d3995-d5e8-5aa0-4963-cb279f5f836b"><p id="_35448a72-8e98-3e06-d18a-0da094c8ec0a">Photogrammetric measurement is often used for mapping, but also has some engineering applications.</p>
+</termnote><termsource status="identical" type="authoritative"><origin bibitemid="ISO_7078_2020" type="inline" citeas="ISO&amp;#xa0;7078:2020"><localityStack><locality type="clause"><referenceFrom>3.1.5</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-computer-vision"><preferred><expression>
+<name>computer vision<index><primary>computer vision</primary></index></name>
+</expression>
+</preferred><admitted><expression>
+<name>artificial vision</name>
+</expression>
+</admitted>
+
+
+
+<definition><verbal-definition><p id="_98b595aa-6b89-b7aa-b9e0-252e7594908c">capability of a functional unit to acquire, process, and interpret visual data</p></verbal-definition></definition>
+
+
+
+
+ <termnote id="_fbb6fdf6-558f-6acf-2aaf-dddad883540f"><p id="_0d2c5185-458a-718b-0021-cf1bc3d8c0b0">Computer vision involves the use of visual sensors to create an electronic or digital image of a visual scene.</p>
+</termnote><termsource status="modified" type="authoritative"><origin bibitemid="ISO-IEC_2382_2015" type="inline" citeas="ISO/IEC&amp;#xa0;2382:2015"><localityStack><locality type="clause"><referenceFrom>2123787</referenceFrom></locality></localityStack></origin>
+<modification><p id="_e01d402c-7de6-7adf-16cb-0026b4d68092">Note to entries 2-4 omitted.</p>
+</modification>
+</termsource></term>
+
+<term id="term-computer-graphics"><preferred><expression>
+<name>computer graphics<index><primary>computer graphics</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_fc8e7338-ca2c-882c-c0e8-e1734a00a4d9">methods for converting data to or from graphic displays by a computer</p></verbal-definition></definition>
+
+
+ <termsource status="identical" type="authoritative"><origin bibitemid="ISO_6707-2_2017" type="inline" citeas="ISO&amp;#xa0;6707-2:2017"><localityStack><locality type="clause"><referenceFrom>3.2.17</referenceFrom></locality></localityStack></origin>
+</termsource></term>
+
+<term id="term-point-cloud"><preferred><expression>
+<name>point cloud<index><primary>point cloud</primary></index></name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_a60d4131-e56f-8071-a36d-3373a15f1d67">discrete set of data points in space</p></verbal-definition></definition>
+
+
+ <termnote id="_a3967cc7-454a-581a-86a5-1bb94b19f615"><p id="_27543675-7483-3a9a-92cf-31e79fe98ab6">A point cloud typically representing a 3D shape or object.</p>
+</termnote></term>
 </terms>
 
 <terms id="_extended_metaverse_concepts" obligation="normative">
@@ -510,7 +712,7 @@
 <name>C-Meta<index><primary>C-Meta</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_3fdd0c71-0f7b-d574-fc01-272e22f53833">low-carbon social metaverse under the Web 3.0 architecture, aiming to build a new green and energy-saving digital economy</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_eec2692a-84a5-bfe0-9c08-068ed3a484f9">low-carbon social metaverse under the Web 3.0 architecture, aiming to build a new green and energy-saving digital economy</p></verbal-definition></definition>
  </term>
 </terms>
 
@@ -520,14 +722,14 @@
 <name>stakeholder<index><primary>stakeholder</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_dc65c0ef-06f0-1898-3ed4-60f4e74f4525">role, position, individual, organization, or classes thereof, having an interest, right, share, or claim, in an entity of interest</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_13e57131-5521-2e47-4cad-f2709e506104">role, position, individual, organization, or classes thereof, having an interest, right, share, or claim, in an entity of interest</p></verbal-definition></definition>
 
 
 
 
- <termexample id="_c18dcdd7-651e-d76c-9d29-88b54256d578"><p id="_da17b9bc-23c1-6c87-9021-a1f67bff9d56">End users, operators, acquirers, owners, suppliers, architects, developers, builders, maintainers, regulators, taxpayers, certifying agencies, and markets.</p>
+ <termexample id="_d13ded30-d38e-9cd5-3acb-bcb492998b30"><p id="_b577eb22-7440-8d82-8645-ae330d02a1e2">End users, operators, acquirers, owners, suppliers, architects, developers, builders, maintainers, regulators, taxpayers, certifying agencies, and markets.</p>
 </termexample><termsource status="modified" type="authoritative"><origin bibitemid="ISO_IEC_IEEE_42010_2022" type="inline" citeas="ISO/IEC/IEEE 42010:2022"><localityStack><locality type="clause"><referenceFrom>3.17</referenceFrom></locality></localityStack></origin>
-<modification><p id="_ad42c8e0-8488-712c-e883-ecd27f270a39">dropped article</p>
+<modification><p id="_a31cf3a2-93e4-6cb3-46e4-d1a4164144d0">dropped article</p>
 </modification>
 </termsource></term>
 
@@ -535,90 +737,90 @@
 <name>stakeholder perspective<index><primary>stakeholder perspective</primary></index></name>
 </expression>
 </preferred>
-<definition><verbal-definition><p id="_7ae62e6e-c120-1d6e-5a60-e2ddf6486c86">way of thinking about an entity of interest, especially as it relates to concerns</p></verbal-definition></definition>
+<definition><verbal-definition><p id="_782c4b0c-a5e6-63f4-f240-864d7b943826">way of thinking about an entity of interest, especially as it relates to concerns</p></verbal-definition></definition>
 
 
  <termsource status="modified" type="authoritative"><origin bibitemid="ISO_IEC_IEEE_42010_2022" type="inline" citeas="ISO/IEC/IEEE 42010:2022"><localityStack><locality type="clause"><referenceFrom>3.18</referenceFrom></locality></localityStack></origin>
-<modification><p id="_7cf49afa-9bb1-b798-7ff4-ac1b020860cc">The original example has been removed.</p>
+<modification><p id="_417196a8-aee1-5247-57e1-f6067bbbc4b2">The original example has been removed.</p>
 </modification>
 </termsource></term>
 </terms>
-</clause>
+</terms>
 
 <clause id="_definition_of_metaverse" inline-header="false" obligation="normative">
 <title>Definition of Metaverse</title>
 <clause id="_general" inline-header="false" obligation="normative">
 <title>General</title>
-<p id="_36a34f24-ddf7-a55c-37b0-66de968e8d9a">The definition of a “metaverse” has long been subject of controversy.</p>
+<p id="_d49b1a77-428f-a343-8556-66d49b3b4d40">The definition of a “metaverse” has long been subject of controversy.</p>
 </clause>
 
 <clause id="_approach" inline-header="false" obligation="normative">
 <title>Approach</title>
-<p id="_c9dbff31-51b2-7407-8263-b577eca5bdda">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+<p id="_7641afa0-804e-4ee2-8f59-b2dddfcc8166">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
 </clause>
 
 <clause id="_background" inline-header="false" obligation="normative">
 <title>Background</title>
-<p id="_0757b09e-7522-7614-84f3-f26f71fb74ee">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992  <eref type="inline" bibitemid="snow_crash" citeas="[25]"/>.</p>
+<p id="_39283da8-8487-a348-47f3-456f16de421a">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992  <eref type="inline" bibitemid="snow_crash" citeas="[34]"/>.</p>
 
-<p id="_fb18ff62-e852-b630-94a8-f2b85822aaaa">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+<p id="_2c3963b9-2861-d262-2a99-f7a4c1278f4a">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
 
-<p id="_60402f6d-98f2-aedd-ebaa-4ee0542a56d8">The group has considered a few popular definitions of the “metaverse”, including:</p>
+<p id="_df11514c-c809-9227-018b-0b48a45bc85b">The group has considered a few popular definitions of the “metaverse”, including:</p>
 
-<ul id="_4d546aae-7351-d66f-fa1f-07f33926f28a"><li><p id="_48a310c0-10bc-b778-cce4-9b686bfb253b">From <eref type="inline" bibitemid="ISO-IEC_JTC-1_metaverse" citeas="[22]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+<ul id="_13b075f9-30da-ead8-33e8-07c6de69d84d"><li><p id="_6c0209df-59bb-f54a-861b-699241fc27f3">From <eref type="inline" bibitemid="ISO-IEC_JTC-1_metaverse" citeas="[31]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
 </li>
-<li><p id="_f7fa242a-ed35-352f-dd34-5e8933a08fc3">From <eref type="inline" bibitemid="Rosenberg" citeas="[23]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+<li><p id="_a72c91aa-a549-9eb3-d051-a33df81f066a">From <eref type="inline" bibitemid="Rosenberg" citeas="[32]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
 </li>
-<li><p id="_6fbf10c6-d2d6-e19a-f362-d141034a2b57">From <eref type="inline" bibitemid="Stothard" citeas="[24]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+<li><p id="_48501925-3a73-127f-fba2-2eb0fb851819">From <eref type="inline" bibitemid="Stothard" citeas="[33]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
 </li>
 </ul>
 </clause>
 
 <clause id="_considerations" inline-header="false" obligation="normative">
 <title>Considerations</title>
-<p id="_d98184f7-bee4-a478-2628-eb97be70bd90">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+<p id="_4ad709a7-27e1-a18c-9b7d-e54cfee4ee99">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
 
-<p id="_789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</p>
+<p id="_ba59d9ef-7d71-ad4c-a51e-a26df0c7bfc9">Essential characteristics of the “metaverse” include:</p>
 
-<dl id="_d4bb2bbe-ed9e-25ee-deb9-87bacb3155d6"><dt>virtual</dt>
-<dd><p id="_2fbe9249-06ef-cc7e-c54f-306dbf33a62e">as in the items in the experience is virtual</p>
+<dl id="_357ac818-85a0-777e-1a33-eda4b53f1c98"><dt>virtual</dt>
+<dd><p id="_1ed5208e-5ce4-62a5-6cf3-6e38636b8b2b">as in the items in the experience is virtual</p>
 </dd>
 <dt>immersive</dt>
-<dd><p id="_f2483d97-a437-e55d-2368-521beb289686">where it is experienced through human-computer interaction</p>
+<dd><p id="_3380fa06-ab39-38e3-71fe-fef826917ad3">where it is experienced through human-computer interaction</p>
 </dd>
 <dt>spatial</dt>
-<dd><p id="_47519c9a-0701-35f3-bf68-85bb0fb187e0">where the experience is spatially organized according to some notion of location</p>
+<dd><p id="_885af7e7-8dbd-b4ed-3822-3bfb29340947">where the experience is spatially organized according to some notion of location</p>
 </dd>
 <dt>interactive</dt>
-<dd><p id="_c59516df-27ae-505e-8d62-0e6f31e6d45c">where users can directly interact with it and receive feedback</p>
+<dd><p id="_d3bbf8c4-8200-d7c0-34f1-f924e27a39b0">where users can directly interact with it and receive feedback</p>
 </dd>
 </dl>
 
-<p id="_f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</p>
+<p id="_04a8b3a7-c913-2e4e-4a4a-33079c50ed71">Common characteristics expected by popular culture include:</p>
 
-<dl id="_a1a86e36-3a8e-7e3e-0694-a4d879638995"><dt>massively multi-user</dt>
-<dd><p id="_1862709a-6354-498f-8310-04e867f0f9de">where there can be many simultaneous users</p>
+<dl id="_a6b4329f-8159-6d2d-a489-921e7a0ceaca"><dt>massively multi-user</dt>
+<dd><p id="_c8653b28-7855-c363-61d6-818e8a84eb7a">where there can be many simultaneous users</p>
 </dd>
 <dt>interconnection</dt>
-<dd><p id="_966e1bde-8b8e-ca98-dc86-9d6020eb519e">of virtual world systems</p>
+<dd><p id="_a636231a-b519-0cf6-e5d5-0a391c7aba00">of virtual world systems</p>
 </dd>
 <dt>interoperability</dt>
-<dd><p id="_2941ccd6-0123-c162-cadd-61a286806141">between users across virtual world systems</p>
+<dd><p id="_563b5720-91d8-c3b1-d4a0-104bcbae212c">between users across virtual world systems</p>
 </dd>
 <dt>persistent</dt>
-<dd><p id="_3dcbb7c1-45c4-2979-04f2-d7925c48f965">where actions and events in the virtual world persists after a user leaves</p>
+<dd><p id="_01e2a577-d365-b317-30d7-419becbb5b41">where actions and events in the virtual world persists after a user leaves</p>
 </dd>
 <dt>real-time</dt>
-<dd><p id="_7008a8e7-71cb-3145-5ae9-ee3b85ef89e7">where user actions are performed in real-time</p>
+<dd><p id="_d0cb1d75-b1cf-7c10-9351-9b52eb1ecd4a">where user actions are performed in real-time</p>
 </dd>
 </dl>
 </clause>
 
 <clause id="_consensus" inline-header="false" obligation="normative">
 <title>Consensus</title>
-<p id="_bddc7762-d200-927d-565b-a36c9c48a4bd">The resulting consensus arrived at this definition for “metaverse”:</p>
+<p id="_afdb135d-cb37-139a-e444-d0da0f51ce60">The resulting consensus arrived at this definition for “metaverse”:</p>
 
-<quote id="_5eb61e9a-220c-00be-b533-b30cadaf21d5"><p id="_d6b2facd-04ac-3eb3-4337-439e11d68191">metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
+<quote id="_b81d042a-af7a-a176-81c8-d33ae6556e15"><p id="_a22a999b-6a4e-cc51-617e-668214acb3ea">metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
 </quote>
 </clause>
 </clause>
@@ -661,7 +863,488 @@
 <title>Normative references</title><p id="_21971d30-bb88-56a2-0d5b-aca5e0104f76">There are no normative references in this document.</p>
 
 </references><references id="_bibliography" normative="false" obligation="informative">
-<title>Bibliography</title><bibitem id="ISO_IEC_17788_2014" type="standard" schema-version="v1.2.9">
+<title>Bibliography</title><bibitem id="ISO-IEC_2382_2015" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/63598.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:63598:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/35/63598.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 2382:2015</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 2382:2015(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:2382:stage-90.60</docidentifier>
+  <docnumber>2382</docnumber>
+  <date type="published">
+    <on>2015-05</on>
+  </date>
+  <date type="corrected">
+    <on>2022-10</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This standard of vocabulary taken from the multi-part ISO/IEC 2382 standard is presented in language-specific order and is intended to facilitate international communication in information technology. It presents, in two languages, terms and definitions of selected concepts relevant to this field.
+In order to facilitate their translation into other languages, the definitions are drafted so as to avoid, as far as possible, any peculiarity attached to a language.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2015</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-1:1993</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-1:1993</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-2:1976</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-2:1976</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-3:1987</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-3:1987</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-4:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-4:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-5:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-5:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-6:1987</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-6:1987</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-7:2000</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-7:2000</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-8:1998</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-8:1998</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-9:1995</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-9:1995</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-10:1979</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-10:1979</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-12:1988</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-12:1988</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-13:1996</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-13:1996</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-14:1997</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-14:1997</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-15:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-15:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-16:1996</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-16:1996</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-17:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-17:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-18:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-18:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-19:1989</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-19:1989</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-20:1990</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-20:1990</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 2382-21:1985</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 2382-21:1985</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-23:1994</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-23:1994</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-24:1995</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-24:1995</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-25:1992</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-25:1992</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-26:1993</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-26:1993</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-27:1994</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-27:1994</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-28:1995</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-28:1995</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-29:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-29:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-31:1997</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-31:1997</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-32:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-32:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-34:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-34:1999</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 2382-37:2012</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 2382-37:2012</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_6707-2_2017" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Buildings and civil engineering works</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Contract and communication terms</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Buildings and civil engineering works — Vocabulary — Part 2: Contract and communication terms</title>
+
+  <uri type="src">https://www.iso.org/standard/70040.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:70040:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/00/70040.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 6707-2:2017</docidentifier>
+  <docidentifier type="iso-reference">ISO 6707-2:2017(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:6707:-2:stage-90.92</docidentifier>
+  <docnumber>6707</docnumber>
+  <date type="published">
+    <on>2017-11</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 6707-2:2017 defines terms applicable to contracts and communication in relation to buildings and civil engineering works.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 6707-2:2014</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 6707-2:2014</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/AWI 6707-2</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/AWI 6707-2</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_7078_2020" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Buildings and civil engineering works</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Procedures for setting out, measurement and surveying</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Buildings and civil engineering works — Procedures for setting out, measurement and surveying — Vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/75610.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:75610:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/56/75610.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 7078:2020</docidentifier>
+  <docidentifier type="iso-reference">ISO 7078:2020(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:7078:stage-60.60</docidentifier>
+  <docnumber>7078</docnumber>
+  <date type="published">
+    <on>2020-04</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document defines terms that are commonly used in procedures for setting out, measurement and surveying in buildings and civil engineering works.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2020</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 7078:1985</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 7078:1985</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_TR_10000-3_1998" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Part 3: Principles and Taxonomy for Open System Environment Profiles</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Framework and taxonomy of International Standardized Profiles — Part 3: Principles and Taxonomy for Open System Environment Profiles</title>
+
+  <uri type="src">https://www.iso.org/standard/30727.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:30727:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/07/30727.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC TR 10000-3:1998</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC TR 10000-3:1998(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:tr:10000:-3:stage-90.93</docidentifier>
+  <docnumber>10000</docnumber>
+  <date type="published">
+    <on>1998-11</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>1998</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC TR 10000-3:1995</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC TR 10000-3:1995</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO_IEC_17788_2014" type="standard" schema-version="v1.2.9">
   <fetched>2024-12-21</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
@@ -705,7 +1388,7 @@
     </organization>
   </contributor>
   <edition>1</edition>
-  <note type="Unpublished-Status"><p id="_38af03d5-f990-fe07-c460-81b6ce9273cc">Cancelled and replaced by ISO/IEC 22123-1:2023.</p></note><language>en</language>
+  <note type="Unpublished-Status"><p id="_2ab3e8f7-86e6-a53d-a183-d0c76c8bb5fe">Cancelled and replaced by ISO/IEC 22123-1:2023.</p></note><language>en</language>
   <language>fr</language>
   <script>Latn</script>
   <abstract format="text/plain" language="en" script="Latn">ISO/IEC 17788:2014 provides an overview of cloud computing along with a set of terms and definitions. It is a terminology foundation for cloud computing standards.
@@ -1141,6 +1824,154 @@ Each X3D application:</abstract>
 
   </relation>
   <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_20924_2021" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Internet of Things (IoT)</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Internet of Things (IoT) — Vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/82771.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/27/82771.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 20924:2021</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 20924:2021(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:20924:stage-95.99</docidentifier>
+  <docnumber>20924</docnumber>
+  <date type="published">
+    <on>2021-03</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <note type="Unpublished-Status"><p id="_64ce8a83-b597-0cb6-564f-9e7f89c572f8">Cancelled and replaced by ISO/IEC 20924:2024.</p></note><language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 20924:2021(E) provides a definition of Internet of Things along with a set of terms and definitions. This document is a terminology foundation for the Internet of Things.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 20924:2018</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 20924:2018</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 20924:2024</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 20924:2024</docidentifier>
+      <date type="circulated">
+        <on>2024-02-22</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_20924_2024" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Internet of Things (IoT) and digital twin</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Internet of Things (IoT) and digital twin — Vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/88799.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:88799:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/87/88799.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 20924:2024</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 20924:2024(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:20924:stage-60.60</docidentifier>
+  <docnumber>20924</docnumber>
+  <date type="published">
+    <on>2024-02</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document provides a definition of Internet of Things and digital twin along with a set of terms and definitions. This document is a terminology foundation for the Internet of Things and digital twin. This third edition cancels and replaces the second edition published in 2021. This edition constitutes a technical revision. This edition includes the following technical changes with respect to the previous edition: a) addition of new terms which are used in other ISO/IEC IoT related standards; b) update of some definitions to align with current usage in IoT standards; c) extension of digital twin related vocabularies with title and scope changes</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2024</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 20924:2021</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 20924:2021</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
 </bibitem><bibitem id="ISO_22739_2024" type="standard" schema-version="v1.2.9">
   <fetched>2024-12-21</fetched>
   
@@ -1195,6 +2026,84 @@ Each X3D application:</abstract>
     <bibitem type="standard">
       <formattedref format="text/plain">ISO 22739:2020</formattedref>
       <docidentifier type="ISO" primary="true">ISO 22739:2020</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_23093-1_2022" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Internet of media things</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Architecture</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Internet of media things — Part 1: Architecture</title>
+
+  <uri type="src">https://www.iso.org/standard/81586.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:81586:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/15/81586.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 23093-1:2022</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 23093-1:2022(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:23093:-1:stage-90.92</docidentifier>
+  <docnumber>23093</docnumber>
+  <date type="published">
+    <on>2022-03</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document describes the architecture of systems for the internet of media things.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2022</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 23093-1:2020</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 23093-1:2020</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC DIS 23093-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC DIS 23093-1</docidentifier>
     </bibitem>
 
   </relation>
@@ -1482,6 +2391,88 @@ Each X3D application:</abstract>
 
   </relation>
   <place>Geneva</place>
+</bibitem><bibitem id="ISO-IEC_27000_2018" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Security techniques</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Information security management systems — Overview and vocabulary</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Security techniques — Information security management systems — Overview and vocabulary</title>
+
+  <uri type="src">https://www.iso.org/standard/73906.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:73906:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/39/73906.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC 27000:2018</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC 27000:2018(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:27000:stage-90.92</docidentifier>
+  <docnumber>27000</docnumber>
+  <date type="published">
+    <on>2018-02</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>5</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 27000:2018 provides the overview of information security management systems (ISMS). It also provides terms and definitions commonly used in the ISMS family of standards. This document is applicable to all types and sizes of organization (e.g. commercial enterprises, government agencies, not-for-profit organizations).
+The terms and definitions provided in this document
+-      cover commonly used terms and definitions in the ISMS family of standards;
+-      do not cover all terms and definitions applied within the ISMS family of standards; and
+-      do not limit the ISMS family of standards in defining new terms for use.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 27000:2016</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC 27000:2016</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC CD 27000</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC CD 27000</docidentifier>
+    </bibitem>
+
+  </relation>
+  <place>Geneva</place>
 </bibitem><bibitem id="ISO-IEC_27032-2012" type="standard" schema-version="v1.2.9">
   <fetched>2024-12-21</fetched>
   
@@ -1526,7 +2517,7 @@ Each X3D application:</abstract>
     </organization>
   </contributor>
   <edition>1</edition>
-  <note type="Unpublished-Status"><p id="_dc4c22a4-3cd2-1e44-00cc-73cd521e8b9b">Cancelled and replaced by ISO/IEC 27032:2023.</p></note><language>en</language>
+  <note type="Unpublished-Status"><p id="_df7ebeaf-6960-01bb-96a9-ce9123dca877">Cancelled and replaced by ISO/IEC 27032:2023.</p></note><language>en</language>
   <language>fr</language>
   <script>Latn</script>
   <abstract format="text/plain" language="en" script="Latn">ISO/IEC 27032:2012 provides guidance for improving the state of Cybersecurity, drawing out the unique aspects of that activity and its dependencies on other security domains, in particular:
@@ -1657,7 +2648,7 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
 2024.</formattedref>
   <title>Draft Technical Specification ITU FGMV — Vocabulary for metaverse</title>
   <docidentifier>ITU FGMV-O-235</docidentifier>
-  <docidentifier type="metanorma">[14]</docidentifier>
+  <docidentifier type="metanorma">[22]</docidentifier>
   <date type="published">
   <on>2024</on>
 </date>
@@ -1795,6 +2786,44 @@ Draft Technical Specification ITU FGMV — Vocabulary for metaverse.
   <keyword>IEEE 7010</keyword>
   <keyword>well-being indicators</keyword>
   <keyword>well-being metrics</keyword>
+</bibitem><bibitem id="IWA_39_2022" type="standard" schema-version="v1.2.9">
+  <fetched>2024-12-21</fetched>
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Gap analysis for standardization on sustainable and human-centred societies enabled with cyber physical systems</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Gap analysis for standardization on sustainable and human-centred societies enabled with cyber physical systems</title>
+
+  <uri type="src">https://www.iso.org/standard/81618.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:81618:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/08/16/81618.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">IWA 39:2022</docidentifier>
+  <docidentifier type="iso-reference">IWA 39:2022(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:iwa:39:stage-60.60</docidentifier>
+  <docnumber>39</docnumber>
+  <date type="published">
+    <on>2022-07</on>
+  </date>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">This document provides a gap analysis between existing areas of standardization and the needs of human-centred sustainable societies enabled by cyber physical systems. This document does not cover the technical requirements of cyber physical systems.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2022</from>
+    <owner>
+      <organization>
+        
+<name>IWA</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <place>Geneva</place>
 </bibitem><bibitem id="ITU-T_F_791" type="standard" schema-version="v1.2.9">
   <fetched>2024-12-21</fetched>
   
@@ -3507,7 +4536,7 @@ JTC 1 Standards and Standardization for the Metaverse.
 Available at: <link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/"/></formattedref>
   <title>JTC 1 Standards and Standardization for the Metaverse</title>
   <uri>https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</uri>
-  <docidentifier type="metanorma">[22]</docidentifier>
+  <docidentifier type="metanorma">[31]</docidentifier>
   <date type="published">
   <on>2023</on>
 </date>
@@ -3526,7 +4555,7 @@ VentureBeat
 Available at: <link target="https://venturebeat.com/business/metaverse-101-defining-the-key-components/"/></formattedref>
   <title>Metaverse 101: defining the key components</title>
   <uri>https://venturebeat.com/business/metaverse-101-defining-the-key-components/</uri>
-  <docidentifier type="metanorma">[23]</docidentifier>
+  <docidentifier type="metanorma">[32]</docidentifier>
   <date type="published">
   <on>2022</on>
 </date>
@@ -3550,7 +4579,7 @@ Kurata, T.
 Mining Metaverse Taxonomy (NOT YET PUBLISHED).
 2024.</formattedref>
   <title>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</title>
-  <docidentifier type="metanorma">[24]</docidentifier>
+  <docidentifier type="metanorma">[33]</docidentifier>
   <date type="published">
   <on>2024</on>
 </date>
@@ -3577,7 +4606,7 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
 <title type="main" format="text/plain">Snow crash</title>
 
   <uri type="src">http://openlibrary.org/books/OL14813122M/Snow_crash</uri>
-  <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[25]</docidentifier>
+  <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[34]</docidentifier>
   <date type="published">
     <on>1993</on>
   </date>
@@ -3601,6 +4630,15 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
     <city>New York</city>
   </place>
 </bibitem>
+
+
+
+
+
+
+
+
+
 
 
 

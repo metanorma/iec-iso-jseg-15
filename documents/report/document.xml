@@ -155,29 +155,45 @@
 
 <p id="_789842a6-52ae-17d4-2e64-648d5f93758d">Essential characteristics of the “metaverse” include:</p>
 
-<ul id="_ac082d0d-e350-1a79-f9a6-49c029d11679"><li><p id="_a7cd1301-4eb0-f8f9-b319-af3db49c28f7"><strong>virtual</strong>, as in the items in the experience is virtual</p>
-</li>
-<li><p id="_2a405de2-ce7d-cc86-9bc9-63d551b6319f"><strong>immersive</strong> where it is experienced through human computer interaction</p>
-</li>
-</ul>
+<dl id="_d4bb2bbe-ed9e-25ee-deb9-87bacb3155d6"><dt>virtual</dt>
+<dd><p id="_2fbe9249-06ef-cc7e-c54f-306dbf33a62e">as in the items in the experience is virtual</p>
+</dd>
+<dt>immersive</dt>
+<dd><p id="_f2483d97-a437-e55d-2368-521beb289686">where it is experienced through human-computer interaction</p>
+</dd>
+<dt>spatial</dt>
+<dd><p id="_47519c9a-0701-35f3-bf68-85bb0fb187e0">where the experience is spatially organized according to some notion of location</p>
+</dd>
+<dt>interactive</dt>
+<dd><p id="_c59516df-27ae-505e-8d62-0e6f31e6d45c">where users can directly interact with it and receive feedback</p>
+</dd>
+</dl>
 
 <p id="_f0b31c5e-dbce-ec3d-59fd-5d3febcb7ac2">Common characteristics expected by popular culture include:</p>
 
-<ul id="_98b3fc84-e724-bfda-ba40-b3774fc8046e"><li><p id="_f4fdf12c-0cf5-b430-9491-97a4acb0239b"><strong>massively multi-user</strong> where there can be many simultaneous users</p>
-</li>
-<li><p id="_d3cdf52c-4e05-9020-b74a-e91a79c92ae4"><strong>interconnection</strong> of virtual world systems</p>
-</li>
-<li><p id="_b419aaa8-ccd7-1a14-1091-d98034f57ea1"><strong>interoperability</strong> between users across virtual world systems</p>
-</li>
-<li><p id="_e48910aa-1694-c074-af90-70be81fcb753"><strong>persistent</strong> where actions and events in the virtual world persists after a user leaves</p>
-</li>
-<li><p id="_d5f37f9b-ddf3-8e22-1f5a-d887975c6747"><strong>real-time</strong> where user actions are performed in real-time</p>
-</li>
-</ul>
+<dl id="_a1a86e36-3a8e-7e3e-0694-a4d879638995"><dt>massively multi-user</dt>
+<dd><p id="_1862709a-6354-498f-8310-04e867f0f9de">where there can be many simultaneous users</p>
+</dd>
+<dt>interconnection</dt>
+<dd><p id="_966e1bde-8b8e-ca98-dc86-9d6020eb519e">of virtual world systems</p>
+</dd>
+<dt>interoperability</dt>
+<dd><p id="_2941ccd6-0123-c162-cadd-61a286806141">between users across virtual world systems</p>
+</dd>
+<dt>persistent</dt>
+<dd><p id="_3dcbb7c1-45c4-2979-04f2-d7925c48f965">where actions and events in the virtual world persists after a user leaves</p>
+</dd>
+<dt>real-time</dt>
+<dd><p id="_7008a8e7-71cb-3145-5ae9-ee3b85ef89e7">where user actions are performed in real-time</p>
+</dd>
+</dl>
+</clause>
 
-<p id="_6fc68c37-d075-4fed-4249-dc393eb15975">The resulting consensus arrived at this definition for “metaverse”:</p>
+<clause id="_consensus" inline-header="false" obligation="normative">
+<title>Consensus</title>
+<p id="_bddc7762-d200-927d-565b-a36c9c48a4bd">The resulting consensus arrived at this definition for “metaverse”:</p>
 
-<quote id="_782f837d-abea-76d3-1ded-e73df9afefd6"><p id="_7ad366af-22cb-5d54-4588-87e4f56f4b57">metaverse: virtual world experienced through immersive technologies</p>
+<quote id="_5eb61e9a-220c-00be-b533-b30cadaf21d5"><p id="_d6b2facd-04ac-3eb3-4337-439e11d68191">metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
 </quote>
 </clause>
 </clause>
@@ -190,7 +206,7 @@
 
 <p id="_b8ba4e28-26ab-61d0-7574-eb823dbd70c2">Questions to be addressed:</p>
 
-<ul id="_5b8a73c7-c4e0-51e6-646c-2fcf9ac32b76"><li><p id="_05822dab-6c79-9e09-d2dc-bcccef3eaed5">What is a Metaverse or is there only THE metaverse (like THE Internet)?</p>
+<ul id="_bfe058e6-437d-3f01-02a6-a36a71244fb5"><li><p id="_788ded90-9199-3d7c-5652-31fe3d0faf47">What is a Metaverse? Or is there only one “metaverse”, similar to “the Internet”?</p>
 </li>
 <li><p id="_e86de62c-e26a-f826-c9c0-395012cc817e">Does the Metaverse require human interaction?</p>
 </li>
@@ -263,9 +279,9 @@
 <title>General</title>
 <p id="_f2bf71a5-ee8e-09f4-8b15-0498f9d0be0a">The group recommends the following:</p>
 
-<ul id="_aea89ab3-bbb0-5344-d1e2-cd67a0cfa56b"><li><p id="_f27526da-f262-0711-6489-1b2e75126296">The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications</p>
+<ul id="_042606fd-345e-61e3-bce9-86ddbc327942"><li><p id="_82b1853a-41c1-2fb0-cfc2-88f4480b5d08">The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications.</p>
 </li>
-<li><p id="_7ea942c4-1b68-6c7b-81f0-1b4e40bd65f3">The Metaverse terminology provided should be adopted by IEC/ISO TCs</p>
+<li><p id="_3e5cf621-c40e-e988-5982-f8ed3e38fef2">The Metaverse terminology provided should be adopted by IEC/ISO TCs.</p>
 </li>
 </ul>
 </clause>

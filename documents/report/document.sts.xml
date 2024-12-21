@@ -207,53 +207,86 @@
 
 <p>Essential characteristics of the “metaverse” include:</p>
 
-<list list-type="dash">
-<list-item>
-<label>—</label>
-<p>
-<bold>virtual</bold>, as in the items in the experience is virtual</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>immersive</bold> where it is experienced through human computer interaction</p>
-</list-item>
-</list>
+<def-list>
+<def-item>
+<term>virtual</term>
+<def>
+<p>as in the items in the experience is virtual</p>
+</def>
+</def-item>
+
+<def-item>
+<term>immersive</term>
+<def>
+<p>where it is experienced through human-computer interaction</p>
+</def>
+</def-item>
+
+<def-item>
+<term>spatial</term>
+<def>
+<p>where the experience is spatially organized according to some notion of location</p>
+</def>
+</def-item>
+
+<def-item>
+<term>interactive</term>
+<def>
+<p>where users can directly interact with it and receive feedback</p>
+</def>
+</def-item>
+
+</def-list>
 
 <p>Common characteristics expected by popular culture include:</p>
 
-<list list-type="dash">
-<list-item>
-<label>—</label>
-<p>
-<bold>massively multi-user</bold> where there can be many simultaneous users</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>interconnection</bold> of virtual world systems</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>interoperability</bold> between users across virtual world systems</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>persistent</bold> where actions and events in the virtual world persists after a user leaves</p>
-</list-item>
-<list-item>
-<label>—</label>
-<p>
-<bold>real-time</bold> where user actions are performed in real-time</p>
-</list-item>
-</list>
+<def-list>
+<def-item>
+<term>massively multi-user</term>
+<def>
+<p>where there can be many simultaneous users</p>
+</def>
+</def-item>
+
+<def-item>
+<term>interconnection</term>
+<def>
+<p>of virtual world systems</p>
+</def>
+</def-item>
+
+<def-item>
+<term>interoperability</term>
+<def>
+<p>between users across virtual world systems</p>
+</def>
+</def-item>
+
+<def-item>
+<term>persistent</term>
+<def>
+<p>where actions and events in the virtual world persists after a user leaves</p>
+</def>
+</def-item>
+
+<def-item>
+<term>real-time</term>
+<def>
+<p>where user actions are performed in real-time</p>
+</def>
+</def-item>
+
+</def-list>
+</sec>
+
+<sec id="sec_5.5">
+<label>5.5</label>
+<title>Consensus</title>
 
 <p>The resulting consensus arrived at this definition for “metaverse”:</p>
 
-<disp-quote id="_782f837d-abea-76d3-1ded-e73df9afefd6">
-<p>metaverse: virtual world experienced through immersive technologies</p>
+<disp-quote id="_5eb61e9a-220c-00be-b533-b30cadaf21d5">
+<p>metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
 </disp-quote>
 </sec>
 </sec>
@@ -272,7 +305,7 @@
 <list list-type="dash">
 <list-item>
 <label>—</label>
-<p>What is a Metaverse or is there only THE metaverse (like THE Internet)?</p>
+<p>What is a Metaverse? Or is there only one “metaverse”, similar to “the Internet”?</p>
 </list-item>
 <list-item>
 <label>—</label>
@@ -398,11 +431,11 @@
 <list list-type="dash">
 <list-item>
 <label>—</label>
-<p>The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications</p>
+<p>The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications.</p>
 </list-item>
 <list-item>
 <label>—</label>
-<p>The Metaverse terminology provided should be adopted by IEC/ISO TCs</p>
+<p>The Metaverse terminology provided should be adopted by IEC/ISO TCs.</p>
 </list-item>
 </list>
 </sec>
