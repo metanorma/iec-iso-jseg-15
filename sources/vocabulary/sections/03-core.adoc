@@ -5,7 +5,8 @@
 
 ==== metaverse
 
-{{virtual world}} experienced through {{immersive}} technologies
+{{interactive}} {{virtual world}} that incorporates {{spatial referencing}}
+experienced through {{immersive}} technologies
 
 
 ==== artificial intelligence
@@ -126,6 +127,13 @@ creating the illusion of being inside a computer-generated scene
 <<ISO-IEC_19775-1>>
 
 
+==== interactive
+
+pertaining to a system or mode of operation in which each user entry causes a response from or action by the system
+
+[.source]
+<<ISO-IEC-IEEE_24765_2017,clause=3.2050>>, removed second definition.
+
 ==== Internet of Things
 
 system of entities (including cyber-physical devices, information resources, and
@@ -143,7 +151,6 @@ mutually use the information that has been exchanged
 [.source]
 <<ISO_IEC_17788_2014,clause=3.1.5>>
 
-
 ==== ledger
 
 information store that keeps records of transactions that are intended to be
@@ -151,6 +158,14 @@ final, definitive and immutable
 
 [.source]
 <<ISO_22739_2024,clause=3.43>>
+
+==== spatial referencing
+
+method to describe a position within a context
+
+NOTE: A position may the form of a label, code or coordinate tuple.
+
+NOTE: Definition modified from <<ISO_19111_2019,clause=3.1.56>> "spatial reference".
 
 
 ==== virtual world
@@ -281,8 +296,8 @@ artificial environment presented in the computer
 
 ==== mixed reality system
 
-system that uses a mixture of representations of physical world data and virtual
-world data as its presentation medium
+system that uses a mixture of representations of physical world data and
+{{virtual world}} data as its presentation medium
 
 [.source]
 <<ISO_IEC_18039_2019,clause=3.1.13>>
