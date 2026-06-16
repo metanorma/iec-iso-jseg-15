@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.3.4" schema-version="v2.1.5" flavor="iso">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.4.3" schema-version="v2.1.6" flavor="iso">
 <bibdata type="standard">
 <title language="en" type="main">Metaverse Workstream 1 — Final report</title>
 
@@ -12,7 +12,7 @@
 <title language="fr" type="title-intro">Metaverse Workstream 1</title>
 
 <title language="fr" type="title-main">Rapport final</title>
-<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><contributor><role type="author"/><organization>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><date type="updated"><on>2024-12-21</on></date><contributor><role type="author"/><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
 <name>International Organization for Standardization</name>
@@ -38,7 +38,7 @@
 <name>Metaverse</name>
 <identifier>JSEG 15</identifier><identifier type="full">JSEG 15/WS 1</identifier></subdivision><subdivision type="Workgroup" subtype="WS">
 <name>Terminology</name>
-<identifier>WS 1</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>0.3</edition><version><revision-date>2024-12-21</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<identifier>WS 1</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>0.3</edition><version>2024-12-21</version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
 <name>International Organization for Standardization</name>
@@ -287,7 +287,7 @@
 
 </sections><bibliography><references id="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21" normative="true" obligation="informative">
 <title id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><p id="_1e0e85f2-a241-464a-90af-046b5883d60f">There are no normative references in this document.</p>
-</references><references id="_2bd29d5b-596e-f31a-86f3-c269be80dd58" normative="false" obligation="informative">
+</references><references id="_4c466ee8-ef4a-37d6-8f4e-02088d4cb9d9" normative="false" obligation="informative">
 <title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem anchor="ISO-IEC_JTC-1_metaverse" id="_6cd3c260-8e2e-58f3-a0b5-06912087d17e" type="webresource">
   <formattedref format="application/x-isodoc+xml">ISO/IEC JTC 1 
 JTC 1 Standards and Standardization for the Metaverse.
@@ -367,10 +367,10 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
 </contributor>
   <language>en</language>
   <script>Latn</script>
-</bibitem><bibitem id="_75699c81-6855-3c82-f0fd-deee5a4f979b" schema-version="v1.2.9" anchor="snow_crash">
-  <fetched>2026-04-16</fetched>
+</bibitem><bibitem id="_66f9f077-e6e7-4b05-f47e-d548e8091c80" schema-version="v1.5.6" anchor="snow_crash">
+  <fetched>2026-06-16</fetched>
   
-<title type="main" format="text/plain">Snow Crash</title>
+<title type="main">Snow Crash</title>
 
   <uri type="src">http://openlibrary.org/books/OL14813122M/Snow_Crash</uri>
   <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[4]</docidentifier>
@@ -383,6 +383,7 @@ Mining Metaverse Taxonomy (NOT YET PUBLISHED).
       
 <name>          <completename>Neal Stephenson</completename>       </name>
 
+      <uri>http://openlibrary.org/authors/OL19430A/Neal_Stephenson</uri>
     </person>
   </contributor>
   <contributor>

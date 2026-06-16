@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="3.3.4" schema-version="v2.1.5" flavor="iso">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="3.4.3" schema-version="v2.1.6" flavor="iso">
 <bibdata type="standard">
 <title language="en" type="main">Metaverse Workstream 1 — Final report</title>
 
@@ -12,7 +12,7 @@
 <title language="fr" type="title-intro">Metaverse Workstream 1</title>
 
 <title language="fr" type="title-main">Rapport final</title>
-<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><contributor><role type="author"/><organization>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><date type="updated"><on>2024-12-21</on></date><contributor><role type="author"/><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
 <name>International Organization for Standardization</name>
@@ -20,9 +20,9 @@
 <name>IEC;ISO</name>
 <subdivision type="Technical committee" subtype="JSEG">
 <name>Metaverse</name>
-<identifier id="_a592bc93-e2c4-a54f-fdcf-22b0fa28ef0c">JSEG 15</identifier><fmt-identifier><tt><semx element="identifier" source="_a592bc93-e2c4-a54f-fdcf-22b0fa28ef0c">JSEG 15</semx></tt></fmt-identifier><identifier type="full" id="_cb4c2c37-f5bb-2e81-90d9-5f7873f0019d">JSEG 15/WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_cb4c2c37-f5bb-2e81-90d9-5f7873f0019d">JSEG 15/WS 1</semx></tt></fmt-identifier></subdivision><subdivision type="Workgroup" subtype="WS">
+<identifier id="_c4c230f4-7329-ab45-c267-cd500ec9457e">JSEG 15</identifier><fmt-identifier><tt><semx element="identifier" source="_c4c230f4-7329-ab45-c267-cd500ec9457e">JSEG 15</semx></tt></fmt-identifier><identifier type="full" id="_d891a53a-1985-f7b1-71ed-f36f926cd67b">JSEG 15/WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_d891a53a-1985-f7b1-71ed-f36f926cd67b">JSEG 15/WS 1</semx></tt></fmt-identifier></subdivision><subdivision type="Workgroup" subtype="WS">
 <name>Terminology</name>
-<identifier id="_a8a3fd99-20b8-abb9-a75f-e322f0f381e7">WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_a8a3fd99-20b8-abb9-a75f-e322f0f381e7">WS 1</semx></tt></fmt-identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<identifier id="_ca96200c-e8cf-6865-681f-f64295149122">WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_ca96200c-e8cf-6865-681f-f64295149122">WS 1</semx></tt></fmt-identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
 <name>IEC;ISO</name>
 </organization></contributor><contributor><role type="author"><description>secretariat</description></role><organization>
 <name>International Organization for Standardization</name>
@@ -36,9 +36,9 @@
 <name>International Organization for Standardization</name>
 <subdivision type="Technical committee" subtype="JSEG">
 <name>Metaverse</name>
-<identifier id="_9ff0c30b-8936-ee56-c48f-c3569474f2af">JSEG 15</identifier><fmt-identifier><tt><semx element="identifier" source="_9ff0c30b-8936-ee56-c48f-c3569474f2af">JSEG 15</semx></tt></fmt-identifier><identifier type="full" id="_b94e0fc0-1077-39c9-99c4-bc996bd77686">JSEG 15/WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_b94e0fc0-1077-39c9-99c4-bc996bd77686">JSEG 15/WS 1</semx></tt></fmt-identifier></subdivision><subdivision type="Workgroup" subtype="WS">
+<identifier id="_786ab5e3-5305-aadc-ce7c-7cd32dbdf3d4">JSEG 15</identifier><fmt-identifier><tt><semx element="identifier" source="_786ab5e3-5305-aadc-ce7c-7cd32dbdf3d4">JSEG 15</semx></tt></fmt-identifier><identifier type="full" id="_22112a64-f3a6-fee9-9db8-2836cdc42285">JSEG 15/WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_22112a64-f3a6-fee9-9db8-2836cdc42285">JSEG 15/WS 1</semx></tt></fmt-identifier></subdivision><subdivision type="Workgroup" subtype="WS">
 <name>Terminology</name>
-<identifier id="_48a0e9ad-82d7-4132-6899-432d27836488">WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_48a0e9ad-82d7-4132-6899-432d27836488">WS 1</semx></tt></fmt-identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition language="">0.3</edition><edition language="en">edition 0.3</edition><version><revision-date>2024-12-21</revision-date></version><language current="true">en</language><script current="true">Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<identifier id="_8cb111a0-582b-c801-1ace-390e5a2e556e">WS 1</identifier><fmt-identifier><tt><semx element="identifier" source="_8cb111a0-582b-c801-1ace-390e5a2e556e">WS 1</semx></tt></fmt-identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition language="">0.3</edition><edition language="en">edition 0.3</edition><version>2024-12-21</version><language current="true">en</language><script current="true">Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
 <name>International Organization for Standardization</name>
@@ -349,7 +349,7 @@ sourcecode .nt {
 
 <references id="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21" normative="true" obligation="informative" semx-id="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21" displayorder="6">
 <title id="_9fc2ea10-a7c5-a639-6371-58f49e3ee9da" semx-id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><fmt-title depth="1" id="_a3991199-93d3-bd26-6c30-36084c34dda9"><span class="fmt-caption-label"><semx element="autonum" source="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21">2</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_9fc2ea10-a7c5-a639-6371-58f49e3ee9da">Normative references</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Clause</span> <semx element="autonum" source="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21">2</semx></fmt-xref-label><p id="_1e0e85f2-a241-464a-90af-046b5883d60f" semx-id="_1e0e85f2-a241-464a-90af-046b5883d60f">There are no normative references in this document.</p>
-</references></sections><bibliography><references id="_2bd29d5b-596e-f31a-86f3-c269be80dd58" normative="false" obligation="informative" semx-id="_2bd29d5b-596e-f31a-86f3-c269be80dd58" displayorder="12">
+</references></sections><bibliography><references id="_4c466ee8-ef4a-37d6-8f4e-02088d4cb9d9" normative="false" obligation="informative" semx-id="_4c466ee8-ef4a-37d6-8f4e-02088d4cb9d9" displayorder="12">
 <title id="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44" semx-id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><fmt-title depth="1" id="_2da55403-b11b-078e-f7e8-f49a7def2e71"><semx element="title" source="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44">Bibliography</semx></fmt-title><bibitem anchor="ISO-IEC_JTC-1_metaverse" id="ISO-IEC_JTC-1_metaverse" type="webresource" semx-id="_6cd3c260-8e2e-58f3-a0b5-06912087d17e"><biblio-tag>[1]<tab/></biblio-tag>
   <formattedref>ISO/IEC JTC 1. <em><span class="stddocTitle">JTC 1 Standards and Standardization for the Metaverse</span></em> [website]. 2023. Available at: <span class="biburl"><fmt-link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/">https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</fmt-link></span></formattedref>
   <title>JTC 1 Standards and Standardization for the Metaverse</title>
@@ -415,10 +415,10 @@ sourcecode .nt {
 </contributor>
   <language>en</language>
   <script>Latn</script>
-</bibitem><bibitem id="snow_crash" schema-version="v1.2.9" anchor="snow_crash" semx-id="_75699c81-6855-3c82-f0fd-deee5a4f979b"><biblio-tag>[4]<tab/></biblio-tag><formattedref>NEAL STEPHENSON. <em><span class="stddocTitle">Snow Crash</span></em>. Bantam Books</formattedref>
-  <fetched>2026-04-16</fetched>
+</bibitem><bibitem id="snow_crash" schema-version="v1.5.6" anchor="snow_crash" semx-id="_66f9f077-e6e7-4b05-f47e-d548e8091c80"><biblio-tag>[4]<tab/></biblio-tag><formattedref>NEAL STEPHENSON. <em><span class="stddocTitle">Snow Crash</span></em>. Bantam Books</formattedref>
+  <fetched>2026-06-16</fetched>
   
-<title type="main" format="text/plain">Snow Crash</title>
+<title type="main">Snow Crash</title>
 
   <uri type="src">http://openlibrary.org/books/OL14813122M/Snow_Crash</uri><docidentifier type="metanorma-ordinal">[4]</docidentifier>
   <docidentifier type="ISBN" primary="true">ISBN 9780553562613</docidentifier>
@@ -431,6 +431,7 @@ sourcecode .nt {
       
 <name>          <completename>Neal Stephenson</completename>       </name>
 
+      <uri>http://openlibrary.org/authors/OL19430A/Neal_Stephenson</uri>
     </person>
   </contributor>
   <contributor>

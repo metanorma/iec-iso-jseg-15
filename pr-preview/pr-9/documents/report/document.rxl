@@ -10,7 +10,7 @@
 <title language="fr" type="title-intro">Metaverse Workstream 1</title>
 
 <title language="fr" type="title-main">Rapport final</title>
-<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><contributor><role type="author"/><organization>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><date type="updated"><on>2024-12-21</on></date><contributor><role type="author"/><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
 <name>International Organization for Standardization</name>
@@ -36,7 +36,7 @@
 <name>Metaverse</name>
 <identifier>JSEG 15</identifier><identifier type="full">JSEG 15/WS 1</identifier></subdivision><subdivision type="Workgroup" subtype="WS">
 <name>Terminology</name>
-<identifier>WS 1</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>0.3</edition><version><revision-date>2024-12-21</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<identifier>WS 1</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>0.3</edition><version>2024-12-21</version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
 <name>International Electrotechnical Commission</name>
 <abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
 <name>International Organization for Standardization</name>
