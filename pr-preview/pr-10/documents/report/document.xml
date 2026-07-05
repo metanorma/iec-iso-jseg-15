@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.4.6" schema-version="v2.1.6" flavor="iso">
+<bibdata type="standard">
+<title language="en" type="main">Metaverse Workstream 1 — Final report</title>
+
+<title language="en" type="title-intro">Metaverse Workstream 1</title>
+
+<title language="en" type="title-main">Final report</title>
+
+<title language="fr" type="main">Metaverse Workstream 1 — Rapport final</title>
+
+<title language="fr" type="title-intro">Metaverse Workstream 1</title>
+
+<title language="fr" type="title-main">Rapport final</title>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N2(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:2:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N2</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N2(en)</docidentifier><docnumber>2</docnumber><date type="updated"><on>2024-12-21</on></date><contributor><role type="author"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>IEC;ISO</name>
+<subdivision type="Technical committee" subtype="JSEG">
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier><identifier type="full">JSEG 15/WS 1</identifier></subdivision><subdivision type="Workgroup" subtype="WS">
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>IEC;ISO</name>
+</organization></contributor><contributor><role type="author"><description>secretariat</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Secretariat">
+<name>IEC/CO</name>
+</subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="JSEG">
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier><identifier type="full">JSEG 15/WS 1</identifier></subdivision><subdivision type="Workgroup" subtype="WS">
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>0.3</edition><version>2024-12-21</version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><flavor>iso</flavor><structuredidentifier><project-number>IEC/ISO 2</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><document-scheme>2024</document-scheme><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>3</doc-toc-heading-levels><pdf-toc-heading-levels>3</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_c4b82e99-5323-f2f5-08cf-7dd3ec7587a4" anchor="boilerplate-copyright-default" inline-header="false" obligation="normative">
+<title id="_129fe8d3-7b32-3da5-a270-59bb0ef8173e">COPYRIGHT PROTECTED DOCUMENT</title>
+<p id="_15b2daa9-a01a-ae72-edcb-c0028ca01c5b" anchor="boilerplate-year">© <span class="std_publisher">ISO/IEC </span><span class="date">2024</span></p>
+
+<p id="_dcd0efd0-9c2b-bcfd-6dcd-ce36b8143916" anchor="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="_71c22afa-6b94-ad85-9f54-347ef903ebd8" anchor="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8<br/> CH-1214 Vernier, Geneva<br/> Phone: +41 22 749 01 11<br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website:  <link target="https://www.iso.org/">www.iso.org</link></p>
+
+<p id="_93a0bcfe-1edb-b952-e8f5-db8ed91f8e23" anchor="boilerplate-place">Published in Switzerland</p>
+</clause>
+</copyright-statement>
+</boilerplate><preface><foreword id="_6ea93100-acb0-9fc2-80f6-8b459a08f2b4" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title>
+<p id="_d9d5717b-e452-b870-c24f-99d6dc9cf879">ISO (the International Organization for Standardization) and IEC (the International Electrotechnical Commission) form the specialized system for worldwide standardization. National bodies that are members of ISO or IEC participate in the development of International Standards through technical committees established by the respective organization to deal with particular fields of technical activity. ISO and IEC technical committees collaborate in fields of mutual interest. Other international organizations, governmental and non-governmental, in liaison with ISO and IEC, also take part in the work.</p>
+
+<p id="_6a200f0e-3d81-b4dc-ab16-e51878a48758">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of document should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <link target="https://www.iso.org/directives-and-policies.html">www.iso.org/directives</link>)</p>
+
+<p id="_cc53b12b-ec7d-cc63-435f-266179eab546">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO and IEC shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see <link target="https://www.iso.org/iso-standards-and-patents.html">www.iso.org/patents</link>) or the IEC list of patent declarations received (see  <link target="https://patents.iec.ch"/>).</p>
+
+<p id="_53c3d577-039b-c4b5-9501-d397ca719bff">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p id="_12112c7d-ac6a-f06c-f470-712adde22523">For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <link target="https://www.iso.org/foreword-supplementary-information.html">www.iso.org/iso/foreword.html</link>. In the IEC, see <link target="https://www.iec.ch/understanding-standards">www.iec.ch/understanding-standards</link>.</p>
+
+<p id="_85b6f4d2-1886-8432-df77-47c9822fb3b8">This document was prepared by ISO/IEC JSEG 15, <em>Metaverse</em>.</p>
+
+<p id="_2d35cde6-048f-a794-581f-ad22667b9d55">Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <link target="https://www.iso.org/members.html">www.iso.org/members.html</link> and <link target="https://www.iec.ch/national-committees">www.iec.ch/national-committees</link>.</p>
+</foreword><introduction id="_b6d1f67a-bdb1-ca7f-815b-b7ba155c9a03" obligation="informative">
+<title id="_2b2e98d1-114a-3da4-8556-01ae0a724280">Introduction</title>
+<p id="_caa17720-ef91-6f08-b9d8-617f5328b1aa">This document is the final report of IEC/ISO JSEG 15/WS 1, <em>Metaverse — Vocabulary</em>.</p>
+
+<p id="_9db56f20-a10a-948e-7cc3-fe714d806abd">This document provides recommendations of WS 1.</p>
+</introduction></preface><sections>
+
+<clause id="_e1633d6a-50d3-b7a3-4378-c69621c8e8ab" type="scope" inline-header="false" obligation="normative">
+<title id="_f70b6ff6-6131-0e24-81e1-850dbe94b63d">Scope</title>
+<p id="_a772a208-7140-38e6-6c60-04b3020246a8">This document provides recommendations by IEC/ISO JSEG 15/WS 1,  <em>Metaverse — Vocabulary</em>, to the IEC/ISO ecosystem with regards to the topic of the Metaverse.</p>
+</clause>
+
+
+
+<terms id="_3ceb2806-1d99-3f16-c1a8-3d2740be6c19" obligation="normative">
+<title id="_dfb2eab2-f980-6365-3c47-81d0eb272962">Terms and definitions</title><p id="_9608c37a-eaae-1098-3a4b-f705fd512d85">No terms and definitions are listed in this document.</p><p id="_1df4aedb-297d-0c69-967f-f6a60db009d2">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<ul id="_e6ddc246-88cc-2222-8452-b939a5cefa0e"><li><p id="_93880b15-0e52-9141-f887-d290dce89ffd">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+</li>
+<li><p id="_8a7ecb99-412c-1138-ae9d-76c4ac7b7d43">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+</li>
+</ul>
+</terms>
+
+<clause id="_83a4fccb-7085-3882-f7f7-240f05fe59d5" inline-header="false" obligation="normative">
+<title id="_5ccf2ba5-8edb-f4f7-2337-0ad91402b94d">Work organization</title>
+<clause id="_20ff2268-76aa-a41f-524f-dc21f5e0d98b" inline-header="false" obligation="normative">
+<title id="_5e77fc90-24d2-c5db-b5f6-c23ec5665755">Background</title>
+<p id="_2c3e778f-fdb5-14f1-e8e9-40fa4aa43e63">IEC/IEC JSEG 15/WS 1 was established in 2023 to provide standardized terminology for IEC/ISO TCs in referencing concepts, terms and definitions relating to the Metaverse.</p>
+</clause>
+
+<clause id="_6d2f3fb7-22a7-55fd-87b1-fb055341bf78" inline-header="false" obligation="normative">
+<title id="_a33b3c05-1d72-9f0c-0731-dc2f70eefc7f">Deliverables</title>
+<p id="_9a4d10c7-db24-fec3-1f79-31b7e29749ec">IEC/IEC JSEG 15/WS 1 is tasked to develop the following deliverables:</p>
+
+<ul id="_5974e439-d26d-ad54-7c94-543d47658447"><li><p id="_a07446a6-3d59-1065-8963-247b28cf9793">Set of concepts, terms and definitions, and their relationships</p>
+</li>
+<li><p id="_aa491e4b-3256-6ad7-c268-735346375330">Definition of the “Metaverse”</p>
+</li>
+<li><p id="_934bca40-16f7-b77c-5474-713688a6c350">Final report of WS 1 to provide recommendations to IEC/ISO</p>
+</li>
+</ul>
+</clause>
+</clause>
+
+<clause id="_6030d94c-c58e-b3c6-528a-262b1b3fe070" inline-header="false" obligation="normative">
+<title id="_64f74f73-b4dd-fe59-2a46-72d7cf7f32ab">Deliverable: definition of the “Metaverse”</title>
+<clause id="_b426b376-705e-f60f-44c0-39bb1ab75d6c" inline-header="false" obligation="normative">
+<title id="_0175f76d-716b-304d-d5e0-55b2c2c71130">General</title>
+<p id="_aed70ba6-0814-0a5a-c5d0-a7ff5a9b79e8">The definition of a “metaverse” has long been subject of controversy.</p>
+</clause>
+
+<clause id="_c6db252d-59d1-e2b1-214e-2e211b066086" inline-header="false" obligation="normative">
+<title id="_6320c509-e5c3-4f5a-c4ea-f2881d10f2b8">Approach</title>
+<p id="_da772005-b6e3-832f-dd7d-a5ee53af785c">In order to define any concept, it is necessary to determine the essential characteristics of the concept, where additions or subtractions to these characteristics will no longer define the concept.</p>
+</clause>
+
+<clause id="_fc937a86-4352-7cd9-e590-d0b94833fda8" inline-header="false" obligation="normative">
+<title id="_7f166dca-8532-8789-a39a-102ac98d233d">Background</title>
+<p id="_fc585ba1-f50d-d770-1552-a1742bdba92b">The word “metaverse” originated from the science fiction <em>Snow Crash</em> written by Neal Stephenson in 1992  <eref type="inline" bibitemid="snow_crash" citeas="[4]"/>.</p>
+
+<p id="_2896fd53-4818-aa79-fd03-d1d980ca0e1a">In popular culture, the term “metaverse” is commonly used as a generalized entity beyond the Internet, as a massively multi-player virtual world experienced through immersive technologies with comprehensive sensory integration through human computer interfaces.</p>
+
+<p id="_42667aca-2c57-6b6e-ddba-ee08dab3ff8d">The group has considered a few popular definitions of the “metaverse”, including:</p>
+
+<ul id="_00753209-604b-3faf-b80b-f178557e5c20"><li><p id="_877b29b4-31c6-ec25-51e5-b21c39abf691">From <eref type="inline" bibitemid="ISO-IEC_JTC-1_metaverse" citeas="[1]"/>: “universal, immersive virtual world that is facilitated by virtual reality (VR) and augmented reality (AR)”</p>
+</li>
+<li><p id="_ccfcd3d1-576b-c046-d0da-7d9547e334ce">From <eref type="inline" bibitemid="Rosenberg" citeas="[2]"/>: persistent and immersive simulated world that is experienced in the first person by large groups of simultaneous users who share a strong sense of mutual presence</p>
+</li>
+<li><p id="_0c374268-77f0-d792-08e3-b3970e2b0516">From <eref type="inline" bibitemid="Stothard" citeas="[3]"/>: an infinite and persistent set of computer-generated virtual worlds that may be accessed via some human computer interface</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_8ad6d562-57ae-909f-1b71-dc23b5e3caf7" inline-header="false" obligation="normative">
+<title id="_bebe4017-aab8-896f-01f7-efb4de8c0b3d">Considerations</title>
+<p id="_504b244d-67cd-e379-98c5-e57858702181">WS 1 has considered various definitions, common perspectives and expectations on the term “metaverse” and has come to the following conclusions based on consensus.</p>
+
+<p id="_b2a2ba19-9feb-bdb0-6ad9-7cfdff4d5231">Essential characteristics of the “metaverse” include:</p>
+
+<dl id="_2ce2dc91-e766-608e-1494-c0a400c6ca3f"><dt>virtual</dt>
+<dd id="_cc812354-7fae-288e-deb8-91330b68a067"><p id="_e2aa5b15-0637-ee5d-f566-495baa75042c">as in the items in the experience is virtual</p>
+</dd>
+<dt>immersive</dt>
+<dd id="_803fdf65-dafd-691d-ed52-d0cf0be9ddc9"><p id="_468f8679-2f41-2745-e2c2-8386fe1752d0">where it is experienced through human-computer interaction</p>
+</dd>
+<dt>spatial</dt>
+<dd id="_d6d7d779-8693-17f2-7b48-3f66d31896c2"><p id="_65594148-7782-c035-6093-cf9f443ef0d5">where the experience is spatially organized according to some notion of location</p>
+</dd>
+<dt>interactive</dt>
+<dd id="_5524e55b-134f-c3b6-1419-0400668b611f"><p id="_08adc7b1-3bef-0bfd-fd94-6c6655a87ea9">where users can directly interact with it and receive feedback</p>
+</dd>
+</dl>
+
+<p id="_cb67cbe6-02b9-6d73-1275-21c2449c238d">Common characteristics expected by popular culture include:</p>
+
+<dl id="_09a2edf3-9535-9a00-ff58-59c2037f9b12"><dt>massively multi-user</dt>
+<dd id="_0904dc61-4490-d040-4998-1beb87ca105b"><p id="_0770b869-f98c-16ef-9934-b0b7e1f1d69d">where there can be many simultaneous users</p>
+</dd>
+<dt>interconnection</dt>
+<dd id="_99ee9f2e-d6e9-4c7b-7621-664d68a0c45c"><p id="_18b0733c-f5ff-6fbc-278e-c4ac4c489355">of virtual world systems</p>
+</dd>
+<dt>interoperability</dt>
+<dd id="_3776e3aa-4c33-3f2f-db39-57644913609c"><p id="_cf43ba66-6420-b7de-167d-a5260942844a">between users across virtual world systems</p>
+</dd>
+<dt>persistent</dt>
+<dd id="_d113c47e-73bb-1495-32a6-c44746567cb2"><p id="_35fa7663-f458-27ed-1d06-f0d211b9d052">where actions and events in the virtual world persists after a user leaves</p>
+</dd>
+<dt>real-time</dt>
+<dd id="_f8872ff9-1fff-c524-59b4-ca9139fa5186"><p id="_b40434ea-f49a-279e-cbed-68c557a61e99">where user actions are performed in real-time</p>
+</dd>
+</dl>
+</clause>
+
+<clause id="_678c323a-2b17-1cef-1b89-c46abc30a6c2" inline-header="false" obligation="normative">
+<title id="_2b6aedea-3ca2-3ed2-ac53-5fb0a60da047">Consensus</title>
+<p id="_076cf71a-de6c-4732-67f1-0906b1c4cd21">The resulting consensus arrived at this definition for “metaverse”:</p>
+
+<quote id="_562373b1-edf2-e885-5771-23c7823f0fff"><p id="_f2c0f675-470f-0681-9fee-c99c71f05d55">metaverse: interactive virtual world that incorporates spatial referencing experienced through immersive technologies</p>
+</quote>
+</clause>
+</clause>
+
+<clause id="_d5014b77-8262-9b09-7f1b-60759999f284" inline-header="false" obligation="normative">
+<title id="_cec3fae3-e2f9-823e-7d12-6cd655943ec4">Deliverable: Metaverse terminology</title>
+<clause id="_90d42ce7-d623-6750-8620-458d2aafbcd6" inline-header="false" obligation="normative">
+<title id="_d264bf35-e4f2-fa37-4079-563c273eb976">Purpose</title>
+<p id="_0ba4bd1c-e562-c2cd-f999-b0bd59b55941">This deliverable aims to provide a concept system and a standard set of terminology related to the Metaverse, from basic concepts to those of the Metaverse ecosystem.</p>
+
+<p id="_8a9dde8f-1e43-523e-e180-c9820b65f457">Questions to be addressed:</p>
+
+<ul id="_a1c9a0e5-910b-96dc-4e51-35a2bf4c553c"><li><p id="_f70b6a7a-5b32-6223-aba7-aa2296d65a73">What is a Metaverse? Or is there only one “metaverse”, similar to “the Internet”?</p>
+</li>
+<li><p id="_e912746c-c786-008e-99de-0723d5ad7b64">Does the Metaverse require human interaction?</p>
+</li>
+<li><p id="_b77f9293-17f8-3215-3714-8161f62eb642">Is there an agreed or proposed definition /definitions?</p>
+</li>
+<li><p id="_f6595910-5697-cb76-f958-7b0bfe16c375">What shall it include? What does it not include?</p>
+</li>
+<li><p id="_69dacb7f-743f-ce67-4211-2f1f16bc8c20">Is a digital twin a “metaverse” if not why not? Or when is it not?</p>
+</li>
+<li><p id="_1cfb0494-e298-b3fc-14f5-63ed19758700">What is the minimum set to be classed as a metaverse?</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_cad054c0-b718-7e2c-7d32-66f0d1896528" inline-header="false" obligation="normative">
+<title id="_422f1d4e-6215-5923-c9ee-8b2b960d816a">Methodology</title>
+<p id="_ee35b832-08c5-21e2-af15-a18eaa66f50b">IEC/IEC JSEG 15/WS 1 used the following methodology in developing the vocabulary:</p>
+
+<ul id="_a9f43632-4f74-6f19-e1eb-4845e43dd216"><li><p id="_0502e2f6-a4a1-68be-93ee-87a1acb8ff6b">Survey existing terminology</p>
+</li>
+<li><p id="_eb5bac30-ba64-8998-3f73-eac17f7ab1b5">Reference / import over new creation unless necessary</p>
+</li>
+<li><p id="_c85fc18c-187b-3647-9a6e-b0cfb527507e">Decide on terms and domains to import</p>
+</li>
+<li><p id="_277f6eb2-a7a2-7b7f-39eb-df94e05f43b0">Fill out data: definition, designations, languages, examples, notes</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_84e74151-1584-2db0-c6e5-ab0a5a61121d" inline-header="false" obligation="normative">
+<title id="_8aab717e-f6ea-e600-ca11-4db165240ab8">Sources investigated</title>
+<p id="_9d41f993-b6e5-f257-9ef8-3f91a979e1bc">The sources that are investigated include:</p>
+
+<ul id="_6041ace7-4c93-2b99-3185-8cb2afc09042"><li><p id="_ddaf0e26-cc3b-26ba-08b7-d00c6d3a9c9f">Metaverse Standards Forum glossary (<link target="https://glossary.metaverse-standards.org/"/>)</p>
+</li>
+<li><p id="_44295ca1-a79e-0a99-ee27-2075db96e7e8">Open Metaverse Foundation glossary (<link target="https://www.openmv.org/glossary/"/>)</p>
+</li>
+<li><p id="_c51eef1a-93d8-85dc-af3f-7e16459eb7fd">IEEE P2874 Spatial Web</p>
+</li>
+<li><p id="_74405623-e010-f7c3-3554-7f2349e5fa2f">ISO/IEC JTC 1/SC 24 “Metaverse Vocabulary”</p>
+</li>
+<li><p id="_4be59961-5a3d-56af-f7bc-c6d841c03f26">IEC/ISO/JSEG 15/WS 2 “Market and applications report”</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_4442aecb-a709-6dd0-a414-3f6dc09ecc1e" inline-header="false" obligation="normative">
+<title id="_6f63c8d0-d258-c39d-4c07-e562bf0106fe">Results</title>
+<p id="_e31e08dc-8a59-2818-7870-8591a0dde204">The group has developed a set of terms and definitions for the Metaverse ecosystem. The terms are organized in the following categories:</p>
+
+<ul id="_954d4046-673f-51c7-13c9-e933f3d25b56"><li><p id="_e25d2386-34d3-003d-4580-f431e573f017">Metaverse core concepts</p>
+</li>
+<li><p id="_05170be6-ac03-c7d3-d696-ed0625d925f3">Metaverse use cases</p>
+</li>
+<li><p id="_bc189c1f-7921-1ee0-6bf3-71e7d62c22e8">XR concepts</p>
+</li>
+<li><p id="_ab8f8630-1102-a3db-ed03-c128bb02534a">Extended metaverse concepts</p>
+</li>
+<li><p id="_d1d8cf56-1774-b1e8-0791-6094b69e1659">Governance</p>
+</li>
+</ul>
+
+<p id="_b4f71af7-f24f-9e42-3103-f2d480f0e1d6">The terms and definitions are provided in a separate document.</p>
+</clause>
+</clause>
+
+<clause id="_61cfbf31-3d9f-577d-6966-47159cb66605" inline-header="false" obligation="normative">
+<title id="_a7b66759-bc94-f070-9e8a-92bd749bd0da">Recommendations</title>
+<clause id="_ff727972-7b22-eaa4-ed01-d02959b87e9d" inline-header="false" obligation="normative">
+<title id="_fc7982f1-af18-a55e-9a0b-6e4db2141b01">General</title>
+<p id="_8a17e52e-addf-0dc9-8ed6-afc2ac874598">The group recommends the following:</p>
+
+<ul id="_61b42037-e28a-ce34-1a62-723ed591d29d"><li><p id="_a2b2698f-a0e8-bc20-bd86-5dfd760ee2cf">The definition of the “metaverse” should be adopted by IEC/ISO TCs and publications.</p>
+</li>
+<li><p id="_2636e237-acb0-25e6-7206-ba58fc39d043">The Metaverse terminology provided should be adopted by IEC/ISO TCs.</p>
+</li>
+</ul>
+</clause>
+</clause>
+
+
+</sections><bibliography><references id="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21" normative="true" obligation="informative">
+<title id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><p id="_1e0e85f2-a241-464a-90af-046b5883d60f">There are no normative references in this document.</p>
+</references><references id="_bdde3044-e407-4542-6e39-fa1ab196ff54" normative="false" obligation="informative">
+<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem anchor="ISO-IEC_JTC-1_metaverse" id="_6cd3c260-8e2e-58f3-a0b5-06912087d17e" type="webresource">
+  <formattedref format="application/x-isodoc+xml">ISO/IEC JTC 1 
+JTC 1 Standards and Standardization for the Metaverse.
+ 
+2023.
+Available at: <link target="https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/"/></formattedref>
+  <title>JTC 1 Standards and Standardization for the Metaverse</title>
+  <uri>https://jtc1info.org/jtc-1-standards-and-standardization-for-the-metaverse/</uri>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <date type="published">
+  <on>2023</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <organization>
+    <name>ISO/IEC JTC 1</name>
+  </organization>
+</contributor>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="Rosenberg" id="_1c35d67e-7c9a-9389-4b93-8c7097ce4185" type="webresource">
+  <formattedref format="application/x-isodoc+xml">Rosenberg, L. 
+ 
+Metaverse 101: defining the key components.
+2022.
+VentureBeat 
+Available at: <link target="https://venturebeat.com/business/metaverse-101-defining-the-key-components/"/></formattedref>
+  <title>Metaverse 101: defining the key components</title>
+  <uri>https://venturebeat.com/business/metaverse-101-defining-the-key-components/</uri>
+  <docidentifier type="metanorma">[2]</docidentifier>
+  <date type="published">
+  <on>2022</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>        <formatted-initials>L.</formatted-initials>        <surname>Rosenberg</surname>     </name>
+  </person>
+</contributor>
+  <contributor>
+  <role type="publisher"/>
+  <organization>
+    <name>VentureBeat</name>
+  </organization>
+</contributor>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="Stothard" id="_8ffd85a8-fa45-15c2-3129-945a5256cca5" type="book">
+  <formattedref format="application/x-isodoc+xml">Stothard, P. 
+Ryan, P. 
+Kurata, T. 
+ 
+Mining Metaverse Taxonomy (NOT YET PUBLISHED).
+2024.</formattedref>
+  <title>Mining Metaverse Taxonomy (NOT YET PUBLISHED)</title>
+  <docidentifier type="metanorma">[3]</docidentifier>
+  <date type="published">
+  <on>2024</on>
+</date>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>        <formatted-initials>P.</formatted-initials>        <surname>Stothard</surname>     </name>
+  </person>
+</contributor>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>        <formatted-initials>P.</formatted-initials>        <surname>Ryan</surname>     </name>
+  </person>
+</contributor>
+  <contributor>
+  <role type="author"/>
+  <person>
+    <name>        <formatted-initials>T.</formatted-initials>        <surname>Kurata</surname>     </name>
+  </person>
+</contributor>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_b0e2ca0b-0731-4928-6f51-e8d0fb779ce0" schema-version="v1.5.6" anchor="snow_crash">
+  <fetched>2026-07-05</fetched>
+  
+<title type="main">Snow Crash</title>
+
+  <uri type="src">http://openlibrary.org/books/OL14813122M/Snow_Crash</uri>
+  <docidentifier type="ISBN" primary="true">9780553562613</docidentifier><docidentifier type="metanorma">[4]</docidentifier>
+  <date type="published">
+    <on>1993</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename>Neal Stephenson</completename>       </name>
+
+      <uri>http://openlibrary.org/authors/OL19430A/Neal_Stephenson</uri>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>Bantam Books</name>
+
+    </organization>
+  </contributor><language>en</language><script>Latn</script>
+  <place>
+    <city>New York</city>
+  </place>
+</bibitem>
+
+
+
+
+</references></bibliography>
+</metanorma>
