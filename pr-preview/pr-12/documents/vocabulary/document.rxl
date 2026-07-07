@@ -1,0 +1,43 @@
+<bibdata type="standard">
+<title language="en" type="main">Metaverse — Vocabulary</title>
+
+<title language="en" type="title-intro">Metaverse</title>
+
+<title language="en" type="title-main">Vocabulary</title>
+
+<title language="fr" type="main">Metaverse — Vocabulaire</title>
+
+<title language="fr" type="title-intro">Metaverse</title>
+
+<title language="fr" type="title-main">Vocabulaire</title>
+<docidentifier type="ISO" primary="true">IEC/ISO JSEG 15/WS 1 N1</docidentifier><docidentifier type="iso-reference">IEC/ISO JSEG 15/WS 1 N1(E)</docidentifier><docidentifier type="URN">urn:iso:doc:iec-iso:jseg:15:ws:1:1:en</docidentifier><docidentifier type="iso-undated">IEC/ISO JSEG 15/WS 1 N1</docidentifier><docidentifier type="iso-with-lang">IEC/ISO JSEG 15/WS 1 N1(en)</docidentifier><docnumber>1</docnumber><date type="updated"><on>2024-12-21</on></date><contributor><role type="author"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>IEC;ISO</name>
+<subdivision type="Technical committee" subtype="JSEG">
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier><identifier type="full">JSEG 15/WS 1</identifier></subdivision><subdivision type="Workgroup" subtype="WS">
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>IEC;ISO</name>
+</organization></contributor><contributor><role type="author"><description>secretariat</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Secretariat">
+<name>IEC/CO</name>
+</subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="JSEG">
+<name>Metaverse</name>
+<identifier>JSEG 15</identifier><identifier type="full">JSEG 15/WS 1</identifier></subdivision><subdivision type="Workgroup" subtype="WS">
+<name>Terminology</name>
+<identifier>WS 1</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>0.4</edition><version>2024-12-21</version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2024</from><owner><organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation></organization></owner></copyright><copyright><from>2024</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>committee-document</doctype><flavor>iso</flavor><structuredidentifier><project-number>IEC/ISO 1</project-number></structuredidentifier><stagename abbreviation="TC">Technical Committee</stagename></ext></bibdata>
